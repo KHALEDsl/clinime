@@ -1,0 +1,431 @@
+/* Muse customer journeys. Load after journey.css and muse.css.
+   The customer-theme boundary keeps the reception application independent. */
+body[data-customer-theme="muse"] {
+  --muse-journey-canvas: #fff9f9;
+  --muse-journey-panel: #fffdfd;
+  --muse-journey-tint: #f5e8ef;
+  --muse-journey-pressed: #ecd6e2;
+  --muse-journey-action-pressed: #52213a;
+  --muse-journey-control-radius: 16px;
+  --muse-journey-panel-radius: 20px;
+}
+body[data-customer-theme="muse"] .journey-screen {
+  --journey-gutter: 24px;
+  --journey-text: #412837;
+  --journey-muted: #795c6b;
+  --journey-action: #6c304d;
+  --journey-line: #eadce2;
+  --journey-input-line: #a38695;
+  max-inline-size: 480px;
+  background: var(--muse-journey-canvas);
+  color: var(--journey-text);
+  font-family: var(--font);
+  line-height: 1.6;
+  padding-block-end: calc(32px + env(safe-area-inset-bottom, 0px));
+}
+
+/* Keep navigation compact; the title has its own clear edge below it. */
+body[data-customer-theme="muse"] .journey-topbar {
+  min-block-size: 64px;
+  padding: 8px 12px;
+  align-items: center;
+  color: var(--journey-text);
+}
+body[data-customer-theme="muse"] .journey-topbar > span {
+  min-inline-size: 0;
+  font-size: 14px;
+  text-align: center;
+}
+body[data-customer-theme="muse"] :is(.journey-back, .journey-close, .journey-icon-button) {
+  border-radius: var(--muse-journey-control-radius);
+  background: transparent;
+}
+body[data-customer-theme="muse"] :is(.journey-back, .journey-close, .journey-icon-button) svg {
+  inline-size: 22px;
+  block-size: 22px;
+}
+body[data-customer-theme="muse"] .journey-heading {
+  padding: 8px var(--journey-gutter) 24px;
+  text-align: start;
+}
+body[data-customer-theme="muse"] .journey-heading h1 {
+  font-size: clamp(26px, 7vw, 28px);
+  line-height: 1.4;
+  font-weight: 600;
+  letter-spacing: -.02em;
+}
+body[data-customer-theme="muse"] .journey-heading h1:lang(ar) { letter-spacing: 0; }
+body[data-customer-theme="muse"] .journey-heading > p {
+  margin-block-start: 8px;
+  color: var(--journey-muted);
+  font-size: 16px;
+  line-height: 1.65;
+}
+body[data-customer-theme="muse"] .journey-auth .journey-heading { inset-block-start: auto; }
+body[data-customer-theme="muse"] .journey-auth .journey-heading > p { min-block-size: 0; }
+body[data-customer-theme="muse"] .journey-root .journey-heading { padding-block-start: 28px; }
+body[data-customer-theme="muse"] :is(.journey-root, .journey-screen:has(.fixed-footer)) {
+  padding-block-end: calc(112px + env(safe-area-inset-bottom, 0px));
+}
+
+/* Forms remain familiar and readable, with one filled action. */
+body[data-customer-theme="muse"] .journey-auth-form { margin-block-start: 8px; }
+body[data-customer-theme="muse"] .journey-field { margin-block-end: 24px; }
+body[data-customer-theme="muse"] .journey-field > label {
+  margin-block-end: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+body[data-customer-theme="muse"] :is(.journey-field input, .journey-input) {
+  block-size: 56px;
+  min-block-size: 56px;
+  border-color: var(--journey-input-line);
+  border-radius: var(--muse-journey-control-radius);
+  padding: 14px 16px;
+  background: var(--muse-journey-panel);
+  color: var(--journey-text);
+  font-size: 16px;
+  line-height: 1.5;
+}
+body[data-customer-theme="muse"] .journey-field input[readonly] {
+  background: var(--muse-journey-tint);
+  border-color: var(--journey-line);
+  color: var(--journey-muted);
+}
+body[data-customer-theme="muse"] .journey-field input::placeholder {
+  color: var(--journey-muted);
+  opacity: 1;
+}
+body[data-customer-theme="muse"] .journey-field input[aria-invalid="true"] { border-color: var(--error, #b42335); }
+body[data-customer-theme="muse"] :is(.journey-help, .journey-meta) {
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--journey-muted);
+}
+body[data-customer-theme="muse"] .journey-field .journey-help { margin-block-start: 8px; }
+body[data-customer-theme="muse"] :is(.journey-submit, .journey-button, .journey-screen .pill-button) {
+  min-block-size: 52px;
+  border-radius: var(--muse-journey-control-radius);
+  padding: 13px 20px;
+  background: var(--journey-action);
+  border-color: var(--journey-action);
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+body[data-customer-theme="muse"] :is(.journey-submit, .journey-button, .journey-screen .pill-button):disabled {
+  background: #a78a99;
+  border-color: #a78a99;
+  color: #fff;
+  cursor: default;
+}
+body[data-customer-theme="muse"] .journey-button--secondary {
+  background: transparent;
+  color: var(--journey-action);
+  border-color: var(--journey-input-line);
+}
+body[data-customer-theme="muse"] .journey-button--danger {
+  background: var(--error, #b42335);
+  border-color: var(--error, #b42335);
+}
+body[data-customer-theme="muse"] .journey-text {
+  min-block-size: 44px;
+  padding: 10px 4px;
+  border-radius: 12px;
+  color: var(--journey-action);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.6;
+  text-align: start;
+}
+body[data-customer-theme="muse"] .journey-danger { color: var(--error, #b42335); }
+body[data-customer-theme="muse"] .journey-auth-form > .journey-submit { margin-block-start: 24px; }
+body[data-customer-theme="muse"] .journey-auth-support {
+  margin-block-start: 28px;
+  padding-block-start: 20px;
+  border-color: var(--journey-line);
+  color: var(--journey-muted);
+  font-size: 14px;
+  line-height: 1.6;
+}
+body[data-customer-theme="muse"] .journey-auth-support > button { margin-block-end: 16px; }
+body[data-customer-theme="muse"] .journey-auth .journey-body { padding-block-start: 0; }
+body[data-customer-theme="muse"] .journey-auth .journey-body form { margin-block-start: 24px; }
+body[data-customer-theme="muse"] .journey-auth .journey-email-context {
+  margin-block-start: 0;
+  padding: 12px 16px;
+  border: 1px solid var(--journey-line);
+  border-radius: var(--muse-journey-control-radius);
+  background: var(--muse-journey-panel);
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+body[data-customer-theme="muse"] .journey-email-context bdi { min-inline-size: 0; }
+body[data-customer-theme="muse"] .journey-auth .journey-code {
+  block-size: 64px;
+  font-size: 24px;
+  letter-spacing: .28em;
+  padding-inline: 12px;
+  text-indent: .28em;
+}
+body[data-customer-theme="muse"] .journey-body > .attendee-kinds {
+  gap: 8px;
+  padding-block: 0 24px;
+}
+body[data-customer-theme="muse"] .journey-body[data-form] { margin-block-start: 0; }
+body[data-customer-theme="muse"] .attendee-kinds > .chip {
+  min-block-size: 48px;
+  min-inline-size: 0;
+  padding: 10px 12px;
+  border-radius: var(--muse-journey-control-radius);
+  background: transparent;
+  border-color: var(--journey-input-line);
+  color: var(--journey-text);
+  white-space: normal;
+  text-align: center;
+}
+body[data-customer-theme="muse"] .attendee-kinds > .chip.is-active {
+  background: var(--muse-journey-tint);
+  border-color: var(--journey-action);
+  color: var(--journey-action);
+}
+
+/* Real records keep their source photography and clearly separated facts. */
+body[data-customer-theme="muse"] .journey-clinic {
+  margin-block-start: 16px;
+  padding: 16px;
+  border: 0;
+  border-radius: var(--muse-journey-panel-radius);
+  background: var(--muse-journey-panel);
+}
+body[data-customer-theme="muse"] .journey-body > .journey-clinic:first-child { margin-block-start: 0; }
+body[data-customer-theme="muse"] :is(.journey-clinic, .journey-appointment, .journey-saved) > img {
+  border-radius: 12px;
+}
+body[data-customer-theme="muse"] .journey-clinic h2 { color: var(--journey-text); font-size: 18px; }
+body[data-customer-theme="muse"] .journey-clinic p { font-size: 14px; line-height: 1.6; }
+body[data-customer-theme="muse"] .journey-body > .journey-facts { margin-block-start: 16px; }
+body[data-customer-theme="muse"] .journey-fact {
+  padding-block: 16px;
+  gap: 12px;
+}
+body[data-customer-theme="muse"] .journey-fact > svg {
+  margin-block-start: 4px;
+  color: var(--journey-action);
+}
+body[data-customer-theme="muse"] .journey-fact > div > span { font-size: 14px; line-height: 1.5; }
+body[data-customer-theme="muse"] .journey-fact > div > strong { font-size: 16px; line-height: 1.6; font-weight: 600; }
+body[data-customer-theme="muse"] .journey-fact > .journey-text {
+  margin-block: 0;
+  min-inline-size: 44px;
+}
+body[data-customer-theme="muse"] .journey-body > .journey-section-title { margin-block-start: 24px; }
+body[data-customer-theme="muse"] .journey-service-row {
+  align-items: flex-start;
+  padding-block: 20px;
+  gap: 12px;
+}
+body[data-customer-theme="muse"] .journey-service-row > img { border-radius: 12px; }
+body[data-customer-theme="muse"] .journey-service-row h2 { font-size: 16px; line-height: 1.6; }
+body[data-customer-theme="muse"] .journey-service-row p { font-size: 14px; line-height: 1.5; }
+body[data-customer-theme="muse"] .journey-service-row > strong {
+  flex: none;
+  max-inline-size: 30%;
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: end;
+}
+body[data-customer-theme="muse"] .journey-total { padding-block: 24px; }
+body[data-customer-theme="muse"] .journey-total strong { font-size: 22px; }
+body[data-customer-theme="muse"] .journey-reference {
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  padding-block: 16px;
+}
+body[data-customer-theme="muse"] .journey-reference bdi { color: var(--journey-text); }
+body[data-customer-theme="muse"] .journey-note {
+  padding-block: 16px;
+  font-size: 14px;
+  line-height: 1.65;
+}
+body[data-customer-theme="muse"] .journey-screen > main > .journey-note {
+  margin: 0 var(--journey-gutter) 20px;
+  padding: 12px 16px;
+  background: var(--muse-journey-tint);
+  border-radius: var(--muse-journey-control-radius);
+}
+body[data-customer-theme="muse"] .journey-mail-status {
+  margin-block-start: 20px;
+  padding-block: 20px;
+  border-color: var(--journey-line);
+}
+body[data-customer-theme="muse"] .journey-mail-status h2 { font-size: 16px; line-height: 1.6; }
+body[data-customer-theme="muse"] .journey-mail-status p {
+  color: var(--journey-muted);
+  font-size: 14px;
+  line-height: 1.65;
+}
+body[data-customer-theme="muse"] .journey-mail-status .journey-text { margin-block-start: 8px; }
+body[data-customer-theme="muse"] .journey-success {
+  inline-size: 56px;
+  block-size: 56px;
+  margin: 8px var(--journey-gutter) 12px;
+  background: transparent;
+  border-radius: var(--muse-journey-control-radius);
+  color: var(--success, #21664b);
+}
+body[data-customer-theme="muse"] .journey-success svg { inline-size: 28px; block-size: 28px; }
+body[data-customer-theme="muse"] .journey-screen .booking-status {
+  min-block-size: 32px;
+  margin-block-end: 4px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Lists use a single panel per appointment or menu group, never nested cards. */
+body[data-customer-theme="muse"] .journey-tabs {
+  gap: 8px;
+  margin: 0 var(--journey-gutter) 8px;
+  padding: 4px;
+  border: 1px solid var(--journey-line);
+  border-radius: var(--muse-journey-control-radius);
+  background: var(--muse-journey-tint);
+}
+body[data-customer-theme="muse"] .journey-tabs .chip {
+  flex: 1;
+  min-inline-size: 0;
+  min-block-size: 44px;
+  border-radius: 12px;
+  padding: 8px 4px;
+  font-size: 14px;
+  line-height: 1.5;
+  white-space: normal;
+}
+body[data-customer-theme="muse"] .journey-tabs .chip.is-active {
+  background: var(--muse-journey-panel);
+  color: var(--journey-action);
+}
+body[data-customer-theme="muse"] .journey-tabs .chip.is-active::after { content: none; }
+body[data-customer-theme="muse"] :is(.journey-appointment, .journey-saved) {
+  margin-block: 12px;
+  padding: 16px;
+  gap: 12px;
+  border: 1px solid var(--journey-line);
+  border-radius: var(--muse-journey-panel-radius);
+  background: var(--muse-journey-panel);
+}
+body[data-customer-theme="muse"] .journey-appointment > span > strong { margin-block: 4px; }
+body[data-customer-theme="muse"] .journey-appointment > span > small { font-size: 13px; line-height: 1.6; }
+body[data-customer-theme="muse"] .journey-appointment > span > span { font-size: 14px; line-height: 1.6; }
+body[data-customer-theme="muse"] :is(.journey-appointment, .journey-saved) > svg { color: var(--journey-action); }
+body[data-customer-theme="muse"] .journey-empty { padding: 32px 0; }
+body[data-customer-theme="muse"] .journey-empty > svg { margin-block-end: 16px; color: var(--journey-action); }
+body[data-customer-theme="muse"] .journey-empty p { margin-block: 8px 24px; font-size: 16px; line-height: 1.65; }
+body[data-customer-theme="muse"] .journey-empty .pill-button { inline-size: 100%; }
+body[data-customer-theme="muse"] .journey-body > .journey-profile-avatar {
+  inline-size: 72px;
+  block-size: 72px;
+  margin-block: 0 16px;
+  background: var(--muse-journey-tint);
+  color: var(--journey-action);
+  font-size: 28px;
+}
+body[data-customer-theme="muse"] .journey-profile-name { color: var(--journey-text); font-size: 22px; line-height: 1.5; }
+body[data-customer-theme="muse"] .journey-profile-contact { margin-block-start: 4px; font-size: 14px; line-height: 1.6; }
+body[data-customer-theme="muse"] .journey-body > .journey-profile-contact { margin-block-end: 28px; }
+body[data-customer-theme="muse"] .journey-body > .journey-menu-group {
+  padding: 4px 16px;
+  border: 1px solid var(--journey-line);
+  border-radius: var(--muse-journey-panel-radius);
+  background: var(--muse-journey-panel);
+}
+body[data-customer-theme="muse"] .journey-menu-group + .journey-menu-group { margin-block-start: 16px; }
+body[data-customer-theme="muse"] .journey-menu-row {
+  min-block-size: 64px;
+  padding-block: 16px;
+  gap: 12px;
+}
+body[data-customer-theme="muse"] .journey-menu-row:last-child { border-block-end: 0; }
+body[data-customer-theme="muse"] .journey-menu-row > svg:first-child { color: var(--journey-action); }
+body[data-customer-theme="muse"] .journey-menu-row strong { font-weight: 500; line-height: 1.6; }
+body[data-customer-theme="muse"] .journey-menu-row > span > small { margin-block-start: 4px; line-height: 1.6; }
+body[data-customer-theme="muse"] .journey-menu-group > h2 {
+  margin-block: 16px 8px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+body[data-customer-theme="muse"] .journey-menu-group > .journey-help { margin-block-end: 12px; }
+body[data-customer-theme="muse"] .journey-faq { padding-block: 12px; }
+body[data-customer-theme="muse"] .journey-faq > summary { min-block-size: 48px; font-weight: 600; line-height: 1.6; }
+body[data-customer-theme="muse"] .journey-faq > p { padding-block: 4px 12px; font-size: 16px; line-height: 1.7; }
+
+body[data-customer-theme="muse"] .journey-screen .fixed-footer {
+  max-inline-size: 480px;
+  min-block-size: 88px;
+  border-color: var(--journey-line);
+  background: var(--muse-journey-canvas);
+  gap: 16px;
+  padding: 16px var(--journey-gutter) calc(16px + env(safe-area-inset-bottom, 0px));
+}
+body[data-customer-theme="muse"] .journey-screen .fixed-footer .footer-summary:empty { display: none; }
+body[data-customer-theme="muse"] .journey-screen .fixed-footer:has(.footer-summary:empty) > .pill-button { inline-size: 100%; }
+body[data-customer-theme="muse"] .journey-screen .footer-summary strong { color: var(--journey-text); }
+body[data-customer-theme="muse"] .journey-screen .footer-summary > span { color: var(--journey-muted); }
+
+/* Feedback follows deliberate input; no ambient movement or automatic celebrations. */
+body[data-customer-theme="muse"] .journey-screen :is(button, input, summary) {
+  transition: background-color 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+body[data-customer-theme="muse"] .journey-screen :is(button, a, input, summary, [tabindex]):focus-visible {
+  outline: 2px solid var(--journey-action);
+  outline-offset: 3px;
+}
+body[data-customer-theme="muse"] .journey-screen .view-heading:focus { outline: none; }
+body[data-customer-theme="muse"] .journey-screen input:not([readonly]):focus-visible {
+  border-color: var(--journey-action);
+  box-shadow: 0 0 0 4px var(--muse-journey-tint);
+}
+body[data-customer-theme="muse"] :is(.journey-submit, .journey-button, .journey-screen .pill-button):not(:disabled):active {
+  background: var(--muse-journey-action-pressed);
+  border-color: var(--muse-journey-action-pressed);
+}
+body[data-customer-theme="muse"] :is(.journey-text, .journey-back, .journey-close, .journey-appointment, .journey-menu-row):not(:disabled):active {
+  background: var(--muse-journey-tint);
+}
+
+@media (max-width: 359px) {
+  body[data-customer-theme="muse"] .journey-screen { --journey-gutter: 16px; }
+  body[data-customer-theme="muse"] .journey-heading h1 { font-size: 26px; }
+  body[data-customer-theme="muse"] :is(.journey-appointment, .journey-saved, .journey-clinic) { padding: 12px; }
+  body[data-customer-theme="muse"] .journey-fact { gap: 8px; }
+  body[data-customer-theme="muse"] .journey-service-row { gap: 8px; }
+  body[data-customer-theme="muse"] .journey-screen .fixed-footer { gap: 12px; }
+  body[data-customer-theme="muse"] .journey-screen .fixed-footer > .pill-button { min-inline-size: 104px; padding-inline: 16px; }
+}
+@media (hover: hover) {
+  body[data-customer-theme="muse"] :is(.journey-submit, .journey-button, .journey-screen .pill-button):not(:disabled):hover {
+    background: var(--muse-journey-action-pressed);
+    border-color: var(--muse-journey-action-pressed);
+  }
+  body[data-customer-theme="muse"] :is(.journey-back, .journey-close, .journey-text, .journey-menu-row):not(:disabled):hover { background: var(--muse-journey-tint); }
+  body[data-customer-theme="muse"] :is(.journey-appointment, .journey-saved):not(:disabled):hover { border-color: var(--journey-input-line); }
+}
+@media (prefers-reduced-motion: reduce) {
+  body[data-customer-theme="muse"] .journey-screen *,
+  body[data-customer-theme="muse"] .journey-screen *::before,
+  body[data-customer-theme="muse"] .journey-screen *::after {
+    transition-duration: .01ms !important;
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+  }
+}
+@media (prefers-contrast: more) {
+  body[data-customer-theme="muse"] .journey-screen { --journey-line: #a38695; }
+  body[data-customer-theme="muse"] .journey-screen .journey-field input[readonly] { border-color: var(--journey-input-line); }
+}

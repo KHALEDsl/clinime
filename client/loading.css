@@ -1,0 +1,19 @@
+/* Match the accepted menu geometry; waiting rows contain no simulated prices or controls. */
+.clinime-skeleton,.clinime-photo-placeholder{background:var(--soft,#f1e9ed)}
+.clinime-skeleton{display:block;border-radius:6px;animation:clinime-loading-pulse 2.4s ease-in-out 2}
+.clinime-skeleton-row{pointer-events:none}
+.clinime-skeleton-row .muse-treatment-copy{inline-size:100%;gap:12px}
+.clinime-skeleton-row .clinime-skeleton-name{inline-size:84%;block-size:20px}
+.clinime-skeleton-row .clinime-skeleton-duration{inline-size:46%;block-size:12px}
+.clinime-skeleton-row .clinime-skeleton-price{inline-size:36%;block-size:16px;margin-block-start:6px}
+.clinime-loading-photo{opacity:0;transition:opacity 160ms ease}
+.clinime-loading-photo[data-photo-state=ready]{opacity:1}
+.clinime-photo-placeholder{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none;animation:clinime-loading-pulse 2.4s ease-in-out 2}
+.clinime-loading-photo[data-photo-state=ready]+.clinime-photo-placeholder{display:none}
+.clinime-photo-fallback{display:none;padding:12px;color:var(--muted,#675967);font:inherit;font-size:12px;line-height:1.7;text-align:center}
+.clinime-loading-photo[data-photo-state=error]+.clinime-photo-placeholder{animation:none;align-items:flex-start}
+.clinime-loading-photo[data-photo-state=error]+.clinime-photo-placeholder .clinime-photo-fallback{display:block}
+.muse-sheet-photo{position:relative}
+.clinime-catalog-error h2{font-size:20px}
+@keyframes clinime-loading-pulse{0%,100%{opacity:1}50%{opacity:.56}}
+@media(prefers-reduced-motion:reduce){.clinime-skeleton,.clinime-photo-placeholder{animation:none}.clinime-loading-photo{transition:none}}

@@ -1,0 +1,26 @@
+{
+  "name": "Clinime",
+  "source": ["../source/brand/Clinime-brand-and-UI-guidelines.pdf", "../spec/token-proposal.json v2.0"],
+  "colors": {
+    "primary": {"hex":"#FFFFFF","name":"Base","role":"dominant neutral field","share":90},
+    "secondary": {"hex":"#2D3E5B","name":"Slate","role":"primary action and headings","share":8},
+    "tertiary": {"hex":"#FFD8EB","name":"Soft pink","role":"brand anchor and gentle selection family","share":2},
+    "neutrals": [{"hex":"#FAFAFA","counts_as":"primary"},{"hex":"#F5F5F5","counts_as":"primary"},{"hex":"#E4E4E4","counts_as":"primary"},{"hex":"#202020","counts_as":"secondary"},{"hex":"#616161","counts_as":"secondary"},{"hex":"#757575","counts_as":"secondary"}],
+    "semantic": {"error":"#963F36","success":"#285B40","warning":"#76551D","info":"#2D3E5B"},
+    "extended": [{"hex":"#FFEBF5","name":"Selected","role":"selection"},{"hex":"#E6F2EB","name":"Active surface","role":"clinical active state"},{"hex":"#F0EAF7","name":"Confirmed surface","role":"confirmed appointment"},{"hex":"#60427A","name":"Confirmed text","role":"confirmed appointment"},{"hex":"#FFF3D9","name":"Warning surface","role":"unknown or needs review"},{"hex":"#F0F0F0","name":"Completed surface","role":"completed appointment"},{"hex":"#474747","name":"Completed text","role":"completed appointment"},{"hex":"#FBEAE8","name":"Error surface","role":"validation error"}],
+    "tolerance": 10
+  },
+  "type": {
+    "display":{"family":"Sora","weights":[400,600],"source":"Supplied source files; SIL OFL"},
+    "body":{"family":"Sora","weights":[400,600],"source":"Supplied source files; SIL OFL"},
+    "arabic":{"family":"Noto Sans Arabic","weights":[400,600],"source":"Google Fonts repository; SIL OFL"},
+    "scale":[12,14,16,20,28,36]
+  },
+  "icons":{"style":"outline","grid":24,"live_area":20,"stroke":2,"linecap":"round","linejoin":"round","fill":"none","color":"currentColor","sizes":[16,20,24],"metaphors":"clinic scheduling, care, payments, communication and inventory","base_set":"Unmodified Lucide 1.61.0 originals"},
+  "radius":{"control":8,"card":12,"dialog":16},
+  "voice":{"pillars":["Specific about appointments and money","Calm about uncertainty","Clear action labels"],"nng":{"humor":"serious","formality":"neutral","respect":"respectful","enthusiasm":"matter-of-fact"},"say":["appointment","patient","check status","موعد","المراجعة","التحقق من الحالة"],"avoid":["guaranteed","best","seamless","الأفضل","مضمون","!"]},
+  "imagery":{"kind":"original brand assets and functional UI only","avoid":"decorative photography, invented clinicians and testimonials"},
+  "motion":{"personality":"calm","easing":"cubic-bezier(.2,0,0,1)","durations":[120,180]},
+  "logo":{"min_px":116,"clear_space":"Rendered at original 4:1 ratio with surrounding neutral space","placements":["header"]},
+  "deviations":["The assigned brief specifies about 90% neutral, overriding the generic 70/20/10 rule.","The specimen places booking and operations side by side as a system demonstration, not a proposed combined product screen."]
+}

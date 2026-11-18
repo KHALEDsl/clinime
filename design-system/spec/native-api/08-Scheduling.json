@@ -1,0 +1,1569 @@
+[
+  {
+    "id": "15:8832",
+    "name": "CalendarToolbar",
+    "key": "845fea2e038bd54a79d19373e00749e9c5f76d2a",
+    "properties": {
+      "Action#15:1281": {
+        "type": "TEXT",
+        "defaultValue": "Today"
+      },
+      "Icon / chevron-left 1#15:1282": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:8788",
+        "preferredValues": []
+      },
+      "Date range#15:1283": {
+        "type": "TEXT",
+        "defaultValue": "28 October 2026"
+      },
+      "Icon / chevron-right 2#15:1284": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:8795",
+        "preferredValues": []
+      },
+      "Timezone#15:1286": {
+        "type": "TEXT",
+        "defaultValue": "Clinic time · GMT+3"
+      },
+      "Action 2 / Day#20:682": {
+        "type": "TEXT",
+        "defaultValue": "Day"
+      },
+      "Action 2 / Week#20:686": {
+        "type": "TEXT",
+        "defaultValue": "Week"
+      },
+      "Action 2 / Month#20:690": {
+        "type": "TEXT",
+        "defaultValue": "Month"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Day",
+        "variantOptions": [
+          "Day",
+          "Week",
+          "Month"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:8784",
+        "name": "State=Day",
+        "key": "4497a64fa01b5637e9c5e976b4a9d30dbca2e554"
+      },
+      {
+        "id": "15:8804",
+        "name": "State=Week",
+        "key": "f4acccd6c0932c100d4d9be6c74cb5d9d3079898"
+      },
+      {
+        "id": "15:8818",
+        "name": "State=Month",
+        "key": "f6dc5afadc75388cba25add4e4c6e1403891a47e"
+      }
+    ]
+  },
+  {
+    "id": "15:8859",
+    "name": "CalendarEvent",
+    "key": "fe9e694316847d8df542e6189209544bb9e07d73",
+    "properties": {
+      "Time and patient#15:1304": {
+        "type": "TEXT",
+        "defaultValue": "10:00–11:00 · Sara Alotaibi"
+      },
+      "Summary#15:1306": {
+        "type": "TEXT",
+        "defaultValue": "10:00 · Sara · Confirmed"
+      },
+      "Service and status / Confirmed#20:694": {
+        "type": "TEXT",
+        "defaultValue": "Hydrafacial · Confirmed"
+      },
+      "Service and status / InSession#20:704": {
+        "type": "TEXT",
+        "defaultValue": "Hydrafacial · In session"
+      },
+      "Service and status / Completed#20:714": {
+        "type": "TEXT",
+        "defaultValue": "Hydrafacial · Completed"
+      },
+      "Service and status / Pending#20:724": {
+        "type": "TEXT",
+        "defaultValue": "Hydrafacial · Pending confirmation"
+      },
+      "Service and status / Conflict#20:734": {
+        "type": "TEXT",
+        "defaultValue": "Hydrafacial · Time conflict"
+      },
+      "Service and status / PastReview#20:744": {
+        "type": "TEXT",
+        "defaultValue": "Hydrafacial · Past · needs review"
+      },
+      "Service and status / Canceled#20:754": {
+        "type": "TEXT",
+        "defaultValue": "Hydrafacial · Canceled"
+      },
+      "Service and status / NoShow#20:764": {
+        "type": "TEXT",
+        "defaultValue": "Hydrafacial · Confirmed · No-show"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Confirmed",
+        "variantOptions": [
+          "Confirmed",
+          "InSession",
+          "Completed",
+          "Pending",
+          "Conflict",
+          "Compact",
+          "PastReview",
+          "Canceled",
+          "NoShow"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:8833",
+        "name": "State=Confirmed",
+        "key": "a250127daa010bdfdd861df4c49a8b6b47aab638"
+      },
+      {
+        "id": "15:8836",
+        "name": "State=InSession",
+        "key": "3c0451afe75ef54cc2833e209374e43db8de4697"
+      },
+      {
+        "id": "15:8839",
+        "name": "State=Completed",
+        "key": "eab0fea4943ef64f0f7f2ed2c4404c52930daee4"
+      },
+      {
+        "id": "15:8842",
+        "name": "State=Pending",
+        "key": "22a0735194455901fd5d84c5c8cb02bab3bed1af"
+      },
+      {
+        "id": "15:8845",
+        "name": "State=Conflict",
+        "key": "92b6fd64e6f4cf0315fae123a5d9a243e3261112"
+      },
+      {
+        "id": "15:8848",
+        "name": "State=Compact",
+        "key": "6eaf55d857626ad8d546911fad3e6b58e04b0146"
+      },
+      {
+        "id": "15:8850",
+        "name": "State=PastReview",
+        "key": "b1966981039b8504c89d5c465910c734de893fdb"
+      },
+      {
+        "id": "15:8853",
+        "name": "State=Canceled",
+        "key": "cc9fcb01edcfe88d60c2bf50aff3c41b260e2759"
+      },
+      {
+        "id": "15:8856",
+        "name": "State=NoShow",
+        "key": "99f174e7779135fc3f30db9255d49bf97dc33eb5"
+      }
+    ]
+  },
+  {
+    "id": "15:9005",
+    "name": "CalendarGrid",
+    "key": "80b85815f45fa3966bfaceac1803a280e99bcc7c",
+    "properties": {
+      "Time#15:1400": {
+        "type": "TEXT",
+        "defaultValue": "09:00"
+      },
+      "Time 2#15:1402": {
+        "type": "TEXT",
+        "defaultValue": "10:00"
+      },
+      "Time 3#15:1404": {
+        "type": "TEXT",
+        "defaultValue": "11:00"
+      },
+      "Time 4#15:1406": {
+        "type": "TEXT",
+        "defaultValue": "13:00"
+      },
+      "Event 5#15:1410": {
+        "type": "TEXT",
+        "defaultValue": "—"
+      },
+      "Event 6#15:1411": {
+        "type": "TEXT",
+        "defaultValue": "—"
+      },
+      "Event 7#15:1413": {
+        "type": "TEXT",
+        "defaultValue": "—"
+      },
+      "Event 8#15:1414": {
+        "type": "TEXT",
+        "defaultValue": "10:00\nSara"
+      },
+      "Event 9#15:1415": {
+        "type": "TEXT",
+        "defaultValue": "—"
+      },
+      "Event 10#15:1417": {
+        "type": "TEXT",
+        "defaultValue": "—"
+      },
+      "Event 11#15:1418": {
+        "type": "TEXT",
+        "defaultValue": "—"
+      },
+      "Event 12#15:1419": {
+        "type": "TEXT",
+        "defaultValue": "—"
+      },
+      "Event 13#15:1421": {
+        "type": "TEXT",
+        "defaultValue": "—"
+      },
+      "Event 14#15:1422": {
+        "type": "TEXT",
+        "defaultValue": "—"
+      },
+      "Event 15#15:1423": {
+        "type": "TEXT",
+        "defaultValue": "—"
+      },
+      "Event 16#15:1425": {
+        "type": "TEXT",
+        "defaultValue": "—"
+      },
+      "Event 17#15:1426": {
+        "type": "TEXT",
+        "defaultValue": "—"
+      },
+      "Event 18#15:1427": {
+        "type": "TEXT",
+        "defaultValue": "—"
+      },
+      "Event 19#15:1429": {
+        "type": "TEXT",
+        "defaultValue": "—"
+      },
+      "Event 20#15:1430": {
+        "type": "TEXT",
+        "defaultValue": "—"
+      },
+      "Event 21#15:1431": {
+        "type": "TEXT",
+        "defaultValue": "—"
+      },
+      "Date#15:1432": {
+        "type": "TEXT",
+        "defaultValue": "28"
+      },
+      "Date 2#15:1433": {
+        "type": "TEXT",
+        "defaultValue": "29"
+      },
+      "Date 3#15:1434": {
+        "type": "TEXT",
+        "defaultValue": "30"
+      },
+      "Date 4#15:1435": {
+        "type": "TEXT",
+        "defaultValue": "1"
+      },
+      "Date 5#15:1436": {
+        "type": "TEXT",
+        "defaultValue": "2"
+      },
+      "Date 6#15:1437": {
+        "type": "TEXT",
+        "defaultValue": "3"
+      },
+      "Date 7#15:1438": {
+        "type": "TEXT",
+        "defaultValue": "4"
+      },
+      "Date 8#15:1439": {
+        "type": "TEXT",
+        "defaultValue": "5"
+      },
+      "Date 9#15:1440": {
+        "type": "TEXT",
+        "defaultValue": "6"
+      },
+      "Date 10#15:1441": {
+        "type": "TEXT",
+        "defaultValue": "7"
+      },
+      "Date 11#15:1442": {
+        "type": "TEXT",
+        "defaultValue": "8"
+      },
+      "Date 12#15:1443": {
+        "type": "TEXT",
+        "defaultValue": "9"
+      },
+      "Date 13#15:1444": {
+        "type": "TEXT",
+        "defaultValue": "10"
+      },
+      "Date 14#15:1445": {
+        "type": "TEXT",
+        "defaultValue": "11"
+      },
+      "Date 15#15:1446": {
+        "type": "TEXT",
+        "defaultValue": "12"
+      },
+      "Date 16#15:1447": {
+        "type": "TEXT",
+        "defaultValue": "13"
+      },
+      "Date 17#15:1448": {
+        "type": "TEXT",
+        "defaultValue": "14"
+      },
+      "Date 18#15:1449": {
+        "type": "TEXT",
+        "defaultValue": "15"
+      },
+      "Date 19#15:1450": {
+        "type": "TEXT",
+        "defaultValue": "16"
+      },
+      "Date 20#15:1451": {
+        "type": "TEXT",
+        "defaultValue": "17"
+      },
+      "Date 21#15:1452": {
+        "type": "TEXT",
+        "defaultValue": "18"
+      },
+      "Date 22#15:1453": {
+        "type": "TEXT",
+        "defaultValue": "19"
+      },
+      "Date 23#15:1454": {
+        "type": "TEXT",
+        "defaultValue": "20"
+      },
+      "Date 24#15:1455": {
+        "type": "TEXT",
+        "defaultValue": "21"
+      },
+      "Date 25#15:1456": {
+        "type": "TEXT",
+        "defaultValue": "22"
+      },
+      "Date 26#15:1457": {
+        "type": "TEXT",
+        "defaultValue": "23"
+      },
+      "Date 27#15:1458": {
+        "type": "TEXT",
+        "defaultValue": "24"
+      },
+      "Date 28#15:1459": {
+        "type": "TEXT",
+        "defaultValue": "25"
+      },
+      "Date 29#15:1460": {
+        "type": "TEXT",
+        "defaultValue": "26"
+      },
+      "Date 30#15:1461": {
+        "type": "TEXT",
+        "defaultValue": "27"
+      },
+      "Date 31#15:1462": {
+        "type": "TEXT",
+        "defaultValue": "28"
+      },
+      "Day summary#15:1463": {
+        "type": "TEXT",
+        "defaultValue": "1 visit"
+      },
+      "Date 32#15:1464": {
+        "type": "TEXT",
+        "defaultValue": "29"
+      },
+      "Date 33#15:1465": {
+        "type": "TEXT",
+        "defaultValue": "30"
+      },
+      "Date 34#15:1466": {
+        "type": "TEXT",
+        "defaultValue": "31"
+      },
+      "Date 35#15:1467": {
+        "type": "TEXT",
+        "defaultValue": "1"
+      },
+      "Title / Day#20:774": {
+        "type": "TEXT",
+        "defaultValue": "Wednesday, 28 October"
+      },
+      "Title / Week#20:778": {
+        "type": "TEXT",
+        "defaultValue": "26 October – 1 November"
+      },
+      "Title / Month#20:782": {
+        "type": "TEXT",
+        "defaultValue": "October 2026"
+      },
+      "Event / Day#20:786": {
+        "type": "TEXT",
+        "defaultValue": "Available"
+      },
+      "Event / Week#20:790": {
+        "type": "TEXT",
+        "defaultValue": "—"
+      },
+      "Event 2 / Day#20:794": {
+        "type": "TEXT",
+        "defaultValue": "Sara · Hydrafacial"
+      },
+      "Event 2 / Week#20:798": {
+        "type": "TEXT",
+        "defaultValue": "—"
+      },
+      "Event 3 / Day#20:802": {
+        "type": "TEXT",
+        "defaultValue": "Available"
+      },
+      "Event 3 / Week#20:806": {
+        "type": "TEXT",
+        "defaultValue": "—"
+      },
+      "Event 4 / Day#20:810": {
+        "type": "TEXT",
+        "defaultValue": "Lunch break"
+      },
+      "Event 4 / Week#20:814": {
+        "type": "TEXT",
+        "defaultValue": "—"
+      },
+      "Weekday / Week#20:818": {
+        "type": "TEXT",
+        "defaultValue": "Mon 26"
+      },
+      "Weekday / Month#20:822": {
+        "type": "TEXT",
+        "defaultValue": "Mon"
+      },
+      "Weekday 2 / Week#20:826": {
+        "type": "TEXT",
+        "defaultValue": "Tue 27"
+      },
+      "Weekday 2 / Month#20:830": {
+        "type": "TEXT",
+        "defaultValue": "Tue"
+      },
+      "Weekday 3 / Week#20:834": {
+        "type": "TEXT",
+        "defaultValue": "Wed 28"
+      },
+      "Weekday 3 / Month#20:838": {
+        "type": "TEXT",
+        "defaultValue": "Wed"
+      },
+      "Weekday 4 / Week#20:842": {
+        "type": "TEXT",
+        "defaultValue": "Thu 29"
+      },
+      "Weekday 4 / Month#20:846": {
+        "type": "TEXT",
+        "defaultValue": "Thu"
+      },
+      "Weekday 5 / Week#20:850": {
+        "type": "TEXT",
+        "defaultValue": "Fri 30"
+      },
+      "Weekday 5 / Month#20:854": {
+        "type": "TEXT",
+        "defaultValue": "Fri"
+      },
+      "Weekday 6 / Week#20:858": {
+        "type": "TEXT",
+        "defaultValue": "Sat 31"
+      },
+      "Weekday 6 / Month#20:862": {
+        "type": "TEXT",
+        "defaultValue": "Sat"
+      },
+      "Weekday 7 / Week#20:866": {
+        "type": "TEXT",
+        "defaultValue": "Sun 1"
+      },
+      "Weekday 7 / Month#20:870": {
+        "type": "TEXT",
+        "defaultValue": "Sun"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Day",
+        "variantOptions": [
+          "Day",
+          "Week",
+          "Month"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:8860",
+        "name": "State=Day",
+        "key": "49ce0c89724308e7163bdb08468f86fb2f6cf589"
+      },
+      {
+        "id": "15:8879",
+        "name": "State=Week",
+        "key": "19b0da7d2cbb448b33b5efbaaa17d98bc463ac75"
+      },
+      {
+        "id": "15:8918",
+        "name": "State=Month",
+        "key": "335595b80252c4def86cbd6006f7131a5a13707f"
+      }
+    ]
+  },
+  {
+    "id": "15:9036",
+    "name": "AgendaRow",
+    "key": "ea4b83f670b77e1aa8bea3464cd8c33f1e823dec",
+    "properties": {
+      "Start#15:1608": {
+        "type": "TEXT",
+        "defaultValue": "10:00"
+      },
+      "Duration#15:1609": {
+        "type": "TEXT",
+        "defaultValue": "60 min"
+      },
+      "Patient#15:1610": {
+        "type": "TEXT",
+        "defaultValue": "Sara Alotaibi"
+      },
+      "Service#15:1611": {
+        "type": "TEXT",
+        "defaultValue": "Hydrafacial · Dr. Gigi"
+      },
+      "Status / Upcoming#20:874": {
+        "type": "TEXT",
+        "defaultValue": "Confirmed"
+      },
+      "Status / InSession#20:878": {
+        "type": "TEXT",
+        "defaultValue": "In session"
+      },
+      "Status / Completed#20:882": {
+        "type": "TEXT",
+        "defaultValue": "Completed"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Upcoming",
+        "variantOptions": [
+          "Upcoming",
+          "InSession",
+          "Completed"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:9006",
+        "name": "State=Upcoming",
+        "key": "40c11ebc51bbabe21169b852288e9d49b32f2287"
+      },
+      {
+        "id": "15:9016",
+        "name": "State=InSession",
+        "key": "3d5bbe7f4951a02a9e1381d6c84b80127034305b"
+      },
+      {
+        "id": "15:9026",
+        "name": "State=Completed",
+        "key": "0cfa9e85e8c2ddd1a697faae4a1573d18956a2ca"
+      }
+    ]
+  },
+  {
+    "id": "15:9349",
+    "name": "DatePicker",
+    "key": "c70b88c16d092000f7f6f41da39a0e2710648aa5",
+    "properties": {
+      "Icon / chevron-left 1#15:1757": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:8788",
+        "preferredValues": []
+      },
+      "Month#15:1758": {
+        "type": "TEXT",
+        "defaultValue": "October 2026"
+      },
+      "Icon / chevron-right 2#15:1759": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:8795",
+        "preferredValues": []
+      },
+      "Weekday#15:1760": {
+        "type": "TEXT",
+        "defaultValue": "M"
+      },
+      "Weekday 2#15:1761": {
+        "type": "TEXT",
+        "defaultValue": "T"
+      },
+      "Weekday 3#15:1762": {
+        "type": "TEXT",
+        "defaultValue": "W"
+      },
+      "Weekday 4#15:1763": {
+        "type": "TEXT",
+        "defaultValue": "T"
+      },
+      "Weekday 5#15:1764": {
+        "type": "TEXT",
+        "defaultValue": "F"
+      },
+      "Weekday 6#15:1765": {
+        "type": "TEXT",
+        "defaultValue": "S"
+      },
+      "Weekday 7#15:1766": {
+        "type": "TEXT",
+        "defaultValue": "S"
+      },
+      "Day#15:1767": {
+        "type": "TEXT",
+        "defaultValue": "28"
+      },
+      "Day 2#15:1768": {
+        "type": "TEXT",
+        "defaultValue": "29"
+      },
+      "Day 3#15:1769": {
+        "type": "TEXT",
+        "defaultValue": "30"
+      },
+      "Day 4#15:1770": {
+        "type": "TEXT",
+        "defaultValue": "1"
+      },
+      "Day 5#15:1771": {
+        "type": "TEXT",
+        "defaultValue": "2"
+      },
+      "Day 6#15:1772": {
+        "type": "TEXT",
+        "defaultValue": "3"
+      },
+      "Day 7#15:1773": {
+        "type": "TEXT",
+        "defaultValue": "4"
+      },
+      "Day 8#15:1774": {
+        "type": "TEXT",
+        "defaultValue": "5"
+      },
+      "Day 9#15:1775": {
+        "type": "TEXT",
+        "defaultValue": "6"
+      },
+      "Day 10#15:1776": {
+        "type": "TEXT",
+        "defaultValue": "7"
+      },
+      "Day 11#15:1777": {
+        "type": "TEXT",
+        "defaultValue": "8"
+      },
+      "Day 12#15:1778": {
+        "type": "TEXT",
+        "defaultValue": "9"
+      },
+      "Day 13#15:1779": {
+        "type": "TEXT",
+        "defaultValue": "10"
+      },
+      "Day 14#15:1780": {
+        "type": "TEXT",
+        "defaultValue": "11"
+      },
+      "Day 15#15:1781": {
+        "type": "TEXT",
+        "defaultValue": "12"
+      },
+      "Day 16#15:1782": {
+        "type": "TEXT",
+        "defaultValue": "13"
+      },
+      "Day 17#15:1783": {
+        "type": "TEXT",
+        "defaultValue": "14"
+      },
+      "Day 18#15:1784": {
+        "type": "TEXT",
+        "defaultValue": "15"
+      },
+      "Day 19#15:1785": {
+        "type": "TEXT",
+        "defaultValue": "16"
+      },
+      "Day 20#15:1786": {
+        "type": "TEXT",
+        "defaultValue": "17"
+      },
+      "Day 21#15:1787": {
+        "type": "TEXT",
+        "defaultValue": "18"
+      },
+      "Day 22#15:1788": {
+        "type": "TEXT",
+        "defaultValue": "19"
+      },
+      "Day 23#15:1789": {
+        "type": "TEXT",
+        "defaultValue": "20"
+      },
+      "Day 24#15:1790": {
+        "type": "TEXT",
+        "defaultValue": "21"
+      },
+      "Day 25#15:1791": {
+        "type": "TEXT",
+        "defaultValue": "22"
+      },
+      "Day 26#15:1792": {
+        "type": "TEXT",
+        "defaultValue": "23"
+      },
+      "Day 27#15:1793": {
+        "type": "TEXT",
+        "defaultValue": "24"
+      },
+      "Day 28#15:1794": {
+        "type": "TEXT",
+        "defaultValue": "25"
+      },
+      "Day 29#15:1795": {
+        "type": "TEXT",
+        "defaultValue": "26"
+      },
+      "Day 30#15:1796": {
+        "type": "TEXT",
+        "defaultValue": "27"
+      },
+      "Day 31#15:1797": {
+        "type": "TEXT",
+        "defaultValue": "28"
+      },
+      "Day 32#15:1798": {
+        "type": "TEXT",
+        "defaultValue": "29"
+      },
+      "Day 33#15:1799": {
+        "type": "TEXT",
+        "defaultValue": "30"
+      },
+      "Day 34#15:1800": {
+        "type": "TEXT",
+        "defaultValue": "31"
+      },
+      "Day 35#15:1801": {
+        "type": "TEXT",
+        "defaultValue": "1"
+      },
+      "Field label#15:1802": {
+        "type": "TEXT",
+        "defaultValue": "Or enter a date"
+      },
+      "Icon / calendar 3#15:1804": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:9133",
+        "preferredValues": []
+      },
+      "Field value / Default#20:886": {
+        "type": "TEXT",
+        "defaultValue": "DD MMM YYYY"
+      },
+      "Field value / Selected#20:890": {
+        "type": "TEXT",
+        "defaultValue": "28 Oct 2026"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Default",
+        "variantOptions": [
+          "Default",
+          "Selected",
+          "Unavailable"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:9037",
+        "name": "State=Default",
+        "key": "b0a34eafdad5c2f7734b077c47539970639f1baa"
+      },
+      {
+        "id": "15:9145",
+        "name": "State=Selected",
+        "key": "c6433f9406e6924d6a98e330d58800f2aece7cbc"
+      },
+      {
+        "id": "15:9247",
+        "name": "State=Unavailable",
+        "key": "b4b527f75c5ea311ad3f7082c5f768cfa1b4512c"
+      }
+    ]
+  },
+  {
+    "id": "15:9359",
+    "name": "TimeSlot",
+    "key": "a6475664f191f84c52909ec1796a0578d49de54d",
+    "properties": {
+      "Time#15:1810": {
+        "type": "TEXT",
+        "defaultValue": "10:00"
+      },
+      "Availability#15:1811": {
+        "type": "TEXT",
+        "defaultValue": "Recheck time"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Available",
+        "variantOptions": [
+          "Available",
+          "Selected",
+          "Unavailable",
+          "Stale"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:9350",
+        "name": "State=Available",
+        "key": "246c7e8f3c23b490f609504867a88bef9c8622e2"
+      },
+      {
+        "id": "15:9352",
+        "name": "State=Selected",
+        "key": "34e05552210deddd8130aa3818caf2de926d245f"
+      },
+      {
+        "id": "15:9354",
+        "name": "State=Unavailable",
+        "key": "5ceb72d5f7ca52a06c2372d254ced258cf1650f9"
+      },
+      {
+        "id": "15:9356",
+        "name": "State=Stale",
+        "key": "4583d79da69ef18f662d11a2127941f24c43938f"
+      }
+    ]
+  },
+  {
+    "id": "15:9423",
+    "name": "AppointmentPreview",
+    "key": "b8433ed81958a37dda989e2dd8558999215a1ecf",
+    "properties": {
+      "Title#15:1847": {
+        "type": "TEXT",
+        "defaultValue": "Appointment preview"
+      },
+      "Patient#15:1848": {
+        "type": "TEXT",
+        "defaultValue": "Sara Alotaibi"
+      },
+      "Detail label#15:1850": {
+        "type": "TEXT",
+        "defaultValue": "Service"
+      },
+      "Detail value#15:1851": {
+        "type": "TEXT",
+        "defaultValue": "Hydrafacial"
+      },
+      "Detail label 2#15:1852": {
+        "type": "TEXT",
+        "defaultValue": "When"
+      },
+      "Detail value 2#15:1853": {
+        "type": "TEXT",
+        "defaultValue": "28 Oct, 10:00–11:00"
+      },
+      "Detail label 3#15:1854": {
+        "type": "TEXT",
+        "defaultValue": "Payment"
+      },
+      "Detail value 3#15:1855": {
+        "type": "TEXT",
+        "defaultValue": "SAR 650 · Unpaid"
+      },
+      "Action#15:1856": {
+        "type": "TEXT",
+        "defaultValue": "Open appointment"
+      },
+      "Icon / triangle-alert 1#15:1857": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:9410",
+        "preferredValues": []
+      },
+      "Notice#15:1858": {
+        "type": "TEXT",
+        "defaultValue": "Medical details are restricted for this role."
+      },
+      "Status / Confirmed#20:894": {
+        "type": "TEXT",
+        "defaultValue": "Confirmed"
+      },
+      "Status / InSession#20:898": {
+        "type": "TEXT",
+        "defaultValue": "In session"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Confirmed",
+        "variantOptions": [
+          "Confirmed",
+          "InSession",
+          "Restricted"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:9360",
+        "name": "State=Confirmed",
+        "key": "2c99c6e25412b20c9f805138805e9bd84ca362ba"
+      },
+      {
+        "id": "15:9377",
+        "name": "State=InSession",
+        "key": "53c35e61bc1e3f3368718344bc2ca39f68bca7cf"
+      },
+      {
+        "id": "15:9394",
+        "name": "State=Restricted",
+        "key": "cf5511e8cc76304407ee037a64a39f865b1c7c5e"
+      }
+    ]
+  },
+  {
+    "id": "15:9506",
+    "name": "BookingRequest",
+    "key": "0eb6617474454772c1a8129ef848c197d1597bef",
+    "properties": {
+      "Icon / calendar 1#15:1897": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:9133",
+        "preferredValues": []
+      },
+      "Title#15:1898": {
+        "type": "TEXT",
+        "defaultValue": "Booking request"
+      },
+      "Description#15:1899": {
+        "type": "TEXT",
+        "defaultValue": "Received 26 Oct · Sample record"
+      },
+      "Patient#15:1900": {
+        "type": "TEXT",
+        "defaultValue": "Sara Alotaibi"
+      },
+      "Detail label#15:1901": {
+        "type": "TEXT",
+        "defaultValue": "Requested time"
+      },
+      "Detail value#15:1902": {
+        "type": "TEXT",
+        "defaultValue": "28 Oct · 10:00"
+      },
+      "Detail label 2#15:1903": {
+        "type": "TEXT",
+        "defaultValue": "Service"
+      },
+      "Detail value 2#15:1904": {
+        "type": "TEXT",
+        "defaultValue": "Hydrafacial · 60 min"
+      },
+      "Status#15:1905": {
+        "type": "TEXT",
+        "defaultValue": "Pending confirmation"
+      },
+      "Action#15:1906": {
+        "type": "TEXT",
+        "defaultValue": "Review request"
+      },
+      "Icon / triangle-alert 2#15:1907": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:9410",
+        "preferredValues": []
+      },
+      "Icon / circle-alert 2#15:1909": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:9493",
+        "preferredValues": []
+      },
+      "Notice / DepositDue#20:902": {
+        "type": "TEXT",
+        "defaultValue": "The configured deposit has not been received."
+      },
+      "Notice / Conflict#20:906": {
+        "type": "TEXT",
+        "defaultValue": "The requested time is no longer available."
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Pending",
+        "variantOptions": [
+          "Pending",
+          "DepositDue",
+          "Conflict"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:9424",
+        "name": "State=Pending",
+        "key": "53fb7bd0a08a65e87d915aa52f5db9fead110d60"
+      },
+      {
+        "id": "15:9445",
+        "name": "State=DepositDue",
+        "key": "0eb0ae2fab868d729af9da4c8892c8f519b7b0ec"
+      },
+      {
+        "id": "15:9473",
+        "name": "State=Conflict",
+        "key": "f2ef2af245d774d96bfc8f2d6ceb71c607f420d4"
+      }
+    ]
+  },
+  {
+    "id": "15:9531",
+    "name": "AttendanceControl",
+    "key": "3c774246ecf3ec53dc3a2692a089e24a68c31e39",
+    "properties": {
+      "Title#15:1927": {
+        "type": "TEXT",
+        "defaultValue": "Attendance"
+      },
+      "Boundary#15:1929": {
+        "type": "TEXT",
+        "defaultValue": "Appointment confirmation and payment stay separate."
+      },
+      "Status / NotArrived#20:910": {
+        "type": "TEXT",
+        "defaultValue": "Not arrived"
+      },
+      "Status / CheckedIn#20:914": {
+        "type": "TEXT",
+        "defaultValue": "Checked in"
+      },
+      "Status / NoShow#20:918": {
+        "type": "TEXT",
+        "defaultValue": "No-show"
+      },
+      "Action / NotArrived#20:922": {
+        "type": "TEXT",
+        "defaultValue": "Check in patient"
+      },
+      "Action / CheckedIn#20:926": {
+        "type": "TEXT",
+        "defaultValue": "Undo check-in"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "NotArrived",
+        "variantOptions": [
+          "NotArrived",
+          "CheckedIn",
+          "NoShow"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:9507",
+        "name": "State=NotArrived",
+        "key": "1f6be8727f0bf1a9e82ea059959e95628915e416"
+      },
+      {
+        "id": "15:9515",
+        "name": "State=CheckedIn",
+        "key": "0e31f84eed5091291df60eaf4d66a2375d9a50c6"
+      },
+      {
+        "id": "15:9523",
+        "name": "State=NoShow",
+        "key": "03fda577f33a369e2a9578e045464b1ad14911eb"
+      }
+    ]
+  },
+  {
+    "id": "15:9603",
+    "name": "BlockedTime",
+    "key": "ec1365fcc3bbb17f1768f819011c4e464753853b",
+    "properties": {
+      "Icon / clock 1#15:1956": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:9534",
+        "preferredValues": []
+      },
+      "Interval#15:1958": {
+        "type": "TEXT",
+        "defaultValue": "28 Oct · 13:00–13:45"
+      },
+      "Field label#15:1959": {
+        "type": "TEXT",
+        "defaultValue": "Date"
+      },
+      "Field value#15:1960": {
+        "type": "TEXT",
+        "defaultValue": "28 Oct 2026"
+      },
+      "Icon / calendar 2#15:1961": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:9133",
+        "preferredValues": []
+      },
+      "Detail label#15:1962": {
+        "type": "TEXT",
+        "defaultValue": "Start / end"
+      },
+      "Detail value#15:1963": {
+        "type": "TEXT",
+        "defaultValue": "13:00–13:45"
+      },
+      "Field label 2#15:1964": {
+        "type": "TEXT",
+        "defaultValue": "Reason (optional)"
+      },
+      "Field value 2#15:1965": {
+        "type": "TEXT",
+        "defaultValue": "Lunch break"
+      },
+      "Action#15:1966": {
+        "type": "TEXT",
+        "defaultValue": "Save blocked time"
+      },
+      "Icon / circle-alert 3#15:1967": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:9493",
+        "preferredValues": []
+      },
+      "Notice#15:1968": {
+        "type": "TEXT",
+        "defaultValue": "One existing appointment overlaps this time."
+      },
+      "Title / Saved#20:930": {
+        "type": "TEXT",
+        "defaultValue": "Lunch break"
+      },
+      "Title / Draft#20:934": {
+        "type": "TEXT",
+        "defaultValue": "Block time"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Saved",
+        "variantOptions": [
+          "Saved",
+          "Draft",
+          "Conflict"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:9532",
+        "name": "State=Saved",
+        "key": "03b017fc19b9c0cf4d07dd4e73d85aff40fb9475"
+      },
+      {
+        "id": "15:9544",
+        "name": "State=Draft",
+        "key": "a0e57d94924236a51ca452ec892beef28e7c61c8"
+      },
+      {
+        "id": "15:9570",
+        "name": "State=Conflict",
+        "key": "a8baea0db8a60daef010d2af7d6f90c5af29a500"
+      }
+    ]
+  },
+  {
+    "id": "15:9660",
+    "name": "ServicePicker",
+    "key": "da9c94254caf674011a42bebd04d973715d3b8ab",
+    "properties": {
+      "Icon / check 1#15:2005": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:9607",
+        "preferredValues": []
+      },
+      "Checklist label#15:2006": {
+        "type": "TEXT",
+        "defaultValue": "Hydrafacial"
+      },
+      "Detail label#15:2007": {
+        "type": "TEXT",
+        "defaultValue": "Duration"
+      },
+      "Detail value#15:2008": {
+        "type": "TEXT",
+        "defaultValue": "60 minutes"
+      },
+      "Detail label 2#15:2009": {
+        "type": "TEXT",
+        "defaultValue": "Price"
+      },
+      "Detail value 2#15:2010": {
+        "type": "TEXT",
+        "defaultValue": "From SAR 650"
+      },
+      "Field label#15:2011": {
+        "type": "TEXT",
+        "defaultValue": "Variant"
+      },
+      "Field value#15:2012": {
+        "type": "TEXT",
+        "defaultValue": "Choose a treatment option"
+      },
+      "Icon / chevron-down 2#15:2013": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:9637",
+        "preferredValues": []
+      },
+      "Icon / circle-alert 1#15:2014": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:9493",
+        "preferredValues": []
+      },
+      "Notice#15:2015": {
+        "type": "TEXT",
+        "defaultValue": "Review compatibility with the selected consultation."
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Selected",
+        "variantOptions": [
+          "Selected",
+          "VariantRequired",
+          "Conflict"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:9604",
+        "name": "State=Selected",
+        "key": "1407d6b8a119d38c4c709caf391febbf7718bfbf"
+      },
+      {
+        "id": "15:9620",
+        "name": "State=VariantRequired",
+        "key": "987b2ce8436ccdff9abffff4d07af594e2da1e23"
+      },
+      {
+        "id": "15:9643",
+        "name": "State=Conflict",
+        "key": "12c4bfe28abe89123ecaad20a4f47b89a18e8b4b"
+      }
+    ]
+  },
+  {
+    "id": "15:9744",
+    "name": "BookingReview",
+    "key": "a6f045dccfdeb0d7e0ef6ce7b3581e77950d071b",
+    "properties": {
+      "Title#15:2073": {
+        "type": "TEXT",
+        "defaultValue": "Review appointment"
+      },
+      "Detail label#15:2074": {
+        "type": "TEXT",
+        "defaultValue": "Patient"
+      },
+      "Detail value#15:2075": {
+        "type": "TEXT",
+        "defaultValue": "Sara Alotaibi"
+      },
+      "Detail label 2#15:2076": {
+        "type": "TEXT",
+        "defaultValue": "Service"
+      },
+      "Detail value 2#15:2077": {
+        "type": "TEXT",
+        "defaultValue": "Hydrafacial"
+      },
+      "Detail label 3#15:2078": {
+        "type": "TEXT",
+        "defaultValue": "Practitioner"
+      },
+      "Detail value 3#15:2079": {
+        "type": "TEXT",
+        "defaultValue": "Dr. Gigi"
+      },
+      "Detail label 4#15:2080": {
+        "type": "TEXT",
+        "defaultValue": "Date & time"
+      },
+      "Detail value 4#15:2081": {
+        "type": "TEXT",
+        "defaultValue": "28 Oct · 10:00–11:00"
+      },
+      "Detail label 5#15:2082": {
+        "type": "TEXT",
+        "defaultValue": "Service price"
+      },
+      "Detail value 5#15:2083": {
+        "type": "TEXT",
+        "defaultValue": "SAR 650"
+      },
+      "Detail label 6#15:2084": {
+        "type": "TEXT",
+        "defaultValue": "Deposit"
+      },
+      "Detail value 6#15:2085": {
+        "type": "TEXT",
+        "defaultValue": "Per clinic policy"
+      },
+      "Icon / circle-alert 1#15:2087": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:9493",
+        "preferredValues": []
+      },
+      "Icon / triangle-alert 1#15:2089": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:9410",
+        "preferredValues": []
+      },
+      "Action / Ready#20:938": {
+        "type": "TEXT",
+        "defaultValue": "Create appointment"
+      },
+      "Action / Conflict#20:942": {
+        "type": "TEXT",
+        "defaultValue": "Choose another time"
+      },
+      "Action / Unknown#20:946": {
+        "type": "TEXT",
+        "defaultValue": "Check booking status"
+      },
+      "Notice / Conflict#20:950": {
+        "type": "TEXT",
+        "defaultValue": "This slot has changed. Choose another available time."
+      },
+      "Notice / Unknown#20:954": {
+        "type": "TEXT",
+        "defaultValue": "Checking the booking result. Do not submit again."
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Ready",
+        "variantOptions": [
+          "Ready",
+          "Conflict",
+          "Unknown"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:9661",
+        "name": "State=Ready",
+        "key": "cdd6f6279fddb645aee2128ca243a2a006b8e389"
+      },
+      {
+        "id": "15:9684",
+        "name": "State=Conflict",
+        "key": "770f0e06859267a28ad3ee9788948a0b5e8ae483"
+      },
+      {
+        "id": "15:9714",
+        "name": "State=Unknown",
+        "key": "e81041b3643a18b9c51ad6da5ef1a922293ad31a"
+      }
+    ]
+  },
+  {
+    "id": "15:9804",
+    "name": "RescheduleReview",
+    "key": "13c3774d37695809913916536de6feb551a9f19a",
+    "properties": {
+      "Title#15:2123": {
+        "type": "TEXT",
+        "defaultValue": "Review time change"
+      },
+      "Appointment#15:2124": {
+        "type": "TEXT",
+        "defaultValue": "Sara Alotaibi · Hydrafacial"
+      },
+      "Detail label#15:2125": {
+        "type": "TEXT",
+        "defaultValue": "Current time"
+      },
+      "Detail value#15:2126": {
+        "type": "TEXT",
+        "defaultValue": "28 Oct · 10:00–11:00"
+      },
+      "Detail label 2#15:2127": {
+        "type": "TEXT",
+        "defaultValue": "New time"
+      },
+      "Detail value 2#15:2128": {
+        "type": "TEXT",
+        "defaultValue": "29 Oct · 14:00–15:00"
+      },
+      "Action#15:2129": {
+        "type": "TEXT",
+        "defaultValue": "Back"
+      },
+      "Icon / triangle-alert 1#15:2131": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:9410",
+        "preferredValues": []
+      },
+      "Action 2 / Ready#20:958": {
+        "type": "TEXT",
+        "defaultValue": "Confirm change"
+      },
+      "Action 2 / Unknown#20:962": {
+        "type": "TEXT",
+        "defaultValue": "Check status"
+      },
+      "Notice / PolicyReview#20:966": {
+        "type": "TEXT",
+        "defaultValue": "Review the configured policy and financial consequence before confirming."
+      },
+      "Notice / Unknown#20:970": {
+        "type": "TEXT",
+        "defaultValue": "Checking the result. The outcome is not yet verified."
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Ready",
+        "variantOptions": [
+          "Ready",
+          "PolicyReview",
+          "Unknown"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:9745",
+        "name": "State=Ready",
+        "key": "ef3b41a0b09624e31be2f6452497ac10ff2ac0d4"
+      },
+      {
+        "id": "15:9760",
+        "name": "State=PolicyReview",
+        "key": "a6f75cc667585de5751519c6b75a442da8e15548"
+      },
+      {
+        "id": "15:9782",
+        "name": "State=Unknown",
+        "key": "90c906cb16e22f7e9f29578893990639621b809c"
+      }
+    ]
+  },
+  {
+    "id": "15:9867",
+    "name": "CancellationReview",
+    "key": "8c89ec201ae32af320fe611595efbdc466a702c2",
+    "properties": {
+      "Title#15:2163": {
+        "type": "TEXT",
+        "defaultValue": "Cancel appointment?"
+      },
+      "Appointment#15:2164": {
+        "type": "TEXT",
+        "defaultValue": "Sara Alotaibi · Hydrafacial"
+      },
+      "Detail label#15:2165": {
+        "type": "TEXT",
+        "defaultValue": "Current time"
+      },
+      "Detail value#15:2166": {
+        "type": "TEXT",
+        "defaultValue": "28 Oct · 10:00–11:00"
+      },
+      "Field label#15:2167": {
+        "type": "TEXT",
+        "defaultValue": "Reason"
+      },
+      "Field value#15:2168": {
+        "type": "TEXT",
+        "defaultValue": "Client requested cancellation"
+      },
+      "Action#15:2169": {
+        "type": "TEXT",
+        "defaultValue": "Keep appointment"
+      },
+      "Icon / triangle-alert 1#15:2171": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:9410",
+        "preferredValues": []
+      },
+      "Action 2 / Ready#20:974": {
+        "type": "TEXT",
+        "defaultValue": "Confirm change"
+      },
+      "Action 2 / Unknown#20:978": {
+        "type": "TEXT",
+        "defaultValue": "Check status"
+      },
+      "Notice / RefundReview#20:982": {
+        "type": "TEXT",
+        "defaultValue": "Review the configured policy and financial consequence before confirming."
+      },
+      "Notice / Unknown#20:986": {
+        "type": "TEXT",
+        "defaultValue": "Checking the result. The outcome is not yet verified."
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Ready",
+        "variantOptions": [
+          "Ready",
+          "RefundReview",
+          "Unknown"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:9805",
+        "name": "State=Ready",
+        "key": "f181beed1e445edd4d0739d3390d56dcf0361193"
+      },
+      {
+        "id": "15:9821",
+        "name": "State=RefundReview",
+        "key": "4881c72f5327f8b02a80d132eeaeb6ceb4d19996"
+      },
+      {
+        "id": "15:9844",
+        "name": "State=Unknown",
+        "key": "e2545a61ff6ca103ba3e190268ff7ede7cc40cb5"
+      }
+    ]
+  }
+]

@@ -1,0 +1,959 @@
+[
+  {
+    "id": "15:4571",
+    "name": "TextInput",
+    "key": "b3e3f8df3367e183105650a33bc9818128562a5d",
+    "properties": {
+      "Field label#15:13": {
+        "type": "TEXT",
+        "defaultValue": "Patient name"
+      },
+      "Error#15:15": {
+        "type": "TEXT",
+        "defaultValue": "Check this value and try again."
+      },
+      "Field value / Empty#20:108": {
+        "type": "TEXT",
+        "defaultValue": "Enter full name"
+      },
+      "Field value / Filled#20:115": {
+        "type": "TEXT",
+        "defaultValue": "Sara Alotaibi"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Empty",
+        "variantOptions": [
+          "Empty",
+          "Filled",
+          "Focus",
+          "Invalid",
+          "Disabled",
+          "ReadOnly"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:4540",
+        "name": "State=Empty",
+        "key": "e35c4aed03a3dbdd8f62804cb7f65632ec86e054"
+      },
+      {
+        "id": "15:4545",
+        "name": "State=Filled",
+        "key": "c3ea61a07a1e31ce84e107bd5bc5cb43920dfbe7"
+      },
+      {
+        "id": "15:4550",
+        "name": "State=Focus",
+        "key": "de4552c4b93ec1181fcf53a451c3705f357fa61d"
+      },
+      {
+        "id": "15:4555",
+        "name": "State=Invalid",
+        "key": "b6815490f21efb6b3b1345c46df0d6acbe8ddfc0"
+      },
+      {
+        "id": "15:4561",
+        "name": "State=Disabled",
+        "key": "ce155c7f650ba076a7183e72f0c5deb6daf58937"
+      },
+      {
+        "id": "15:4566",
+        "name": "State=ReadOnly",
+        "key": "700da94fd59096ac973e5696e5a667826b410d5c"
+      }
+    ]
+  },
+  {
+    "id": "15:4588",
+    "name": "TextArea",
+    "key": "b7af9aecf956be0551d438074d023d64dd63feec",
+    "properties": {
+      "Field label#15:28": {
+        "type": "TEXT",
+        "defaultValue": "Review note"
+      },
+      "Error#15:30": {
+        "type": "TEXT",
+        "defaultValue": "Check this value and try again."
+      },
+      "Field value / Empty#20:122": {
+        "type": "TEXT",
+        "defaultValue": "Add a reason for this change."
+      },
+      "Field value / Filled#20:126": {
+        "type": "TEXT",
+        "defaultValue": "The client requested a later appointment."
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Empty",
+        "variantOptions": [
+          "Empty",
+          "Filled",
+          "Invalid"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:4572",
+        "name": "State=Empty",
+        "key": "b9c39730ac6a525ee5f4c27927858a076e209823"
+      },
+      {
+        "id": "15:4577",
+        "name": "State=Filled",
+        "key": "cc511cbd68320983569ca641567e818971694f96"
+      },
+      {
+        "id": "15:4582",
+        "name": "State=Invalid",
+        "key": "a53705e041442469a127eb2a1197e2266b630288"
+      }
+    ]
+  },
+  {
+    "id": "15:4658",
+    "name": "SearchField",
+    "key": "87c63a043364ff34ffe3a8832ca6d41363d9e171",
+    "properties": {
+      "Field label#15:51": {
+        "type": "TEXT",
+        "defaultValue": "Search services"
+      },
+      "Icon / search 1#15:52": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:4593",
+        "preferredValues": []
+      },
+      "Clear search / x 2#15:54": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:4611",
+        "preferredValues": []
+      },
+      "Search status#15:55": {
+        "type": "TEXT",
+        "defaultValue": "Searching services…"
+      },
+      "Icon / triangle-alert 3#15:56": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:4647",
+        "preferredValues": []
+      },
+      "Notice#15:57": {
+        "type": "TEXT",
+        "defaultValue": "No services match your search. Clear the filters or try another name."
+      },
+      "Field value / Empty#20:130": {
+        "type": "TEXT",
+        "defaultValue": "Search by name"
+      },
+      "Field value / Query#20:135": {
+        "type": "TEXT",
+        "defaultValue": "Hydrafacial"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Empty",
+        "variantOptions": [
+          "Empty",
+          "Query",
+          "Searching",
+          "NoResults"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:4589",
+        "name": "State=Empty",
+        "key": "92ed13b32fcbaae3916fa16d6a793aff2536ebad"
+      },
+      {
+        "id": "15:4602",
+        "name": "State=Query",
+        "key": "87d4b4b7058ff3c7293f22a5076cf97229f7016c"
+      },
+      {
+        "id": "15:4619",
+        "name": "State=Searching",
+        "key": "fba10afe90118229088ab959447b12f49077b33b"
+      },
+      {
+        "id": "15:4633",
+        "name": "State=NoResults",
+        "key": "a6187647e7ac2b11037015bd1b1f2b19318f610f"
+      }
+    ]
+  },
+  {
+    "id": "15:4707",
+    "name": "Select",
+    "key": "a1e4600b30802de59f7ae7d11943c171c03bbeca",
+    "properties": {
+      "Field label#15:87": {
+        "type": "TEXT",
+        "defaultValue": "Category"
+      },
+      "Icon / chevron-down 1#15:89": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:4664",
+        "preferredValues": []
+      },
+      "Option#15:90": {
+        "type": "TEXT",
+        "defaultValue": "All categories"
+      },
+      "Option 2#15:91": {
+        "type": "TEXT",
+        "defaultValue": "Facials & skincare"
+      },
+      "Option 3#15:92": {
+        "type": "TEXT",
+        "defaultValue": "Consultations"
+      },
+      "Error#15:93": {
+        "type": "TEXT",
+        "defaultValue": "Check this value and try again."
+      },
+      "Field value / Empty#20:140": {
+        "type": "TEXT",
+        "defaultValue": "Choose a category"
+      },
+      "Field value / Selected#20:146": {
+        "type": "TEXT",
+        "defaultValue": "Facials & skincare"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Empty",
+        "variantOptions": [
+          "Empty",
+          "Selected",
+          "Open",
+          "Invalid",
+          "Disabled"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:4659",
+        "name": "State=Empty",
+        "key": "4eaf01c75b5d14acf13fb5b5f4d6ac929b1dbf42"
+      },
+      {
+        "id": "15:4670",
+        "name": "State=Selected",
+        "key": "09ca18985d0cff2d2e3db12c02ce6ad018ea4293"
+      },
+      {
+        "id": "15:4678",
+        "name": "State=Open",
+        "key": "c99018af39638d927e775e43a2f9274e9afdd401"
+      },
+      {
+        "id": "15:4690",
+        "name": "State=Invalid",
+        "key": "c98ff4c0feac7917f138f9efb5faa14f1a70a6a4"
+      },
+      {
+        "id": "15:4699",
+        "name": "State=Disabled",
+        "key": "6f05248f9d37dd23a9350acea64e5c70bc4f323a"
+      }
+    ]
+  },
+  {
+    "id": "15:4775",
+    "name": "Combobox",
+    "key": "0706ce4c6130bad55dc71c2435b6baed199003a9",
+    "properties": {
+      "Field label#15:131": {
+        "type": "TEXT",
+        "defaultValue": "Patient"
+      },
+      "Icon / search 1#15:132": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:4593",
+        "preferredValues": []
+      },
+      "Option#15:134": {
+        "type": "TEXT",
+        "defaultValue": "Sara Alotaibi · +966 55 123 4567"
+      },
+      "Option 2#15:135": {
+        "type": "TEXT",
+        "defaultValue": "Reem Alshammari · +966 55 765 4321"
+      },
+      "Icon / triangle-alert 2#15:136": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:4647",
+        "preferredValues": []
+      },
+      "Icon / circle-alert 2#15:138": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:4764",
+        "preferredValues": []
+      },
+      "Field value / Empty#20:152": {
+        "type": "TEXT",
+        "defaultValue": "Search by name or phone"
+      },
+      "Field value / Selected#20:158": {
+        "type": "TEXT",
+        "defaultValue": "Sara Alotaibi · CM-00428"
+      },
+      "Notice / NoResults#20:164": {
+        "type": "TEXT",
+        "defaultValue": "No matching patients. Check the name or phone."
+      },
+      "Notice / MissingRecord#20:170": {
+        "type": "TEXT",
+        "defaultValue": "This patient record is unavailable. Choose another patient."
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Empty",
+        "variantOptions": [
+          "Empty",
+          "Selected",
+          "Open",
+          "NoResults",
+          "MissingRecord"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:4708",
+        "name": "State=Empty",
+        "key": "1acf92710593a191d9f011ffe9a2578091facbfc"
+      },
+      {
+        "id": "15:4717",
+        "name": "State=Selected",
+        "key": "7c2a2bd001d19bfba906bb6220e2809f8673fe91"
+      },
+      {
+        "id": "15:4726",
+        "name": "State=Open",
+        "key": "75e53c20b999f81e0c09a62ae30b92fd9ef8b646"
+      },
+      {
+        "id": "15:4738",
+        "name": "State=NoResults",
+        "key": "8f32f7eb13ed65eb5da73aeb46eedfc141abf627"
+      },
+      {
+        "id": "15:4754",
+        "name": "State=MissingRecord",
+        "key": "00de4725839d6ac6e904334e1f3b5a512e2c858a"
+      }
+    ]
+  },
+  {
+    "id": "15:4804",
+    "name": "PhoneField",
+    "key": "f1102dda5971512da994247d708482050ba3080c",
+    "properties": {
+      "Field label#15:168": {
+        "type": "TEXT",
+        "defaultValue": "Phone number"
+      },
+      "Icon / phone 1#15:169": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:4780",
+        "preferredValues": []
+      },
+      "Error#15:171": {
+        "type": "TEXT",
+        "defaultValue": "Check this value and try again."
+      },
+      "Field value / Empty#20:176": {
+        "type": "TEXT",
+        "defaultValue": "+966 5X XXX XXXX"
+      },
+      "Field value / Filled#20:180": {
+        "type": "TEXT",
+        "defaultValue": "+966 55 123 4567"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Empty",
+        "variantOptions": [
+          "Empty",
+          "Filled",
+          "Invalid"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:4776",
+        "name": "State=Empty",
+        "key": "9ecc28ff8301315b1d9d17c1744488cfb994185f"
+      },
+      {
+        "id": "15:4787",
+        "name": "State=Filled",
+        "key": "0a834298a863b8877ad4a0408df9f7d094f0bdc9"
+      },
+      {
+        "id": "15:4795",
+        "name": "State=Invalid",
+        "key": "ccb741bdf6b101f04cca86d87b7c286752382e66"
+      }
+    ]
+  },
+  {
+    "id": "15:4821",
+    "name": "AmountField",
+    "key": "a74619809affd324f4868596753f4b728aa300e9",
+    "properties": {
+      "Field label#15:181": {
+        "type": "TEXT",
+        "defaultValue": "Amount"
+      },
+      "Error#15:183": {
+        "type": "TEXT",
+        "defaultValue": "Check this value and try again."
+      },
+      "Field value / Empty#20:184": {
+        "type": "TEXT",
+        "defaultValue": "0.00"
+      },
+      "Field value / Filled#20:188": {
+        "type": "TEXT",
+        "defaultValue": "SAR 650.00"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Empty",
+        "variantOptions": [
+          "Empty",
+          "Filled",
+          "Invalid"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:4805",
+        "name": "State=Empty",
+        "key": "39ff13d6ebf90fa00eba35a39a73a635c67ba293"
+      },
+      {
+        "id": "15:4810",
+        "name": "State=Filled",
+        "key": "d2d9f1ae92145b038832bba52a23a91e931bc30e"
+      },
+      {
+        "id": "15:4815",
+        "name": "State=Invalid",
+        "key": "984966b643c445bcc8900927f7fdeca88f9fe7a6"
+      }
+    ]
+  },
+  {
+    "id": "15:4856",
+    "name": "NumberField",
+    "key": "6a03e22e2dd6c551efb2240713e2ab43cf69ee36",
+    "properties": {
+      "Field label#15:202": {
+        "type": "TEXT",
+        "defaultValue": "Counted quantity"
+      },
+      "Action#15:204": {
+        "type": "TEXT",
+        "defaultValue": "−"
+      },
+      "Action 2#15:205": {
+        "type": "TEXT",
+        "defaultValue": "+"
+      },
+      "Recorded quantity#15:206": {
+        "type": "TEXT",
+        "defaultValue": "Recorded: 10 units"
+      },
+      "Error#15:207": {
+        "type": "TEXT",
+        "defaultValue": "Check this value and try again."
+      },
+      "Field value / Empty#20:192": {
+        "type": "TEXT",
+        "defaultValue": "Enter count"
+      },
+      "Field value / Filled#20:196": {
+        "type": "TEXT",
+        "defaultValue": "12 units"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Empty",
+        "variantOptions": [
+          "Empty",
+          "Filled",
+          "Invalid"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:4822",
+        "name": "State=Empty",
+        "key": "86857cd072189b9bfd5a9e1865bdb6788f78cca1"
+      },
+      {
+        "id": "15:4833",
+        "name": "State=Filled",
+        "key": "727e0acc85bfbe10908c22a52519c61dae65f44b"
+      },
+      {
+        "id": "15:4844",
+        "name": "State=Invalid",
+        "key": "5312c9cf933d373e46c36511f5b355b9776ea19e"
+      }
+    ]
+  },
+  {
+    "id": "15:4897",
+    "name": "DateField",
+    "key": "268b716efc85367256c6025bbaded979ab0907c8",
+    "properties": {
+      "Field label#15:220": {
+        "type": "TEXT",
+        "defaultValue": "Appointment date"
+      },
+      "Icon / calendar 1#15:222": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:4862",
+        "preferredValues": []
+      },
+      "Error#15:223": {
+        "type": "TEXT",
+        "defaultValue": "Check this value and try again."
+      },
+      "Field value / Empty#20:200": {
+        "type": "TEXT",
+        "defaultValue": "DD MMM YYYY"
+      },
+      "Field value / Filled#20:204": {
+        "type": "TEXT",
+        "defaultValue": "28 Oct 2026"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Empty",
+        "variantOptions": [
+          "Empty",
+          "Filled",
+          "Invalid"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:4857",
+        "name": "State=Empty",
+        "key": "cec15f39d6c95ea919776aa7fb607c24fe761a3c"
+      },
+      {
+        "id": "15:4874",
+        "name": "State=Filled",
+        "key": "848f3c2c8cfb0b719e99bcd6b887811f59c7e1ee"
+      },
+      {
+        "id": "15:4885",
+        "name": "State=Invalid",
+        "key": "b1fd0cb030334807d1d7255f9ad276cc0cac0dc2"
+      }
+    ]
+  },
+  {
+    "id": "15:4930",
+    "name": "TimeField",
+    "key": "d8900c17c1ae0efaae3b5ffc01915da29e94bf73",
+    "properties": {
+      "Field label#15:236": {
+        "type": "TEXT",
+        "defaultValue": "Start time"
+      },
+      "Icon / clock 1#15:237": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:4902",
+        "preferredValues": []
+      },
+      "Error#15:239": {
+        "type": "TEXT",
+        "defaultValue": "Check this value and try again."
+      },
+      "Field value / Empty#20:208": {
+        "type": "TEXT",
+        "defaultValue": "HH:mm"
+      },
+      "Field value / Filled#20:212": {
+        "type": "TEXT",
+        "defaultValue": "10:00 · Clinic time"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Empty",
+        "variantOptions": [
+          "Empty",
+          "Filled",
+          "Invalid"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:4898",
+        "name": "State=Empty",
+        "key": "0f2bda2237eb123143aab6f514389d8836502346"
+      },
+      {
+        "id": "15:4911",
+        "name": "State=Filled",
+        "key": "9ebd6da507bb78c94708d34a3de405dfb0fb3f11"
+      },
+      {
+        "id": "15:4920",
+        "name": "State=Invalid",
+        "key": "29cdd1a52edbf95477d24fe40b84d6850c7190e7"
+      }
+    ]
+  },
+  {
+    "id": "15:4965",
+    "name": "ColorInput",
+    "key": "c37fe8ce080374a692b8328cf80f45ce61041849",
+    "properties": {
+      "Field label#15:252": {
+        "type": "TEXT",
+        "defaultValue": "Calendar appearance"
+      },
+      "Action#15:254": {
+        "type": "TEXT",
+        "defaultValue": "Restore default"
+      },
+      "Error#15:255": {
+        "type": "TEXT",
+        "defaultValue": "Check this value and try again."
+      },
+      "Field value / Default#20:216": {
+        "type": "TEXT",
+        "defaultValue": "Default brand colors"
+      },
+      "Field value / Custom#20:220": {
+        "type": "TEXT",
+        "defaultValue": "#FFD8EB"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Default",
+        "variantOptions": [
+          "Default",
+          "Custom",
+          "Invalid"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:4931",
+        "name": "State=Default",
+        "key": "834004ba85204786c27b88196264caf865ac8361"
+      },
+      {
+        "id": "15:4942",
+        "name": "State=Custom",
+        "key": "ded578e193c490109eb7f201598cdc2328bc5d5d"
+      },
+      {
+        "id": "15:4953",
+        "name": "State=Invalid",
+        "key": "8f98e0407cb21e5534525983d003052edbfcc4c9"
+      }
+    ]
+  },
+  {
+    "id": "15:5050",
+    "name": "FileUpload",
+    "key": "45da1bc8ceb8d98da9bfddafb984bdc276587876",
+    "properties": {
+      "Icon / file-text 1#15:279": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:4968",
+        "preferredValues": []
+      },
+      "Title#15:280": {
+        "type": "TEXT",
+        "defaultValue": "Service image"
+      },
+      "Description#15:281": {
+        "type": "TEXT",
+        "defaultValue": "PNG or JPG · configured size limit"
+      },
+      "Icon / plus 2#15:282": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:4985",
+        "preferredValues": []
+      },
+      "Icon / circle-check 2#15:284": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:5006",
+        "preferredValues": []
+      },
+      "Error#15:285": {
+        "type": "TEXT",
+        "defaultValue": "This file type is not supported. Choose a PNG or JPG."
+      },
+      "File status / Empty#20:224": {
+        "type": "TEXT",
+        "defaultValue": "Choose an image"
+      },
+      "File status / Selected#20:229": {
+        "type": "TEXT",
+        "defaultValue": "service-photo.jpg"
+      },
+      "File status / Uploading#20:234": {
+        "type": "TEXT",
+        "defaultValue": "Uploading image…"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Empty",
+        "variantOptions": [
+          "Empty",
+          "Selected",
+          "Uploading",
+          "Invalid"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:4966",
+        "name": "State=Empty",
+        "key": "40662b227a49d20b8c1d55bdb579a66f46c78136"
+      },
+      {
+        "id": "15:4994",
+        "name": "State=Selected",
+        "key": "47884eb386f78bbea59bc4f2fc60d4d45e787102"
+      },
+      {
+        "id": "15:5015",
+        "name": "State=Uploading",
+        "key": "352a7bc4b4c40bb435e5c9575713292cdf1cce7d"
+      },
+      {
+        "id": "15:5032",
+        "name": "State=Invalid",
+        "key": "a46a00008297d92088e2cec8ed73d39051b11cbf"
+      }
+    ]
+  },
+  {
+    "id": "15:5127",
+    "name": "OtpInput",
+    "key": "23b61feb79574e8b2b1501fc175220a04aa1787a",
+    "properties": {
+      "Title#15:331": {
+        "type": "TEXT",
+        "defaultValue": "Verify your phone"
+      },
+      "Description#15:332": {
+        "type": "TEXT",
+        "defaultValue": "Enter the 6-digit code sent to your number."
+      },
+      "Action#15:340": {
+        "type": "TEXT",
+        "defaultValue": "Request a new code"
+      },
+      "Digit 1 / Empty#20:239": {
+        "type": "TEXT",
+        "defaultValue": "–"
+      },
+      "Digit 1 / Filled#20:244": {
+        "type": "TEXT",
+        "defaultValue": "4"
+      },
+      "Digit 2 / Empty#20:249": {
+        "type": "TEXT",
+        "defaultValue": "–"
+      },
+      "Digit 2 / Filled#20:254": {
+        "type": "TEXT",
+        "defaultValue": "8"
+      },
+      "Digit 3 / Empty#20:259": {
+        "type": "TEXT",
+        "defaultValue": "–"
+      },
+      "Digit 3 / Filled#20:264": {
+        "type": "TEXT",
+        "defaultValue": "2"
+      },
+      "Digit 4 / Empty#20:269": {
+        "type": "TEXT",
+        "defaultValue": "–"
+      },
+      "Digit 4 / Filled#20:274": {
+        "type": "TEXT",
+        "defaultValue": "6"
+      },
+      "Digit 5 / Empty#20:279": {
+        "type": "TEXT",
+        "defaultValue": "–"
+      },
+      "Digit 5 / Filled#20:284": {
+        "type": "TEXT",
+        "defaultValue": "1"
+      },
+      "Digit 6 / Empty#20:289": {
+        "type": "TEXT",
+        "defaultValue": "–"
+      },
+      "Digit 6 / Filled#20:294": {
+        "type": "TEXT",
+        "defaultValue": "9"
+      },
+      "Helper / Empty#20:299": {
+        "type": "TEXT",
+        "defaultValue": "Enter the six-digit code. You can paste it here."
+      },
+      "Helper / Invalid#20:304": {
+        "type": "TEXT",
+        "defaultValue": "The code is incorrect. Try again."
+      },
+      "Helper / Expired#20:309": {
+        "type": "TEXT",
+        "defaultValue": "The code expired. Request a new code."
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Empty",
+        "variantOptions": [
+          "Empty",
+          "Filled",
+          "Invalid",
+          "Expired"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:5051",
+        "name": "State=Empty",
+        "key": "70c1660dcc568a394a1da6927b2b466caae3c0b3"
+      },
+      {
+        "id": "15:5069",
+        "name": "State=Filled",
+        "key": "d56e5430048f12732ed593c8db2aff78f198ceae"
+      },
+      {
+        "id": "15:5087",
+        "name": "State=Invalid",
+        "key": "52054d0e81f26aed36a8ae0c92506008083654f6"
+      },
+      {
+        "id": "15:5107",
+        "name": "State=Expired",
+        "key": "780107c2f7265a2163ee0eae61009f1c9a669ba0"
+      }
+    ]
+  },
+  {
+    "id": "15:5173",
+    "name": "FormActions",
+    "key": "4390fb0f75b55398264c655e32e67619d948fabb",
+    "properties": {
+      "Status#15:360": {
+        "type": "TEXT",
+        "defaultValue": "You have unsaved changes."
+      },
+      "Icon / circle-alert 1#15:361": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:4764",
+        "preferredValues": []
+      },
+      "Icon / triangle-alert 1#15:363": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:4647",
+        "preferredValues": []
+      },
+      "Action / Clean#20:314": {
+        "type": "TEXT",
+        "defaultValue": "Save changes"
+      },
+      "Action / Pending#20:320": {
+        "type": "TEXT",
+        "defaultValue": "Saving…"
+      },
+      "Action / Unknown#20:326": {
+        "type": "TEXT",
+        "defaultValue": "Check status"
+      },
+      "Action 2 / Clean#20:332": {
+        "type": "TEXT",
+        "defaultValue": "Discard"
+      },
+      "Action 2 / Unknown#20:338": {
+        "type": "TEXT",
+        "defaultValue": "Back"
+      },
+      "Notice / Error#20:344": {
+        "type": "TEXT",
+        "defaultValue": "Could not save. Your entries are still here."
+      },
+      "Notice / Unknown#20:350": {
+        "type": "TEXT",
+        "defaultValue": "Checking the result. Do not submit again yet."
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Clean",
+        "variantOptions": [
+          "Clean",
+          "Dirty",
+          "Pending",
+          "Error",
+          "Unknown"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:5128",
+        "name": "State=Clean",
+        "key": "45f567560d8ab88123453bf394c5bb269471051f"
+      },
+      {
+        "id": "15:5134",
+        "name": "State=Dirty",
+        "key": "656c9a9aa1d30e466fb45c8f3e982be0f665d098"
+      },
+      {
+        "id": "15:5141",
+        "name": "State=Pending",
+        "key": "65b70997ddbb2b71bd3cfc2696895afcbf0d82ca"
+      },
+      {
+        "id": "15:5147",
+        "name": "State=Error",
+        "key": "366a7bf8dc4393b335eeaedd876c27a183e359b5"
+      },
+      {
+        "id": "15:5160",
+        "name": "State=Unknown",
+        "key": "7cc06843faf76a465905499c314f0fcc2b639b40"
+      }
+    ]
+  }
+]

@@ -1,0 +1,3114 @@
+{
+  "columns": [
+    "name",
+    "type",
+    "scopes",
+    "webSyntax",
+    "modeValues"
+  ],
+  "variables": [
+    [
+      "breakpoint/drawer",
+      "FLOAT",
+      "WIDTH_HEIGHT",
+      "var(--cl-breakpoint-drawer)",
+      [
+        [
+          "Value",
+          960
+        ]
+      ]
+    ],
+    [
+      "breakpoint/phone",
+      "FLOAT",
+      "WIDTH_HEIGHT",
+      "var(--cl-breakpoint-phone)",
+      [
+        [
+          "Value",
+          640
+        ]
+      ]
+    ],
+    [
+      "breakpoint/rail",
+      "FLOAT",
+      "WIDTH_HEIGHT",
+      "var(--cl-breakpoint-rail)",
+      [
+        [
+          "Value",
+          1200
+        ]
+      ]
+    ],
+    [
+      "color/action/destructive",
+      "COLOR",
+      "FRAME_FILL,SHAPE_FILL",
+      "var(--cl-color-action-destructive)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/error/text"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/action/destructive"
+        ]
+      ]
+    ],
+    [
+      "color/action/destructive-hover",
+      "COLOR",
+      "FRAME_FILL,SHAPE_FILL",
+      "var(--cl-color-action-destructive-hover)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/error/700"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/status/error/surface"
+        ]
+      ]
+    ],
+    [
+      "color/action/destructive-pressed",
+      "COLOR",
+      "FRAME_FILL,SHAPE_FILL",
+      "var(--cl-color-action-destructive-pressed)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/error/800"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/action/destructive-pressed"
+        ]
+      ]
+    ],
+    [
+      "color/action/disabled-bg",
+      "COLOR",
+      "FRAME_FILL,SHAPE_FILL",
+      "var(--cl-color-action-disabled-bg)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/gray/100"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/subtle"
+        ]
+      ]
+    ],
+    [
+      "color/action/disabled-text",
+      "COLOR",
+      "FRAME_FILL,SHAPE_FILL",
+      "var(--cl-color-action-disabled-text)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/completed/border"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/border"
+        ]
+      ]
+    ],
+    [
+      "color/action/hover",
+      "COLOR",
+      "FRAME_FILL,SHAPE_FILL",
+      "var(--cl-color-action-hover)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/dark/subtle"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/pink/100"
+        ]
+      ]
+    ],
+    [
+      "color/action/on-primary",
+      "COLOR",
+      "TEXT_FILL",
+      "var(--cl-color-action-on-primary)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/gray/0"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/status/info/text"
+        ]
+      ]
+    ],
+    [
+      "color/action/pressed",
+      "COLOR",
+      "FRAME_FILL,SHAPE_FILL",
+      "var(--cl-color-action-pressed)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/dark/base"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/pink/300"
+        ]
+      ]
+    ],
+    [
+      "color/action/primary",
+      "COLOR",
+      "FRAME_FILL,SHAPE_FILL",
+      "var(--cl-color-action-primary)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/info/text"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/brand/pink"
+        ]
+      ]
+    ],
+    [
+      "color/action/secondary-hover",
+      "COLOR",
+      "FRAME_FILL,SHAPE_FILL",
+      "var(--cl-color-action-secondary-hover)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/dark/text"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/subtle"
+        ]
+      ]
+    ],
+    [
+      "color/action/secondary-pressed",
+      "COLOR",
+      "FRAME_FILL,SHAPE_FILL",
+      "var(--cl-color-action-secondary-pressed)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/info/surface"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/slate/600"
+        ]
+      ]
+    ],
+    [
+      "color/appointment/active/border",
+      "COLOR",
+      "STROKE_COLOR",
+      "var(--cl-color-appointment-active-border)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/success/border"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/status/active/border"
+        ]
+      ]
+    ],
+    [
+      "color/appointment/active/surface",
+      "COLOR",
+      "FRAME_FILL,SHAPE_FILL",
+      "var(--cl-color-appointment-active-surface)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/success/surface"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/status/active/surface"
+        ]
+      ]
+    ],
+    [
+      "color/appointment/active/text",
+      "COLOR",
+      "TEXT_FILL",
+      "var(--cl-color-appointment-active-text)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/success/text"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/status/active/text"
+        ]
+      ]
+    ],
+    [
+      "color/appointment/completed/border",
+      "COLOR",
+      "STROKE_COLOR",
+      "var(--cl-color-appointment-completed-border)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/completed/border"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/slate/300"
+        ]
+      ]
+    ],
+    [
+      "color/appointment/completed/surface",
+      "COLOR",
+      "FRAME_FILL,SHAPE_FILL",
+      "var(--cl-color-appointment-completed-surface)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/completed/surface"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/subtle"
+        ]
+      ]
+    ],
+    [
+      "color/appointment/completed/text",
+      "COLOR",
+      "TEXT_FILL",
+      "var(--cl-color-appointment-completed-text)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/completed/text"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/status/info/surface"
+        ]
+      ]
+    ],
+    [
+      "color/appointment/confirmed/border",
+      "COLOR",
+      "STROKE_COLOR",
+      "var(--cl-color-appointment-confirmed-border)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/confirmed/border"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/status/confirmed/border"
+        ]
+      ]
+    ],
+    [
+      "color/appointment/confirmed/surface",
+      "COLOR",
+      "FRAME_FILL,SHAPE_FILL",
+      "var(--cl-color-appointment-confirmed-surface)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/confirmed/surface"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/status/confirmed/surface"
+        ]
+      ]
+    ],
+    [
+      "color/appointment/confirmed/text",
+      "COLOR",
+      "TEXT_FILL",
+      "var(--cl-color-appointment-confirmed-text)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/confirmed/text"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/status/confirmed/text"
+        ]
+      ]
+    ],
+    [
+      "color/bg/brand",
+      "COLOR",
+      "FRAME_FILL,SHAPE_FILL",
+      "var(--cl-color-bg-brand)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/pink/50"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/pink/900"
+        ]
+      ]
+    ],
+    [
+      "color/bg/canvas",
+      "COLOR",
+      "FRAME_FILL,SHAPE_FILL",
+      "var(--cl-color-bg-canvas)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/gray/50"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/canvas"
+        ]
+      ]
+    ],
+    [
+      "color/bg/hover",
+      "COLOR",
+      "FRAME_FILL,SHAPE_FILL",
+      "var(--cl-color-bg-hover)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/dark/text"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/subtle"
+        ]
+      ]
+    ],
+    [
+      "color/bg/inverse",
+      "COLOR",
+      "FRAME_FILL,SHAPE_FILL",
+      "var(--cl-color-bg-inverse)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/dark/canvas"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/text"
+        ]
+      ]
+    ],
+    [
+      "color/bg/selected",
+      "COLOR",
+      "FRAME_FILL,SHAPE_FILL",
+      "var(--cl-color-bg-selected)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/pink/100"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/pink/800"
+        ]
+      ]
+    ],
+    [
+      "color/bg/subtle",
+      "COLOR",
+      "FRAME_FILL,SHAPE_FILL",
+      "var(--cl-color-bg-subtle)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/gray/100"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/subtle"
+        ]
+      ]
+    ],
+    [
+      "color/bg/surface",
+      "COLOR",
+      "FRAME_FILL,SHAPE_FILL",
+      "var(--cl-color-bg-surface)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/gray/0"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/base"
+        ]
+      ]
+    ],
+    [
+      "color/border/control",
+      "COLOR",
+      "STROKE_COLOR",
+      "var(--cl-color-border-control)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/completed/border"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/border"
+        ]
+      ]
+    ],
+    [
+      "color/border/hover",
+      "COLOR",
+      "STROKE_COLOR",
+      "var(--cl-color-border-hover)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/slate/600"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/slate/300"
+        ]
+      ]
+    ],
+    [
+      "color/border/strong",
+      "COLOR",
+      "STROKE_COLOR",
+      "var(--cl-color-border-strong)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/info/border"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/slate/300"
+        ]
+      ]
+    ],
+    [
+      "color/border/subtle",
+      "COLOR",
+      "STROKE_COLOR",
+      "var(--cl-color-border-subtle)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/gray/200"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/slate/600"
+        ]
+      ]
+    ],
+    [
+      "color/focus/ring",
+      "COLOR",
+      "STROKE_COLOR",
+      "var(--cl-color-focus-ring)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/info/text"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/brand/pink"
+        ]
+      ]
+    ],
+    [
+      "color/overlay/scrim",
+      "COLOR",
+      "FRAME_FILL,SHAPE_FILL",
+      "var(--cl-color-overlay-scrim)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/dark/canvas"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/gray/1000"
+        ]
+      ]
+    ],
+    [
+      "color/status/active/border",
+      "COLOR",
+      "STROKE_COLOR",
+      "var(--cl-color-status-active-border)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/success/border"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/status/active/border"
+        ]
+      ]
+    ],
+    [
+      "color/status/active/surface",
+      "COLOR",
+      "FRAME_FILL,SHAPE_FILL",
+      "var(--cl-color-status-active-surface)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/success/surface"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/status/active/surface"
+        ]
+      ]
+    ],
+    [
+      "color/status/active/text",
+      "COLOR",
+      "TEXT_FILL",
+      "var(--cl-color-status-active-text)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/success/text"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/status/active/text"
+        ]
+      ]
+    ],
+    [
+      "color/status/completed/border",
+      "COLOR",
+      "STROKE_COLOR",
+      "var(--cl-color-status-completed-border)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/completed/border"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/slate/300"
+        ]
+      ]
+    ],
+    [
+      "color/status/completed/surface",
+      "COLOR",
+      "FRAME_FILL,SHAPE_FILL",
+      "var(--cl-color-status-completed-surface)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/completed/surface"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/subtle"
+        ]
+      ]
+    ],
+    [
+      "color/status/completed/text",
+      "COLOR",
+      "TEXT_FILL",
+      "var(--cl-color-status-completed-text)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/completed/text"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/status/info/surface"
+        ]
+      ]
+    ],
+    [
+      "color/status/confirmed/border",
+      "COLOR",
+      "STROKE_COLOR",
+      "var(--cl-color-status-confirmed-border)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/confirmed/border"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/status/confirmed/border"
+        ]
+      ]
+    ],
+    [
+      "color/status/confirmed/surface",
+      "COLOR",
+      "FRAME_FILL,SHAPE_FILL",
+      "var(--cl-color-status-confirmed-surface)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/confirmed/surface"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/status/confirmed/surface"
+        ]
+      ]
+    ],
+    [
+      "color/status/confirmed/text",
+      "COLOR",
+      "TEXT_FILL",
+      "var(--cl-color-status-confirmed-text)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/confirmed/text"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/status/confirmed/text"
+        ]
+      ]
+    ],
+    [
+      "color/status/error/border",
+      "COLOR",
+      "STROKE_COLOR",
+      "var(--cl-color-status-error-border)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/error/border"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/status/error/border"
+        ]
+      ]
+    ],
+    [
+      "color/status/error/surface",
+      "COLOR",
+      "FRAME_FILL,SHAPE_FILL",
+      "var(--cl-color-status-error-surface)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/error/surface"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/status/error/surface"
+        ]
+      ]
+    ],
+    [
+      "color/status/error/text",
+      "COLOR",
+      "TEXT_FILL",
+      "var(--cl-color-status-error-text)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/error/text"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/action/destructive"
+        ]
+      ]
+    ],
+    [
+      "color/status/info/border",
+      "COLOR",
+      "STROKE_COLOR",
+      "var(--cl-color-status-info-border)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/info/border"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/border"
+        ]
+      ]
+    ],
+    [
+      "color/status/info/surface",
+      "COLOR",
+      "FRAME_FILL,SHAPE_FILL",
+      "var(--cl-color-status-info-surface)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/info/surface"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/subtle"
+        ]
+      ]
+    ],
+    [
+      "color/status/info/text",
+      "COLOR",
+      "TEXT_FILL",
+      "var(--cl-color-status-info-text)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/info/text"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/secondary"
+        ]
+      ]
+    ],
+    [
+      "color/status/success/border",
+      "COLOR",
+      "STROKE_COLOR",
+      "var(--cl-color-status-success-border)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/success/border"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/status/active/border"
+        ]
+      ]
+    ],
+    [
+      "color/status/success/surface",
+      "COLOR",
+      "FRAME_FILL,SHAPE_FILL",
+      "var(--cl-color-status-success-surface)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/success/surface"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/status/active/surface"
+        ]
+      ]
+    ],
+    [
+      "color/status/success/text",
+      "COLOR",
+      "TEXT_FILL",
+      "var(--cl-color-status-success-text)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/success/text"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/status/active/text"
+        ]
+      ]
+    ],
+    [
+      "color/status/warning/border",
+      "COLOR",
+      "STROKE_COLOR",
+      "var(--cl-color-status-warning-border)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/warning/border"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/status/warning/border"
+        ]
+      ]
+    ],
+    [
+      "color/status/warning/surface",
+      "COLOR",
+      "FRAME_FILL,SHAPE_FILL",
+      "var(--cl-color-status-warning-surface)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/warning/surface"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/status/warning/surface"
+        ]
+      ]
+    ],
+    [
+      "color/status/warning/text",
+      "COLOR",
+      "TEXT_FILL",
+      "var(--cl-color-status-warning-text)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/warning/text"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/status/warning/text"
+        ]
+      ]
+    ],
+    [
+      "color/text/brand-accent",
+      "COLOR",
+      "TEXT_FILL",
+      "var(--cl-color-text-brand-accent)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/pink/700"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/brand/pink"
+        ]
+      ]
+    ],
+    [
+      "color/text/heading",
+      "COLOR",
+      "TEXT_FILL",
+      "var(--cl-color-text-heading)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/info/text"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/text"
+        ]
+      ]
+    ],
+    [
+      "color/text/inverse",
+      "COLOR",
+      "TEXT_FILL",
+      "var(--cl-color-text-inverse)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/gray/0"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/canvas"
+        ]
+      ]
+    ],
+    [
+      "color/text/link",
+      "COLOR",
+      "TEXT_FILL",
+      "var(--cl-color-text-link)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/status/info/text"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/brand/pink"
+        ]
+      ]
+    ],
+    [
+      "color/text/placeholder",
+      "COLOR",
+      "TEXT_FILL",
+      "var(--cl-color-text-placeholder)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/gray/600"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/secondary"
+        ]
+      ]
+    ],
+    [
+      "color/text/primary",
+      "COLOR",
+      "TEXT_FILL",
+      "var(--cl-color-text-primary)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/gray/900"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/text"
+        ]
+      ]
+    ],
+    [
+      "color/text/secondary",
+      "COLOR",
+      "TEXT_FILL",
+      "var(--cl-color-text-secondary)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/gray/600"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/secondary"
+        ]
+      ]
+    ],
+    [
+      "color/text/tertiary",
+      "COLOR",
+      "TEXT_FILL",
+      "var(--cl-color-text-tertiary)",
+      [
+        [
+          "Light",
+          "alias:primitive/color/gray/600"
+        ],
+        [
+          "Dark",
+          "alias:primitive/color/dark/secondary"
+        ]
+      ]
+    ],
+    [
+      "component/button/background",
+      "COLOR",
+      "FRAME_FILL,SHAPE_FILL",
+      "var(--cl-component-button-background)",
+      [
+        [
+          "Value",
+          "alias:color/action/primary"
+        ]
+      ]
+    ],
+    [
+      "component/button/foreground",
+      "COLOR",
+      "TEXT_FILL",
+      "var(--cl-component-button-foreground)",
+      [
+        [
+          "Value",
+          "alias:color/action/on-primary"
+        ]
+      ]
+    ],
+    [
+      "component/button/height",
+      "FLOAT",
+      "WIDTH_HEIGHT",
+      "var(--cl-component-button-height)",
+      [
+        [
+          "Value",
+          "alias:height/control"
+        ]
+      ]
+    ],
+    [
+      "component/button/padding",
+      "FLOAT",
+      "GAP",
+      "var(--cl-component-button-padding)",
+      [
+        [
+          "Value",
+          "alias:space/16"
+        ]
+      ]
+    ],
+    [
+      "component/button/radius",
+      "FLOAT",
+      "CORNER_RADIUS",
+      "var(--cl-component-button-radius)",
+      [
+        [
+          "Value",
+          "alias:radius/8"
+        ]
+      ]
+    ],
+    [
+      "component/card/padding",
+      "FLOAT",
+      "GAP",
+      "var(--cl-component-card-padding)",
+      [
+        [
+          "Value",
+          "alias:space/24"
+        ]
+      ]
+    ],
+    [
+      "component/card/radius",
+      "FLOAT",
+      "CORNER_RADIUS",
+      "var(--cl-component-card-radius)",
+      [
+        [
+          "Value",
+          "alias:radius/12"
+        ]
+      ]
+    ],
+    [
+      "component/dialog/padding",
+      "FLOAT",
+      "GAP",
+      "var(--cl-component-dialog-padding)",
+      [
+        [
+          "Value",
+          "alias:space/24"
+        ]
+      ]
+    ],
+    [
+      "component/dialog/radius",
+      "FLOAT",
+      "CORNER_RADIUS",
+      "var(--cl-component-dialog-radius)",
+      [
+        [
+          "Value",
+          "alias:radius/16"
+        ]
+      ]
+    ],
+    [
+      "component/field/background",
+      "COLOR",
+      "FRAME_FILL,SHAPE_FILL",
+      "var(--cl-component-field-background)",
+      [
+        [
+          "Value",
+          "alias:color/bg/surface"
+        ]
+      ]
+    ],
+    [
+      "component/field/border",
+      "COLOR",
+      "STROKE_COLOR",
+      "var(--cl-component-field-border)",
+      [
+        [
+          "Value",
+          "alias:color/border/control"
+        ]
+      ]
+    ],
+    [
+      "component/field/foreground",
+      "COLOR",
+      "TEXT_FILL",
+      "var(--cl-component-field-foreground)",
+      [
+        [
+          "Value",
+          "alias:color/text/primary"
+        ]
+      ]
+    ],
+    [
+      "component/field/height",
+      "FLOAT",
+      "WIDTH_HEIGHT",
+      "var(--cl-component-field-height)",
+      [
+        [
+          "Value",
+          "alias:height/control"
+        ]
+      ]
+    ],
+    [
+      "component/field/radius",
+      "FLOAT",
+      "CORNER_RADIUS",
+      "var(--cl-component-field-radius)",
+      [
+        [
+          "Value",
+          "alias:radius/8"
+        ]
+      ]
+    ],
+    [
+      "component/nav/selected",
+      "COLOR",
+      "FRAME_FILL,SHAPE_FILL",
+      "var(--cl-component-nav-selected)",
+      [
+        [
+          "Value",
+          "alias:color/bg/selected"
+        ]
+      ]
+    ],
+    [
+      "focus/offset",
+      "FLOAT",
+      "WIDTH_HEIGHT",
+      "var(--cl-focus-offset)",
+      [
+        [
+          "Value",
+          2
+        ]
+      ]
+    ],
+    [
+      "height/comfortable",
+      "FLOAT",
+      "WIDTH_HEIGHT",
+      "var(--cl-height-comfortable)",
+      [
+        [
+          "Value",
+          48
+        ]
+      ]
+    ],
+    [
+      "height/compact",
+      "FLOAT",
+      "WIDTH_HEIGHT",
+      "var(--cl-height-compact)",
+      [
+        [
+          "Value",
+          36
+        ]
+      ]
+    ],
+    [
+      "height/control",
+      "FLOAT",
+      "WIDTH_HEIGHT",
+      "var(--cl-height-control)",
+      [
+        [
+          "Value",
+          44
+        ]
+      ]
+    ],
+    [
+      "height/row",
+      "FLOAT",
+      "WIDTH_HEIGHT",
+      "var(--cl-height-row)",
+      [
+        [
+          "Value",
+          64
+        ]
+      ]
+    ],
+    [
+      "layer/backdrop",
+      "FLOAT",
+      "",
+      "var(--cl-layer-backdrop)",
+      [
+        [
+          "Value",
+          40
+        ]
+      ]
+    ],
+    [
+      "layer/base",
+      "FLOAT",
+      "",
+      "var(--cl-layer-base)",
+      [
+        [
+          "Value",
+          0
+        ]
+      ]
+    ],
+    [
+      "layer/dialog",
+      "FLOAT",
+      "",
+      "var(--cl-layer-dialog)",
+      [
+        [
+          "Value",
+          50
+        ]
+      ]
+    ],
+    [
+      "layer/popover",
+      "FLOAT",
+      "",
+      "var(--cl-layer-popover)",
+      [
+        [
+          "Value",
+          30
+        ]
+      ]
+    ],
+    [
+      "layer/sticky",
+      "FLOAT",
+      "",
+      "var(--cl-layer-sticky)",
+      [
+        [
+          "Value",
+          20
+        ]
+      ]
+    ],
+    [
+      "layer/toast",
+      "FLOAT",
+      "",
+      "var(--cl-layer-toast)",
+      [
+        [
+          "Value",
+          60
+        ]
+      ]
+    ],
+    [
+      "layer/tooltip",
+      "FLOAT",
+      "",
+      "var(--cl-layer-tooltip)",
+      [
+        [
+          "Value",
+          70
+        ]
+      ]
+    ],
+    [
+      "motion/enter-ms",
+      "FLOAT",
+      "WIDTH_HEIGHT",
+      "var(--cl-motion-enter-ms)",
+      [
+        [
+          "Value",
+          180
+        ]
+      ]
+    ],
+    [
+      "motion/exit-ms",
+      "FLOAT",
+      "WIDTH_HEIGHT",
+      "var(--cl-motion-exit-ms)",
+      [
+        [
+          "Value",
+          120
+        ]
+      ]
+    ],
+    [
+      "motion/fast-ms",
+      "FLOAT",
+      "WIDTH_HEIGHT",
+      "var(--cl-motion-fast-ms)",
+      [
+        [
+          "Value",
+          120
+        ]
+      ]
+    ],
+    [
+      "opacity/disabled",
+      "FLOAT",
+      "OPACITY",
+      "var(--cl-opacity-disabled)",
+      [
+        [
+          "Value",
+          0.5
+        ]
+      ]
+    ],
+    [
+      "primitive/color/brand/pink",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-brand-pink)",
+      [
+        [
+          "Value",
+          {
+            "r": 1,
+            "g": 0.8470588326454163,
+            "b": 0.9215686321258545,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/brand/slate",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-brand-slate)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.1764705926179886,
+            "g": 0.24313725531101227,
+            "b": 0.35686275362968445,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/dark/action/destructive",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-dark-action-destructive)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.9686274528503418,
+            "g": 0.7215686440467834,
+            "b": 0.6901960968971252,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/dark/action/destructive-pressed",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-dark-action-destructive-pressed)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.9019607901573181,
+            "g": 0.6274510025978088,
+            "b": 0.5921568870544434,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/dark/base",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-dark-base)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.10588235408067703,
+            "g": 0.14901961386203766,
+            "b": 0.2235294133424759,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/dark/border",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-dark-border)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.501960813999176,
+            "g": 0.5764706134796143,
+            "b": 0.686274528503418,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/dark/canvas",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-dark-canvas)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.07058823853731155,
+            "g": 0.10196078568696976,
+            "b": 0.1568627506494522,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/dark/secondary",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-dark-secondary)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.800000011920929,
+            "g": 0.8313725590705872,
+            "b": 0.8784313797950745,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/dark/status/active/border",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-dark-status-active-border)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.48235294222831726,
+            "g": 0.6627451181411743,
+            "b": 0.5411764979362488,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/dark/status/active/surface",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-dark-status-active-surface)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.11372549086809158,
+            "g": 0.2078431397676468,
+            "b": 0.16078431904315948,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/dark/status/active/text",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-dark-status-active-text)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.7137255072593689,
+            "g": 0.8901960849761963,
+            "b": 0.772549033164978,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/dark/status/confirmed/border",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-dark-status-confirmed-border)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.7254902124404907,
+            "g": 0.5882353186607361,
+            "b": 0.8156862854957581,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/dark/status/confirmed/surface",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-dark-status-confirmed-surface)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.19607843458652496,
+            "g": 0.1568627506494522,
+            "b": 0.24313725531101227,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/dark/status/confirmed/text",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-dark-status-confirmed-text)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.9019607901573181,
+            "g": 0.8117647171020508,
+            "b": 0.9686274528503418,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/dark/status/error/border",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-dark-status-error-border)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.8196078538894653,
+            "g": 0.5411764979362488,
+            "b": 0.5098039507865906,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/dark/status/error/surface",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-dark-status-error-surface)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.2666666805744171,
+            "g": 0.14509804546833038,
+            "b": 0.12941177189350128,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/dark/status/warning/border",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-dark-status-warning-border)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.7607843279838562,
+            "g": 0.6313725709915161,
+            "b": 0.3960784375667572,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/dark/status/warning/surface",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-dark-status-warning-surface)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.239215686917305,
+            "g": 0.1882352977991104,
+            "b": 0.10196078568696976,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/dark/status/warning/text",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-dark-status-warning-text)",
+      [
+        [
+          "Value",
+          {
+            "r": 1,
+            "g": 0.8784313797950745,
+            "b": 0.6392157077789307,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/dark/subtle",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-dark-subtle)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.1411764770746231,
+            "g": 0.19607843458652496,
+            "b": 0.29019609093666077,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/dark/text",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-dark-text)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.95686274766922,
+            "g": 0.9647058844566345,
+            "b": 0.9764705896377563,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/error/700",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-error-700)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.4901960790157318,
+            "g": 0.1882352977991104,
+            "b": 0.16078431904315948,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/error/800",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-error-800)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.3960784375667572,
+            "g": 0.14509804546833038,
+            "b": 0.12156862765550613,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/gray/0",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-gray-0)",
+      [
+        [
+          "Value",
+          {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/gray/100",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-gray-100)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.9607843160629272,
+            "g": 0.9607843160629272,
+            "b": 0.9607843160629272,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/gray/1000",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-gray-1000)",
+      [
+        [
+          "Value",
+          {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/gray/200",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-gray-200)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.8941176533699036,
+            "g": 0.8941176533699036,
+            "b": 0.8941176533699036,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/gray/300",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-gray-300)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.800000011920929,
+            "g": 0.800000011920929,
+            "b": 0.800000011920929,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/gray/400",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-gray-400)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.5803921818733215,
+            "g": 0.5803921818733215,
+            "b": 0.5803921818733215,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/gray/50",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-gray-50)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.9803921580314636,
+            "g": 0.9803921580314636,
+            "b": 0.9803921580314636,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/gray/500",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-gray-500)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.4588235318660736,
+            "g": 0.4588235318660736,
+            "b": 0.4588235318660736,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/gray/600",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-gray-600)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.3803921639919281,
+            "g": 0.3803921639919281,
+            "b": 0.3803921639919281,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/gray/700",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-gray-700)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.27843138575553894,
+            "g": 0.27843138575553894,
+            "b": 0.27843138575553894,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/gray/800",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-gray-800)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.1882352977991104,
+            "g": 0.1882352977991104,
+            "b": 0.1882352977991104,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/gray/900",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-gray-900)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.125490203499794,
+            "g": 0.125490203499794,
+            "b": 0.125490203499794,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/gray/950",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-gray-950)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.07058823853731155,
+            "g": 0.07058823853731155,
+            "b": 0.07058823853731155,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/pink/100",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-pink-100)",
+      [
+        [
+          "Value",
+          {
+            "r": 1,
+            "g": 0.9215686321258545,
+            "b": 0.9607843160629272,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/pink/200",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-pink-200)",
+      [
+        [
+          "Value",
+          {
+            "r": 1,
+            "g": 0.8470588326454163,
+            "b": 0.9215686321258545,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/pink/300",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-pink-300)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.9019607901573181,
+            "g": 0.7019608020782471,
+            "b": 0.8039215803146362,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/pink/400",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-pink-400)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.7843137383460999,
+            "g": 0.5529412031173706,
+            "b": 0.6666666865348816,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/pink/50",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-pink-50)",
+      [
+        [
+          "Value",
+          {
+            "r": 1,
+            "g": 0.9686274528503418,
+            "b": 0.9843137264251709,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/pink/500",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-pink-500)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.6509804129600525,
+            "g": 0.4156862795352936,
+            "b": 0.529411792755127,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/pink/600",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-pink-600)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.529411792755127,
+            "g": 0.32549020648002625,
+            "b": 0.42352941632270813,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/pink/700",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-pink-700)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.4117647111415863,
+            "g": 0.24313725531101227,
+            "b": 0.32549020648002625,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/pink/800",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-pink-800)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.3019607961177826,
+            "g": 0.1725490242242813,
+            "b": 0.23529411852359772,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/pink/900",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-pink-900)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.19607843458652496,
+            "g": 0.10980392247438431,
+            "b": 0.15294118225574493,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/pink/950",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-pink-950)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.12941177189350128,
+            "g": 0.07058823853731155,
+            "b": 0.10196078568696976,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/slate/100",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-slate-100)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.9058823585510254,
+            "g": 0.9215686321258545,
+            "b": 0.9450980424880981,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/slate/200",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-slate-200)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.800000011920929,
+            "g": 0.8313725590705872,
+            "b": 0.8784313797950745,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/slate/300",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-slate-300)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.658823549747467,
+            "g": 0.7137255072593689,
+            "b": 0.7921568751335144,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/slate/400",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-slate-400)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.501960813999176,
+            "g": 0.5764706134796143,
+            "b": 0.686274528503418,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/slate/50",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-slate-50)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.95686274766922,
+            "g": 0.9647058844566345,
+            "b": 0.9764705896377563,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/slate/500",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-slate-500)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.3764705955982208,
+            "g": 0.4627451002597809,
+            "b": 0.5803921818733215,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/slate/600",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-slate-600)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.2705882489681244,
+            "g": 0.3607843220233917,
+            "b": 0.4901960790157318,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/slate/700",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-slate-700)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.1764705926179886,
+            "g": 0.24313725531101227,
+            "b": 0.35686275362968445,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/slate/800",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-slate-800)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.1411764770746231,
+            "g": 0.19607843458652496,
+            "b": 0.29019609093666077,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/slate/900",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-slate-900)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.10588235408067703,
+            "g": 0.14901961386203766,
+            "b": 0.2235294133424759,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/slate/950",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-slate-950)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.07058823853731155,
+            "g": 0.10196078568696976,
+            "b": 0.1568627506494522,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/status/active/border",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-status-active-border)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.2980392277240753,
+            "g": 0.48627451062202454,
+            "b": 0.3803921639919281,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/status/active/surface",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-status-active-surface)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.9019607901573181,
+            "g": 0.9490196108818054,
+            "b": 0.9215686321258545,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/status/active/text",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-status-active-text)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.1568627506494522,
+            "g": 0.35686275362968445,
+            "b": 0.250980406999588,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/status/completed/border",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-status-completed-border)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.4588235318660736,
+            "g": 0.4588235318660736,
+            "b": 0.4588235318660736,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/status/completed/surface",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-status-completed-surface)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.9411764740943909,
+            "g": 0.9411764740943909,
+            "b": 0.9411764740943909,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/status/completed/text",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-status-completed-text)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.27843138575553894,
+            "g": 0.27843138575553894,
+            "b": 0.27843138575553894,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/status/confirmed/border",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-status-confirmed-border)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.501960813999176,
+            "g": 0.38823530077934265,
+            "b": 0.5803921818733215,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/status/confirmed/surface",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-status-confirmed-surface)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.9411764740943909,
+            "g": 0.9176470637321472,
+            "b": 0.9686274528503418,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/status/confirmed/text",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-status-confirmed-text)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.3764705955982208,
+            "g": 0.25882354378700256,
+            "b": 0.47843137383461,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/status/error/border",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-status-error-border)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.6941176652908325,
+            "g": 0.3176470696926117,
+            "b": 0.2823529541492462,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/status/error/surface",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-status-error-surface)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.9843137264251709,
+            "g": 0.9176470637321472,
+            "b": 0.9098039269447327,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/status/error/text",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-status-error-text)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.5882353186607361,
+            "g": 0.24705882370471954,
+            "b": 0.21176470816135406,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/status/info/border",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-status-info-border)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.3764705955982208,
+            "g": 0.4627451002597809,
+            "b": 0.5803921818733215,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/status/info/surface",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-status-info-surface)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.9058823585510254,
+            "g": 0.9215686321258545,
+            "b": 0.9450980424880981,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/status/info/text",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-status-info-text)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.1764705926179886,
+            "g": 0.24313725531101227,
+            "b": 0.35686275362968445,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/status/success/border",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-status-success-border)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.2980392277240753,
+            "g": 0.48627451062202454,
+            "b": 0.3803921639919281,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/status/success/surface",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-status-success-surface)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.9019607901573181,
+            "g": 0.9490196108818054,
+            "b": 0.9215686321258545,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/status/success/text",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-status-success-text)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.1568627506494522,
+            "g": 0.35686275362968445,
+            "b": 0.250980406999588,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/status/warning/border",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-status-warning-border)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.5882353186607361,
+            "g": 0.4431372582912445,
+            "b": 0.15294118225574493,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/status/warning/surface",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-status-warning-surface)",
+      [
+        [
+          "Value",
+          {
+            "r": 1,
+            "g": 0.9529411792755127,
+            "b": 0.8509804010391235,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "primitive/color/status/warning/text",
+      "COLOR",
+      "",
+      "var(--cl-primitive-color-status-warning-text)",
+      [
+        [
+          "Value",
+          {
+            "r": 0.4627451002597809,
+            "g": 0.3333333432674408,
+            "b": 0.11372549086809158,
+            "a": 1
+          }
+        ]
+      ]
+    ],
+    [
+      "radius/0",
+      "FLOAT",
+      "CORNER_RADIUS",
+      "var(--cl-radius-0)",
+      [
+        [
+          "Value",
+          0
+        ]
+      ]
+    ],
+    [
+      "radius/12",
+      "FLOAT",
+      "CORNER_RADIUS",
+      "var(--cl-radius-12)",
+      [
+        [
+          "Value",
+          12
+        ]
+      ]
+    ],
+    [
+      "radius/16",
+      "FLOAT",
+      "CORNER_RADIUS",
+      "var(--cl-radius-16)",
+      [
+        [
+          "Value",
+          16
+        ]
+      ]
+    ],
+    [
+      "radius/4",
+      "FLOAT",
+      "CORNER_RADIUS",
+      "var(--cl-radius-4)",
+      [
+        [
+          "Value",
+          4
+        ]
+      ]
+    ],
+    [
+      "radius/8",
+      "FLOAT",
+      "CORNER_RADIUS",
+      "var(--cl-radius-8)",
+      [
+        [
+          "Value",
+          8
+        ]
+      ]
+    ],
+    [
+      "radius/9999",
+      "FLOAT",
+      "CORNER_RADIUS",
+      "var(--cl-radius-9999)",
+      [
+        [
+          "Value",
+          9999
+        ]
+      ]
+    ],
+    [
+      "size/icon",
+      "FLOAT",
+      "WIDTH_HEIGHT",
+      "var(--cl-size-icon)",
+      [
+        [
+          "Value",
+          20
+        ]
+      ]
+    ],
+    [
+      "size/icon-large",
+      "FLOAT",
+      "WIDTH_HEIGHT",
+      "var(--cl-size-icon-large)",
+      [
+        [
+          "Value",
+          24
+        ]
+      ]
+    ],
+    [
+      "size/icon-small",
+      "FLOAT",
+      "WIDTH_HEIGHT",
+      "var(--cl-size-icon-small)",
+      [
+        [
+          "Value",
+          16
+        ]
+      ]
+    ],
+    [
+      "size/target",
+      "FLOAT",
+      "WIDTH_HEIGHT",
+      "var(--cl-size-target)",
+      [
+        [
+          "Value",
+          44
+        ]
+      ]
+    ],
+    [
+      "space/0",
+      "FLOAT",
+      "GAP",
+      "var(--cl-space-0)",
+      [
+        [
+          "Value",
+          0
+        ]
+      ]
+    ],
+    [
+      "space/12",
+      "FLOAT",
+      "GAP",
+      "var(--cl-space-12)",
+      [
+        [
+          "Value",
+          12
+        ]
+      ]
+    ],
+    [
+      "space/16",
+      "FLOAT",
+      "GAP",
+      "var(--cl-space-16)",
+      [
+        [
+          "Value",
+          16
+        ]
+      ]
+    ],
+    [
+      "space/20",
+      "FLOAT",
+      "GAP",
+      "var(--cl-space-20)",
+      [
+        [
+          "Value",
+          20
+        ]
+      ]
+    ],
+    [
+      "space/24",
+      "FLOAT",
+      "GAP",
+      "var(--cl-space-24)",
+      [
+        [
+          "Value",
+          24
+        ]
+      ]
+    ],
+    [
+      "space/32",
+      "FLOAT",
+      "GAP",
+      "var(--cl-space-32)",
+      [
+        [
+          "Value",
+          32
+        ]
+      ]
+    ],
+    [
+      "space/4",
+      "FLOAT",
+      "GAP",
+      "var(--cl-space-4)",
+      [
+        [
+          "Value",
+          4
+        ]
+      ]
+    ],
+    [
+      "space/40",
+      "FLOAT",
+      "GAP",
+      "var(--cl-space-40)",
+      [
+        [
+          "Value",
+          40
+        ]
+      ]
+    ],
+    [
+      "space/48",
+      "FLOAT",
+      "GAP",
+      "var(--cl-space-48)",
+      [
+        [
+          "Value",
+          48
+        ]
+      ]
+    ],
+    [
+      "space/64",
+      "FLOAT",
+      "GAP",
+      "var(--cl-space-64)",
+      [
+        [
+          "Value",
+          64
+        ]
+      ]
+    ],
+    [
+      "space/8",
+      "FLOAT",
+      "GAP",
+      "var(--cl-space-8)",
+      [
+        [
+          "Value",
+          8
+        ]
+      ]
+    ],
+    [
+      "space/80",
+      "FLOAT",
+      "GAP",
+      "var(--cl-space-80)",
+      [
+        [
+          "Value",
+          80
+        ]
+      ]
+    ],
+    [
+      "space/96",
+      "FLOAT",
+      "GAP",
+      "var(--cl-space-96)",
+      [
+        [
+          "Value",
+          96
+        ]
+      ]
+    ],
+    [
+      "stroke/default",
+      "FLOAT",
+      "STROKE_FLOAT",
+      "var(--cl-stroke-default)",
+      [
+        [
+          "Value",
+          1
+        ]
+      ]
+    ],
+    [
+      "stroke/focus",
+      "FLOAT",
+      "STROKE_FLOAT",
+      "var(--cl-stroke-focus)",
+      [
+        [
+          "Value",
+          2
+        ]
+      ]
+    ],
+    [
+      "width/container",
+      "FLOAT",
+      "WIDTH_HEIGHT",
+      "var(--cl-width-container)",
+      [
+        [
+          "Value",
+          1440
+        ]
+      ]
+    ],
+    [
+      "width/form",
+      "FLOAT",
+      "WIDTH_HEIGHT",
+      "var(--cl-width-form)",
+      [
+        [
+          "Value",
+          640
+        ]
+      ]
+    ],
+    [
+      "width/panel",
+      "FLOAT",
+      "WIDTH_HEIGHT",
+      "var(--cl-width-panel)",
+      [
+        [
+          "Value",
+          380
+        ]
+      ]
+    ],
+    [
+      "width/rail",
+      "FLOAT",
+      "WIDTH_HEIGHT",
+      "var(--cl-width-rail)",
+      [
+        [
+          "Value",
+          72
+        ]
+      ]
+    ],
+    [
+      "width/sidebar",
+      "FLOAT",
+      "WIDTH_HEIGHT",
+      "var(--cl-width-sidebar)",
+      [
+        [
+          "Value",
+          240
+        ]
+      ]
+    ]
+  ]
+}

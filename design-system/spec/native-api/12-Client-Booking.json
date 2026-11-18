@@ -1,0 +1,861 @@
+[
+  {
+    "id": "15:14091",
+    "name": "ServiceCard",
+    "key": "4794c8cca79191bcecd8b33973583706661dbf99",
+    "properties": {
+      "Title#15:3468": {
+        "type": "TEXT",
+        "defaultValue": "Hydrafacial"
+      },
+      "Description#15:3469": {
+        "type": "TEXT",
+        "defaultValue": "Facials & skincare"
+      },
+      "Description 2#15:3470": {
+        "type": "TEXT",
+        "defaultValue": "Choose the available treatment option that suits your visit."
+      },
+      "Icon / clock 1#15:3471": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:14049",
+        "preferredValues": []
+      },
+      "Duration#15:3472": {
+        "type": "TEXT",
+        "defaultValue": "60 min"
+      },
+      "Price#15:3473": {
+        "type": "TEXT",
+        "defaultValue": "From SAR 650"
+      },
+      "Status#15:3475": {
+        "type": "TEXT",
+        "defaultValue": "Selected"
+      },
+      "Action / Default#20:1697": {
+        "type": "TEXT",
+        "defaultValue": "View treatment"
+      },
+      "Action / Unavailable#20:1701": {
+        "type": "TEXT",
+        "defaultValue": "Choose another service"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Default",
+        "variantOptions": [
+          "Default",
+          "Selected",
+          "Unavailable"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:14043",
+        "name": "State=Default",
+        "key": "f0c5265ab8e88fbaa0540c9f756d0fad0a87063e"
+      },
+      {
+        "id": "15:14061",
+        "name": "State=Selected",
+        "key": "9294ba6681cda3bb5d14f635c98f34f672e3be62"
+      },
+      {
+        "id": "15:14077",
+        "name": "State=Unavailable",
+        "key": "1c927b0c83bd90bf7aa99e7746d111c1f0f9da85"
+      }
+    ]
+  },
+  {
+    "id": "15:14124",
+    "name": "PractitionerCard",
+    "key": "543266304be8fcb1e11cbbee83ddae22e830a699",
+    "properties": {
+      "Initials#15:3494": {
+        "type": "TEXT",
+        "defaultValue": "GG"
+      },
+      "Name#15:3495": {
+        "type": "TEXT",
+        "defaultValue": "Dr. Gigi"
+      },
+      "Role#15:3496": {
+        "type": "TEXT",
+        "defaultValue": "Clinic practitioner"
+      },
+      "Status#15:3499": {
+        "type": "TEXT",
+        "defaultValue": "Selected"
+      },
+      "Availability / Available#20:1705": {
+        "type": "TEXT",
+        "defaultValue": "View available appointment times."
+      },
+      "Availability / Unavailable#20:1709": {
+        "type": "TEXT",
+        "defaultValue": "No available times on this date."
+      },
+      "Action / Available#20:1713": {
+        "type": "TEXT",
+        "defaultValue": "Choose practitioner"
+      },
+      "Action / Unavailable#20:1717": {
+        "type": "TEXT",
+        "defaultValue": "Choose another date"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Available",
+        "variantOptions": [
+          "Available",
+          "Selected",
+          "Unavailable"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:14092",
+        "name": "State=Available",
+        "key": "746d04ad489baf38386b3e82a9d79432df8af386"
+      },
+      {
+        "id": "15:14102",
+        "name": "State=Selected",
+        "key": "c4891af432bf61a43d3f270c0508d80e5dad0f8b"
+      },
+      {
+        "id": "15:14114",
+        "name": "State=Unavailable",
+        "key": "45585adad0d1ff2eb2a4069b0cc49ac9c2b19a61"
+      }
+    ]
+  },
+  {
+    "id": "15:14155",
+    "name": "BookingProgress",
+    "key": "b7de3eabd3db9ca636245b948867a32a6f8ed7b2",
+    "properties": {
+      "Title#15:3517": {
+        "type": "TEXT",
+        "defaultValue": "Book your appointment"
+      },
+      "Stage#15:3518": {
+        "type": "TEXT",
+        "defaultValue": "Service"
+      },
+      "Stage 2#15:3519": {
+        "type": "TEXT",
+        "defaultValue": "Time"
+      },
+      "Stage 3#15:3520": {
+        "type": "TEXT",
+        "defaultValue": "Review"
+      },
+      "Back behavior#15:3521": {
+        "type": "TEXT",
+        "defaultValue": "Your selections remain available when you go back."
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Service",
+        "variantOptions": [
+          "Service",
+          "Time",
+          "Review"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:14125",
+        "name": "State=Service",
+        "key": "bf7d4eb964156b96cb556a582d0242020ac79f92"
+      },
+      {
+        "id": "15:14135",
+        "name": "State=Time",
+        "key": "216ca0e88f1968b9b86292da830b4e33dc71d071"
+      },
+      {
+        "id": "15:14145",
+        "name": "State=Review",
+        "key": "ecfee6d62d30c2494e615578e8a59d4898c8712a"
+      }
+    ]
+  },
+  {
+    "id": "15:14229",
+    "name": "AvailabilityPanel",
+    "key": "778c42b1d9eb79072a7c3afccbaa8df1670630e1",
+    "properties": {
+      "Icon / calendar 1#15:3544": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:14158",
+        "preferredValues": []
+      },
+      "Title#15:3545": {
+        "type": "TEXT",
+        "defaultValue": "Choose a time"
+      },
+      "Description#15:3546": {
+        "type": "TEXT",
+        "defaultValue": "Wednesday, 28 October · Clinic time GMT+3"
+      },
+      "Time#15:3547": {
+        "type": "TEXT",
+        "defaultValue": "09:00"
+      },
+      "Time 2#15:3548": {
+        "type": "TEXT",
+        "defaultValue": "10:00"
+      },
+      "Time 3#15:3549": {
+        "type": "TEXT",
+        "defaultValue": "11:30"
+      },
+      "Time 4#15:3550": {
+        "type": "TEXT",
+        "defaultValue": "14:00"
+      },
+      "Empty#15:3551": {
+        "type": "TEXT",
+        "defaultValue": "No times are available on this date."
+      },
+      "Icon / triangle-alert 2#15:3553": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:14216",
+        "preferredValues": []
+      },
+      "Notice#15:3554": {
+        "type": "TEXT",
+        "defaultValue": "Availability may have changed. Recheck before continuing."
+      },
+      "Action / None#20:1721": {
+        "type": "TEXT",
+        "defaultValue": "View other dates"
+      },
+      "Action / Stale#20:1725": {
+        "type": "TEXT",
+        "defaultValue": "Refresh availability"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Available",
+        "variantOptions": [
+          "Available",
+          "None",
+          "Stale"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:14156",
+        "name": "State=Available",
+        "key": "c0501e5175fd46d7e6b90fa49bb55e80ec56a30b"
+      },
+      {
+        "id": "15:14182",
+        "name": "State=None",
+        "key": "2873692556eb200ef1e55f7648ceab474c6428c2"
+      },
+      {
+        "id": "15:14195",
+        "name": "State=Stale",
+        "key": "86010ff26e47694ed7a78bdd4cccca403283d506"
+      }
+    ]
+  },
+  {
+    "id": "15:14313",
+    "name": "BookingDetailsForm",
+    "key": "cb53b6080da0b77a27b14ccdfca7ef8c178323b0",
+    "properties": {
+      "Title#15:3600": {
+        "type": "TEXT",
+        "defaultValue": "Your details"
+      },
+      "Description#15:3601": {
+        "type": "TEXT",
+        "defaultValue": "We’ll use these details for your appointment."
+      },
+      "Field label#15:3602": {
+        "type": "TEXT",
+        "defaultValue": "Full name"
+      },
+      "Field label 2#15:3604": {
+        "type": "TEXT",
+        "defaultValue": "Phone number"
+      },
+      "Icon / phone 1#15:3605": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:14241",
+        "preferredValues": []
+      },
+      "Field label 3#15:3607": {
+        "type": "TEXT",
+        "defaultValue": "Email (optional)"
+      },
+      "Icon / mail 2#15:3608": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:14251",
+        "preferredValues": []
+      },
+      "Action#15:3610": {
+        "type": "TEXT",
+        "defaultValue": "Review appointment"
+      },
+      "Error#15:3611": {
+        "type": "TEXT",
+        "defaultValue": "Enter your full name."
+      },
+      "Field value / Empty#20:1729": {
+        "type": "TEXT",
+        "defaultValue": "Enter your name"
+      },
+      "Field value / Filled#20:1733": {
+        "type": "TEXT",
+        "defaultValue": "Sara Alotaibi"
+      },
+      "Field value / Invalid#20:1737": {
+        "type": "TEXT",
+        "defaultValue": ""
+      },
+      "Field value 2 / Empty#20:1741": {
+        "type": "TEXT",
+        "defaultValue": "+966 5X XXX XXXX"
+      },
+      "Field value 2 / Filled#20:1745": {
+        "type": "TEXT",
+        "defaultValue": "+966 55 123 4567"
+      },
+      "Field value 3 / Empty#20:1749": {
+        "type": "TEXT",
+        "defaultValue": "name@example.com"
+      },
+      "Field value 3 / Filled#20:1753": {
+        "type": "TEXT",
+        "defaultValue": "sara@example.com"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Empty",
+        "variantOptions": [
+          "Empty",
+          "Filled",
+          "Invalid"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:14230",
+        "name": "State=Empty",
+        "key": "a34a11d4f0309c31cc58b484e5bc2f81f1934556"
+      },
+      {
+        "id": "15:14262",
+        "name": "State=Filled",
+        "key": "e8f8daf0368987043c66e11f327d87e41bdd30ff"
+      },
+      {
+        "id": "15:14287",
+        "name": "State=Invalid",
+        "key": "75795a94f2576a56b22e589d8f4bed038442511f"
+      }
+    ]
+  },
+  {
+    "id": "15:14381",
+    "name": "PolicyDisclosure",
+    "key": "b197ac6c87c265e257103cc793aa30296f3c9eb0",
+    "properties": {
+      "Icon / file-text 1#15:3630": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:14316",
+        "preferredValues": []
+      },
+      "Title#15:3631": {
+        "type": "TEXT",
+        "defaultValue": "Booking and cancellation policy"
+      },
+      "Icon / chevron-down 2#15:3632": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:14331",
+        "preferredValues": []
+      },
+      "Policy summary#15:3633": {
+        "type": "TEXT",
+        "defaultValue": "Review the clinic’s published deposit, cancellation, and refund terms before confirming your appointment."
+      },
+      "Action#15:3634": {
+        "type": "TEXT",
+        "defaultValue": "View full policy"
+      },
+      "Checklist label#15:3635": {
+        "type": "TEXT",
+        "defaultValue": "I have read the booking policy"
+      },
+      "Icon / check 3#15:3636": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:14374",
+        "preferredValues": []
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Collapsed",
+        "variantOptions": [
+          "Collapsed",
+          "Expanded",
+          "Acknowledged"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:14314",
+        "name": "State=Collapsed",
+        "key": "7565fb91362da241e08a1cfca817a7edabb1a363"
+      },
+      {
+        "id": "15:14337",
+        "name": "State=Expanded",
+        "key": "d9d6fbaf4a3149b242b8175e7da193718719793f"
+      },
+      {
+        "id": "15:14356",
+        "name": "State=Acknowledged",
+        "key": "4e6eb15badf1149f787c6ae3f5ab847c73288e40"
+      }
+    ]
+  },
+  {
+    "id": "15:14460",
+    "name": "BookingOutcome",
+    "key": "dc5587d2bc9a2bf0bd2feeab82992fdc217a9e10",
+    "properties": {
+      "Icon / calendar 1#15:3678": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:14158",
+        "preferredValues": []
+      },
+      "Detail label#15:3681": {
+        "type": "TEXT",
+        "defaultValue": "Service"
+      },
+      "Detail value#15:3682": {
+        "type": "TEXT",
+        "defaultValue": "Hydrafacial"
+      },
+      "Detail label 2#15:3683": {
+        "type": "TEXT",
+        "defaultValue": "Time"
+      },
+      "Detail value 2#15:3684": {
+        "type": "TEXT",
+        "defaultValue": "28 Oct · 10:00–11:00"
+      },
+      "Reference#15:3685": {
+        "type": "TEXT",
+        "defaultValue": "Reference: CL-DEMO-428"
+      },
+      "Icon / circle-check 1#15:3687": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:14401",
+        "preferredValues": []
+      },
+      "Icon / loader-circle 1#15:3688": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:14421",
+        "preferredValues": []
+      },
+      "Icon / circle-alert 1#15:3689": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:14439",
+        "preferredValues": []
+      },
+      "Title / RequestReceived#20:1757": {
+        "type": "TEXT",
+        "defaultValue": "Your request was received"
+      },
+      "Title / Confirmed#20:1762": {
+        "type": "TEXT",
+        "defaultValue": "Your appointment is confirmed"
+      },
+      "Title / Unknown#20:1767": {
+        "type": "TEXT",
+        "defaultValue": "We’re checking your booking"
+      },
+      "Title / Failed#20:1772": {
+        "type": "TEXT",
+        "defaultValue": "We couldn’t complete the booking"
+      },
+      "Outcome / RequestReceived#20:1777": {
+        "type": "TEXT",
+        "defaultValue": "The clinic will confirm the appointment after reviewing your request."
+      },
+      "Outcome / Confirmed#20:1782": {
+        "type": "TEXT",
+        "defaultValue": "We look forward to seeing you."
+      },
+      "Outcome / Unknown#20:1787": {
+        "type": "TEXT",
+        "defaultValue": "Do not book again yet. Check your booking status first."
+      },
+      "Outcome / Failed#20:1792": {
+        "type": "TEXT",
+        "defaultValue": "Your selections are still available in this flow. Choose another time or try again."
+      },
+      "Action / RequestReceived#20:1797": {
+        "type": "TEXT",
+        "defaultValue": "View appointment"
+      },
+      "Action / Unknown#20:1802": {
+        "type": "TEXT",
+        "defaultValue": "Check booking status"
+      },
+      "Action / Failed#20:1807": {
+        "type": "TEXT",
+        "defaultValue": "Review your selections"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "RequestReceived",
+        "variantOptions": [
+          "RequestReceived",
+          "Confirmed",
+          "Unknown",
+          "Failed"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:14382",
+        "name": "State=RequestReceived",
+        "key": "917e74661fcee054950d16efab615a448d6aef49"
+      },
+      {
+        "id": "15:14400",
+        "name": "State=Confirmed",
+        "key": "e98acf1bc0663ca2c34f5259a73ffd36f17783fe"
+      },
+      {
+        "id": "15:14420",
+        "name": "State=Unknown",
+        "key": "d74a625165fa9662e92eaf8f2a5a583222e71d8c"
+      },
+      {
+        "id": "15:14438",
+        "name": "State=Failed",
+        "key": "60c310434894e79c64c82207531f9f8d5494014d"
+      }
+    ]
+  },
+  {
+    "id": "15:14503",
+    "name": "MyAppointment",
+    "key": "d3b7e3f0614aedd9042e67c76d643c9b5d343798",
+    "properties": {
+      "Title#15:3725": {
+        "type": "TEXT",
+        "defaultValue": "Hydrafacial"
+      },
+      "Description#15:3726": {
+        "type": "TEXT",
+        "defaultValue": "Nothing Major · Dr. Gigi"
+      },
+      "Time#15:3727": {
+        "type": "TEXT",
+        "defaultValue": "28 Oct 2026 · 10:00–11:00"
+      },
+      "Detail label#15:3729": {
+        "type": "TEXT",
+        "defaultValue": "Payment"
+      },
+      "Detail value#15:3730": {
+        "type": "TEXT",
+        "defaultValue": "SAR 650 · Unpaid"
+      },
+      "Action 2#15:3732": {
+        "type": "TEXT",
+        "defaultValue": "Cancel"
+      },
+      "Status / Upcoming#20:1812": {
+        "type": "TEXT",
+        "defaultValue": "Confirmed"
+      },
+      "Status / Pending#20:1816": {
+        "type": "TEXT",
+        "defaultValue": "Pending confirmation"
+      },
+      "Status / Completed#20:1820": {
+        "type": "TEXT",
+        "defaultValue": "Completed"
+      },
+      "Action / Upcoming#20:1824": {
+        "type": "TEXT",
+        "defaultValue": "Reschedule"
+      },
+      "Action / Completed#20:1828": {
+        "type": "TEXT",
+        "defaultValue": "View visit details"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Upcoming",
+        "variantOptions": [
+          "Upcoming",
+          "Pending",
+          "Completed"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:14461",
+        "name": "State=Upcoming",
+        "key": "2bd75731b8c3e040e0ec1859dc07e99ddbede589"
+      },
+      {
+        "id": "15:14476",
+        "name": "State=Pending",
+        "key": "1ae394e2c91c6a86b9f48ae65f40740cf3b538c0"
+      },
+      {
+        "id": "15:14491",
+        "name": "State=Completed",
+        "key": "c2d73020c69519f067f4437a5e6abd2e68cf1a7f"
+      }
+    ]
+  },
+  {
+    "id": "15:14521",
+    "name": "ClinicContact",
+    "key": "bf2b44f370345d9ce98ed844f63d356519f41c23",
+    "properties": {
+      "Icon / phone 1#15:3742": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:14241",
+        "preferredValues": []
+      },
+      "Missing contact#15:3745": {
+        "type": "TEXT",
+        "defaultValue": "Clinic contact details are not currently available."
+      },
+      "Action#15:3746": {
+        "type": "TEXT",
+        "defaultValue": "View my appointments"
+      },
+      "Title / Details#20:1832": {
+        "type": "TEXT",
+        "defaultValue": "Nothing Major"
+      },
+      "Title / Support#20:1835": {
+        "type": "TEXT",
+        "defaultValue": "Need help with your booking?"
+      },
+      "Contact context / Details#20:1838": {
+        "type": "TEXT",
+        "defaultValue": "Contact the clinic for location and appointment details. Verified contact information will appear here when available."
+      },
+      "Contact context / Support#20:1841": {
+        "type": "TEXT",
+        "defaultValue": "Check your appointment status before starting another booking. Contact the clinic if you need assistance."
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Details",
+        "variantOptions": [
+          "Details",
+          "Support"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:14504",
+        "name": "State=Details",
+        "key": "163ed82cd2cdbf3d2114c9de4441f33feb0706f3"
+      },
+      {
+        "id": "15:14512",
+        "name": "State=Support",
+        "key": "be807eba544a7881c4edab661b1a83e9d03cc8ed"
+      }
+    ]
+  },
+  {
+    "id": "15:14574",
+    "name": "ClientReceipt",
+    "key": "c116c143708aae18f76934f57427412d90bfad11",
+    "properties": {
+      "Icon / file-text 1#15:3775": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:14316",
+        "preferredValues": []
+      },
+      "Description#15:3777": {
+        "type": "TEXT",
+        "defaultValue": "Sample record · CL-DEMO-428"
+      },
+      "Detail label#15:3778": {
+        "type": "TEXT",
+        "defaultValue": "Service"
+      },
+      "Detail value#15:3779": {
+        "type": "TEXT",
+        "defaultValue": "Hydrafacial"
+      },
+      "Detail label 2#15:3780": {
+        "type": "TEXT",
+        "defaultValue": "Appointment"
+      },
+      "Detail value 2#15:3781": {
+        "type": "TEXT",
+        "defaultValue": "28 Oct · 10:00"
+      },
+      "Detail label 3#15:3782": {
+        "type": "TEXT",
+        "defaultValue": "Recorded payment"
+      },
+      "Detail value 3#15:3783": {
+        "type": "TEXT",
+        "defaultValue": "SAR 250"
+      },
+      "Detail label 4#15:3784": {
+        "type": "TEXT",
+        "defaultValue": "Remaining balance"
+      },
+      "Detail value 4#15:3785": {
+        "type": "TEXT",
+        "defaultValue": "SAR 400"
+      },
+      "Boundary#15:3786": {
+        "type": "TEXT",
+        "defaultValue": "Payment records and appointment status are separate."
+      },
+      "Action#15:3787": {
+        "type": "TEXT",
+        "defaultValue": "View appointment"
+      },
+      "Title / Payment#20:1844": {
+        "type": "TEXT",
+        "defaultValue": "Payment receipt"
+      },
+      "Title / History#20:1847": {
+        "type": "TEXT",
+        "defaultValue": "Booking history"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Payment",
+        "variantOptions": [
+          "Payment",
+          "History"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:14522",
+        "name": "State=Payment",
+        "key": "536f2ca672809dc5bd88954550e4cac7b43c7893"
+      },
+      {
+        "id": "15:14548",
+        "name": "State=History",
+        "key": "29ff154d8d6bff4e3a7f5f1b758921fa491a7482"
+      }
+    ]
+  },
+  {
+    "id": "15:14656",
+    "name": "IntakeReadiness",
+    "key": "87a42d551d9fa628d975837b4d4f98642afc463b",
+    "properties": {
+      "Icon / file-text 1#15:3814": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:14316",
+        "preferredValues": []
+      },
+      "Title#15:3815": {
+        "type": "TEXT",
+        "defaultValue": "Before your visit"
+      },
+      "Checklist label#15:3816": {
+        "type": "TEXT",
+        "defaultValue": "Your details"
+      },
+      "Checklist label 2#15:3817": {
+        "type": "TEXT",
+        "defaultValue": "Health information submitted"
+      },
+      "Checklist label 3#15:3818": {
+        "type": "TEXT",
+        "defaultValue": "Reviewed by the care team"
+      },
+      "Readiness boundary#15:3820": {
+        "type": "TEXT",
+        "defaultValue": "Submitting information does not mean your clinical review is complete."
+      },
+      "Icon / check 2#15:3821": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:14374",
+        "preferredValues": []
+      },
+      "Icon / check 3#15:3822": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:14374",
+        "preferredValues": []
+      },
+      "Icon / check 4#15:3823": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:14374",
+        "preferredValues": []
+      },
+      "Status / NotStarted#20:1850": {
+        "type": "TEXT",
+        "defaultValue": "Not started"
+      },
+      "Status / Submitted#20:1854": {
+        "type": "TEXT",
+        "defaultValue": "Submitted · awaiting review"
+      },
+      "Status / Reviewed#20:1858": {
+        "type": "TEXT",
+        "defaultValue": "Reviewed"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "NotStarted",
+        "variantOptions": [
+          "NotStarted",
+          "Submitted",
+          "Reviewed"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:14575",
+        "name": "State=NotStarted",
+        "key": "ed69dc06f1ea59070b9ab32d2996ce33b95cd056"
+      },
+      {
+        "id": "15:14597",
+        "name": "State=Submitted",
+        "key": "e1294b0c81d03a646f277b101a5015eb18c9d679"
+      },
+      {
+        "id": "15:14625",
+        "name": "State=Reviewed",
+        "key": "262e3a597cd8d3147fc348ad886ab0f6a53a3742"
+      }
+    ]
+  }
+]

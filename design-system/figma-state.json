@@ -1,0 +1,40 @@
+{
+  "runId": "clinime-20261026",
+  "scope": "full-library",
+  "planKey": "team::1447485899851080021",
+  "files": {
+    "foundations": {
+      "key": "v9NxSvKhuMenLZMZI837rJ",
+      "url": "https://www.figma.com/design/v9NxSvKhuMenLZMZI837rJ"
+    },
+    "icons": {
+      "key": "9fPYn0NQQvvtDj9dwLZ8Tb",
+      "url": "https://www.figma.com/design/9fPYn0NQQvvtDj9dwLZ8Tb"
+    },
+    "components": {
+      "key": "5WVoJPHxwLqvhiy72BoRs9",
+      "url": "https://www.figma.com/design/5WVoJPHxwLqvhiy72BoRs9"
+    }
+  },
+  "completedSteps": [
+    "source-and-live-audit",
+    "native-foundations",
+    "native158icons",
+    "role-and-client-compositions",
+    "native-token-parity",
+    "portable-exports",
+    "native114families407variants",
+    "all407default-instance-comparisons",
+    "icons501path-and-158source-comparisons",
+    "twelve-page-foundation-default-visual-review"
+  ],
+  "activeSkills": [
+    "Pixilated kit",
+    "figma-use",
+    "figma-generate-library",
+    "Playwright"
+  ],
+  "sessionId": "3f74a63d-ae2c-4569-bd23-f4d7dea7762e",
+  "status": "reviewed_with_documented_limits",
+  "published": false
+}

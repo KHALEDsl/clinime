@@ -1,0 +1,75 @@
+{
+  "$description": "Clinime v2 component tokens, exported from verified native variables. Merge global, one theme, and component sets.",
+  "component": {
+    "button": {
+      "background": {
+        "$type": "color",
+        "$value": "{color.action.primary}"
+      },
+      "foreground": {
+        "$type": "color",
+        "$value": "{color.action.on-primary}"
+      },
+      "height": {
+        "$type": "dimension",
+        "$value": "{height.control}"
+      },
+      "padding": {
+        "$type": "dimension",
+        "$value": "{space.16}"
+      },
+      "radius": {
+        "$type": "dimension",
+        "$value": "{radius.8}"
+      }
+    },
+    "card": {
+      "padding": {
+        "$type": "dimension",
+        "$value": "{space.24}"
+      },
+      "radius": {
+        "$type": "dimension",
+        "$value": "{radius.12}"
+      }
+    },
+    "dialog": {
+      "padding": {
+        "$type": "dimension",
+        "$value": "{space.24}"
+      },
+      "radius": {
+        "$type": "dimension",
+        "$value": "{radius.16}"
+      }
+    },
+    "field": {
+      "background": {
+        "$type": "color",
+        "$value": "{color.bg.surface}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{color.border.control}"
+      },
+      "foreground": {
+        "$type": "color",
+        "$value": "{color.text.primary}"
+      },
+      "height": {
+        "$type": "dimension",
+        "$value": "{height.control}"
+      },
+      "radius": {
+        "$type": "dimension",
+        "$value": "{radius.8}"
+      }
+    },
+    "nav": {
+      "selected": {
+        "$type": "color",
+        "$value": "{color.bg.selected}"
+      }
+    }
+  }
+}

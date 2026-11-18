@@ -1,0 +1,767 @@
+[
+  {
+    "id": "15:8160",
+    "name": "Avatar",
+    "key": "5642b4b8e654e2bc98b056bb888f6884fa146697",
+    "properties": {
+      "Initials 2#15:1033": {
+        "type": "TEXT",
+        "defaultValue": "RA"
+      },
+      "Initials 3#15:1034": {
+        "type": "TEXT",
+        "defaultValue": "+2"
+      },
+      "Initials / Initials#19:0": {
+        "type": "TEXT",
+        "defaultValue": "SA"
+      },
+      "Initials / Fallback#19:4": {
+        "type": "TEXT",
+        "defaultValue": "?"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Initials",
+        "variantOptions": [
+          "Initials",
+          "Fallback",
+          "Group"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:8147",
+        "name": "State=Initials",
+        "key": "40ad1a133c7bc50c16e41029950bf4cab4c16ff9"
+      },
+      {
+        "id": "15:8150",
+        "name": "State=Fallback",
+        "key": "ae0e1a9736ff6b86b10520d04c30ec1acdd6b261"
+      },
+      {
+        "id": "15:8153",
+        "name": "State=Group",
+        "key": "00928cc3469a0f584b7f9cddd9dcb153e60a423b"
+      }
+    ]
+  },
+  {
+    "id": "15:8170",
+    "name": "Badge",
+    "key": "9c0277059c6058e3e900a7e6f5b097d80c6a5c86",
+    "properties": {
+      "Status / Count#19:8": {
+        "type": "TEXT",
+        "defaultValue": "14 services"
+      },
+      "Status / Unread#19:12": {
+        "type": "TEXT",
+        "defaultValue": "3 unread"
+      },
+      "Status / Neutral#19:16": {
+        "type": "TEXT",
+        "defaultValue": "Optional"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Count",
+        "variantOptions": [
+          "Count",
+          "Unread",
+          "Neutral"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:8161",
+        "name": "State=Count",
+        "key": "d2226a6c59bc3846762d7c61eee43a2204eec9b4"
+      },
+      {
+        "id": "15:8164",
+        "name": "State=Unread",
+        "key": "b0565e5cf45f444161e815a05eaabb30796e7025"
+      },
+      {
+        "id": "15:8167",
+        "name": "State=Neutral",
+        "key": "4f888abafd69ac5bc3f69f61fe8b660c07558266"
+      }
+    ]
+  },
+  {
+    "id": "15:8207",
+    "name": "StatusChip",
+    "key": "845c847c56f06df3f5727f64bfac38bc9e973d56",
+    "properties": {
+      "Status / Confirmed#19:20": {
+        "type": "TEXT",
+        "defaultValue": "Confirmed"
+      },
+      "Status / InSession#19:33": {
+        "type": "TEXT",
+        "defaultValue": "In session"
+      },
+      "Status / Completed#19:46": {
+        "type": "TEXT",
+        "defaultValue": "Completed"
+      },
+      "Status / Pending#19:59": {
+        "type": "TEXT",
+        "defaultValue": "Pending confirmation"
+      },
+      "Status / CheckedIn#19:72": {
+        "type": "TEXT",
+        "defaultValue": "Checked in"
+      },
+      "Status / Unpaid#19:85": {
+        "type": "TEXT",
+        "defaultValue": "Unpaid"
+      },
+      "Status / Paid#19:98": {
+        "type": "TEXT",
+        "defaultValue": "Paid"
+      },
+      "Status / LowStock#19:111": {
+        "type": "TEXT",
+        "defaultValue": "Low stock"
+      },
+      "Status / Expired#19:124": {
+        "type": "TEXT",
+        "defaultValue": "Expired"
+      },
+      "Status / Unknown#19:137": {
+        "type": "TEXT",
+        "defaultValue": "Result unknown"
+      },
+      "Status / Canceled#19:150": {
+        "type": "TEXT",
+        "defaultValue": "Canceled"
+      },
+      "Status / NoShow#19:163": {
+        "type": "TEXT",
+        "defaultValue": "No-show"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Confirmed",
+        "variantOptions": [
+          "Confirmed",
+          "InSession",
+          "Completed",
+          "Pending",
+          "CheckedIn",
+          "Unpaid",
+          "Paid",
+          "LowStock",
+          "Expired",
+          "Unknown",
+          "Canceled",
+          "NoShow"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:8171",
+        "name": "State=Confirmed",
+        "key": "af7276023e200b7fc69c384df7def047d0ed4dfc"
+      },
+      {
+        "id": "15:8174",
+        "name": "State=InSession",
+        "key": "818e67f7135df0450c109e268ff23818134035bb"
+      },
+      {
+        "id": "15:8177",
+        "name": "State=Completed",
+        "key": "578d83f8c423fe875198a48bbdd22be2c8e01c6b"
+      },
+      {
+        "id": "15:8180",
+        "name": "State=Pending",
+        "key": "840fdfec525afdead45a801f962077c07d3cb5a7"
+      },
+      {
+        "id": "15:8183",
+        "name": "State=CheckedIn",
+        "key": "21c9fba787b10ca60a71348e56119022cc71ee0f"
+      },
+      {
+        "id": "15:8186",
+        "name": "State=Unpaid",
+        "key": "02667ec0caa4b77488cbeba4926080c34fc07d09"
+      },
+      {
+        "id": "15:8189",
+        "name": "State=Paid",
+        "key": "aef4d331c6b8954b164d0f7756ce1b0429007358"
+      },
+      {
+        "id": "15:8192",
+        "name": "State=LowStock",
+        "key": "a5397364cce0fa5ab59deba137a7129b4fe7f7e4"
+      },
+      {
+        "id": "15:8195",
+        "name": "State=Expired",
+        "key": "a92ca3564ab4817ad35f85f0a6c32cb6d463687e"
+      },
+      {
+        "id": "15:8198",
+        "name": "State=Unknown",
+        "key": "484a777841377c6c734e73ee03bd9aacc0e8d61e"
+      },
+      {
+        "id": "15:8201",
+        "name": "State=Canceled",
+        "key": "3d60634072ccb75147b8e402036dcb7b75193fd3"
+      },
+      {
+        "id": "15:8204",
+        "name": "State=NoShow",
+        "key": "c86ad03b69f06e7c1f4d164409d624b7904e71fd"
+      }
+    ]
+  },
+  {
+    "id": "15:8260",
+    "name": "TableRow",
+    "key": "bb5b34adb2cfd42bab8f234f2026ab25c0721aae",
+    "properties": {
+      "Initials#15:1075": {
+        "type": "TEXT",
+        "defaultValue": "SA"
+      },
+      "Patient#15:1076": {
+        "type": "TEXT",
+        "defaultValue": "Sara Alotaibi"
+      },
+      "Identifier#15:1077": {
+        "type": "TEXT",
+        "defaultValue": "CM-00428 · 28 Oct"
+      },
+      "Service#15:1078": {
+        "type": "TEXT",
+        "defaultValue": "Hydrafacial"
+      },
+      "Status#15:1079": {
+        "type": "TEXT",
+        "defaultValue": "Confirmed"
+      },
+      "Icon / ellipsis 1#15:1080": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:8218",
+        "preferredValues": []
+      },
+      "Field label#15:1081": {
+        "type": "TEXT",
+        "defaultValue": "Quantity"
+      },
+      "Field value#15:1082": {
+        "type": "TEXT",
+        "defaultValue": "12"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Default",
+        "variantOptions": [
+          "Default",
+          "Selected",
+          "Editable"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:8208",
+        "name": "State=Default",
+        "key": "259a3dc1471b74be3d5751a1ca51cbf8f88f3036"
+      },
+      {
+        "id": "15:8228",
+        "name": "State=Selected",
+        "key": "720555226e9a4b90905181a841586abdcb602d40"
+      },
+      {
+        "id": "15:8243",
+        "name": "State=Editable",
+        "key": "6853769e05e00e75469e2f9da1aa1d9f0aa2f52a"
+      }
+    ]
+  },
+  {
+    "id": "15:8307",
+    "name": "DataTable",
+    "key": "56a41fc32e508290401be322b3e7d7fb09946815",
+    "properties": {
+      "Column#15:1116": {
+        "type": "TEXT",
+        "defaultValue": "Patient / time"
+      },
+      "Column 2#15:1117": {
+        "type": "TEXT",
+        "defaultValue": "Service"
+      },
+      "Column 3#15:1118": {
+        "type": "TEXT",
+        "defaultValue": "Status"
+      },
+      "Empty#15:1128": {
+        "type": "TEXT",
+        "defaultValue": "No appointments match the selected filters."
+      },
+      "Patient / Ready#19:176": {
+        "type": "TEXT",
+        "defaultValue": "Sara Alotaibi"
+      },
+      "Patient / Loading#19:180": {
+        "type": "TEXT",
+        "defaultValue": "Loading…"
+      },
+      "Service / Ready#19:184": {
+        "type": "TEXT",
+        "defaultValue": "Hydrafacial"
+      },
+      "Service / Loading#19:188": {
+        "type": "TEXT",
+        "defaultValue": "—"
+      },
+      "Status / Ready#19:192": {
+        "type": "TEXT",
+        "defaultValue": "Confirmed"
+      },
+      "Status / Loading#19:196": {
+        "type": "TEXT",
+        "defaultValue": "—"
+      },
+      "Patient 2 / Ready#19:200": {
+        "type": "TEXT",
+        "defaultValue": "Reem Alshammari"
+      },
+      "Patient 2 / Loading#19:204": {
+        "type": "TEXT",
+        "defaultValue": "Loading…"
+      },
+      "Service 2 / Ready#19:208": {
+        "type": "TEXT",
+        "defaultValue": "Skin consultation"
+      },
+      "Service 2 / Loading#19:212": {
+        "type": "TEXT",
+        "defaultValue": "—"
+      },
+      "Status 2 / Ready#19:216": {
+        "type": "TEXT",
+        "defaultValue": "Pending"
+      },
+      "Status 2 / Loading#19:220": {
+        "type": "TEXT",
+        "defaultValue": "—"
+      },
+      "Patient 3 / Ready#19:224": {
+        "type": "TEXT",
+        "defaultValue": "Nora Williams"
+      },
+      "Patient 3 / Loading#19:228": {
+        "type": "TEXT",
+        "defaultValue": "Loading…"
+      },
+      "Service 3 / Ready#19:232": {
+        "type": "TEXT",
+        "defaultValue": "Hydrafacial"
+      },
+      "Service 3 / Loading#19:236": {
+        "type": "TEXT",
+        "defaultValue": "—"
+      },
+      "Status 3 / Ready#19:240": {
+        "type": "TEXT",
+        "defaultValue": "Pending"
+      },
+      "Status 3 / Loading#19:244": {
+        "type": "TEXT",
+        "defaultValue": "—"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Ready",
+        "variantOptions": [
+          "Ready",
+          "Empty",
+          "Loading"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:8261",
+        "name": "State=Ready",
+        "key": "157164732b4fe2587d16d97202fa501f0f00fa99"
+      },
+      {
+        "id": "15:8281",
+        "name": "State=Empty",
+        "key": "e4dfa309b7d8bfb750eeadd7775dbb16f6e84301"
+      },
+      {
+        "id": "15:8287",
+        "name": "State=Loading",
+        "key": "ecc9cd3e377c7e0b87108278ae6eb2b8cc33e38a"
+      }
+    ]
+  },
+  {
+    "id": "15:8324",
+    "name": "Metric",
+    "key": "95ebeebf0230d9fe4d35c02792ded8b8ab9b213a",
+    "properties": {
+      "Label / Revenue#19:248": {
+        "type": "TEXT",
+        "defaultValue": "Earned service revenue"
+      },
+      "Label / Collected#19:253": {
+        "type": "TEXT",
+        "defaultValue": "Payments collected"
+      },
+      "Label / Balance#19:258": {
+        "type": "TEXT",
+        "defaultValue": "Outstanding balances"
+      },
+      "Label / Missing#19:263": {
+        "type": "TEXT",
+        "defaultValue": "Revenue unavailable"
+      },
+      "Value / Revenue#19:268": {
+        "type": "TEXT",
+        "defaultValue": "SAR 3,100"
+      },
+      "Value / Collected#19:273": {
+        "type": "TEXT",
+        "defaultValue": "SAR 5,862.50"
+      },
+      "Value / Balance#19:278": {
+        "type": "TEXT",
+        "defaultValue": "SAR 150"
+      },
+      "Value / Missing#19:283": {
+        "type": "TEXT",
+        "defaultValue": "—"
+      },
+      "Scope / Revenue#19:288": {
+        "type": "TEXT",
+        "defaultValue": "20–26 Oct 2026 · Sample data"
+      },
+      "Scope / Collected#19:293": {
+        "type": "TEXT",
+        "defaultValue": "Net receipts, including deposits"
+      },
+      "Scope / Balance#19:298": {
+        "type": "TEXT",
+        "defaultValue": "For delivered services"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Revenue",
+        "variantOptions": [
+          "Revenue",
+          "Collected",
+          "Balance",
+          "Missing"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:8308",
+        "name": "State=Revenue",
+        "key": "846b394948b9daf9cd0df1687e54c5f431cb0f62"
+      },
+      {
+        "id": "15:8312",
+        "name": "State=Collected",
+        "key": "c7d502280046f37726b813c66fc49b580289e028"
+      },
+      {
+        "id": "15:8316",
+        "name": "State=Balance",
+        "key": "762f44fafa9b086f65593cf12a4720990f7051dc"
+      },
+      {
+        "id": "15:8320",
+        "name": "State=Missing",
+        "key": "03b6e88dfdf5fae5435e8d59b8ffa2c42316fe54"
+      }
+    ]
+  },
+  {
+    "id": "15:8384",
+    "name": "Chart",
+    "key": "f943d8cded409215afe2b6ca0008422f384b7c8a",
+    "properties": {
+      "Title#15:1178": {
+        "type": "TEXT",
+        "defaultValue": "Sales overview"
+      },
+      "Date#15:1180": {
+        "type": "TEXT",
+        "defaultValue": "20"
+      },
+      "Date 2#15:1181": {
+        "type": "TEXT",
+        "defaultValue": "21"
+      },
+      "Date 3#15:1182": {
+        "type": "TEXT",
+        "defaultValue": "22"
+      },
+      "Date 4#15:1183": {
+        "type": "TEXT",
+        "defaultValue": "23"
+      },
+      "Date 5#15:1184": {
+        "type": "TEXT",
+        "defaultValue": "24"
+      },
+      "Date 6#15:1185": {
+        "type": "TEXT",
+        "defaultValue": "25"
+      },
+      "Date 7#15:1186": {
+        "type": "TEXT",
+        "defaultValue": "26"
+      },
+      "Data description#15:1187": {
+        "type": "TEXT",
+        "defaultValue": "Earned revenue. Open the records for exact values."
+      },
+      "Empty#15:1188": {
+        "type": "TEXT",
+        "defaultValue": "No revenue recorded for this period."
+      },
+      "Description / Week#19:303": {
+        "type": "TEXT",
+        "defaultValue": "20–26 Oct 2026 · SAR · Sample data"
+      },
+      "Description / Month#19:307": {
+        "type": "TEXT",
+        "defaultValue": "October 2026 · SAR · Sample data"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Week",
+        "variantOptions": [
+          "Week",
+          "Month",
+          "Empty"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:8325",
+        "name": "State=Week",
+        "key": "a83bfcd3965a11b85eec78def9417dd48722e68c"
+      },
+      {
+        "id": "15:8352",
+        "name": "State=Month",
+        "key": "272d45a9308c5c7b55f5265d1365016abe890320"
+      },
+      {
+        "id": "15:8379",
+        "name": "State=Empty",
+        "key": "824000971e6598039b299caa8b0f6babafcb7db2"
+      }
+    ]
+  },
+  {
+    "id": "15:8441",
+    "name": "Timeline",
+    "key": "485290024dd1ee36228d13e03a6a5b08d0ac1a39",
+    "properties": {
+      "Icon / circle-check 1#15:1218": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:8387",
+        "preferredValues": []
+      },
+      "Actor and time#15:1220": {
+        "type": "TEXT",
+        "defaultValue": "26 Oct · 10:10 · Dr. Gigi"
+      },
+      "Icon / circle-check 2#15:1221": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:8387",
+        "preferredValues": []
+      },
+      "Event 2#15:1222": {
+        "type": "TEXT",
+        "defaultValue": "Payment recorded"
+      },
+      "Actor and time 2#15:1223": {
+        "type": "TEXT",
+        "defaultValue": "26 Oct · 10:15 · Dr. Gigi"
+      },
+      "Icon / circle-check 3#15:1224": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:8387",
+        "preferredValues": []
+      },
+      "Event 3#15:1225": {
+        "type": "TEXT",
+        "defaultValue": "Stock adjusted"
+      },
+      "Actor and time 3#15:1226": {
+        "type": "TEXT",
+        "defaultValue": "26 Oct · 10:20 · Dr. Gigi"
+      },
+      "Empty#15:1227": {
+        "type": "TEXT",
+        "defaultValue": "No activity recorded yet."
+      },
+      "Event / Activity#19:311": {
+        "type": "TEXT",
+        "defaultValue": "Appointment confirmed"
+      },
+      "Event / History#19:315": {
+        "type": "TEXT",
+        "defaultValue": "Stock count saved"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Activity",
+        "variantOptions": [
+          "Activity",
+          "History",
+          "Empty"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:8385",
+        "name": "State=Activity",
+        "key": "96930a7ebd0976695ce0152349734a910869dfff"
+      },
+      {
+        "id": "15:8414",
+        "name": "State=History",
+        "key": "e87094bbb85d406d42d9bed7d36e6cbb40dfc691"
+      },
+      {
+        "id": "15:8439",
+        "name": "State=Empty",
+        "key": "c81205df5e1efa20f5079de55f7c0dc83ef05fec"
+      }
+    ]
+  },
+  {
+    "id": "15:8472",
+    "name": "DescriptionList",
+    "key": "d71f35b5810c963279b48cb941c9c7f2c4878b4e",
+    "properties": {
+      "Detail label / Appointment#19:319": {
+        "type": "TEXT",
+        "defaultValue": "Service"
+      },
+      "Detail label / Payment#19:323": {
+        "type": "TEXT",
+        "defaultValue": "Invoice total"
+      },
+      "Detail label / Patient#19:327": {
+        "type": "TEXT",
+        "defaultValue": "Patient ID"
+      },
+      "Detail value / Appointment#19:331": {
+        "type": "TEXT",
+        "defaultValue": "Hydrafacial"
+      },
+      "Detail value / Payment#19:335": {
+        "type": "TEXT",
+        "defaultValue": "SAR 650"
+      },
+      "Detail value / Patient#19:339": {
+        "type": "TEXT",
+        "defaultValue": "CM-00428"
+      },
+      "Detail label 2 / Appointment#19:343": {
+        "type": "TEXT",
+        "defaultValue": "Appointment"
+      },
+      "Detail label 2 / Payment#19:347": {
+        "type": "TEXT",
+        "defaultValue": "Received"
+      },
+      "Detail label 2 / Patient#19:351": {
+        "type": "TEXT",
+        "defaultValue": "Phone"
+      },
+      "Detail value 2 / Appointment#19:355": {
+        "type": "TEXT",
+        "defaultValue": "28 Oct · 10:00–11:00"
+      },
+      "Detail value 2 / Payment#19:359": {
+        "type": "TEXT",
+        "defaultValue": "SAR 250"
+      },
+      "Detail value 2 / Patient#19:363": {
+        "type": "TEXT",
+        "defaultValue": "+966 55 123 4567"
+      },
+      "Detail label 3 / Appointment#19:367": {
+        "type": "TEXT",
+        "defaultValue": "Practitioner"
+      },
+      "Detail label 3 / Payment#19:371": {
+        "type": "TEXT",
+        "defaultValue": "Balance due"
+      },
+      "Detail label 3 / Patient#19:375": {
+        "type": "TEXT",
+        "defaultValue": "Record access"
+      },
+      "Detail value 3 / Appointment#19:379": {
+        "type": "TEXT",
+        "defaultValue": "Dr. Gigi"
+      },
+      "Detail value 3 / Payment#19:383": {
+        "type": "TEXT",
+        "defaultValue": "SAR 400"
+      },
+      "Detail value 3 / Patient#19:387": {
+        "type": "TEXT",
+        "defaultValue": "Administrative"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Appointment",
+        "variantOptions": [
+          "Appointment",
+          "Payment",
+          "Patient"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:8442",
+        "name": "State=Appointment",
+        "key": "dae68c3ec1e165701c39aaa653847d176c93a3ce"
+      },
+      {
+        "id": "15:8452",
+        "name": "State=Payment",
+        "key": "e1f7ecf9cbc984733e0c9296ac81844679be08ad"
+      },
+      {
+        "id": "15:8462",
+        "name": "State=Patient",
+        "key": "bfe7320c50401c476c746a88062a904535edf446"
+      }
+    ]
+  }
+]

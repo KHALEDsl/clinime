@@ -1,0 +1,46 @@
+{
+  "retrieved_on": "2026-10-26",
+  "assets": [
+    {
+      "file": "assets/NotoSansArabic-OFL.txt",
+      "sha256": "07fc70bfeb985cc1a87a8587d0a0c80bab11c86c9dc3fd95b6f0cb332f983e96",
+      "source": "official google/fonts/ofl/notosansarabic"
+    },
+    {
+      "file": "assets/NotoSansArabic.ttf",
+      "sha256": "63111b5b2e074dd48cc67692e0a2726d86ee94c1c37fe8598257b7b4e87e869e",
+      "source": "official google/fonts/ofl/notosansarabic"
+    },
+    {
+      "file": "assets/Sora-400.ttf",
+      "sha256": "9bd464043eb1c466853119bf8854b4b840b37174b9a8b9987f1c24255eebecd5",
+      "source": "supplied Clinime source package"
+    },
+    {
+      "file": "assets/Sora-600.ttf",
+      "sha256": "f020e295748ad23dd046a78bdefe10fbbd88d5b7a1e42ad0398ac13da0bcac87",
+      "source": "supplied Clinime source package"
+    },
+    {
+      "file": "assets/Sora-OFL.txt",
+      "sha256": "ba0b9729c9428ba79a0459ab8ec575791b51509dbec213e383d0316d37fec299",
+      "source": "supplied Clinime source package"
+    },
+    {
+      "file": "assets/clinime-icons.svg",
+      "sha256": "f648f1520bdef07694847c8bdd5a659f305912191fc4bb0a3c6777928c858029",
+      "source": "official lucide-static@1.61.0; sprite packaging"
+    },
+    {
+      "file": "assets/clinime-logo-dark.svg",
+      "sha256": "55b4af2e71d1c5badc0b3ea8e79e6b483273f3586fbbebf40c503eda582858d2",
+      "source": "supplied Clinime source package"
+    },
+    {
+      "file": "assets/clinime-logo-light.svg",
+      "sha256": "df0f5d031ce984544d949eebd7fb091414a8528753554f30f02de6fa6b4bdf0a",
+      "source": "supplied Clinime source package"
+    }
+  ],
+  "icon_pack_count": 158
+}

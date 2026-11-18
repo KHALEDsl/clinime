@@ -1,0 +1,395 @@
+[
+  {
+    "id": "15:7746",
+    "name": "Dialog",
+    "key": "835ce5ec72ae3f389a6b654dd1c09d8499524a97",
+    "properties": {
+      "Appointment#15:889": {
+        "type": "TEXT",
+        "defaultValue": "Sara Alotaibi · Hydrafacial"
+      },
+      "Field label#15:893": {
+        "type": "TEXT",
+        "defaultValue": "Patient"
+      },
+      "Field value#15:894": {
+        "type": "TEXT",
+        "defaultValue": "Sara Alotaibi"
+      },
+      "Field label 2#15:895": {
+        "type": "TEXT",
+        "defaultValue": "Appointment date"
+      },
+      "Field value 2#15:896": {
+        "type": "TEXT",
+        "defaultValue": "28 Oct 2026"
+      },
+      "Icon / calendar 1#15:897": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:7729",
+        "preferredValues": []
+      },
+      "Title / Confirmation#20:610": {
+        "type": "TEXT",
+        "defaultValue": "Keep these changes?"
+      },
+      "Title / Destructive#20:614": {
+        "type": "TEXT",
+        "defaultValue": "Cancel this appointment?"
+      },
+      "Title / Form#20:618": {
+        "type": "TEXT",
+        "defaultValue": "Edit appointment"
+      },
+      "Description / Confirmation#20:622": {
+        "type": "TEXT",
+        "defaultValue": "Review your changes before saving. Existing entries remain until you confirm."
+      },
+      "Description / Destructive#20:626": {
+        "type": "TEXT",
+        "defaultValue": "28 Oct 2026, 10:00–11:00. The record will remain in history. Any refund follows the clinic policy."
+      },
+      "Action / Confirmation#20:630": {
+        "type": "TEXT",
+        "defaultValue": "Cancel"
+      },
+      "Action / Destructive#20:634": {
+        "type": "TEXT",
+        "defaultValue": "Keep appointment"
+      },
+      "Action 2 / Confirmation#20:638": {
+        "type": "TEXT",
+        "defaultValue": "Save changes"
+      },
+      "Action 2 / Destructive#20:642": {
+        "type": "TEXT",
+        "defaultValue": "Cancel appointment"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Confirmation",
+        "variantOptions": [
+          "Confirmation",
+          "Destructive",
+          "Form"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:7698",
+        "name": "State=Confirmation",
+        "key": "6866ef7f2fc9e2678b63906c7b602dd88f10f0ef"
+      },
+      {
+        "id": "15:7708",
+        "name": "State=Destructive",
+        "key": "c02adcfd28aa60be72d149e5ecfb776a38f27b54"
+      },
+      {
+        "id": "15:7718",
+        "name": "State=Form",
+        "key": "4d6ba700560970eed554882bd011622588b47f6e"
+      }
+    ]
+  },
+  {
+    "id": "15:7794",
+    "name": "Drawer",
+    "key": "6fae0d556bd3049eef455c057599f8f4265b8a05",
+    "properties": {
+      "Icon / calendar 1#15:930": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:7729",
+        "preferredValues": []
+      },
+      "Patient#15:932": {
+        "type": "TEXT",
+        "defaultValue": "Sara Alotaibi"
+      },
+      "Status#15:933": {
+        "type": "TEXT",
+        "defaultValue": "Confirmed"
+      },
+      "Detail label#15:934": {
+        "type": "TEXT",
+        "defaultValue": "Service"
+      },
+      "Detail value#15:935": {
+        "type": "TEXT",
+        "defaultValue": "Hydrafacial"
+      },
+      "Detail label 2#15:936": {
+        "type": "TEXT",
+        "defaultValue": "When"
+      },
+      "Detail value 2#15:937": {
+        "type": "TEXT",
+        "defaultValue": "28 Oct · 10:00"
+      },
+      "Detail label 3#15:938": {
+        "type": "TEXT",
+        "defaultValue": "Payment"
+      },
+      "Detail value 3#15:939": {
+        "type": "TEXT",
+        "defaultValue": "SAR 650 · Unpaid"
+      },
+      "Action#15:940": {
+        "type": "TEXT",
+        "defaultValue": "Open appointment"
+      },
+      "Icon / message-square 1#15:941": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:7773",
+        "preferredValues": []
+      },
+      "Simulation notice#15:942": {
+        "type": "TEXT",
+        "defaultValue": "Messages in this prototype are simulations."
+      },
+      "Initials#15:943": {
+        "type": "TEXT",
+        "defaultValue": "SA"
+      },
+      "Person#15:944": {
+        "type": "TEXT",
+        "defaultValue": "Sara Alotaibi"
+      },
+      "Preview#15:945": {
+        "type": "TEXT",
+        "defaultValue": "Can I move my appointment?"
+      },
+      "Initials 2#15:946": {
+        "type": "TEXT",
+        "defaultValue": "RA"
+      },
+      "Person 2#15:947": {
+        "type": "TEXT",
+        "defaultValue": "Reem Alshammari"
+      },
+      "Preview 2#15:948": {
+        "type": "TEXT",
+        "defaultValue": "Thank you for confirming."
+      },
+      "Title / Appointment#20:646": {
+        "type": "TEXT",
+        "defaultValue": "Appointment"
+      },
+      "Title / Messages#20:649": {
+        "type": "TEXT",
+        "defaultValue": "Patient messages"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Appointment",
+        "variantOptions": [
+          "Appointment",
+          "Messages"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:7747",
+        "name": "State=Appointment",
+        "key": "1b6db02edeee14a56b6b248cf94c394151f06b1b"
+      },
+      {
+        "id": "15:7771",
+        "name": "State=Messages",
+        "key": "f6723d1c2ac566157a2837ecab7eb855574b81d6"
+      }
+    ]
+  },
+  {
+    "id": "15:7859",
+    "name": "DropdownMenu",
+    "key": "a6028f2092a4895e0c15f605a3b370742fe93ad8",
+    "properties": {
+      "Icon / pencil 1#15:979": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:7797",
+        "preferredValues": []
+      },
+      "Icon / calendar 2#15:981": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:7729",
+        "preferredValues": []
+      },
+      "Icon / x 3#15:983": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:7815",
+        "preferredValues": []
+      },
+      "Icon / check 1#15:985": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:7826",
+        "preferredValues": []
+      },
+      "Icon / file-text 2#15:986": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:7834",
+        "preferredValues": []
+      },
+      "Icon / user 3#15:987": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:7850",
+        "preferredValues": []
+      },
+      "Option / Actions#20:652": {
+        "type": "TEXT",
+        "defaultValue": "Edit appointment"
+      },
+      "Option / Filters#20:655": {
+        "type": "TEXT",
+        "defaultValue": "All categories"
+      },
+      "Option 2 / Actions#20:658": {
+        "type": "TEXT",
+        "defaultValue": "Reschedule"
+      },
+      "Option 2 / Filters#20:661": {
+        "type": "TEXT",
+        "defaultValue": "Facials & skincare"
+      },
+      "Option 3 / Actions#20:664": {
+        "type": "TEXT",
+        "defaultValue": "Cancel appointment"
+      },
+      "Option 3 / Filters#20:667": {
+        "type": "TEXT",
+        "defaultValue": "Consultations"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Actions",
+        "variantOptions": [
+          "Actions",
+          "Filters"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:7795",
+        "name": "State=Actions",
+        "key": "5cd0574bb895b193658887552bdedf1b0eed8c4e"
+      },
+      {
+        "id": "15:7824",
+        "name": "State=Filters",
+        "key": "14fe1deee3eb30a02d662e25368db32c66bd00a3"
+      }
+    ]
+  },
+  {
+    "id": "15:7864",
+    "name": "Tooltip",
+    "key": "c51d6956ff9568091d8cb34c757d345ec84db7bd",
+    "properties": {
+      "Label / Action#20:670": {
+        "type": "TEXT",
+        "defaultValue": "Edit appointment"
+      },
+      "Label / Explanation#20:673": {
+        "type": "TEXT",
+        "defaultValue": "Times use the clinic timezone."
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Action",
+        "variantOptions": [
+          "Action",
+          "Explanation"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:7860",
+        "name": "State=Action",
+        "key": "48bb6628e20aa4479db98570d6f6aedaf56804c9"
+      },
+      {
+        "id": "15:7862",
+        "name": "State=Explanation",
+        "key": "6b35f3b391b3def5e8821e685af6241f62739e24"
+      }
+    ]
+  },
+  {
+    "id": "15:7898",
+    "name": "Popover",
+    "key": "8b6d3ffb54158e40c721156b6df4aada64a34d98",
+    "properties": {
+      "Icon / check 1#15:1009": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:7826",
+        "preferredValues": []
+      },
+      "Checklist label#15:1010": {
+        "type": "TEXT",
+        "defaultValue": "Confirmed"
+      },
+      "Icon / check 2#15:1011": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:7826",
+        "preferredValues": []
+      },
+      "Checklist label 2#15:1012": {
+        "type": "TEXT",
+        "defaultValue": "Pending confirmation"
+      },
+      "Checklist label 3#15:1013": {
+        "type": "TEXT",
+        "defaultValue": "Canceled"
+      },
+      "Field label#15:1014": {
+        "type": "TEXT",
+        "defaultValue": "Date"
+      },
+      "Field value#15:1015": {
+        "type": "TEXT",
+        "defaultValue": "28 Oct 2026"
+      },
+      "Icon / calendar 1#15:1016": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:7729",
+        "preferredValues": []
+      },
+      "Action#15:1017": {
+        "type": "TEXT",
+        "defaultValue": "Go to date"
+      },
+      "Title / Filter#20:676": {
+        "type": "TEXT",
+        "defaultValue": "Filter appointments"
+      },
+      "Title / Date#20:679": {
+        "type": "TEXT",
+        "defaultValue": "Jump to date"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Filter",
+        "variantOptions": [
+          "Filter",
+          "Date"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:7865",
+        "name": "State=Filter",
+        "key": "31c7c2d237a5b476c690026f46a2faa22bac97e4"
+      },
+      {
+        "id": "15:7883",
+        "name": "State=Date",
+        "key": "d5e131ea830c4698459c1973047c50eb1936ba2f"
+      }
+    ]
+  }
+]

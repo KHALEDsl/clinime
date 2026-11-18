@@ -1,0 +1,14 @@
+Pair,Foreground,Background,Contrast,Normal text AA
+Primary action,#FFFFFF,#2D3E5B,10.76,True
+Selected navigation,#2D3E5B,#FFD8EB,8.338,True
+Secondary text,#616161,#FFFFFF,6.193,True
+Muted text on canvas,#616161,#FAFAFA,5.934,True
+Control outline,#757575,#FFFFFF,4.608,True
+completed status,#474747,#F0F0F0,8.153,True
+confirmed status,#60427A,#F0EAF7,6.966,True
+active status,#285B40,#E6F2EB,6.865,True
+success status,#285B40,#E6F2EB,6.865,True
+warning status,#76551D,#FFF3D9,6.178,True
+error status,#963F36,#FBEAE8,5.892,True
+info status,#2D3E5B,#E7EBF1,8.993,True
+Forbidden pink button,#FFFFFF,#FFD8EB,1.29,False

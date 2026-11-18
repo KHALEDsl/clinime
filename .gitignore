@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.netlify/
+.env
+.env.*
+!.env.example
+evidence/
+.demo-data/
+.playwright-cli/
+.DS_Store
+*.log
+.loopy-*
+.resend*
+
+/build-manifest.json
+/admin-build-manifest.json

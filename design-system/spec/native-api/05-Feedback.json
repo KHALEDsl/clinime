@@ -1,0 +1,572 @@
+[
+  {
+    "id": "15:7119",
+    "name": "InlineAlert",
+    "key": "05cffb2e3fc8e4b22591d485ec375519c5e0d705",
+    "properties": {
+      "Icon / triangle-alert 1#15:730": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:7068",
+        "preferredValues": []
+      },
+      "Icon / circle-check 1#15:733": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:7083",
+        "preferredValues": []
+      },
+      "Icon / circle-alert 1#15:734": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:7106",
+        "preferredValues": []
+      },
+      "Title / Info#20:480": {
+        "type": "TEXT",
+        "defaultValue": "Clinic time is GMT+3"
+      },
+      "Title / Success#20:485": {
+        "type": "TEXT",
+        "defaultValue": "Your changes were saved"
+      },
+      "Title / Warning#20:490": {
+        "type": "TEXT",
+        "defaultValue": "Review the appointment conflict"
+      },
+      "Title / Error#20:495": {
+        "type": "TEXT",
+        "defaultValue": "Appointments could not load"
+      },
+      "Message / Info#20:500": {
+        "type": "TEXT",
+        "defaultValue": "Keep important details visible in the task context."
+      },
+      "Message / Error#20:505": {
+        "type": "TEXT",
+        "defaultValue": "Your entries are still here. Try again."
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Info",
+        "variantOptions": [
+          "Info",
+          "Success",
+          "Warning",
+          "Error"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:7066",
+        "name": "State=Info",
+        "key": "498bba63e2cf5a897b4c635940bab4d0938df9c7"
+      },
+      {
+        "id": "15:7081",
+        "name": "State=Success",
+        "key": "33bbe2350e8a8461a07d54a4b68f3eb203098937"
+      },
+      {
+        "id": "15:7094",
+        "name": "State=Warning",
+        "key": "d7220272f41d3dbee3a762112cdfb19bc16861ad"
+      },
+      {
+        "id": "15:7104",
+        "name": "State=Error",
+        "key": "1ec604cb0d172abbc8c23d65a7f718c9ac8b765e"
+      }
+    ]
+  },
+  {
+    "id": "15:7151",
+    "name": "Toast",
+    "key": "b6db1cb52eec9e871668ff31ad202e6ceed7a69a",
+    "properties": {
+      "Icon / circle-check 1#15:753": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:7083",
+        "preferredValues": []
+      },
+      "Icon / triangle-alert 1#15:756": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:7068",
+        "preferredValues": []
+      },
+      "Action#15:757": {
+        "type": "TEXT",
+        "defaultValue": "Undo stock change"
+      },
+      "Icon / circle-alert 1#15:758": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:7106",
+        "preferredValues": []
+      },
+      "Title / Saved#20:510": {
+        "type": "TEXT",
+        "defaultValue": "Appointment saved"
+      },
+      "Title / Undo#20:514": {
+        "type": "TEXT",
+        "defaultValue": "Stock updated"
+      },
+      "Title / Error#20:518": {
+        "type": "TEXT",
+        "defaultValue": "Could not save"
+      },
+      "Message / Saved#20:522": {
+        "type": "TEXT",
+        "defaultValue": "Keep important details visible in the task context."
+      },
+      "Message / Undo#20:526": {
+        "type": "TEXT",
+        "defaultValue": "You can undo this change until another stock edit is saved."
+      },
+      "Message / Error#20:530": {
+        "type": "TEXT",
+        "defaultValue": "Your entries are still here. Try again."
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Saved",
+        "variantOptions": [
+          "Saved",
+          "Undo",
+          "Error"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:7120",
+        "name": "State=Saved",
+        "key": "f2e988868c71f538df91ed03054faa89ab256963"
+      },
+      {
+        "id": "15:7129",
+        "name": "State=Undo",
+        "key": "5e33ac2731bac15e3e36fe924125b6e4a9a60d4e"
+      },
+      {
+        "id": "15:7141",
+        "name": "State=Error",
+        "key": "ad6fb560c7291ae4e2e040c68b6e8f6664d1e1e3"
+      }
+    ]
+  },
+  {
+    "id": "15:7199",
+    "name": "EmptyState",
+    "key": "d8f4e8aaa785c29198d9402f2079962771d060b1",
+    "properties": {
+      "Icon / calendar 1#15:778": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:7153",
+        "preferredValues": []
+      },
+      "Icon / file-text 1#15:782": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:7170",
+        "preferredValues": []
+      },
+      "Icon / plus 1#15:783": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:7187",
+        "preferredValues": []
+      },
+      "Title / Calendar#20:534": {
+        "type": "TEXT",
+        "defaultValue": "No appointments today"
+      },
+      "Title / History#20:538": {
+        "type": "TEXT",
+        "defaultValue": "No stock changes yet"
+      },
+      "Title / Services#20:542": {
+        "type": "TEXT",
+        "defaultValue": "No services added yet"
+      },
+      "Description / Calendar#20:546": {
+        "type": "TEXT",
+        "defaultValue": "Add an item when you’re ready."
+      },
+      "Description / History#20:550": {
+        "type": "TEXT",
+        "defaultValue": "Saved changes and stock counts will appear here."
+      },
+      "Action / Calendar#20:554": {
+        "type": "TEXT",
+        "defaultValue": "Add appointment"
+      },
+      "Action / Services#20:558": {
+        "type": "TEXT",
+        "defaultValue": "Add service"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Calendar",
+        "variantOptions": [
+          "Calendar",
+          "History",
+          "Services"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:7152",
+        "name": "State=Calendar",
+        "key": "b7b3a3d84b97045c76c596309c7907b0f6b41f79"
+      },
+      {
+        "id": "15:7169",
+        "name": "State=History",
+        "key": "ccc616ccb62aafebd922c324c6cce246a9954a07"
+      },
+      {
+        "id": "15:7186",
+        "name": "State=Services",
+        "key": "067637d1bbb1e32af8e7d98c75e6c9774776c7ca"
+      }
+    ]
+  },
+  {
+    "id": "15:7222",
+    "name": "NoResults",
+    "key": "aca3ca8d75900c01e740bf1dcd2d4d73dd9d7ddc",
+    "properties": {
+      "Icon / search 1#15:799": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:7201",
+        "preferredValues": []
+      },
+      "Title#15:800": {
+        "type": "TEXT",
+        "defaultValue": "No services found"
+      },
+      "Description#15:801": {
+        "type": "TEXT",
+        "defaultValue": "Try another search or clear your filters."
+      },
+      "Action#15:802": {
+        "type": "TEXT",
+        "defaultValue": "Clear filters"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Search",
+        "variantOptions": [
+          "Search",
+          "Filters"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:7200",
+        "name": "State=Search",
+        "key": "cca5bee92b73c4c8ee46a7ead4420b5cf95d9bb8"
+      },
+      {
+        "id": "15:7213",
+        "name": "State=Filters",
+        "key": "b98b50a21a6247c0409705024f860f427e859783"
+      }
+    ]
+  },
+  {
+    "id": "15:7281",
+    "name": "Skeleton",
+    "key": "1b541f63b0df59eeb49d90d392b6358402afe2fb",
+    "properties": {
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "List",
+        "variantOptions": [
+          "List",
+          "Card",
+          "Calendar"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:7223",
+        "name": "State=List",
+        "key": "22e540cc7577a6a513d88dc4babe97f51a80c156"
+      },
+      {
+        "id": "15:7239",
+        "name": "State=Card",
+        "key": "229f9e69492907665241ecc786e84d61112bd8d7"
+      },
+      {
+        "id": "15:7255",
+        "name": "State=Calendar",
+        "key": "e177703a1be2fd8509a557b603401d7898170532"
+      }
+    ]
+  },
+  {
+    "id": "15:7294",
+    "name": "Progress",
+    "key": "83bd5904247a9b388fc8cefc6f424f2d19b9009c",
+    "properties": {
+      "Status / Indeterminate#20:562": {
+        "type": "TEXT",
+        "defaultValue": "Loading appointments…"
+      },
+      "Status / Determinate#20:566": {
+        "type": "TEXT",
+        "defaultValue": "Preparing export · 60%"
+      },
+      "Status / Complete#20:570": {
+        "type": "TEXT",
+        "defaultValue": "Export ready"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Indeterminate",
+        "variantOptions": [
+          "Indeterminate",
+          "Determinate",
+          "Complete"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:7282",
+        "name": "State=Indeterminate",
+        "key": "80cddc617eedaa553cdf595cb536a1a526489f22"
+      },
+      {
+        "id": "15:7286",
+        "name": "State=Determinate",
+        "key": "d8a1c8441f03189795ce3e12163d0a0919d2a44c"
+      },
+      {
+        "id": "15:7290",
+        "name": "State=Complete",
+        "key": "1aa4c3b2f54c3b2ac363c97b61419c1ead6ce5ed"
+      }
+    ]
+  },
+  {
+    "id": "15:7325",
+    "name": "ErrorState",
+    "key": "55588f11d2c16e0295fb0786e4225e235c736407",
+    "properties": {
+      "Icon / circle-alert 1#15:819": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:7106",
+        "preferredValues": []
+      },
+      "Description#15:821": {
+        "type": "TEXT",
+        "defaultValue": "Your schedule has not changed. Check your connection and try again."
+      },
+      "Action#15:822": {
+        "type": "TEXT",
+        "defaultValue": "Try again"
+      },
+      "Title / Load#20:574": {
+        "type": "TEXT",
+        "defaultValue": "Appointments could not load"
+      },
+      "Title / Save#20:578": {
+        "type": "TEXT",
+        "defaultValue": "Your changes were not saved"
+      },
+      "Title / Offline#20:582": {
+        "type": "TEXT",
+        "defaultValue": "You’re offline"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Load",
+        "variantOptions": [
+          "Load",
+          "Save",
+          "Offline"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:7295",
+        "name": "State=Load",
+        "key": "f9efa716a4e7b021d20df99c06c7fb14ca682901"
+      },
+      {
+        "id": "15:7305",
+        "name": "State=Save",
+        "key": "940e5f47602f4622d02fa9c43c84b3ed7ba3cefe"
+      },
+      {
+        "id": "15:7315",
+        "name": "State=Offline",
+        "key": "c30fdf54d6918ac2c4e1ba4e5dbed4997b5072ce"
+      }
+    ]
+  },
+  {
+    "id": "15:7353",
+    "name": "UnknownState",
+    "key": "2ac5a346c9e2f964b062baaa6951abcca2523a98",
+    "properties": {
+      "Icon / loader-circle 1#15:835": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:7327",
+        "preferredValues": []
+      },
+      "Title#15:836": {
+        "type": "TEXT",
+        "defaultValue": "We’re checking the result"
+      },
+      "Description#15:837": {
+        "type": "TEXT",
+        "defaultValue": "Do not submit again yet. Check the current status before retrying."
+      },
+      "Action#15:838": {
+        "type": "TEXT",
+        "defaultValue": "Check status"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Booking",
+        "variantOptions": [
+          "Booking",
+          "Payment",
+          "Stock"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:7326",
+        "name": "State=Booking",
+        "key": "35302b3d312fac34d31eb6fd94fec5f7fcb89bee"
+      },
+      {
+        "id": "15:7337",
+        "name": "State=Payment",
+        "key": "d3374fff7445dd7dcdc3fe064d12cb9b28d18a64"
+      },
+      {
+        "id": "15:7345",
+        "name": "State=Stock",
+        "key": "eb11c3bf4d3dd8304253f835050615ee0ea45393"
+      }
+    ]
+  },
+  {
+    "id": "15:7385",
+    "name": "PermissionState",
+    "key": "569bf7b81a8ce5c5de42f27d5fbc18374112631d",
+    "properties": {
+      "Icon / lock 1#15:851": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:7355",
+        "preferredValues": []
+      },
+      "Title / Restricted#20:586": {
+        "type": "TEXT",
+        "defaultValue": "This information is restricted"
+      },
+      "Title / SessionExpired#20:590": {
+        "type": "TEXT",
+        "defaultValue": "Your session expired"
+      },
+      "Description / Restricted#20:594": {
+        "type": "TEXT",
+        "defaultValue": "Return to your workspace or contact an authorized clinic manager."
+      },
+      "Description / SessionExpired#20:598": {
+        "type": "TEXT",
+        "defaultValue": "Sign in again to continue. Check for an existing draft after signing in."
+      },
+      "Action / Restricted#20:602": {
+        "type": "TEXT",
+        "defaultValue": "Back to workspace"
+      },
+      "Action / SessionExpired#20:606": {
+        "type": "TEXT",
+        "defaultValue": "Sign in"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Restricted",
+        "variantOptions": [
+          "Restricted",
+          "Denied",
+          "SessionExpired"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:7354",
+        "name": "State=Restricted",
+        "key": "35443add25ef7b248b9cf6a46218ced33db8a955"
+      },
+      {
+        "id": "15:7367",
+        "name": "State=Denied",
+        "key": "5f299de94f1fc0a7cf950c1dfb77ee1072daa473"
+      },
+      {
+        "id": "15:7376",
+        "name": "State=SessionExpired",
+        "key": "d6c44d25f15c132e3f838d62097c2a78895281e5"
+      }
+    ]
+  },
+  {
+    "id": "15:7405",
+    "name": "FormErrorSummary",
+    "key": "5aaf0de6d05d793388a5c4bb63dbe778126ea168",
+    "properties": {
+      "Icon / circle-alert 1#15:864": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:7106",
+        "preferredValues": []
+      },
+      "Title#15:865": {
+        "type": "TEXT",
+        "defaultValue": "Check your information"
+      },
+      "Description#15:866": {
+        "type": "TEXT",
+        "defaultValue": "Correct the fields below. Your entries have been retained."
+      },
+      "Field error#15:867": {
+        "type": "TEXT",
+        "defaultValue": "Patient name: enter the full name."
+      },
+      "Field error 2#15:868": {
+        "type": "TEXT",
+        "defaultValue": "Appointment time: choose an available time."
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "OneError",
+        "variantOptions": [
+          "OneError",
+          "SeveralErrors"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:7386",
+        "name": "State=OneError",
+        "key": "19fd77b5b04449fcfa29659800f47d88f32c7536"
+      },
+      {
+        "id": "15:7395",
+        "name": "State=SeveralErrors",
+        "key": "23fd6626b4753e3e2fa320dc59441653ace2f514"
+      }
+    ]
+  }
+]

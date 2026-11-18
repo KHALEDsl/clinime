@@ -1,0 +1,309 @@
+[
+  {
+    "id": "14:4637",
+    "name": "Button",
+    "key": "1526040203f8248aa615d6e8e61f38531e121ad6",
+    "properties": {
+      "Icon / plus 1#14:34": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "14:4547",
+        "preferredValues": []
+      },
+      "Show icon#14:35": {
+        "type": "BOOLEAN",
+        "defaultValue": true
+      },
+      "Label / Primary · Default#20:0": {
+        "type": "TEXT",
+        "defaultValue": "Add appointment"
+      },
+      "Label / Primary · Pending#20:25": {
+        "type": "TEXT",
+        "defaultValue": "Saving…"
+      },
+      "Label / Quiet · Default#20:50": {
+        "type": "TEXT",
+        "defaultValue": "View details"
+      },
+      "Label / Danger · Default#20:75": {
+        "type": "TEXT",
+        "defaultValue": "Cancel appointment"
+      },
+      "Intent": {
+        "type": "VARIANT",
+        "defaultValue": "Primary",
+        "variantOptions": [
+          "Primary",
+          "Secondary",
+          "Quiet",
+          "Danger"
+        ]
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Default",
+        "variantOptions": [
+          "Default",
+          "Hover",
+          "Pressed",
+          "Focus",
+          "Disabled",
+          "Pending"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "14:4546",
+        "name": "Intent=Primary, State=Default",
+        "key": "e271ac2cdb594d74e4149eef2cb90952b28d7adf"
+      },
+      {
+        "id": "14:4556",
+        "name": "Intent=Primary, State=Hover",
+        "key": "92f2ec7ef06f048934ee129d995bc3828899282d"
+      },
+      {
+        "id": "14:4562",
+        "name": "Intent=Primary, State=Pressed",
+        "key": "98d2072019a4cf5e80bd3c764686f4dd8e39a19a"
+      },
+      {
+        "id": "14:4568",
+        "name": "Intent=Primary, State=Focus",
+        "key": "7af7b963b423ce374d576545b602575f10536349"
+      },
+      {
+        "id": "14:4575",
+        "name": "Intent=Primary, State=Disabled",
+        "key": "5a253daffbefd85d0ed23b9ef3dd499147303769"
+      },
+      {
+        "id": "14:4581",
+        "name": "Intent=Primary, State=Pending",
+        "key": "d568623551afb894aedf8eb3e200a469fef44239"
+      },
+      {
+        "id": "14:4589",
+        "name": "Intent=Secondary, State=Default",
+        "key": "2b04c2739e268922ecadb5097064ba0f0d7cb60f"
+      },
+      {
+        "id": "14:4591",
+        "name": "Intent=Secondary, State=Hover",
+        "key": "22af192ac86ce14df1744b1a233aef99edeeb8aa"
+      },
+      {
+        "id": "14:4593",
+        "name": "Intent=Secondary, State=Pressed",
+        "key": "41569f431fe3c78c7b48b59c45aeffa3c635370d"
+      },
+      {
+        "id": "14:4595",
+        "name": "Intent=Secondary, State=Focus",
+        "key": "39379be38c744df10b8ca5b3f0d1df1fd8ecf48b"
+      },
+      {
+        "id": "14:4598",
+        "name": "Intent=Secondary, State=Disabled",
+        "key": "36c624c0ec3f544ed827011e61ca946182c2aabd"
+      },
+      {
+        "id": "14:4600",
+        "name": "Intent=Secondary, State=Pending",
+        "key": "74e88b0349731c4cd7b7235ad08ef9688bba178d"
+      },
+      {
+        "id": "14:4605",
+        "name": "Intent=Quiet, State=Default",
+        "key": "0b9a3acabd7271ff1082b0277735f0ad0f3ac1b9"
+      },
+      {
+        "id": "14:4607",
+        "name": "Intent=Quiet, State=Hover",
+        "key": "b4206ef886311d2e3c02140b37134c74374477eb"
+      },
+      {
+        "id": "14:4609",
+        "name": "Intent=Quiet, State=Pressed",
+        "key": "f7f8ccec0be0d5210a61b8fe49142d458f0c01fd"
+      },
+      {
+        "id": "14:4611",
+        "name": "Intent=Quiet, State=Focus",
+        "key": "cb997fe8e6cc7bd6677a56ea7b84ad2d740422dc"
+      },
+      {
+        "id": "14:4614",
+        "name": "Intent=Quiet, State=Disabled",
+        "key": "5fdcaa40fb8e0b74d0338586b80f735891e8e973"
+      },
+      {
+        "id": "14:4616",
+        "name": "Intent=Quiet, State=Pending",
+        "key": "23c5df8245b9055bec6af61e2f2c2208b6a44c27"
+      },
+      {
+        "id": "14:4621",
+        "name": "Intent=Danger, State=Default",
+        "key": "6623a3929631d4d58c920ea7b446d4b663e317d1"
+      },
+      {
+        "id": "14:4623",
+        "name": "Intent=Danger, State=Hover",
+        "key": "4d1fa03bd6c076704ca0e7f8b1f7efa82dab031a"
+      },
+      {
+        "id": "14:4625",
+        "name": "Intent=Danger, State=Pressed",
+        "key": "1da71cd62cc77ff82692ea0dc4f59218429b633b"
+      },
+      {
+        "id": "14:4627",
+        "name": "Intent=Danger, State=Focus",
+        "key": "96e5cf8cad78bd320514a80b6700408c2dff198e"
+      },
+      {
+        "id": "14:4630",
+        "name": "Intent=Danger, State=Disabled",
+        "key": "402359c950a0c229fbf66b0654261a53654b43fa"
+      },
+      {
+        "id": "14:4632",
+        "name": "Intent=Danger, State=Pending",
+        "key": "80862de7e157a4c6e63425c1d75b1892f861fc3f"
+      }
+    ]
+  },
+  {
+    "id": "14:4658",
+    "name": "IconButton",
+    "key": "3ae5c3f42eb2ef22252a47f90f831173d7bed3b3",
+    "properties": {
+      "Icon / search 1#14:78": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "14:4639",
+        "preferredValues": []
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Default",
+        "variantOptions": [
+          "Default",
+          "Focus",
+          "Disabled"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "14:4638",
+        "name": "State=Default",
+        "key": "cad223e667a44292d437f050795f4391684ade05"
+      },
+      {
+        "id": "14:4647",
+        "name": "State=Focus",
+        "key": "26763569781bcaa3a39422ecd6767d229fdd42b3"
+      },
+      {
+        "id": "14:4653",
+        "name": "State=Disabled",
+        "key": "2964f2b173443b69aa8cc619d0e3aa3c5e71c65d"
+      }
+    ]
+  },
+  {
+    "id": "14:4678",
+    "name": "TextLink",
+    "key": "d9db8e9cf320325fdb62b5166b2d01f7431ae063",
+    "properties": {
+      "Icon / chevron-left 1#14:85": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "14:4660",
+        "preferredValues": []
+      },
+      "Label#14:86": {
+        "type": "TEXT",
+        "defaultValue": "Back to appointments"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Default",
+        "variantOptions": [
+          "Default",
+          "Hover",
+          "Focus"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "14:4659",
+        "name": "State=Default",
+        "key": "d76fed9eaa5940ea07fc61829ae3726fd24ad971"
+      },
+      {
+        "id": "14:4667",
+        "name": "State=Hover",
+        "key": "09bff15e0358a0ab8e9c50f280e3a3bcea5aba69"
+      },
+      {
+        "id": "14:4672",
+        "name": "State=Focus",
+        "key": "1771138be8420bfd3231a1d9b880a26adccd2de4"
+      }
+    ]
+  },
+  {
+    "id": "14:4703",
+    "name": "MenuItem",
+    "key": "4710385af56f76ccb064684da7c030e631699b3a",
+    "properties": {
+      "Icon / pencil 1#14:93": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "14:4680",
+        "preferredValues": []
+      },
+      "Icon / check 1#14:95": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "14:4690",
+        "preferredValues": []
+      },
+      "Label / Default#20:100": {
+        "type": "TEXT",
+        "defaultValue": "Edit appointment"
+      },
+      "Label / Disabled#20:104": {
+        "type": "TEXT",
+        "defaultValue": "Refund unavailable"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Default",
+        "variantOptions": [
+          "Default",
+          "Selected",
+          "Disabled"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "14:4679",
+        "name": "State=Default",
+        "key": "ec2cf7034a0128f12d3772ed588e5ff3d45f3220"
+      },
+      {
+        "id": "14:4689",
+        "name": "State=Selected",
+        "key": "9c940ec1503dc933f671777bb89ce41b52efe692"
+      },
+      {
+        "id": "14:4697",
+        "name": "State=Disabled",
+        "key": "f4a0f91f6a03860c36f0d358258677f333d4b823"
+      }
+    ]
+  }
+]

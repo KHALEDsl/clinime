@@ -1,0 +1,2416 @@
+{
+  "name": "Clinime icon source pack",
+  "version": "1.1.0",
+  "upstream": "Lucide",
+  "upstream_version": "1.61.0",
+  "retrieved_on": "2026-10-26",
+  "count": 158,
+  "source_tarball": "https://registry.npmjs.org/lucide-static/-/lucide-static-1.61.0.tgz",
+  "source_tarball_sha256": "62773cd2ee411ad2e37c1973d1e4c4b49f9a6c57da6b5d5d0abca08756ba75f1",
+  "license": "ISC; derived Feather icons also carry the distributed MIT notice",
+  "license_file": "LICENSE",
+  "spec": {
+    "viewBox": "0 0 24 24",
+    "stroke_width": 2,
+    "stroke_linecap": "round",
+    "stroke_linejoin": "round",
+    "fill": "none",
+    "color": "currentColor",
+    "ui_sizes": [
+      16,
+      20,
+      24
+    ]
+  },
+  "accessibility": "Visible labels determine meaning. Decorative icons are hidden from assistive technology. Name icon-only controls. Never use a glyph or color as the only state cue.",
+  "rtl_note": "Mirroring is the Clinime context decision. Source SVGs remain unmodified; mirror component instances at runtime or use an RTL variant.",
+  "icons": [
+    {
+      "name": "house",
+      "component_name": "Icon/Navigation/house",
+      "category": "Navigation",
+      "label_en": "Home",
+      "label_ar": "الرئيسية",
+      "path": "svg/house.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/house.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "98071c80f0d1a5ec837effc5687304ba5b0d75965a284719b5805a3d503f0d9c"
+    },
+    {
+      "name": "layout-dashboard",
+      "component_name": "Icon/Navigation/layout-dashboard",
+      "category": "Navigation",
+      "label_en": "Overview",
+      "label_ar": "نظرة عامة",
+      "path": "svg/layout-dashboard.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/layout-dashboard.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "b02f45800b01e728a5f1a0c9eb2a7f7a12fef43917f2f5bda41259779e95b364"
+    },
+    {
+      "name": "menu",
+      "component_name": "Icon/Navigation/menu",
+      "category": "Navigation",
+      "label_en": "Menu",
+      "label_ar": "القائمة",
+      "path": "svg/menu.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/menu.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "3e3092b465149d003381a210467fe4e9f9c2b135d5d4c638d84489b6cd848d68"
+    },
+    {
+      "name": "panel-left",
+      "component_name": "Icon/Navigation/panel-left",
+      "category": "Navigation",
+      "label_en": "Sidebar",
+      "label_ar": "القائمة الجانبية",
+      "path": "svg/panel-left.svg",
+      "rtl": {
+        "mirror": true,
+        "decision": "Mirror for logical navigation or sending direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/panel-left.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "7e3e798c9423b2ed2727768b5494a8d349331d4866f04048041acd1aec2c220b"
+    },
+    {
+      "name": "chevron-left",
+      "component_name": "Icon/Navigation/chevron-left",
+      "category": "Navigation",
+      "label_en": "Previous",
+      "label_ar": "السابق",
+      "path": "svg/chevron-left.svg",
+      "rtl": {
+        "mirror": true,
+        "decision": "Mirror for logical navigation or sending direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/chevron-left.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "6e7478a72752c404c2ff077dfb768a84b718255d7bf9ea547de9b080114592ee"
+    },
+    {
+      "name": "chevron-right",
+      "component_name": "Icon/Navigation/chevron-right",
+      "category": "Navigation",
+      "label_en": "Next",
+      "label_ar": "التالي",
+      "path": "svg/chevron-right.svg",
+      "rtl": {
+        "mirror": true,
+        "decision": "Mirror for logical navigation or sending direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/chevron-right.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "2af3089fa09497d5725172b172196d193cbe8205bf70ad6f9078ce4773285001"
+    },
+    {
+      "name": "chevron-down",
+      "component_name": "Icon/Navigation/chevron-down",
+      "category": "Navigation",
+      "label_en": "Expand",
+      "label_ar": "توسيع",
+      "path": "svg/chevron-down.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/chevron-down.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "763bbc7f305bad8b852b5ae5feadfc08858acf97f19a5897aa8f1fe636abed45"
+    },
+    {
+      "name": "chevron-up",
+      "component_name": "Icon/Navigation/chevron-up",
+      "category": "Navigation",
+      "label_en": "Collapse",
+      "label_ar": "طي",
+      "path": "svg/chevron-up.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/chevron-up.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "f64f6c239f92db91d133cc922d1ee1f2cd77ec3eed7dec001a9001b838dbe5aa"
+    },
+    {
+      "name": "arrow-left",
+      "component_name": "Icon/Navigation/arrow-left",
+      "category": "Navigation",
+      "label_en": "Back",
+      "label_ar": "رجوع",
+      "path": "svg/arrow-left.svg",
+      "rtl": {
+        "mirror": true,
+        "decision": "Mirror for logical navigation or sending direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/arrow-left.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "19d8383454694e3220d024a3533dbb051a9a18d0933bae3ef45eac4c94d5130b"
+    },
+    {
+      "name": "arrow-right",
+      "component_name": "Icon/Navigation/arrow-right",
+      "category": "Navigation",
+      "label_en": "Continue",
+      "label_ar": "متابعة",
+      "path": "svg/arrow-right.svg",
+      "rtl": {
+        "mirror": true,
+        "decision": "Mirror for logical navigation or sending direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/arrow-right.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "78af91b2c9d7cf8ea9564c3ca28a4f9021cced57aee0bc3bc801d68555d5b8e1"
+    },
+    {
+      "name": "arrow-up-right",
+      "component_name": "Icon/Navigation/arrow-up-right",
+      "category": "Navigation",
+      "label_en": "Open link",
+      "label_ar": "فتح الرابط",
+      "path": "svg/arrow-up-right.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Use the same glyph; external target direction stays literal."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/arrow-up-right.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "650d641faa2a5f154897faf01e73ff29b515530387274d350dc093f3b27f8278"
+    },
+    {
+      "name": "external-link",
+      "component_name": "Icon/Navigation/external-link",
+      "category": "Navigation",
+      "label_en": "External link",
+      "label_ar": "رابط خارجي",
+      "path": "svg/external-link.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Use the same glyph; external target direction stays literal."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/external-link.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "20ae73316402f4629ac1c69576014e2f3956f3ca6e14effeab868d4b5a8cc2ef"
+    },
+    {
+      "name": "search",
+      "component_name": "Icon/Navigation/search",
+      "category": "Navigation",
+      "label_en": "Search",
+      "label_ar": "بحث",
+      "path": "svg/search.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/search.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "e0d89f53155655032f5c07fd8da930800b62b69a778d1dd76b388b9b78bf1d3f"
+    },
+    {
+      "name": "filter",
+      "component_name": "Icon/Navigation/filter",
+      "category": "Navigation",
+      "label_en": "Filter",
+      "label_ar": "تصفية",
+      "path": "svg/filter.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/filter.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "9e71e7145bc0461c12e998a44432cee99e8a1080032445c6bcfb6a89edcc60d4"
+    },
+    {
+      "name": "list-filter",
+      "component_name": "Icon/Navigation/list-filter",
+      "category": "Navigation",
+      "label_en": "Advanced filters",
+      "label_ar": "عوامل التصفية",
+      "path": "svg/list-filter.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/list-filter.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "67295e3052728ef873e940000b01effb0927f6650b1a198b6d0388bd5d73102c"
+    },
+    {
+      "name": "sliders-horizontal",
+      "component_name": "Icon/Navigation/sliders-horizontal",
+      "category": "Navigation",
+      "label_en": "Adjust",
+      "label_ar": "ضبط",
+      "path": "svg/sliders-horizontal.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/sliders-horizontal.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "d2b52bb681ecad5c0710c4bba8684fd7be8dfe1d2bf3c10e865dff242cf3775f"
+    },
+    {
+      "name": "calendar",
+      "component_name": "Icon/Appointments/calendar",
+      "category": "Appointments",
+      "label_en": "Calendar",
+      "label_ar": "التقويم",
+      "path": "svg/calendar.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/calendar.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "5c0372f26e27a19c72b51e27315fa57d0dddbc325c6a2bf0ec32218e3a542ef6"
+    },
+    {
+      "name": "calendar-days",
+      "component_name": "Icon/Appointments/calendar-days",
+      "category": "Appointments",
+      "label_en": "Appointments",
+      "label_ar": "المواعيد",
+      "path": "svg/calendar-days.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/calendar-days.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "258c64f36ddd27af41245df5ee97486a3068ac41142f1877065efc541d2b1e37"
+    },
+    {
+      "name": "calendar-plus",
+      "component_name": "Icon/Appointments/calendar-plus",
+      "category": "Appointments",
+      "label_en": "New appointment",
+      "label_ar": "موعد جديد",
+      "path": "svg/calendar-plus.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/calendar-plus.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "10de3b89fe46a4acc29d3c0753d23736e3e2a5d1fa23334da7e6e2d65fb31212"
+    },
+    {
+      "name": "calendar-check",
+      "component_name": "Icon/Appointments/calendar-check",
+      "category": "Appointments",
+      "label_en": "Confirmed appointment",
+      "label_ar": "موعد مؤكد",
+      "path": "svg/calendar-check.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/calendar-check.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "13a2a3080655504590eba2a84302c7d7f2d56dcbccbbb52f0d2ea132df949f1e"
+    },
+    {
+      "name": "calendar-x",
+      "component_name": "Icon/Appointments/calendar-x",
+      "category": "Appointments",
+      "label_en": "Cancel appointment",
+      "label_ar": "إلغاء الموعد",
+      "path": "svg/calendar-x.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/calendar-x.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "614e1fca6ba4459386ac908af9fa195324db7011fe2b1a45b39c7bf4439551f6"
+    },
+    {
+      "name": "calendar-clock",
+      "component_name": "Icon/Appointments/calendar-clock",
+      "category": "Appointments",
+      "label_en": "Reschedule",
+      "label_ar": "تغيير الموعد",
+      "path": "svg/calendar-clock.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/calendar-clock.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "55b505818f85eca379e73d2bb120a5795132a430780defcf8dc993914a534ca7"
+    },
+    {
+      "name": "clock",
+      "component_name": "Icon/Appointments/clock",
+      "category": "Appointments",
+      "label_en": "Time",
+      "label_ar": "الوقت",
+      "path": "svg/clock.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/clock.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "2a50ff1030ae5591447dd5b278bdbd24e7dda3c24e2133348e7a66231fd6e787"
+    },
+    {
+      "name": "timer",
+      "component_name": "Icon/Appointments/timer",
+      "category": "Appointments",
+      "label_en": "Duration",
+      "label_ar": "المدة",
+      "path": "svg/timer.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/timer.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "706c74414d251d9faabb039ce9205bbb0e8c4b61181db439e4514672c895b58d"
+    },
+    {
+      "name": "list",
+      "component_name": "Icon/Appointments/list",
+      "category": "Appointments",
+      "label_en": "List view",
+      "label_ar": "عرض القائمة",
+      "path": "svg/list.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/list.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "8c57a520002147ace4c2e3127def471f29af0abb7113acdccb1284e4286ebaae"
+    },
+    {
+      "name": "columns-3",
+      "component_name": "Icon/Appointments/columns-3",
+      "category": "Appointments",
+      "label_en": "Day view",
+      "label_ar": "عرض اليوم",
+      "path": "svg/columns-3.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/columns-3.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "e1785868a5f2f3c26e4b8c60d0f0a943ed5d9edc651caeb169bab1a38106a6d7"
+    },
+    {
+      "name": "map-pin",
+      "component_name": "Icon/Appointments/map-pin",
+      "category": "Appointments",
+      "label_en": "Location",
+      "label_ar": "الموقع",
+      "path": "svg/map-pin.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/map-pin.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "2c2c016ef465ff3a5115ef0c4b92b5ca331fdb7d4c98119e958100acd88fa743"
+    },
+    {
+      "name": "building-2",
+      "component_name": "Icon/Appointments/building-2",
+      "category": "Appointments",
+      "label_en": "Clinic",
+      "label_ar": "العيادة",
+      "path": "svg/building-2.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/building-2.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "76305edbf53fc4c179f681300221cf9317fe85568d3adedfb620c3cdbc65e2f1"
+    },
+    {
+      "name": "door-open",
+      "component_name": "Icon/Appointments/door-open",
+      "category": "Appointments",
+      "label_en": "Room",
+      "label_ar": "الغرفة",
+      "path": "svg/door-open.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/door-open.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "18089643b3227788de838e62533ae0d21150649bfd24d4d754cc2ddae9fed616"
+    },
+    {
+      "name": "bell",
+      "component_name": "Icon/Appointments/bell",
+      "category": "Appointments",
+      "label_en": "Notifications",
+      "label_ar": "التنبيهات",
+      "path": "svg/bell.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/bell.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "01f419f823d3332da275a17fc7fcac7997597a0f533c9c81678ef5ee5b7bc341"
+    },
+    {
+      "name": "bell-ring",
+      "component_name": "Icon/Appointments/bell-ring",
+      "category": "Appointments",
+      "label_en": "Reminder",
+      "label_ar": "تذكير",
+      "path": "svg/bell-ring.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/bell-ring.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "fd71d4d63b3e0269a27d9997820d587b23ea0009366fd1371b9575ab808ed77e"
+    },
+    {
+      "name": "repeat-2",
+      "component_name": "Icon/Appointments/repeat-2",
+      "category": "Appointments",
+      "label_en": "Recurring appointment",
+      "label_ar": "موعد متكرر",
+      "path": "svg/repeat-2.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/repeat-2.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "56a0c93ebc51bce1db5062e4d6c1d29eeba4493e6d73a404e80ad88fa4af3e37"
+    },
+    {
+      "name": "user",
+      "component_name": "Icon/People and communication/user",
+      "category": "People and communication",
+      "label_en": "Patient",
+      "label_ar": "المراجعة",
+      "path": "svg/user.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/user.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "a397f1621cf195571fa16c1e82e21634149c8b581f0f0feecb0c09fc487648ed"
+    },
+    {
+      "name": "users",
+      "component_name": "Icon/People and communication/users",
+      "category": "People and communication",
+      "label_en": "Patients",
+      "label_ar": "المراجعات",
+      "path": "svg/users.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/users.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "8d17ead4eb85514d53a2aa1b6e04198a4270207f2266fef9356967964db91f1e"
+    },
+    {
+      "name": "user-plus",
+      "component_name": "Icon/People and communication/user-plus",
+      "category": "People and communication",
+      "label_en": "Add patient",
+      "label_ar": "إضافة مراجعة",
+      "path": "svg/user-plus.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/user-plus.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "6fde201208a8a17ac512c0e701e8a7172a384060ac23b82eb4640b2f17712804"
+    },
+    {
+      "name": "user-round-check",
+      "component_name": "Icon/People and communication/user-round-check",
+      "category": "People and communication",
+      "label_en": "Patient verified",
+      "label_ar": "بيانات المراجعة مؤكدة",
+      "path": "svg/user-round-check.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/user-round-check.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "9cd508d879a7a462c42f4540e86ea1b46c3f0a08306a678846fa7c68c13e24f2"
+    },
+    {
+      "name": "contact-round",
+      "component_name": "Icon/People and communication/contact-round",
+      "category": "People and communication",
+      "label_en": "Patient profile",
+      "label_ar": "ملف المراجعة",
+      "path": "svg/contact-round.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/contact-round.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "a866074df3f26c35ea42ddd4870e163ced1e87048586c779817a7345b34b7f63"
+    },
+    {
+      "name": "briefcase-medical",
+      "component_name": "Icon/People and communication/briefcase-medical",
+      "category": "People and communication",
+      "label_en": "Care team",
+      "label_ar": "الفريق الطبي",
+      "path": "svg/briefcase-medical.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/briefcase-medical.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "f8af8bdb6aada1d63eb89b5568ea744406bcc8533398710b42876336e3014469"
+    },
+    {
+      "name": "phone",
+      "component_name": "Icon/People and communication/phone",
+      "category": "People and communication",
+      "label_en": "Phone",
+      "label_ar": "الهاتف",
+      "path": "svg/phone.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/phone.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "1decebcfd8b5358d9f508c260fd69d3713fcc7ab3b8355bb258309ea71b18ba6"
+    },
+    {
+      "name": "mail",
+      "component_name": "Icon/People and communication/mail",
+      "category": "People and communication",
+      "label_en": "Email",
+      "label_ar": "البريد الإلكتروني",
+      "path": "svg/mail.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/mail.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "85d4be8521a40998aa8281046fe621fcdb83446c4ec488a03d4574503ab51aa1"
+    },
+    {
+      "name": "message-square",
+      "component_name": "Icon/People and communication/message-square",
+      "category": "People and communication",
+      "label_en": "Messages",
+      "label_ar": "الرسائل",
+      "path": "svg/message-square.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/message-square.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "ac0bb0b8da1d642f9dc0b39737f82a1d4ee32252a57a5ab46188b1e86c799646"
+    },
+    {
+      "name": "send",
+      "component_name": "Icon/People and communication/send",
+      "category": "People and communication",
+      "label_en": "Send",
+      "label_ar": "إرسال",
+      "path": "svg/send.svg",
+      "rtl": {
+        "mirror": true,
+        "decision": "Mirror for logical navigation or sending direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/send.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "850ed5c3de2130276b206e56aac7567ed1cd4ae46420639fd084bde02206b1e0"
+    },
+    {
+      "name": "video",
+      "component_name": "Icon/People and communication/video",
+      "category": "People and communication",
+      "label_en": "Video consultation",
+      "label_ar": "استشارة مرئية",
+      "path": "svg/video.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/video.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "039a87ee817bb29db69b9d7606f2e23e640efee51711358a390df673355d25a1"
+    },
+    {
+      "name": "languages",
+      "component_name": "Icon/People and communication/languages",
+      "category": "People and communication",
+      "label_en": "Language",
+      "label_ar": "اللغة",
+      "path": "svg/languages.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/languages.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "204ea2ef94b9fdbf41d795340b930e1e149180c007fb030316092a74be310b4c"
+    },
+    {
+      "name": "stethoscope",
+      "component_name": "Icon/Clinical/stethoscope",
+      "category": "Clinical",
+      "label_en": "Consultation",
+      "label_ar": "الاستشارة",
+      "path": "svg/stethoscope.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/stethoscope.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "74a218cc0a52438547cb6ae7060a4f8263e6d0dac356e3a7b2312767196d6ae2"
+    },
+    {
+      "name": "heart-pulse",
+      "component_name": "Icon/Clinical/heart-pulse",
+      "category": "Clinical",
+      "label_en": "Vitals",
+      "label_ar": "المؤشرات الحيوية",
+      "path": "svg/heart-pulse.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/heart-pulse.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "1a4bd72f240fc6e3bc45d1ba7c69eb50f4d82183a0fff02082145d1a958f4cfd"
+    },
+    {
+      "name": "activity",
+      "component_name": "Icon/Clinical/activity",
+      "category": "Clinical",
+      "label_en": "Clinical activity",
+      "label_ar": "النشاط السريري",
+      "path": "svg/activity.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/activity.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "ad2e728ce1a3bf4dee93223ce3912c7b52cd2ee061c832e08ba0a14b028f68ee"
+    },
+    {
+      "name": "clipboard-plus",
+      "component_name": "Icon/Clinical/clipboard-plus",
+      "category": "Clinical",
+      "label_en": "Medical record",
+      "label_ar": "السجل الطبي",
+      "path": "svg/clipboard-plus.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/clipboard-plus.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "b52d1adb50e0e2682352c1dd25cef5e1289326f293aaac9d428101a4a956f87b"
+    },
+    {
+      "name": "syringe",
+      "component_name": "Icon/Clinical/syringe",
+      "category": "Clinical",
+      "label_en": "Injection",
+      "label_ar": "الحقن",
+      "path": "svg/syringe.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/syringe.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "dd089dd27858161deacdc8955609be737679c6847cd87c679cfd4870729bd6da"
+    },
+    {
+      "name": "pill",
+      "component_name": "Icon/Clinical/pill",
+      "category": "Clinical",
+      "label_en": "Medication",
+      "label_ar": "الدواء",
+      "path": "svg/pill.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/pill.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "1e8ac374784e3b9a080a2ba246d2876e914c08410c918f2b19e5c8eea739ca90"
+    },
+    {
+      "name": "microscope",
+      "component_name": "Icon/Clinical/microscope",
+      "category": "Clinical",
+      "label_en": "Lab tests",
+      "label_ar": "التحاليل",
+      "path": "svg/microscope.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/microscope.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "664fb746fa40fb2e82a588195893d5c4a68b83e5783715723c933e2f590690bb"
+    },
+    {
+      "name": "thermometer",
+      "component_name": "Icon/Clinical/thermometer",
+      "category": "Clinical",
+      "label_en": "Temperature",
+      "label_ar": "درجة الحرارة",
+      "path": "svg/thermometer.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/thermometer.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "dda5312592d7f0205e7739fc942f1c4f5ef63afd8965aceb08fc98c5866c98c1"
+    },
+    {
+      "name": "droplets",
+      "component_name": "Icon/Clinical/droplets",
+      "category": "Clinical",
+      "label_en": "Skin treatment",
+      "label_ar": "علاج البشرة",
+      "path": "svg/droplets.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/droplets.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "47c7b6479f3913fb250f4ddb7e9f5c8581261f8f5220a13864f8180612e0b6c0"
+    },
+    {
+      "name": "bandage",
+      "component_name": "Icon/Clinical/bandage",
+      "category": "Clinical",
+      "label_en": "Aftercare",
+      "label_ar": "الرعاية اللاحقة",
+      "path": "svg/bandage.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/bandage.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "2194318e12a6b7c7a6b5075a4e2bd647ec737ec35dd2feab9030a6006d3e091f"
+    },
+    {
+      "name": "shield-check",
+      "component_name": "Icon/Clinical/shield-check",
+      "category": "Clinical",
+      "label_en": "Consent recorded",
+      "label_ar": "الموافقة مسجلة",
+      "path": "svg/shield-check.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/shield-check.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "999d49aefa7f0cab77de2853e167feb3d6b6424b4bd30a3090513c71813fd7fe"
+    },
+    {
+      "name": "cross",
+      "component_name": "Icon/Clinical/cross",
+      "category": "Clinical",
+      "label_en": "Medical services",
+      "label_ar": "الخدمات الطبية",
+      "path": "svg/cross.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/cross.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "f0b248e503220f57c86ec56de92a1dce6a60a9114c20dae5bda846e972b155a2"
+    },
+    {
+      "name": "file-heart",
+      "component_name": "Icon/Clinical/file-heart",
+      "category": "Clinical",
+      "label_en": "Care plan",
+      "label_ar": "خطة الرعاية",
+      "path": "svg/file-heart.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/file-heart.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "ed9b131f619c68e2f458b6c0592fb4a1c242260b686adc07b20d8bed29f21d75"
+    },
+    {
+      "name": "notebook-pen",
+      "component_name": "Icon/Clinical/notebook-pen",
+      "category": "Clinical",
+      "label_en": "Clinical notes",
+      "label_ar": "الملاحظات السريرية",
+      "path": "svg/notebook-pen.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/notebook-pen.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "119524879d2fc8c753887114ab988ee8f788482f2afddfb3103cc21d6d17cf86"
+    },
+    {
+      "name": "wallet",
+      "component_name": "Icon/Finance/wallet",
+      "category": "Finance",
+      "label_en": "Payments",
+      "label_ar": "المدفوعات",
+      "path": "svg/wallet.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/wallet.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "e7ab278a120fa8d5bd7d35e1490717acff12e5de6aa71f4303caadeae6657856"
+    },
+    {
+      "name": "credit-card",
+      "component_name": "Icon/Finance/credit-card",
+      "category": "Finance",
+      "label_en": "Card",
+      "label_ar": "البطاقة",
+      "path": "svg/credit-card.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/credit-card.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "a7d410d1dd797fe4b8e2b2b5fc9693284ae3a46e7974e28b5cc8b885708c49d3"
+    },
+    {
+      "name": "banknote",
+      "component_name": "Icon/Finance/banknote",
+      "category": "Finance",
+      "label_en": "Cash",
+      "label_ar": "نقداً",
+      "path": "svg/banknote.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/banknote.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "9efbeb280988f13fc1ee903eaf46526fd4f2dd6496aba4ed067c8359b5e22f33"
+    },
+    {
+      "name": "receipt",
+      "component_name": "Icon/Finance/receipt",
+      "category": "Finance",
+      "label_en": "Invoice",
+      "label_ar": "الفاتورة",
+      "path": "svg/receipt.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/receipt.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "4a0f533cba6c602d0bda4cba836e81c3fd06cfa821924dcf87939ff94297bf6a"
+    },
+    {
+      "name": "receipt-text",
+      "component_name": "Icon/Finance/receipt-text",
+      "category": "Finance",
+      "label_en": "Invoice details",
+      "label_ar": "تفاصيل الفاتورة",
+      "path": "svg/receipt-text.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/receipt-text.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "6fe44de1a9a7c16c9694ff1a72fb0dbb5f5604c53b0c96cfb078d021623fff2e"
+    },
+    {
+      "name": "badge-percent",
+      "component_name": "Icon/Finance/badge-percent",
+      "category": "Finance",
+      "label_en": "Discount",
+      "label_ar": "الخصم",
+      "path": "svg/badge-percent.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/badge-percent.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "70bb9316447ea3b3b95c4472d93cf10aa6ef953874cc049f1d4337f5dbd7eae9"
+    },
+    {
+      "name": "rotate-ccw",
+      "component_name": "Icon/Finance/rotate-ccw",
+      "category": "Finance",
+      "label_en": "Refund",
+      "label_ar": "استرداد المبلغ",
+      "path": "svg/rotate-ccw.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/rotate-ccw.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "3c85ba84f7aba5a0b8fd9fe58b0e61c64787777e71ab41fdd4c4a6dcac3250b5"
+    },
+    {
+      "name": "circle-dollar-sign",
+      "component_name": "Icon/Finance/circle-dollar-sign",
+      "category": "Finance",
+      "label_en": "Price",
+      "label_ar": "السعر",
+      "path": "svg/circle-dollar-sign.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/circle-dollar-sign.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "6ab294cff3de76c0ba4c68a164bfbe26c49f19e8844bc5e52164fe84a0b60e35"
+    },
+    {
+      "name": "landmark",
+      "component_name": "Icon/Finance/landmark",
+      "category": "Finance",
+      "label_en": "Bank transfer",
+      "label_ar": "تحويل بنكي",
+      "path": "svg/landmark.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/landmark.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "438bc1c7d65f9509419f1f7fa11a7d45fe58888108271c0a9945b13b50922800"
+    },
+    {
+      "name": "chart-no-axes-combined",
+      "component_name": "Icon/Finance/chart-no-axes-combined",
+      "category": "Finance",
+      "label_en": "Revenue report",
+      "label_ar": "تقرير الإيرادات",
+      "path": "svg/chart-no-axes-combined.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/chart-no-axes-combined.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "8bdd5bd1e17fb388010704ccb786aaa93fd403f60c4e61117a7a9e8bf8ee417b"
+    },
+    {
+      "name": "file-check",
+      "component_name": "Icon/Finance/file-check",
+      "category": "Finance",
+      "label_en": "Paid invoice",
+      "label_ar": "فاتورة مدفوعة",
+      "path": "svg/file-check.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/file-check.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "dacdcd0514471272bb11c18769f42399dd068ff52151030b0b0a8463a8262945"
+    },
+    {
+      "name": "file-clock",
+      "component_name": "Icon/Finance/file-clock",
+      "category": "Finance",
+      "label_en": "Pending invoice",
+      "label_ar": "فاتورة معلقة",
+      "path": "svg/file-clock.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/file-clock.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "ed2c7e67bf32cb37dee56ee9c1ccdb808fd85e4195df5afb28b694fa1ec080ca"
+    },
+    {
+      "name": "package",
+      "component_name": "Icon/Inventory/package",
+      "category": "Inventory",
+      "label_en": "Inventory",
+      "label_ar": "المخزون",
+      "path": "svg/package.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/package.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "0824af2143a6f747f9829b92bb25fcdcd6bbbdfdea50d3834d099cad16272d25"
+    },
+    {
+      "name": "boxes",
+      "component_name": "Icon/Inventory/boxes",
+      "category": "Inventory",
+      "label_en": "Stock items",
+      "label_ar": "أصناف المخزون",
+      "path": "svg/boxes.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/boxes.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "c74e4d0fce54601140459d2c1f3dec1da95cc2c0a1b1eb39c54b897fbbc2ef2b"
+    },
+    {
+      "name": "package-plus",
+      "component_name": "Icon/Inventory/package-plus",
+      "category": "Inventory",
+      "label_en": "Add stock",
+      "label_ar": "إضافة مخزون",
+      "path": "svg/package-plus.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/package-plus.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "62243c0bf91637fad28c7f3ce1fb38ab8c6405826985605793cb36789b49e3c5"
+    },
+    {
+      "name": "package-minus",
+      "component_name": "Icon/Inventory/package-minus",
+      "category": "Inventory",
+      "label_en": "Deduct stock",
+      "label_ar": "خصم مخزون",
+      "path": "svg/package-minus.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/package-minus.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "bef2d43bfaaeb5153f2b567170134b69e1965d7d0d2326562ca4928177881090"
+    },
+    {
+      "name": "scan-barcode",
+      "component_name": "Icon/Inventory/scan-barcode",
+      "category": "Inventory",
+      "label_en": "Scan barcode",
+      "label_ar": "مسح الباركود",
+      "path": "svg/scan-barcode.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/scan-barcode.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "3484660d956765db32aa8c2275816327b3db708f3e16efd8a387501c62a02cb3"
+    },
+    {
+      "name": "barcode",
+      "component_name": "Icon/Inventory/barcode",
+      "category": "Inventory",
+      "label_en": "Barcode",
+      "label_ar": "الباركود",
+      "path": "svg/barcode.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/barcode.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "da57ac4310d9a57dc0bf88e681005ab4550d05fd30fc694a415377c214bbdcc5"
+    },
+    {
+      "name": "truck",
+      "component_name": "Icon/Inventory/truck",
+      "category": "Inventory",
+      "label_en": "Delivery",
+      "label_ar": "التوريد",
+      "path": "svg/truck.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/truck.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "d343c5eaeb3aa5f9356b42b0faab0fd44dedb8d215e91d60bd281d17ce295e20"
+    },
+    {
+      "name": "archive",
+      "component_name": "Icon/Inventory/archive",
+      "category": "Inventory",
+      "label_en": "Archive",
+      "label_ar": "الأرشيف",
+      "path": "svg/archive.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/archive.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "65c0d065da17490a8bed02c76dc794154fd81fa4c56999c6b5d4125e56facec6"
+    },
+    {
+      "name": "clipboard-list",
+      "component_name": "Icon/Inventory/clipboard-list",
+      "category": "Inventory",
+      "label_en": "Stock count",
+      "label_ar": "جرد المخزون",
+      "path": "svg/clipboard-list.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/clipboard-list.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "70a8021ae30fc10d7fe937f607abc9e28e2c8df9978f649632e4ee40219a4b5e"
+    },
+    {
+      "name": "history",
+      "component_name": "Icon/Inventory/history",
+      "category": "Inventory",
+      "label_en": "History",
+      "label_ar": "السجل",
+      "path": "svg/history.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/history.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "15a0aa9c5c97acef0295b80e9d6a7d1d34f1e82f85c9f2866fc78187bce4d0d8"
+    },
+    {
+      "name": "plus",
+      "component_name": "Icon/Actions/plus",
+      "category": "Actions",
+      "label_en": "Add",
+      "label_ar": "إضافة",
+      "path": "svg/plus.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/plus.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "dfcf07b39b0f4c0b422595ae488fb08c468ef4782f6ef37d0deceaadfb2a5693"
+    },
+    {
+      "name": "minus",
+      "component_name": "Icon/Actions/minus",
+      "category": "Actions",
+      "label_en": "Remove",
+      "label_ar": "إزالة",
+      "path": "svg/minus.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/minus.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "98fa3350421dfd2011b2f109d20de6069c963b1f668c24fe675878b8a4c86532"
+    },
+    {
+      "name": "pencil",
+      "component_name": "Icon/Actions/pencil",
+      "category": "Actions",
+      "label_en": "Edit",
+      "label_ar": "تعديل",
+      "path": "svg/pencil.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/pencil.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "ad01ac9a96ecb8e35b54a505756072e9d297d6ed51dbebbd74d6605bfcc9c770"
+    },
+    {
+      "name": "trash-2",
+      "component_name": "Icon/Actions/trash-2",
+      "category": "Actions",
+      "label_en": "Delete",
+      "label_ar": "حذف",
+      "path": "svg/trash-2.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/trash-2.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "0367c1f1ea8be2af6dcd38e79c944dc2667ad725488fb9e2d4d1d8826d7b418f"
+    },
+    {
+      "name": "copy",
+      "component_name": "Icon/Actions/copy",
+      "category": "Actions",
+      "label_en": "Copy",
+      "label_ar": "نسخ",
+      "path": "svg/copy.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/copy.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "0e68d3e49db956dfe42e8dfac1d8596081ee0a6fc5480fc6318d231bb07616d9"
+    },
+    {
+      "name": "download",
+      "component_name": "Icon/Actions/download",
+      "category": "Actions",
+      "label_en": "Download",
+      "label_ar": "تنزيل",
+      "path": "svg/download.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/download.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "bc9a77e3390e5c8b3e79f9dcc955f950b608d76877d58b920ed2bb8dac4488a3"
+    },
+    {
+      "name": "upload",
+      "component_name": "Icon/Actions/upload",
+      "category": "Actions",
+      "label_en": "Upload",
+      "label_ar": "رفع",
+      "path": "svg/upload.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/upload.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "70bde4bb3a234d0aec4339ae3bfea8a9648b04d792d188fdc66fb4ddda138f9e"
+    },
+    {
+      "name": "printer",
+      "component_name": "Icon/Actions/printer",
+      "category": "Actions",
+      "label_en": "Print",
+      "label_ar": "طباعة",
+      "path": "svg/printer.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/printer.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "cab287a6731e664ec735a37e6b223097fb6341d69dd73b2f0f73b1a4bd6f9586"
+    },
+    {
+      "name": "save",
+      "component_name": "Icon/Actions/save",
+      "category": "Actions",
+      "label_en": "Save",
+      "label_ar": "حفظ",
+      "path": "svg/save.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/save.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "ca918dcfcbe5c47d2ea8bbd347e55a0f6aa9a605a3889474606f3b545083c7ce"
+    },
+    {
+      "name": "ellipsis",
+      "component_name": "Icon/Actions/ellipsis",
+      "category": "Actions",
+      "label_en": "More actions",
+      "label_ar": "إجراءات أخرى",
+      "path": "svg/ellipsis.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/ellipsis.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "97c6135170637b2ef189bb40a506c897db3e1bdc5b8326a7c03309e5bca97e8d"
+    },
+    {
+      "name": "refresh-cw",
+      "component_name": "Icon/Actions/refresh-cw",
+      "category": "Actions",
+      "label_en": "Refresh",
+      "label_ar": "تحديث",
+      "path": "svg/refresh-cw.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/refresh-cw.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "801cc03b84a654de114a2707c9b1c6aa9a3b732c4ffc9e5df0f63f02e1ba0105"
+    },
+    {
+      "name": "link",
+      "component_name": "Icon/Actions/link",
+      "category": "Actions",
+      "label_en": "Link",
+      "label_ar": "رابط",
+      "path": "svg/link.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/link.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "b9b459f896caf86a0713c034957857e47c61f37262365d0114c9870997bfe114"
+    },
+    {
+      "name": "check",
+      "component_name": "Icon/Feedback and system/check",
+      "category": "Feedback and system",
+      "label_en": "Selected",
+      "label_ar": "محدد",
+      "path": "svg/check.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/check.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "cf5d8f45a017604917c0d74ed9c49c6926b0df780c4c9ad3ad85fb7a392bf746"
+    },
+    {
+      "name": "x",
+      "component_name": "Icon/Feedback and system/x",
+      "category": "Feedback and system",
+      "label_en": "Close",
+      "label_ar": "إغلاق",
+      "path": "svg/x.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/x.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "a611112e8946480120e5e96f1d849651df76fa502f6190e293defaf6c4f56b07"
+    },
+    {
+      "name": "circle-check",
+      "component_name": "Icon/Feedback and system/circle-check",
+      "category": "Feedback and system",
+      "label_en": "Success",
+      "label_ar": "تم بنجاح",
+      "path": "svg/circle-check.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/circle-check.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "3691ff0253b550e0e2a558064f50a788d8b4d0664302548d5dd33321d368fb5b"
+    },
+    {
+      "name": "circle-alert",
+      "component_name": "Icon/Feedback and system/circle-alert",
+      "category": "Feedback and system",
+      "label_en": "Error",
+      "label_ar": "خطأ",
+      "path": "svg/circle-alert.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/circle-alert.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "9297d24761982135593d8a24fa90f3b901e36ec3b79a744df61012b4bb74addc"
+    },
+    {
+      "name": "triangle-alert",
+      "component_name": "Icon/Feedback and system/triangle-alert",
+      "category": "Feedback and system",
+      "label_en": "Warning",
+      "label_ar": "تنبيه",
+      "path": "svg/triangle-alert.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/triangle-alert.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "563e5e851a38ddc378dc98e80ae650ee28180846c7ce14ba51d40bc2107c9362"
+    },
+    {
+      "name": "info",
+      "component_name": "Icon/Feedback and system/info",
+      "category": "Feedback and system",
+      "label_en": "Information",
+      "label_ar": "معلومة",
+      "path": "svg/info.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/info.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "2dbeb8e85ec1aae8eedea831deb24a31b04917bceae5ce63bd49eaf07fdaf425"
+    },
+    {
+      "name": "circle-help",
+      "component_name": "Icon/Feedback and system/circle-help",
+      "category": "Feedback and system",
+      "label_en": "Help",
+      "label_ar": "المساعدة",
+      "path": "svg/circle-help.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/circle-help.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "2617f32e3ffe4a0591a0d57f21f1c67fda961b4f15f779ecfe246a09593f9ae0"
+    },
+    {
+      "name": "loader-circle",
+      "component_name": "Icon/Feedback and system/loader-circle",
+      "category": "Feedback and system",
+      "label_en": "Loading",
+      "label_ar": "جارٍ التحميل",
+      "path": "svg/loader-circle.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/loader-circle.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "83789c9ed68cc3f4f290736a2fd5e0acae39ba2b8705a5b7e34d507f1f44477a"
+    },
+    {
+      "name": "wifi-off",
+      "component_name": "Icon/Feedback and system/wifi-off",
+      "category": "Feedback and system",
+      "label_en": "Offline",
+      "label_ar": "غير متصل",
+      "path": "svg/wifi-off.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/wifi-off.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "8775ad0321de220baf8875f3f69492a36318b7467039f27afb288b4875c503c3"
+    },
+    {
+      "name": "cloud-off",
+      "component_name": "Icon/Feedback and system/cloud-off",
+      "category": "Feedback and system",
+      "label_en": "Status unknown",
+      "label_ar": "الحالة غير معروفة",
+      "path": "svg/cloud-off.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/cloud-off.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "1d604c85417975248f5378283560df9668aa9d0a474edcf74d0dc6b69e1c3659"
+    },
+    {
+      "name": "settings",
+      "component_name": "Icon/Feedback and system/settings",
+      "category": "Feedback and system",
+      "label_en": "Settings",
+      "label_ar": "الإعدادات",
+      "path": "svg/settings.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/settings.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "f2235dfd6c69bdad1acd08554ba19557becefa526b21ae4cfabf8fe7bbc48796"
+    },
+    {
+      "name": "lock-keyhole",
+      "component_name": "Icon/Feedback and system/lock-keyhole",
+      "category": "Feedback and system",
+      "label_en": "Locked",
+      "label_ar": "مقفل",
+      "path": "svg/lock-keyhole.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/lock-keyhole.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "075588fa9dd4cf8f4465aa74a767533273c40ab257dade6623676474709a6577"
+    },
+    {
+      "name": "eye",
+      "component_name": "Icon/Feedback and system/eye",
+      "category": "Feedback and system",
+      "label_en": "Show",
+      "label_ar": "إظهار",
+      "path": "svg/eye.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/eye.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "3eb607cfbd394442f231a2a377d5e149a41846cc7fe48e711e8141141b68d791"
+    },
+    {
+      "name": "eye-off",
+      "component_name": "Icon/Feedback and system/eye-off",
+      "category": "Feedback and system",
+      "label_en": "Hide",
+      "label_ar": "إخفاء",
+      "path": "svg/eye-off.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/eye-off.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "5e65f7fa6771e4190159fb442a108d8e5cf7af73f066d607379777c825ea23c2"
+    },
+    {
+      "name": "sun",
+      "component_name": "Icon/Feedback and system/sun",
+      "category": "Feedback and system",
+      "label_en": "Light theme",
+      "label_ar": "المظهر الفاتح",
+      "path": "svg/sun.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/sun.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "19d684776d546b673d45fc54b7dee7b22f18e0b2e673612220727e90f46fb4cf"
+    },
+    {
+      "name": "moon",
+      "component_name": "Icon/Feedback and system/moon",
+      "category": "Feedback and system",
+      "label_en": "Dark theme",
+      "label_ar": "المظهر الداكن",
+      "path": "svg/moon.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/moon.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "3002badbef72a8f85358b3fe844ccac9c6e9638cc8088fb197426e8aeee6e0a9"
+    },
+    {
+      "name": "log-out",
+      "component_name": "Icon/Feedback and system/log-out",
+      "category": "Feedback and system",
+      "label_en": "Sign out",
+      "label_ar": "تسجيل الخروج",
+      "path": "svg/log-out.svg",
+      "rtl": {
+        "mirror": true,
+        "decision": "Mirror for logical navigation or sending direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/log-out.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "db1bc9f72f1bf537718991c9ab03bf8d913c4e67a820335d4f992cc97d18b65a"
+    },
+    {
+      "name": "monitor",
+      "component_name": "Icon/Feedback and system/monitor",
+      "category": "Feedback and system",
+      "label_en": "Display",
+      "label_ar": "العرض",
+      "path": "svg/monitor.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, status, vertical direction or data symbol."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/monitor.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "0d77be3ea68ffd82ada70d752f7986194a49ed5137d4f9fd7ae74c2e8d680e5b"
+    },
+    {
+      "name": "accessibility",
+      "component_name": "Icon/Feedback and system/accessibility",
+      "category": "Feedback and system",
+      "label_en": "Accessibility",
+      "label_ar": "إمكانية الوصول",
+      "path": "svg/accessibility.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/accessibility.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "1e90fc172690de5e9228d498502876a960653c17a5da5735144b5291d36ab179"
+    },
+    {
+      "name": "alarm-clock",
+      "component_name": "Icon/Appointments/alarm-clock",
+      "category": "Appointments",
+      "label_en": "Reminder time",
+      "label_ar": "وقت التذكير",
+      "path": "svg/alarm-clock.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/alarm-clock.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "a86be94902abb0bc018ec39ac65e9635f42eb6af5544f40994fd0ee18ba50e2c"
+    },
+    {
+      "name": "arrow-up-down",
+      "component_name": "Icon/Actions/arrow-up-down",
+      "category": "Actions",
+      "label_en": "Sort",
+      "label_ar": "ترتيب",
+      "path": "svg/arrow-up-down.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/arrow-up-down.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "5b1b5584051349362010178e0922249c26d6a9a3bb38fcc14a75f1a51783fb5e"
+    },
+    {
+      "name": "badge-check",
+      "component_name": "Icon/People and communication/badge-check",
+      "category": "People and communication",
+      "label_en": "Verified identity",
+      "label_ar": "هوية مؤكدة",
+      "path": "svg/badge-check.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/badge-check.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "326c6529699c50be5f241a2de1eb1e1ee0dbe1338d90675ab28e5c2ba64f6882"
+    },
+    {
+      "name": "ban",
+      "component_name": "Icon/Appointments/ban",
+      "category": "Appointments",
+      "label_en": "Unavailable",
+      "label_ar": "غير متاح",
+      "path": "svg/ban.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/ban.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "e0a9efd59a993a4ebb3ac9d6b8c0672b90ca2b84c2af30671015df9b0f4fe980"
+    },
+    {
+      "name": "bell-off",
+      "component_name": "Icon/People and communication/bell-off",
+      "category": "People and communication",
+      "label_en": "Mute notifications",
+      "label_ar": "كتم التنبيهات",
+      "path": "svg/bell-off.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/bell-off.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "43acc0c96240dd3ef1abf36ecfdffc262921524832378d44a904f78c9cc979e4"
+    },
+    {
+      "name": "box",
+      "component_name": "Icon/Inventory/box",
+      "category": "Inventory",
+      "label_en": "Supply item",
+      "label_ar": "صنف من المستلزمات",
+      "path": "svg/box.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/box.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "43679d2c94d3444494b657a55dcf1a957459db461a5df1a11b413a88571f6acf"
+    },
+    {
+      "name": "calculator",
+      "component_name": "Icon/Finance/calculator",
+      "category": "Finance",
+      "label_en": "Calculate amount",
+      "label_ar": "حساب المبلغ",
+      "path": "svg/calculator.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/calculator.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "71d550821c6cc0ac15184f377681577248f452c25dbbb39dc1031ecc88baf156"
+    },
+    {
+      "name": "calendar-range",
+      "component_name": "Icon/Appointments/calendar-range",
+      "category": "Appointments",
+      "label_en": "Date range",
+      "label_ar": "الفترة الزمنية",
+      "path": "svg/calendar-range.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/calendar-range.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "61d8f04c32d824267113c5044564aad074bbece0fc3425ba228bedc27a56474a"
+    },
+    {
+      "name": "calendar-search",
+      "component_name": "Icon/Appointments/calendar-search",
+      "category": "Appointments",
+      "label_en": "Find appointment",
+      "label_ar": "البحث عن موعد",
+      "path": "svg/calendar-search.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/calendar-search.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "728e3d4029202c43a9b94dc79b0b2e9882e97aa060b1aba81b5a29e4a463b299"
+    },
+    {
+      "name": "check-check",
+      "component_name": "Icon/Feedback and system/check-check",
+      "category": "Feedback and system",
+      "label_en": "Acknowledged",
+      "label_ar": "تم الاطلاع",
+      "path": "svg/check-check.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/check-check.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "331c917a19d031c2df22d3d9632d6597b31c0634b268c979fe9ae3f3389b9863"
+    },
+    {
+      "name": "circle-dashed",
+      "component_name": "Icon/Feedback and system/circle-dashed",
+      "category": "Feedback and system",
+      "label_en": "Not started",
+      "label_ar": "لم يبدأ",
+      "path": "svg/circle-dashed.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/circle-dashed.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "378bcf8b80d3b4d5958fe985399b8393eb5c5a6157b77723d86525ffdcfdedbc"
+    },
+    {
+      "name": "circle-dot",
+      "component_name": "Icon/Actions/circle-dot",
+      "category": "Actions",
+      "label_en": "Selected option",
+      "label_ar": "الخيار المحدد",
+      "path": "svg/circle-dot.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/circle-dot.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "983e040a92657bbe0eb290182c47fd446ddf32eb831b1f7b57ccf78c28e6bb3f"
+    },
+    {
+      "name": "circle-user-round",
+      "component_name": "Icon/People and communication/circle-user-round",
+      "category": "People and communication",
+      "label_en": "Client profile",
+      "label_ar": "ملف المراجعة",
+      "path": "svg/circle-user-round.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/circle-user-round.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "4213e542ea19688130c7325a2d33481eef3f456257b40eb42cc5e036ed2df162"
+    },
+    {
+      "name": "circle-x",
+      "component_name": "Icon/Feedback and system/circle-x",
+      "category": "Feedback and system",
+      "label_en": "Failed",
+      "label_ar": "تعذر الإكمال",
+      "path": "svg/circle-x.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/circle-x.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "9cbc427e00f326d555ef7a7469cabacbce92d851fc7abf55ab98b1026fb9f13d"
+    },
+    {
+      "name": "clipboard-check",
+      "component_name": "Icon/Clinical/clipboard-check",
+      "category": "Clinical",
+      "label_en": "Reviewed intake",
+      "label_ar": "استمارة مراجعة",
+      "path": "svg/clipboard-check.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/clipboard-check.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "4ac5ba3c2308b50d29c6cd5ba499166dc45ac433d355041eebd38a985197d6d9"
+    },
+    {
+      "name": "coins",
+      "component_name": "Icon/Finance/coins",
+      "category": "Finance",
+      "label_en": "Amount collected",
+      "label_ar": "المبلغ المحصل",
+      "path": "svg/coins.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/coins.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "2804519cca5ec6271b8e02301a213fbde04841e7608420674183fd4fa4fc7b0c"
+    },
+    {
+      "name": "contact",
+      "component_name": "Icon/People and communication/contact",
+      "category": "People and communication",
+      "label_en": "Contact details",
+      "label_ar": "بيانات التواصل",
+      "path": "svg/contact.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/contact.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "78190807ef6075348ece47e8fdda00fd8f04ff2c7052fd538793d828e5b9711e"
+    },
+    {
+      "name": "database",
+      "component_name": "Icon/Feedback and system/database",
+      "category": "Feedback and system",
+      "label_en": "Stored records",
+      "label_ar": "السجلات المحفوظة",
+      "path": "svg/database.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/database.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "8f4cfe4259518e162d0bc3fbd817178fb0c455f45b3159789845ca925a119710"
+    },
+    {
+      "name": "expand",
+      "component_name": "Icon/Actions/expand",
+      "category": "Actions",
+      "label_en": "Expand view",
+      "label_ar": "توسيع العرض",
+      "path": "svg/expand.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/expand.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "66c8057f662179c9273f24d07fef843b0c324a114f980a76286bf309149a0ad0"
+    },
+    {
+      "name": "file-text",
+      "component_name": "Icon/Clinical/file-text",
+      "category": "Clinical",
+      "label_en": "Document",
+      "label_ar": "مستند",
+      "path": "svg/file-text.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/file-text.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "0f68908abe19543be363a403a4239f288236840ede01eec2af65830c3ba7f22c"
+    },
+    {
+      "name": "flask-conical",
+      "component_name": "Icon/Clinical/flask-conical",
+      "category": "Clinical",
+      "label_en": "Laboratory service",
+      "label_ar": "خدمة مختبرية",
+      "path": "svg/flask-conical.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/flask-conical.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "460da5166395bfb9bd2312d499cc73b766798053a8ee1dfb108eddd0a2e90dbb"
+    },
+    {
+      "name": "globe",
+      "component_name": "Icon/People and communication/globe",
+      "category": "People and communication",
+      "label_en": "Website",
+      "label_ar": "الموقع الإلكتروني",
+      "path": "svg/globe.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/globe.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "994924c198fe332f0de7eb5953610c6bce145b93db86c97d7183ce170a6038cc"
+    },
+    {
+      "name": "grid-2x2",
+      "component_name": "Icon/Navigation/grid-2x2",
+      "category": "Navigation",
+      "label_en": "Grid view",
+      "label_ar": "عرض الشبكة",
+      "path": "svg/grid-2x2.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/grid-2x2.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "dfdf5b92773d9ce414a0bc843788611b4d854a2fe9d499f46e1a7bade7f1bd75"
+    },
+    {
+      "name": "hand",
+      "component_name": "Icon/Clinical/hand",
+      "category": "Clinical",
+      "label_en": "Manual care",
+      "label_ar": "العناية اليدوية",
+      "path": "svg/hand.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/hand.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "48eb0936c9e857eec076659306886501166e8f7dec467ec39832ab2aa820aa3c"
+    },
+    {
+      "name": "hand-coins",
+      "component_name": "Icon/Finance/hand-coins",
+      "category": "Finance",
+      "label_en": "Receive payment",
+      "label_ar": "استلام دفعة",
+      "path": "svg/hand-coins.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/hand-coins.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "60d479c5a3aa27bec1ac62c90ab37bd90d4b701e0e6b27c8fdfa26f96f100b22"
+    },
+    {
+      "name": "hard-drive-download",
+      "component_name": "Icon/Feedback and system/hard-drive-download",
+      "category": "Feedback and system",
+      "label_en": "Local backup",
+      "label_ar": "نسخة احتياطية محلية",
+      "path": "svg/hard-drive-download.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/hard-drive-download.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "f93a5bba288ee896943b54231d58bd55f2280ca7d461a646ced8436a888bc0fe"
+    },
+    {
+      "name": "heart-handshake",
+      "component_name": "Icon/Clinical/heart-handshake",
+      "category": "Clinical",
+      "label_en": "Care support",
+      "label_ar": "دعم الرعاية",
+      "path": "svg/heart-handshake.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/heart-handshake.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "abe529d1fc937fb709378f65692646f1339391c9611dfdecbcb61938acf2c693"
+    },
+    {
+      "name": "key-round",
+      "component_name": "Icon/Feedback and system/key-round",
+      "category": "Feedback and system",
+      "label_en": "Access key",
+      "label_ar": "مفتاح الوصول",
+      "path": "svg/key-round.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/key-round.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "85e5db61869ee5c78f52ea1fbf75df75322ba7c67b785468c6554a4bf37e17cd"
+    },
+    {
+      "name": "layers",
+      "component_name": "Icon/Inventory/layers",
+      "category": "Inventory",
+      "label_en": "Item groups",
+      "label_ar": "مجموعات الأصناف",
+      "path": "svg/layers.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/layers.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "13f4094d328912b62ac21df6d423295178ab92d7120f975e9875c7078b13a132"
+    },
+    {
+      "name": "list-checks",
+      "component_name": "Icon/Clinical/list-checks",
+      "category": "Clinical",
+      "label_en": "Preparation checklist",
+      "label_ar": "قائمة الاستعداد",
+      "path": "svg/list-checks.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/list-checks.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "6d63ec59374a72d8723f7423ae121818b7b6d83f3e9b99f0d323c4c06ce2f08c"
+    },
+    {
+      "name": "lock",
+      "component_name": "Icon/Feedback and system/lock",
+      "category": "Feedback and system",
+      "label_en": "Restricted access",
+      "label_ar": "وصول مقيد",
+      "path": "svg/lock.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/lock.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "d5b171fc7578184bf9c70b20202e1398afeea956ca07bc896a8b88c23f1041e6"
+    },
+    {
+      "name": "messages-square",
+      "component_name": "Icon/People and communication/messages-square",
+      "category": "People and communication",
+      "label_en": "Conversation",
+      "label_ar": "المحادثة",
+      "path": "svg/messages-square.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/messages-square.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "beab742c2a6d37178c1397d66594a440037f57b2c9455ceab9e2815276684d12"
+    },
+    {
+      "name": "move",
+      "component_name": "Icon/Appointments/move",
+      "category": "Appointments",
+      "label_en": "Move appointment",
+      "label_ar": "نقل الموعد",
+      "path": "svg/move.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/move.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "bfe79340be0603c23a770c73f1eb921cb89ebdb924d5f0ba1a32c044e1a049f7"
+    },
+    {
+      "name": "navigation",
+      "component_name": "Icon/People and communication/navigation",
+      "category": "People and communication",
+      "label_en": "Directions",
+      "label_ar": "الاتجاهات",
+      "path": "svg/navigation.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/navigation.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "76133ef627bb252564c2923886ef13d052116d15c3e989a97a466cdecb787862"
+    },
+    {
+      "name": "notebook-tabs",
+      "component_name": "Icon/Clinical/notebook-tabs",
+      "category": "Clinical",
+      "label_en": "Care instructions",
+      "label_ar": "تعليمات الرعاية",
+      "path": "svg/notebook-tabs.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/notebook-tabs.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "42c9d6ca71a76dfcd15cd1c05288790902958fa74fdcf9daf3b447caf4e9ade1"
+    },
+    {
+      "name": "package-check",
+      "component_name": "Icon/Inventory/package-check",
+      "category": "Inventory",
+      "label_en": "Stock received",
+      "label_ar": "تم استلام المخزون",
+      "path": "svg/package-check.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/package-check.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "fb16c7e53214bd202702accd93c2fdd12b8dfc08ff95e121d8d3ce6f7ab7ae92"
+    },
+    {
+      "name": "percent",
+      "component_name": "Icon/Finance/percent",
+      "category": "Finance",
+      "label_en": "Percentage",
+      "label_ar": "النسبة المئوية",
+      "path": "svg/percent.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/percent.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "bb1d5093d286270abb7de7a1fecacff5a42b6f8397997536f42d8b7ee3750609"
+    },
+    {
+      "name": "redo-2",
+      "component_name": "Icon/Actions/redo-2",
+      "category": "Actions",
+      "label_en": "Redo",
+      "label_ar": "إعادة",
+      "path": "svg/redo-2.svg",
+      "rtl": {
+        "mirror": true,
+        "decision": "Mirror logical undo/redo direction in RTL. Keep the same action label and history semantics."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/redo-2.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "d99fcd0775fe5a19225c263f6e799e3d1e77eea1ac362085f7508850bdd2dbd7"
+    },
+    {
+      "name": "scan-face",
+      "component_name": "Icon/Clinical/scan-face",
+      "category": "Clinical",
+      "label_en": "Facial service",
+      "label_ar": "خدمة العناية بالوجه",
+      "path": "svg/scan-face.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/scan-face.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "9c3c59ebc8a5e027ac1d5005a486b493293391b4bad0f2fe5f737adad30944e9"
+    },
+    {
+      "name": "share-2",
+      "component_name": "Icon/Actions/share-2",
+      "category": "Actions",
+      "label_en": "Share",
+      "label_ar": "مشاركة",
+      "path": "svg/share-2.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/share-2.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "fd4dfce27ab9a70a42d40e13059948ee7c8cb601a47190061acc841be5d32e8c"
+    },
+    {
+      "name": "shield",
+      "component_name": "Icon/Feedback and system/shield",
+      "category": "Feedback and system",
+      "label_en": "Privacy",
+      "label_ar": "الخصوصية",
+      "path": "svg/shield.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/shield.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "0b3fd44f2bb21e697e9d866d65933429285488d9d99c39032db4ed7cdc543085"
+    },
+    {
+      "name": "shield-alert",
+      "component_name": "Icon/Feedback and system/shield-alert",
+      "category": "Feedback and system",
+      "label_en": "Access warning",
+      "label_ar": "تنبيه الوصول",
+      "path": "svg/shield-alert.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/shield-alert.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "32165a30307f6d0a2365c9d3cd00f1f8c3b7f199c00e55f39b6b3580cb37f711"
+    },
+    {
+      "name": "shrink",
+      "component_name": "Icon/Actions/shrink",
+      "category": "Actions",
+      "label_en": "Reduce view",
+      "label_ar": "تصغير العرض",
+      "path": "svg/shrink.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/shrink.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "9cf2c858e39f33a04628474896c1b32b175ce70d90add9bd25fe20ebf4cdd00d"
+    },
+    {
+      "name": "tag",
+      "component_name": "Icon/Inventory/tag",
+      "category": "Inventory",
+      "label_en": "Item category",
+      "label_ar": "تصنيف الصنف",
+      "path": "svg/tag.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/tag.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "f6cbd33fdbe92bb64e37701f4777e4ab8ea8c71bbe1cafbbfdf62d1266d55912"
+    },
+    {
+      "name": "test-tube",
+      "component_name": "Icon/Clinical/test-tube",
+      "category": "Clinical",
+      "label_en": "Sample",
+      "label_ar": "عينة",
+      "path": "svg/test-tube.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/test-tube.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "07c2c300d162eead9ffd41fb95fce35878cac88e4d7caeb5992e917369f81ce4"
+    },
+    {
+      "name": "undo-2",
+      "component_name": "Icon/Actions/undo-2",
+      "category": "Actions",
+      "label_en": "Undo",
+      "label_ar": "تراجع",
+      "path": "svg/undo-2.svg",
+      "rtl": {
+        "mirror": true,
+        "decision": "Mirror logical undo/redo direction in RTL. Keep the same action label and history semantics."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/undo-2.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "e16d552ee4fca9fae9e23c967d8672532be8869fe308a7fc109ce607450c8f3b"
+    },
+    {
+      "name": "zap",
+      "component_name": "Icon/Clinical/zap",
+      "category": "Clinical",
+      "label_en": "Device-based service",
+      "label_ar": "خدمة باستخدام جهاز",
+      "path": "svg/zap.svg",
+      "rtl": {
+        "mirror": false,
+        "decision": "Keep original; physical object, clinical metaphor, state, vertical movement or data symbol is not text direction."
+      },
+      "source": "https://github.com/lucide-icons/lucide/blob/1.61.0/icons/zap.svg",
+      "package": "lucide-static@1.61.0",
+      "sha256": "6965fd14fb358e5fa7004a43b2ddab84cb28160707366e2011e7dec9a185ad7d"
+    }
+  ],
+  "reconciliation": {
+    "date": "2026-10-26",
+    "specified_unique": 136,
+    "renderer_unique": 25,
+    "family_icon_fields_unique": 0,
+    "required_unique": 136,
+    "required_missing_after": [],
+    "contract": "spec/component-contract.json",
+    "renderer": "build/components-figma.js",
+    "families": "build/component-families.json",
+    "method": "Union original pack with all specified icon names, recursive icon fields and renderer literal names present in the official pinned archive. Existing entries remain unchanged.",
+    "inputs_sha256": {
+      "spec/component-contract.json": "d9fdd34236ff91f9d5a926f9d3d3aa5ddd50d8efc33bfd0ba61a6f87c2a4d1b2",
+      "build/components-figma.js": "4e13c0b5ccc07f16859ae11d3ffa78c84fa20920c8c56b10a0919a21305a145c",
+      "build/component-families.json": "8997f3f831b97e5a043d6b85dbcd3b124dd8099091316a1eb4263cd6f187de94"
+    }
+  }
+}

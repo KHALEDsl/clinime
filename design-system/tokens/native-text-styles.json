@@ -1,0 +1,372 @@
+{
+  "version": "2.0",
+  "source": "Actual native init-figma.js style definitions; returned ledgers report44 styles per file. Exact values inferred from executed deterministic formula, not new runtime browser typography measurements.",
+  "styles": {
+    "Clinime/EN/Caption/Regular": {
+      "fontFamily": "Sora",
+      "fontStyle": "Regular",
+      "fontSize": 12,
+      "lineHeight": 18,
+      "fontWeight": 400,
+      "letterSpacingPx": 0
+    },
+    "Clinime/EN/Caption/SemiBold": {
+      "fontFamily": "Sora",
+      "fontStyle": "SemiBold",
+      "fontSize": 12,
+      "lineHeight": 18,
+      "fontWeight": 600,
+      "letterSpacingPx": 0
+    },
+    "Clinime/EN/Supporting/Regular": {
+      "fontFamily": "Sora",
+      "fontStyle": "Regular",
+      "fontSize": 13,
+      "lineHeight": 20,
+      "fontWeight": 400,
+      "letterSpacingPx": 0
+    },
+    "Clinime/EN/Supporting/SemiBold": {
+      "fontFamily": "Sora",
+      "fontStyle": "SemiBold",
+      "fontSize": 13,
+      "lineHeight": 20,
+      "fontWeight": 600,
+      "letterSpacingPx": 0
+    },
+    "Clinime/EN/Label/Regular": {
+      "fontFamily": "Sora",
+      "fontStyle": "Regular",
+      "fontSize": 14,
+      "lineHeight": 22,
+      "fontWeight": 400,
+      "letterSpacingPx": 0
+    },
+    "Clinime/EN/Label/SemiBold": {
+      "fontFamily": "Sora",
+      "fontStyle": "SemiBold",
+      "fontSize": 14,
+      "lineHeight": 22,
+      "fontWeight": 600,
+      "letterSpacingPx": 0
+    },
+    "Clinime/EN/Body/Regular": {
+      "fontFamily": "Sora",
+      "fontStyle": "Regular",
+      "fontSize": 16,
+      "lineHeight": 24,
+      "fontWeight": 400,
+      "letterSpacingPx": 0
+    },
+    "Clinime/EN/Body/SemiBold": {
+      "fontFamily": "Sora",
+      "fontStyle": "SemiBold",
+      "fontSize": 16,
+      "lineHeight": 24,
+      "fontWeight": 600,
+      "letterSpacingPx": 0
+    },
+    "Clinime/EN/Subheading/Regular": {
+      "fontFamily": "Sora",
+      "fontStyle": "Regular",
+      "fontSize": 18,
+      "lineHeight": 28,
+      "fontWeight": 400,
+      "letterSpacingPx": 0
+    },
+    "Clinime/EN/Subheading/SemiBold": {
+      "fontFamily": "Sora",
+      "fontStyle": "SemiBold",
+      "fontSize": 18,
+      "lineHeight": 28,
+      "fontWeight": 600,
+      "letterSpacingPx": 0
+    },
+    "Clinime/EN/Section/Regular": {
+      "fontFamily": "Sora",
+      "fontStyle": "Regular",
+      "fontSize": 20,
+      "lineHeight": 30,
+      "fontWeight": 400,
+      "letterSpacingPx": 0
+    },
+    "Clinime/EN/Section/SemiBold": {
+      "fontFamily": "Sora",
+      "fontStyle": "SemiBold",
+      "fontSize": 20,
+      "lineHeight": 30,
+      "fontWeight": 600,
+      "letterSpacingPx": 0
+    },
+    "Clinime/EN/Title/Regular": {
+      "fontFamily": "Sora",
+      "fontStyle": "Regular",
+      "fontSize": 24,
+      "lineHeight": 36,
+      "fontWeight": 400,
+      "letterSpacingPx": 0
+    },
+    "Clinime/EN/Title/SemiBold": {
+      "fontFamily": "Sora",
+      "fontStyle": "SemiBold",
+      "fontSize": 24,
+      "lineHeight": 36,
+      "fontWeight": 600,
+      "letterSpacingPx": 0
+    },
+    "Clinime/EN/Page/Regular": {
+      "fontFamily": "Sora",
+      "fontStyle": "Regular",
+      "fontSize": 28,
+      "lineHeight": 42,
+      "fontWeight": 400,
+      "letterSpacingPx": -0.7
+    },
+    "Clinime/EN/Page/SemiBold": {
+      "fontFamily": "Sora",
+      "fontStyle": "SemiBold",
+      "fontSize": 28,
+      "lineHeight": 42,
+      "fontWeight": 600,
+      "letterSpacingPx": -0.7
+    },
+    "Clinime/EN/Metric/Regular": {
+      "fontFamily": "Sora",
+      "fontStyle": "Regular",
+      "fontSize": 32,
+      "lineHeight": 48,
+      "fontWeight": 400,
+      "letterSpacingPx": -0.7
+    },
+    "Clinime/EN/Metric/SemiBold": {
+      "fontFamily": "Sora",
+      "fontStyle": "SemiBold",
+      "fontSize": 32,
+      "lineHeight": 48,
+      "fontWeight": 600,
+      "letterSpacingPx": -0.7
+    },
+    "Clinime/EN/Display/Regular": {
+      "fontFamily": "Sora",
+      "fontStyle": "Regular",
+      "fontSize": 36,
+      "lineHeight": 54,
+      "fontWeight": 400,
+      "letterSpacingPx": -0.7
+    },
+    "Clinime/EN/Display/SemiBold": {
+      "fontFamily": "Sora",
+      "fontStyle": "SemiBold",
+      "fontSize": 36,
+      "lineHeight": 54,
+      "fontWeight": 600,
+      "letterSpacingPx": -0.7
+    },
+    "Clinime/EN/Client display/Regular": {
+      "fontFamily": "Sora",
+      "fontStyle": "Regular",
+      "fontSize": 40,
+      "lineHeight": 60,
+      "fontWeight": 400,
+      "letterSpacingPx": -0.7
+    },
+    "Clinime/EN/Client display/SemiBold": {
+      "fontFamily": "Sora",
+      "fontStyle": "SemiBold",
+      "fontSize": 40,
+      "lineHeight": 60,
+      "fontWeight": 600,
+      "letterSpacingPx": -0.7
+    },
+    "Clinime/AR/Caption/Regular": {
+      "fontFamily": "Noto Sans Arabic",
+      "fontStyle": "Regular",
+      "fontSize": 12,
+      "lineHeight": 20,
+      "fontWeight": 400,
+      "letterSpacingPx": 0
+    },
+    "Clinime/AR/Caption/SemiBold": {
+      "fontFamily": "Noto Sans Arabic",
+      "fontStyle": "SemiBold",
+      "fontSize": 12,
+      "lineHeight": 20,
+      "fontWeight": 600,
+      "letterSpacingPx": 0
+    },
+    "Clinime/AR/Supporting/Regular": {
+      "fontFamily": "Noto Sans Arabic",
+      "fontStyle": "Regular",
+      "fontSize": 13,
+      "lineHeight": 22,
+      "fontWeight": 400,
+      "letterSpacingPx": 0
+    },
+    "Clinime/AR/Supporting/SemiBold": {
+      "fontFamily": "Noto Sans Arabic",
+      "fontStyle": "SemiBold",
+      "fontSize": 13,
+      "lineHeight": 22,
+      "fontWeight": 600,
+      "letterSpacingPx": 0
+    },
+    "Clinime/AR/Label/Regular": {
+      "fontFamily": "Noto Sans Arabic",
+      "fontStyle": "Regular",
+      "fontSize": 14,
+      "lineHeight": 24,
+      "fontWeight": 400,
+      "letterSpacingPx": 0
+    },
+    "Clinime/AR/Label/SemiBold": {
+      "fontFamily": "Noto Sans Arabic",
+      "fontStyle": "SemiBold",
+      "fontSize": 14,
+      "lineHeight": 24,
+      "fontWeight": 600,
+      "letterSpacingPx": 0
+    },
+    "Clinime/AR/Body/Regular": {
+      "fontFamily": "Noto Sans Arabic",
+      "fontStyle": "Regular",
+      "fontSize": 16,
+      "lineHeight": 26,
+      "fontWeight": 400,
+      "letterSpacingPx": 0
+    },
+    "Clinime/AR/Body/SemiBold": {
+      "fontFamily": "Noto Sans Arabic",
+      "fontStyle": "SemiBold",
+      "fontSize": 16,
+      "lineHeight": 26,
+      "fontWeight": 600,
+      "letterSpacingPx": 0
+    },
+    "Clinime/AR/Subheading/Regular": {
+      "fontFamily": "Noto Sans Arabic",
+      "fontStyle": "Regular",
+      "fontSize": 18,
+      "lineHeight": 30,
+      "fontWeight": 400,
+      "letterSpacingPx": 0
+    },
+    "Clinime/AR/Subheading/SemiBold": {
+      "fontFamily": "Noto Sans Arabic",
+      "fontStyle": "SemiBold",
+      "fontSize": 18,
+      "lineHeight": 30,
+      "fontWeight": 600,
+      "letterSpacingPx": 0
+    },
+    "Clinime/AR/Section/Regular": {
+      "fontFamily": "Noto Sans Arabic",
+      "fontStyle": "Regular",
+      "fontSize": 20,
+      "lineHeight": 32,
+      "fontWeight": 400,
+      "letterSpacingPx": 0
+    },
+    "Clinime/AR/Section/SemiBold": {
+      "fontFamily": "Noto Sans Arabic",
+      "fontStyle": "SemiBold",
+      "fontSize": 20,
+      "lineHeight": 32,
+      "fontWeight": 600,
+      "letterSpacingPx": 0
+    },
+    "Clinime/AR/Title/Regular": {
+      "fontFamily": "Noto Sans Arabic",
+      "fontStyle": "Regular",
+      "fontSize": 24,
+      "lineHeight": 40,
+      "fontWeight": 400,
+      "letterSpacingPx": 0
+    },
+    "Clinime/AR/Title/SemiBold": {
+      "fontFamily": "Noto Sans Arabic",
+      "fontStyle": "SemiBold",
+      "fontSize": 24,
+      "lineHeight": 40,
+      "fontWeight": 600,
+      "letterSpacingPx": 0
+    },
+    "Clinime/AR/Page/Regular": {
+      "fontFamily": "Noto Sans Arabic",
+      "fontStyle": "Regular",
+      "fontSize": 28,
+      "lineHeight": 46,
+      "fontWeight": 400,
+      "letterSpacingPx": 0
+    },
+    "Clinime/AR/Page/SemiBold": {
+      "fontFamily": "Noto Sans Arabic",
+      "fontStyle": "SemiBold",
+      "fontSize": 28,
+      "lineHeight": 46,
+      "fontWeight": 600,
+      "letterSpacingPx": 0
+    },
+    "Clinime/AR/Metric/Regular": {
+      "fontFamily": "Noto Sans Arabic",
+      "fontStyle": "Regular",
+      "fontSize": 32,
+      "lineHeight": 52,
+      "fontWeight": 400,
+      "letterSpacingPx": 0
+    },
+    "Clinime/AR/Metric/SemiBold": {
+      "fontFamily": "Noto Sans Arabic",
+      "fontStyle": "SemiBold",
+      "fontSize": 32,
+      "lineHeight": 52,
+      "fontWeight": 600,
+      "letterSpacingPx": 0
+    },
+    "Clinime/AR/Display/Regular": {
+      "fontFamily": "Noto Sans Arabic",
+      "fontStyle": "Regular",
+      "fontSize": 36,
+      "lineHeight": 58,
+      "fontWeight": 400,
+      "letterSpacingPx": 0
+    },
+    "Clinime/AR/Display/SemiBold": {
+      "fontFamily": "Noto Sans Arabic",
+      "fontStyle": "SemiBold",
+      "fontSize": 36,
+      "lineHeight": 58,
+      "fontWeight": 600,
+      "letterSpacingPx": 0
+    },
+    "Clinime/AR/Client display/Regular": {
+      "fontFamily": "Noto Sans Arabic",
+      "fontStyle": "Regular",
+      "fontSize": 40,
+      "lineHeight": 64,
+      "fontWeight": 400,
+      "letterSpacingPx": 0
+    },
+    "Clinime/AR/Client display/SemiBold": {
+      "fontFamily": "Noto Sans Arabic",
+      "fontStyle": "SemiBold",
+      "fontSize": 40,
+      "lineHeight": 64,
+      "fontWeight": 600,
+      "letterSpacingPx": 0
+    }
+  },
+  "semanticRoleAliases": {
+    "display": "Clinime/EN/Display/SemiBold",
+    "page": "Clinime/EN/Page/SemiBold",
+    "section": "Clinime/EN/Section/SemiBold",
+    "card": "Clinime/EN/Body/SemiBold",
+    "body": "Clinime/EN/Body/Regular",
+    "secondary": "Clinime/EN/Label/Regular",
+    "label": "Clinime/EN/Label/SemiBold",
+    "button": "Clinime/EN/Label/SemiBold",
+    "table": "Clinime/EN/Label/Regular",
+    "caption": "Clinime/EN/Caption/Regular",
+    "metric": "Clinime/EN/Metric/SemiBold",
+    "status": "Clinime/EN/Caption/SemiBold"
+  }
+}

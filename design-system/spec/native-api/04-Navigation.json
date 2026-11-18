@@ -1,0 +1,718 @@
+[
+  {
+    "id": "15:5965",
+    "name": "NavItem",
+    "key": "725741d66f46043578ca47c148f71ede45096e82",
+    "properties": {
+      "Icon / calendar 1#15:473": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:5935",
+        "preferredValues": []
+      },
+      "Label#15:474": {
+        "type": "TEXT",
+        "defaultValue": "Appointments"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Default",
+        "variantOptions": [
+          "Default",
+          "Active",
+          "Focus"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:5934",
+        "name": "State=Default",
+        "key": "75614ee8d6d3ed49ffa49cfb452b35072c208ccb"
+      },
+      {
+        "id": "15:5948",
+        "name": "State=Active",
+        "key": "98e66f82e6b0f1d825aa5f44f7f0c44dd8c32396"
+      },
+      {
+        "id": "15:5956",
+        "name": "State=Focus",
+        "key": "26b9ea5e45a27c8eebae944a21b008f9c50bd81b"
+      }
+    ]
+  },
+  {
+    "id": "15:6147",
+    "name": "AppSidebar",
+    "key": "d00bf5e01e64c5ca4ec5526651ae601354a06fcd",
+    "properties": {
+      "Workspace#15:513": {
+        "type": "TEXT",
+        "defaultValue": "NOTHING MAJOR"
+      },
+      "Icon / house 1#15:514": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:5981",
+        "preferredValues": []
+      },
+      "Navigation#15:515": {
+        "type": "TEXT",
+        "defaultValue": "Home"
+      },
+      "Icon / calendar 2#15:516": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:5935",
+        "preferredValues": []
+      },
+      "Navigation 2#15:517": {
+        "type": "TEXT",
+        "defaultValue": "Appointments"
+      },
+      "Icon / file-text 3#15:518": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:5999",
+        "preferredValues": []
+      },
+      "Navigation 3#15:519": {
+        "type": "TEXT",
+        "defaultValue": "Services"
+      },
+      "Icon / package 4#15:520": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:6015",
+        "preferredValues": []
+      },
+      "Navigation 4#15:521": {
+        "type": "TEXT",
+        "defaultValue": "Supplies"
+      },
+      "Icon / settings 5#15:522": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:6029",
+        "preferredValues": []
+      },
+      "Navigation 5#15:523": {
+        "type": "TEXT",
+        "defaultValue": "Settings"
+      },
+      "Initials / Doctor#20:378": {
+        "type": "TEXT",
+        "defaultValue": "GG"
+      },
+      "Initials / Reception#20:382": {
+        "type": "TEXT",
+        "defaultValue": "FD"
+      },
+      "Account name / Doctor#20:386": {
+        "type": "TEXT",
+        "defaultValue": "Dr. Gigi"
+      },
+      "Account name / Reception#20:390": {
+        "type": "TEXT",
+        "defaultValue": "Reception"
+      },
+      "Account name / Manager#20:394": {
+        "type": "TEXT",
+        "defaultValue": "Clinic manager"
+      },
+      "Role / Doctor#20:398": {
+        "type": "TEXT",
+        "defaultValue": "Doctor & owner"
+      },
+      "Role / Reception#20:402": {
+        "type": "TEXT",
+        "defaultValue": "Reception"
+      },
+      "Role / Manager#20:406": {
+        "type": "TEXT",
+        "defaultValue": "Clinic manager"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Doctor",
+        "variantOptions": [
+          "Doctor",
+          "Reception",
+          "Manager"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:5966",
+        "name": "State=Doctor",
+        "key": "3861d88da6de943d77f1936871a4d1c9779e58be"
+      },
+      {
+        "id": "15:6045",
+        "name": "State=Reception",
+        "key": "33e6272609b9fb8ca278f518904e5047044f7e5a"
+      },
+      {
+        "id": "15:6089",
+        "name": "State=Manager",
+        "key": "a4c7f94bb267a128fc23c35e9ff8da8ccbfb67d0"
+      }
+    ]
+  },
+  {
+    "id": "15:6188",
+    "name": "TopBar",
+    "key": "7192d9c6144810c01a3e55d4e6dd1c68da80c59d",
+    "properties": {
+      "Title#15:544": {
+        "type": "TEXT",
+        "defaultValue": "Appointments"
+      },
+      "Context#15:545": {
+        "type": "TEXT",
+        "defaultValue": "Monday, 26 October · Clinic time GMT+3"
+      },
+      "Icon / bell 1#15:546": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:6152",
+        "preferredValues": []
+      },
+      "Initials#15:547": {
+        "type": "TEXT",
+        "defaultValue": "GG"
+      },
+      "Status#15:548": {
+        "type": "TEXT",
+        "defaultValue": "3"
+      },
+      "Icon / search 1#15:549": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:6178",
+        "preferredValues": []
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Default",
+        "variantOptions": [
+          "Default",
+          "Notification",
+          "Search"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:6148",
+        "name": "State=Default",
+        "key": "8dff10530b4ca2ec26274eefb3403a5610b4782c"
+      },
+      {
+        "id": "15:6162",
+        "name": "State=Notification",
+        "key": "0c0484e93d0d72fecfa57e71b9f2ab0f2d5e91b6"
+      },
+      {
+        "id": "15:6174",
+        "name": "State=Search",
+        "key": "dd86d9fedc49b7600c057c6216641a34c9b1e2ae"
+      }
+    ]
+  },
+  {
+    "id": "15:6222",
+    "name": "Tabs",
+    "key": "388e2d9f22e82257074afef97dadede77512b82a",
+    "properties": {
+      "Tab label#15:564": {
+        "type": "TEXT",
+        "defaultValue": "Overview"
+      },
+      "Tab label 2#15:565": {
+        "type": "TEXT",
+        "defaultValue": "History"
+      },
+      "Tab label 3#15:566": {
+        "type": "TEXT",
+        "defaultValue": "Payments"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Overview",
+        "variantOptions": [
+          "Overview",
+          "History",
+          "Payments"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:6189",
+        "name": "State=Overview",
+        "key": "e0a05040e5028b5d41977bd115aac47d59f2871d"
+      },
+      {
+        "id": "15:6200",
+        "name": "State=History",
+        "key": "6ea1943d351b1d1e57496829790e6f41fbf3d284"
+      },
+      {
+        "id": "15:6211",
+        "name": "State=Payments",
+        "key": "c025100c89331154d2438eda1259ec99006ba398"
+      }
+    ]
+  },
+  {
+    "id": "15:6240",
+    "name": "Breadcrumb",
+    "key": "30a7495a60ea74422b5cf7344ca099b841d204b3",
+    "properties": {
+      "Parent#15:573": {
+        "type": "TEXT",
+        "defaultValue": "Appointments"
+      },
+      "Icon / chevron-right 1#15:574": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:6226",
+        "preferredValues": []
+      },
+      "Current / Default#20:410": {
+        "type": "TEXT",
+        "defaultValue": "Sara Alotaibi"
+      },
+      "Current / Compact#20:413": {
+        "type": "TEXT",
+        "defaultValue": "CM-00428"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Default",
+        "variantOptions": [
+          "Default",
+          "Compact"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:6223",
+        "name": "State=Default",
+        "key": "5590dae2854b6a49b5d8894b6d60239eb438dd03"
+      },
+      {
+        "id": "15:6233",
+        "name": "State=Compact",
+        "key": "76c15391ca3cdbe44f2841086e89fce97ffd0fda"
+      }
+    ]
+  },
+  {
+    "id": "15:6262",
+    "name": "Pagination",
+    "key": "b316fa182e523bdabf1c2847401b7a29b98835a9",
+    "properties": {
+      "Action#15:586": {
+        "type": "TEXT",
+        "defaultValue": "Previous"
+      },
+      "Action 2#15:587": {
+        "type": "TEXT",
+        "defaultValue": "Next"
+      },
+      "Range / First#20:416": {
+        "type": "TEXT",
+        "defaultValue": "1–6 of 14 services"
+      },
+      "Range / Last#20:420": {
+        "type": "TEXT",
+        "defaultValue": "13–14 of 14"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "First",
+        "variantOptions": [
+          "First",
+          "Middle",
+          "Last"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:6241",
+        "name": "State=First",
+        "key": "9492b31b41f8428420d9014699aa85be16b4b9d3"
+      },
+      {
+        "id": "15:6248",
+        "name": "State=Middle",
+        "key": "81905cb1e08285f75b188e42d9743deba27326cb"
+      },
+      {
+        "id": "15:6255",
+        "name": "State=Last",
+        "key": "17c65bbf00d4b8c251749e19c4663178505a297c"
+      }
+    ]
+  },
+  {
+    "id": "15:6305",
+    "name": "Stepper",
+    "key": "aaad92bfbd71cc953830d47dfe94b74b0a7e7ad4",
+    "properties": {
+      "Step number#15:606": {
+        "type": "TEXT",
+        "defaultValue": "1"
+      },
+      "Step label#15:607": {
+        "type": "TEXT",
+        "defaultValue": "Patient"
+      },
+      "Step number 2#15:608": {
+        "type": "TEXT",
+        "defaultValue": "2"
+      },
+      "Step label 2#15:609": {
+        "type": "TEXT",
+        "defaultValue": "Service"
+      },
+      "Step number 3#15:610": {
+        "type": "TEXT",
+        "defaultValue": "3"
+      },
+      "Step label 3#15:611": {
+        "type": "TEXT",
+        "defaultValue": "Review"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Patient",
+        "variantOptions": [
+          "Patient",
+          "Service",
+          "Review"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:6263",
+        "name": "State=Patient",
+        "key": "8512c03ce18829ffcc7033e4d5a1726a15111eab"
+      },
+      {
+        "id": "15:6277",
+        "name": "State=Service",
+        "key": "0c9c1b7abb226b5fe0978034188f67ff05cf47d1"
+      },
+      {
+        "id": "15:6291",
+        "name": "State=Review",
+        "key": "a6baf4817bc4f4d1654b123c6629573c3d582584"
+      }
+    ]
+  },
+  {
+    "id": "15:6376",
+    "name": "BottomNavigation",
+    "key": "8f6b81bf677cc5eff6a22d1ca46b7cee19924fa3",
+    "properties": {
+      "Icon / search 1#15:630": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:6178",
+        "preferredValues": []
+      },
+      "Destination#15:631": {
+        "type": "TEXT",
+        "defaultValue": "Explore"
+      },
+      "Icon / calendar 2#15:632": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:5935",
+        "preferredValues": []
+      },
+      "Destination 2#15:633": {
+        "type": "TEXT",
+        "defaultValue": "Appointments"
+      },
+      "Icon / user 3#15:634": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:6323",
+        "preferredValues": []
+      },
+      "Destination 3#15:635": {
+        "type": "TEXT",
+        "defaultValue": "Account"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Explore",
+        "variantOptions": [
+          "Explore",
+          "Appointments",
+          "Account"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:6306",
+        "name": "State=Explore",
+        "key": "7e364604a478a8d572ea2cc160b7f9ded34b7c39"
+      },
+      {
+        "id": "15:6332",
+        "name": "State=Appointments",
+        "key": "f564071dd2f1ab5984e9bf5eb216bb8caffc61d9"
+      },
+      {
+        "id": "15:6354",
+        "name": "State=Account",
+        "key": "f7c5777d23936ecea3b761b1d24425ce114e0af4"
+      }
+    ]
+  },
+  {
+    "id": "15:6446",
+    "name": "AccountMenu",
+    "key": "4b7944492ad6efbff4c5e48e8dcf9c32dee8bb0e",
+    "properties": {
+      "Icon / user 1#15:662": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:6323",
+        "preferredValues": []
+      },
+      "Icon / user 2#15:664": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:6323",
+        "preferredValues": []
+      },
+      "Icon / user 3#15:666": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:6323",
+        "preferredValues": []
+      },
+      "Icon / user 4#15:668": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:6323",
+        "preferredValues": []
+      },
+      "Menu label 4#15:669": {
+        "type": "TEXT",
+        "defaultValue": "Sign out"
+      },
+      "Title / Doctor#20:424": {
+        "type": "TEXT",
+        "defaultValue": "Dr. Gigi"
+      },
+      "Title / Reception#20:428": {
+        "type": "TEXT",
+        "defaultValue": "Front desk"
+      },
+      "Title / Language#20:432": {
+        "type": "TEXT",
+        "defaultValue": "Language"
+      },
+      "Description / Doctor#20:436": {
+        "type": "TEXT",
+        "defaultValue": "Nothing Major · Clinic workspace"
+      },
+      "Description / Language#20:440": {
+        "type": "TEXT",
+        "defaultValue": "Keep your booking details when switching."
+      },
+      "Menu label / Doctor#20:444": {
+        "type": "TEXT",
+        "defaultValue": "Profile"
+      },
+      "Menu label / Language#20:448": {
+        "type": "TEXT",
+        "defaultValue": "English"
+      },
+      "Menu label 2 / Doctor#20:452": {
+        "type": "TEXT",
+        "defaultValue": "Settings"
+      },
+      "Menu label 2 / Reception#20:456": {
+        "type": "TEXT",
+        "defaultValue": "Help & demo guide"
+      },
+      "Menu label 2 / Language#20:460": {
+        "type": "TEXT",
+        "defaultValue": "العربية"
+      },
+      "Menu label 3 / Doctor#20:464": {
+        "type": "TEXT",
+        "defaultValue": "Help & demo guide"
+      },
+      "Menu label 3 / Reception#20:468": {
+        "type": "TEXT",
+        "defaultValue": "Sign out"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Doctor",
+        "variantOptions": [
+          "Doctor",
+          "Reception",
+          "Language"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:6377",
+        "name": "State=Doctor",
+        "key": "f7da5871600be8d61dc92c5b5210b05e3d501e3b"
+      },
+      {
+        "id": "15:6406",
+        "name": "State=Reception",
+        "key": "d7eccbcc5e8af5bdd56a24a985a84470ee5e6937"
+      },
+      {
+        "id": "15:6429",
+        "name": "State=Language",
+        "key": "bec8e58d60a1c1d657e0f9821099392d91f947ed"
+      }
+    ]
+  },
+  {
+    "id": "15:6479",
+    "name": "NotificationMenu",
+    "key": "31feb3a39218e078b2b3e08faafda8c9dd61fc37",
+    "properties": {
+      "Icon / bell 1#15:691": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:6152",
+        "preferredValues": []
+      },
+      "Title#15:692": {
+        "type": "TEXT",
+        "defaultValue": "Notifications"
+      },
+      "Notification title#15:694": {
+        "type": "TEXT",
+        "defaultValue": "Appointment request"
+      },
+      "Notification body#15:695": {
+        "type": "TEXT",
+        "defaultValue": "Review a requested time before confirming."
+      },
+      "Timestamp#15:696": {
+        "type": "TEXT",
+        "defaultValue": "10 minutes ago"
+      },
+      "Description / Unread#20:472": {
+        "type": "TEXT",
+        "defaultValue": "Clinic updates and tasks"
+      },
+      "Description / Empty#20:476": {
+        "type": "TEXT",
+        "defaultValue": "You’re all caught up."
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Unread",
+        "variantOptions": [
+          "Unread",
+          "Read",
+          "Empty"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:6447",
+        "name": "State=Unread",
+        "key": "90b1e198a3700752f994d8492510d25ce1e6104f"
+      },
+      {
+        "id": "15:6459",
+        "name": "State=Read",
+        "key": "37afcc6c646326fad1aefe2d6616ef5e4bba6f43"
+      },
+      {
+        "id": "15:6471",
+        "name": "State=Empty",
+        "key": "26f617bbc4ab2015f985e76e51f545d53b13dbac"
+      }
+    ]
+  },
+  {
+    "id": "15:6496",
+    "name": "Accordion",
+    "key": "e50706ed1bf34e3bc20d3d4e74b0afbdf9dd7bbb",
+    "properties": {
+      "Title#15:705": {
+        "type": "TEXT",
+        "defaultValue": "Advanced service settings"
+      },
+      "Icon / chevron-down 1#15:706": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:6483",
+        "preferredValues": []
+      },
+      "Content#15:707": {
+        "type": "TEXT",
+        "defaultValue": "Preparation time, compatible services, and supply usage belong to this service configuration."
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Closed",
+        "variantOptions": [
+          "Closed",
+          "Open"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:6480",
+        "name": "State=Closed",
+        "key": "d12567b4eee8393b15881eaff787643e98b5d57c"
+      },
+      {
+        "id": "15:6489",
+        "name": "State=Open",
+        "key": "68d6d991cb90e6ec792eaaec1ac6ee47bb8f31f1"
+      }
+    ]
+  },
+  {
+    "id": "15:6509",
+    "name": "SectionHeader",
+    "key": "882abe05bd139d182d621bcad03df19c25914976",
+    "properties": {
+      "Title#15:714": {
+        "type": "TEXT",
+        "defaultValue": "Today’s appointments"
+      },
+      "Description#15:715": {
+        "type": "TEXT",
+        "defaultValue": "6 scheduled · clinic-local time"
+      },
+      "Action#15:716": {
+        "type": "TEXT",
+        "defaultValue": "View calendar"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Default",
+        "variantOptions": [
+          "Default",
+          "WithAction"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:6497",
+        "name": "State=Default",
+        "key": "97dc5beb8514ccdd82ecd236adec228716753e55"
+      },
+      {
+        "id": "15:6502",
+        "name": "State=WithAction",
+        "key": "9945d0b8b2fe291539bcfad9f5520c67291d50a9"
+      }
+    ]
+  }
+]

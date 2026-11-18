@@ -1,0 +1,30 @@
+/* Contact-step feedback; the existing submit and route handlers remain authoritative. */
+body[data-customer-theme="muse"] form[data-form="attendee"] > .journey-submit[type="submit"] {
+  transform: none;
+  opacity: 1;
+  transition: transform 140ms var(--ease, cubic-bezier(.23, 1, .32, 1)), opacity 140ms var(--ease, cubic-bezier(.23, 1, .32, 1));
+}
+body[data-customer-theme="muse"] form[data-form="attendee"] > .journey-submit[type="submit"][data-review-pressed]:not(:disabled) {
+  transform: scale(.975);
+  opacity: .94;
+  background: var(--muse-journey-action-pressed, var(--navy-press));
+  transition-duration: 0ms;
+}
+.review-press-residue {
+  position: fixed;
+  z-index: 30;
+  pointer-events: none;
+  user-select: none;
+  display: grid;
+  place-items: center;
+  margin: 0;
+  box-sizing: border-box;
+  transform-origin: center;
+}
+@media (prefers-reduced-motion: reduce) {
+  body[data-customer-theme="muse"] form[data-form="attendee"] > .journey-submit[type="submit"][data-review-pressed]:not(:disabled) {
+    transform: none;
+    opacity: 1;
+  }
+  .review-press-residue { display: none; }
+}

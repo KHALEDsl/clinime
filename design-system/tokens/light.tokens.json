@@ -1,0 +1,289 @@
+{
+  "$description": "Clinime v2 light tokens, exported from verified native variables. Merge global, one theme, and component sets.",
+  "color": {
+    "action": {
+      "destructive": {
+        "$type": "color",
+        "$value": "{primitive.color.status.error.text}"
+      },
+      "destructive-hover": {
+        "$type": "color",
+        "$value": "{primitive.color.error.700}"
+      },
+      "destructive-pressed": {
+        "$type": "color",
+        "$value": "{primitive.color.error.800}"
+      },
+      "disabled-bg": {
+        "$type": "color",
+        "$value": "{primitive.color.gray.100}"
+      },
+      "disabled-text": {
+        "$type": "color",
+        "$value": "{primitive.color.status.completed.border}"
+      },
+      "hover": {
+        "$type": "color",
+        "$value": "{primitive.color.dark.subtle}"
+      },
+      "on-primary": {
+        "$type": "color",
+        "$value": "{primitive.color.gray.0}"
+      },
+      "pressed": {
+        "$type": "color",
+        "$value": "{primitive.color.dark.base}"
+      },
+      "primary": {
+        "$type": "color",
+        "$value": "{primitive.color.status.info.text}"
+      },
+      "secondary-hover": {
+        "$type": "color",
+        "$value": "{primitive.color.dark.text}"
+      },
+      "secondary-pressed": {
+        "$type": "color",
+        "$value": "{primitive.color.status.info.surface}"
+      }
+    },
+    "appointment": {
+      "active": {
+        "border": {
+          "$type": "color",
+          "$value": "{primitive.color.status.success.border}"
+        },
+        "surface": {
+          "$type": "color",
+          "$value": "{primitive.color.status.success.surface}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{primitive.color.status.success.text}"
+        }
+      },
+      "completed": {
+        "border": {
+          "$type": "color",
+          "$value": "{primitive.color.status.completed.border}"
+        },
+        "surface": {
+          "$type": "color",
+          "$value": "{primitive.color.status.completed.surface}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{primitive.color.status.completed.text}"
+        }
+      },
+      "confirmed": {
+        "border": {
+          "$type": "color",
+          "$value": "{primitive.color.status.confirmed.border}"
+        },
+        "surface": {
+          "$type": "color",
+          "$value": "{primitive.color.status.confirmed.surface}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{primitive.color.status.confirmed.text}"
+        }
+      }
+    },
+    "bg": {
+      "brand": {
+        "$type": "color",
+        "$value": "{primitive.color.pink.50}"
+      },
+      "canvas": {
+        "$type": "color",
+        "$value": "{primitive.color.gray.50}"
+      },
+      "hover": {
+        "$type": "color",
+        "$value": "{primitive.color.dark.text}"
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{primitive.color.dark.canvas}"
+      },
+      "selected": {
+        "$type": "color",
+        "$value": "{primitive.color.pink.100}"
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{primitive.color.gray.100}"
+      },
+      "surface": {
+        "$type": "color",
+        "$value": "{primitive.color.gray.0}"
+      }
+    },
+    "border": {
+      "control": {
+        "$type": "color",
+        "$value": "{primitive.color.status.completed.border}"
+      },
+      "hover": {
+        "$type": "color",
+        "$value": "{primitive.color.slate.600}"
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{primitive.color.status.info.border}"
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{primitive.color.gray.200}"
+      }
+    },
+    "focus": {
+      "ring": {
+        "$type": "color",
+        "$value": "{primitive.color.status.info.text}"
+      }
+    },
+    "overlay": {
+      "scrim": {
+        "$type": "color",
+        "$value": "{primitive.color.dark.canvas}"
+      }
+    },
+    "status": {
+      "active": {
+        "border": {
+          "$type": "color",
+          "$value": "{primitive.color.status.success.border}"
+        },
+        "surface": {
+          "$type": "color",
+          "$value": "{primitive.color.status.success.surface}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{primitive.color.status.success.text}"
+        }
+      },
+      "completed": {
+        "border": {
+          "$type": "color",
+          "$value": "{primitive.color.status.completed.border}"
+        },
+        "surface": {
+          "$type": "color",
+          "$value": "{primitive.color.status.completed.surface}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{primitive.color.status.completed.text}"
+        }
+      },
+      "confirmed": {
+        "border": {
+          "$type": "color",
+          "$value": "{primitive.color.status.confirmed.border}"
+        },
+        "surface": {
+          "$type": "color",
+          "$value": "{primitive.color.status.confirmed.surface}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{primitive.color.status.confirmed.text}"
+        }
+      },
+      "error": {
+        "border": {
+          "$type": "color",
+          "$value": "{primitive.color.status.error.border}"
+        },
+        "surface": {
+          "$type": "color",
+          "$value": "{primitive.color.status.error.surface}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{primitive.color.status.error.text}"
+        }
+      },
+      "info": {
+        "border": {
+          "$type": "color",
+          "$value": "{primitive.color.status.info.border}"
+        },
+        "surface": {
+          "$type": "color",
+          "$value": "{primitive.color.status.info.surface}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{primitive.color.status.info.text}"
+        }
+      },
+      "success": {
+        "border": {
+          "$type": "color",
+          "$value": "{primitive.color.status.success.border}"
+        },
+        "surface": {
+          "$type": "color",
+          "$value": "{primitive.color.status.success.surface}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{primitive.color.status.success.text}"
+        }
+      },
+      "warning": {
+        "border": {
+          "$type": "color",
+          "$value": "{primitive.color.status.warning.border}"
+        },
+        "surface": {
+          "$type": "color",
+          "$value": "{primitive.color.status.warning.surface}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{primitive.color.status.warning.text}"
+        }
+      }
+    },
+    "text": {
+      "brand-accent": {
+        "$type": "color",
+        "$value": "{primitive.color.pink.700}"
+      },
+      "heading": {
+        "$type": "color",
+        "$value": "{primitive.color.status.info.text}"
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{primitive.color.gray.0}"
+      },
+      "link": {
+        "$type": "color",
+        "$value": "{primitive.color.status.info.text}"
+      },
+      "placeholder": {
+        "$type": "color",
+        "$value": "{primitive.color.gray.600}"
+      },
+      "primary": {
+        "$type": "color",
+        "$value": "{primitive.color.gray.900}"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{primitive.color.gray.600}"
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "{primitive.color.gray.600}"
+      }
+    }
+  }
+}

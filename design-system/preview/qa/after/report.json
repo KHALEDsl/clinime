@@ -1,0 +1,344 @@
+{
+ "desktop": {
+  "url": "file:///var/folders/fs/v9r_w4mj3hl_8vkkzd02rzbm0000gn/T/slop-tve4pc5p/site/.__slop_raw_21102.html",
+  "viewport": [
+   1440,
+   900
+  ],
+  "docHeight": 1757,
+  "counts": {
+   "P0": 11,
+   "P1": 0,
+   "P2": 1
+  },
+  "findings": [
+   {
+    "id": "O2",
+    "sev": "P0",
+    "where": "div#appointment-list > div.appointment-row.selected",
+    "msg": "stroke on a non-interactive block (stroke = state): use a fill step or space",
+    "box": [
+     256,
+     642,
+     748,
+     76
+    ]
+   },
+   {
+    "id": "O4",
+    "sev": "P0",
+    "where": "button#add-appointment",
+    "msg": "button padding: padding ratio 1.3 (x 15 / y 12)",
+    "box": [
+     819,
+     296,
+     185,
+     44
+    ]
+   },
+   {
+    "id": "O4",
+    "sev": "P0",
+    "where": "div#booking-content > div.date-choices > button.date-button",
+    "msg": "button padding: label only 7px from the edge, padding ratio 1.2 (x 7 / y 6)",
+    "box": [
+     1076,
+     565,
+     55,
+     62
+    ]
+   },
+   {
+    "id": "O4",
+    "sev": "P0",
+    "where": "button#continue-booking",
+    "msg": "button padding: padding ratio 13.1 (x 118 / y 9)",
+    "box": [
+     1076,
+     804,
+     300,
+     48
+    ]
+   },
+   {
+    "id": "O4",
+    "sev": "P0",
+    "where": "button#save-demo",
+    "msg": "button padding: padding ratio 1.3 (x 15 / y 12)",
+    "box": [
+     72,
+     1329,
+     152,
+     44
+    ]
+   },
+   {
+    "id": "O4",
+    "sev": "P0",
+    "where": "button#reset-demo",
+    "msg": "button padding: padding ratio 1.2 (x 15 / y 13)",
+    "box": [
+     234,
+     1329,
+     80,
+     44
+    ]
+   },
+   {
+    "id": "O4",
+    "sev": "P0",
+    "where": "button#details-demo",
+    "msg": "button padding: padding ratio 1.3 (x 15 / y 12)",
+    "box": [
+     72,
+     1385,
+     142,
+     44
+    ]
+   },
+   {
+    "id": "O4",
+    "sev": "P0",
+    "where": "button#cancel-demo",
+    "msg": "button padding: padding ratio 1.2 (x 15 / y 13)",
+    "box": [
+     224,
+     1385,
+     177,
+     44
+    ]
+   },
+   {
+    "id": "O4",
+    "sev": "P0",
+    "where": "div.component-grid > article.component-group > div.control-row > button.button.primary",
+    "msg": "button padding: padding ratio 1.2 (x 15 / y 13)",
+    "box": [
+     72,
+     1441,
+     153,
+     44
+    ]
+   },
+   {
+    "id": "O4",
+    "sev": "P0",
+    "where": "div#appointments > div.day-summary > div.segmented > button.selected",
+    "msg": "mixed heights for one button size: 34 / 62px",
+    "box": [
+     865,
+     380,
+     66,
+     34
+    ]
+   },
+   {
+    "id": "O4",
+    "sev": "P0",
+    "where": "div#appointments > div.day-summary > div.segmented > button",
+    "msg": "mixed heights for one button size: 34 / 62px",
+    "box": [
+     934,
+     380,
+     67,
+     34
+    ]
+   },
+   {
+    "id": "T5",
+    "sev": "P2",
+    "where": "html > body",
+    "msg": "8 font sizes (12, 13, 14, 16, 23, 24, 26, 36)",
+    "box": [
+     0,
+     0,
+     1440,
+     1757
+    ]
+   }
+  ]
+ },
+ "mobile": {
+  "url": "file:///var/folders/fs/v9r_w4mj3hl_8vkkzd02rzbm0000gn/T/slop-tve4pc5p/site/.__slop_raw_21102.html",
+  "viewport": [
+   390,
+   844
+  ],
+  "docHeight": 3568,
+  "counts": {
+   "P0": 14,
+   "P1": 0,
+   "P2": 0
+  },
+  "findings": [
+   {
+    "id": "O2",
+    "sev": "P0",
+    "where": "div#appointment-list > div.appointment-row.selected",
+    "msg": "stroke on a non-interactive block (stroke = state): use a fill step or space",
+    "box": [
+     32,
+     1523,
+     326,
+     96
+    ]
+   },
+   {
+    "id": "O4",
+    "sev": "P0",
+    "where": "button#locale-toggle",
+    "msg": "button padding: padding ratio 1.1 (x 13 / y 12)",
+    "box": [
+     234,
+     14,
+     92,
+     44
+    ]
+   },
+   {
+    "id": "O4",
+    "sev": "P0",
+    "where": "button#add-appointment",
+    "msg": "button padding: padding ratio 1.3 (x 15 / y 12)",
+    "box": [
+     32,
+     1085,
+     175,
+     44
+    ]
+   },
+   {
+    "id": "O4",
+    "sev": "P0",
+    "where": "div#appointments > div.day-summary > div.segmented > button.selected",
+    "msg": "button padding: label only 8px from the edge, padding ratio 0.6 (x 8 / y 13)",
+    "box": [
+     275,
+     1156,
+     38,
+     44
+    ]
+   },
+   {
+    "id": "O4",
+    "sev": "P0",
+    "where": "div#appointments > div.day-summary > div.segmented > button",
+    "msg": "button padding: label only 8px from the edge, padding ratio 0.6 (x 8 / y 13)",
+    "box": [
+     316,
+     1156,
+     39,
+     44
+    ]
+   },
+   {
+    "id": "O4",
+    "sev": "P0",
+    "where": "div#booking-content > div.date-choices > button.date-button",
+    "msg": "button padding: label only 8px from the edge, padding ratio 1.2 (x 8 / y 7)",
+    "box": [
+     40,
+     607,
+     57,
+     64
+    ]
+   },
+   {
+    "id": "O4",
+    "sev": "P0",
+    "where": "button#continue-booking",
+    "msg": "button padding: padding ratio 13.6 (x 123 / y 9)",
+    "box": [
+     40,
+     860,
+     310,
+     48
+    ]
+   },
+   {
+    "id": "O4",
+    "sev": "P0",
+    "where": "button#save-demo",
+    "msg": "button padding: padding ratio 1.2 (x 17 / y 14)",
+    "box": [
+     40,
+     2352,
+     149,
+     48
+    ]
+   },
+   {
+    "id": "O4",
+    "sev": "P0",
+    "where": "button#reset-demo",
+    "msg": "button padding: padding ratio 1.1 (x 17 / y 15)",
+    "box": [
+     199,
+     2352,
+     80,
+     48
+    ]
+   },
+   {
+    "id": "O4",
+    "sev": "P0",
+    "where": "button#details-demo",
+    "msg": "button padding: padding ratio 1.2 (x 17 / y 14)",
+    "box": [
+     40,
+     2412,
+     140,
+     48
+    ]
+   },
+   {
+    "id": "O4",
+    "sev": "P0",
+    "where": "button#cancel-demo",
+    "msg": "button padding: padding ratio 1.1 (x 17 / y 15)",
+    "box": [
+     40,
+     2470,
+     171,
+     48
+    ]
+   },
+   {
+    "id": "O4",
+    "sev": "P0",
+    "where": "div.component-grid > article.component-group > div.control-row > button.button.primary",
+    "msg": "button padding: padding ratio 1.1 (x 17 / y 15)",
+    "box": [
+     40,
+     2530,
+     148,
+     48
+    ]
+   },
+   {
+    "id": "O4",
+    "sev": "P0",
+    "where": "div#appointments > div.day-summary > div.segmented > button.selected",
+    "msg": "mixed heights for one button size: 44 / 64px",
+    "box": [
+     275,
+     1156,
+     38,
+     44
+    ]
+   },
+   {
+    "id": "O4",
+    "sev": "P0",
+    "where": "div#appointments > div.day-summary > div.segmented > button",
+    "msg": "mixed heights for one button size: 44 / 64px",
+    "box": [
+     316,
+     1156,
+     39,
+     44
+    ]
+   }
+  ]
+ }
+}

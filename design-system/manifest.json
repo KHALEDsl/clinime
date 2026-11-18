@@ -1,0 +1,46 @@
+{
+  "name": "Clinime Design System",
+  "version": "4.0.0-design-refinement",
+  "date": "2026-10-26",
+  "files": {
+    "foundations": {
+      "key": "v9NxSvKhuMenLZMZI837rJ",
+      "url": "https://www.figma.com/design/v9NxSvKhuMenLZMZI837rJ"
+    },
+    "icons": {
+      "key": "9fPYn0NQQvvtDj9dwLZ8Tb",
+      "url": "https://www.figma.com/design/9fPYn0NQQvvtDj9dwLZ8Tb"
+    },
+    "components": {
+      "key": "5WVoJPHxwLqvhiy72BoRs9",
+      "url": "https://www.figma.com/design/5WVoJPHxwLqvhiy72BoRs9"
+    }
+  },
+  "nativePages": 33,
+  "variablesPerFile": 205,
+  "textStylesPerFile": 44,
+  "uniqueIcons": 158,
+  "iconVariants": 501,
+  "componentFamilies": 114,
+  "componentVariants": 407,
+  "contractFamiliesMapped": 109,
+  "auditPlanningUnitsMapped": 108,
+  "instanceProof": {
+    "families": 114,
+    "variants": 407,
+    "scope": "Default text and visible nested icon identity against native master; rechecked after changed content where applicable",
+    "evidence": "evidence/revision-4-verification.md",
+    "mismatches": []
+  },
+  "nativeVariablesAndStylesEqualAcrossFiles": true,
+  "independentReview": "reviewed_within_recorded_scope_not_pixel_certified",
+  "remoteLibrariesPublished": false,
+  "preview": "http://127.0.0.1:8792",
+  "limitations": [
+    "Unpublished exact local mirrors; no remote synchronization claimed",
+    "No production API/payment/messaging/auth/assistive conformance proven",
+    "Full RTL of every variant not claimed",
+    "Added icon originals verified by source/hash and structure; not all independently visually inspected"
+  ],
+  "patch": "Twelve native focus variants and user-requested visual and state refinements; see revision-4-verification.md. Historical ZIP does not capture native v4."
+}

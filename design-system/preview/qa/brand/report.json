@@ -1,0 +1,173 @@
+{
+ "desktop": {
+  "url": "file:///var/folders/fs/v9r_w4mj3hl_8vkkzd02rzbm0000gn/T/brand-0uhfjas6/site/.__brand.html",
+  "viewport": [
+   1440,
+   900
+  ],
+  "fontsUsed": {
+   "Sora": 112,
+   "Noto Sans Arabic": 19
+  },
+  "fontsLoaded": {
+   "sora": true,
+   "noto sans arabic": true
+  },
+  "icons": {
+   "count": 30,
+   "widths": {},
+   "caps": {},
+   "joins": {},
+   "filled": 0,
+   "outline": 30,
+   "hard": 0,
+   "sizes": {
+    "13": 4,
+    "14": 6,
+    "16": 6,
+    "18": 9,
+    "20": 5
+   }
+  },
+  "exclude": [
+   [
+    40,
+    26,
+    145,
+    36
+   ]
+  ],
+  "findings": [
+   {
+    "pillar": "colour",
+    "sev": "P1",
+    "where": "html > body",
+    "msg": "brand Slate is close to semantic success (ΔE 0.12); keep it off status-like UI"
+   },
+   {
+    "pillar": "colour",
+    "sev": "P1",
+    "where": "html > body",
+    "msg": "brand Slate is close to semantic info (ΔE 0.00); keep it off status-like UI"
+   },
+   {
+    "pillar": "colour",
+    "sev": "P1",
+    "where": "html > body",
+    "msg": "brand Confirmed text is close to semantic info (ΔE 0.10); keep it off status-like UI"
+   },
+   {
+    "pillar": "colour",
+    "sev": "P1",
+    "where": "html > body",
+    "msg": "brand Completed text is close to semantic success (ΔE 0.08); keep it off status-like UI"
+   },
+   {
+    "pillar": "colour",
+    "sev": "P1",
+    "where": "html > body",
+    "msg": "brand Completed text is close to semantic warning (ΔE 0.11); keep it off status-like UI"
+   },
+   {
+    "pillar": "colour",
+    "sev": "P1",
+    "where": "html > body",
+    "msg": "brand Completed text is close to semantic info (ΔE 0.07); keep it off status-like UI"
+   },
+   {
+    "pillar": "icons",
+    "sev": "P2",
+    "where": "html > body",
+    "msg": "icon sizes off the spec: 13, 14, 18"
+   }
+  ],
+  "offPalette": []
+ },
+ "mobile": {
+  "url": "file:///var/folders/fs/v9r_w4mj3hl_8vkkzd02rzbm0000gn/T/brand-0uhfjas6/site/.__brand.html",
+  "viewport": [
+   390,
+   844
+  ],
+  "fontsUsed": {
+   "Sora": 97,
+   "Noto Sans Arabic": 19
+  },
+  "fontsLoaded": {
+   "sora": true,
+   "noto sans arabic": true
+  },
+  "icons": {
+   "count": 20,
+   "widths": {},
+   "caps": {},
+   "joins": {},
+   "filled": 0,
+   "outline": 20,
+   "hard": 0,
+   "sizes": {
+    "13": 4,
+    "14": 4,
+    "16": 5,
+    "18": 2,
+    "20": 5
+   }
+  },
+  "exclude": [
+   [
+    20,
+    22,
+    116,
+    29
+   ]
+  ],
+  "findings": [
+   {
+    "pillar": "colour",
+    "sev": "P1",
+    "where": "html > body",
+    "msg": "brand Slate is close to semantic success (ΔE 0.12); keep it off status-like UI"
+   },
+   {
+    "pillar": "colour",
+    "sev": "P1",
+    "where": "html > body",
+    "msg": "brand Slate is close to semantic info (ΔE 0.00); keep it off status-like UI"
+   },
+   {
+    "pillar": "colour",
+    "sev": "P1",
+    "where": "html > body",
+    "msg": "brand Confirmed text is close to semantic info (ΔE 0.10); keep it off status-like UI"
+   },
+   {
+    "pillar": "colour",
+    "sev": "P1",
+    "where": "html > body",
+    "msg": "brand Completed text is close to semantic success (ΔE 0.08); keep it off status-like UI"
+   },
+   {
+    "pillar": "colour",
+    "sev": "P1",
+    "where": "html > body",
+    "msg": "brand Completed text is close to semantic warning (ΔE 0.11); keep it off status-like UI"
+   },
+   {
+    "pillar": "colour",
+    "sev": "P1",
+    "where": "html > body",
+    "msg": "brand Completed text is close to semantic info (ΔE 0.07); keep it off status-like UI"
+   },
+   {
+    "pillar": "icons",
+    "sev": "P2",
+    "where": "html > body",
+    "msg": "icon sizes off the spec: 13, 14, 18"
+   }
+  ],
+  "offPalette": []
+ },
+ "proportion": {
+  "error": "No module named 'PIL'"
+ }
+}

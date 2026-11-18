@@ -1,0 +1,694 @@
+[
+  {
+    "id": "15:11659",
+    "name": "PriceLine",
+    "key": "d0b951031055fbe2085591c99aa2f18cc6a73f3f",
+    "properties": {
+      "Label / Fixed#20:1207": {
+        "type": "TEXT",
+        "defaultValue": "Hydrafacial"
+      },
+      "Label / From#20:1211": {
+        "type": "TEXT",
+        "defaultValue": "Hydrafacial variants"
+      },
+      "Label / Total#20:1215": {
+        "type": "TEXT",
+        "defaultValue": "Total"
+      },
+      "Amount / Fixed#20:1219": {
+        "type": "TEXT",
+        "defaultValue": "SAR 650"
+      },
+      "Amount / From#20:1223": {
+        "type": "TEXT",
+        "defaultValue": "From SAR 650"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Fixed",
+        "variantOptions": [
+          "Fixed",
+          "From",
+          "Total"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:11647",
+        "name": "State=Fixed",
+        "key": "c0897d8c9b579e84f1b00d7f4c09e60ab3eb8e37"
+      },
+      {
+        "id": "15:11651",
+        "name": "State=From",
+        "key": "3512dc32b0511370ca181493bc8dda65352dc552"
+      },
+      {
+        "id": "15:11655",
+        "name": "State=Total",
+        "key": "7d7aa6640b83041505e6bf73c67eb12fafdcc6eb"
+      }
+    ]
+  },
+  {
+    "id": "15:11719",
+    "name": "BalanceSummary",
+    "key": "4d7c662956dfe6817c6528ece77095333eb950d3",
+    "properties": {
+      "Icon / credit-card 1#15:2621": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:11662",
+        "preferredValues": []
+      },
+      "Title#15:2622": {
+        "type": "TEXT",
+        "defaultValue": "Payment balance"
+      },
+      "Detail label#15:2625": {
+        "type": "TEXT",
+        "defaultValue": "Appointment fee"
+      },
+      "Detail value#15:2626": {
+        "type": "TEXT",
+        "defaultValue": "SAR 650"
+      },
+      "Detail label 2#15:2627": {
+        "type": "TEXT",
+        "defaultValue": "Received"
+      },
+      "Scope#15:2629": {
+        "type": "TEXT",
+        "defaultValue": "Invoice and payment records define the balance."
+      },
+      "Balance due / Unpaid#20:1227": {
+        "type": "TEXT",
+        "defaultValue": "SAR 650"
+      },
+      "Balance due / PartPaid#20:1231": {
+        "type": "TEXT",
+        "defaultValue": "SAR 400"
+      },
+      "Balance due / Paid#20:1235": {
+        "type": "TEXT",
+        "defaultValue": "SAR 0"
+      },
+      "Status / Unpaid#20:1239": {
+        "type": "TEXT",
+        "defaultValue": "Unpaid"
+      },
+      "Status / PartPaid#20:1243": {
+        "type": "TEXT",
+        "defaultValue": "Part paid"
+      },
+      "Status / Paid#20:1247": {
+        "type": "TEXT",
+        "defaultValue": "Paid"
+      },
+      "Detail value 2 / Unpaid#20:1251": {
+        "type": "TEXT",
+        "defaultValue": "SAR 0"
+      },
+      "Detail value 2 / PartPaid#20:1255": {
+        "type": "TEXT",
+        "defaultValue": "SAR 250"
+      },
+      "Detail value 2 / Paid#20:1259": {
+        "type": "TEXT",
+        "defaultValue": "SAR 650"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Unpaid",
+        "variantOptions": [
+          "Unpaid",
+          "PartPaid",
+          "Paid"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:11660",
+        "name": "State=Unpaid",
+        "key": "93f836752091255da349eed402883c9c502a4220"
+      },
+      {
+        "id": "15:11683",
+        "name": "State=PartPaid",
+        "key": "89675d74b3ba9987d2d903b6b28797c3c79dd4ac"
+      },
+      {
+        "id": "15:11701",
+        "name": "State=Paid",
+        "key": "c50baf7fad9fa093bddf8cc4e2798ab13e30e9b8"
+      }
+    ]
+  },
+  {
+    "id": "15:11750",
+    "name": "PaymentMethod",
+    "key": "3940b1b8bf5e6e60a33d7ec9bb4eaa135d923eb3",
+    "properties": {
+      "Icon / credit-card 1#15:2639": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:11662",
+        "preferredValues": []
+      },
+      "Description#15:2641": {
+        "type": "TEXT",
+        "defaultValue": "Choose how you would like to pay."
+      },
+      "Method / Card#20:1263": {
+        "type": "TEXT",
+        "defaultValue": "Card payment"
+      },
+      "Method / Cash#20:1267": {
+        "type": "TEXT",
+        "defaultValue": "Cash"
+      },
+      "Method / Transfer#20:1271": {
+        "type": "TEXT",
+        "defaultValue": "Bank transfer"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Card",
+        "variantOptions": [
+          "Card",
+          "Cash",
+          "Transfer"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:11720",
+        "name": "State=Card",
+        "key": "eb9f871c79cd7424ee1a3eba68d43a5b0fc09ed3"
+      },
+      {
+        "id": "15:11730",
+        "name": "State=Cash",
+        "key": "609f8be922785234228e195a413eae74dab720ec"
+      },
+      {
+        "id": "15:11740",
+        "name": "State=Transfer",
+        "key": "6a229cdf0cf0c890bda47848a588ea30bd754e14"
+      }
+    ]
+  },
+  {
+    "id": "15:11879",
+    "name": "PaymentCapture",
+    "key": "596255a34bb16ba7a323ac0a0bcc053218865a9b",
+    "properties": {
+      "Icon / credit-card 1#15:2688": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:11662",
+        "preferredValues": []
+      },
+      "Title#15:2689": {
+        "type": "TEXT",
+        "defaultValue": "Record payment"
+      },
+      "Description#15:2690": {
+        "type": "TEXT",
+        "defaultValue": "Sample transaction · no live payment gateway"
+      },
+      "Field label#15:2691": {
+        "type": "TEXT",
+        "defaultValue": "Amount"
+      },
+      "Field value#15:2692": {
+        "type": "TEXT",
+        "defaultValue": "SAR 250.00"
+      },
+      "Field label 2#15:2693": {
+        "type": "TEXT",
+        "defaultValue": "Method"
+      },
+      "Field value 2#15:2694": {
+        "type": "TEXT",
+        "defaultValue": "Card payment"
+      },
+      "Icon / chevron-down 2#15:2695": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:11768",
+        "preferredValues": []
+      },
+      "Detail label#15:2697": {
+        "type": "TEXT",
+        "defaultValue": "Demo operation reference"
+      },
+      "Detail value#15:2698": {
+        "type": "TEXT",
+        "defaultValue": "PAY-DEMO-1042"
+      },
+      "Icon / triangle-alert 3#15:2699": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:11800",
+        "preferredValues": []
+      },
+      "Icon / circle-alert 3#15:2701": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:11866",
+        "preferredValues": []
+      },
+      "Action / Ready#20:1275": {
+        "type": "TEXT",
+        "defaultValue": "Record demo payment"
+      },
+      "Action / Pending#20:1280": {
+        "type": "TEXT",
+        "defaultValue": "Processing…"
+      },
+      "Action / Unknown#20:1285": {
+        "type": "TEXT",
+        "defaultValue": "Check payment status"
+      },
+      "Notice / Pending#20:1290": {
+        "type": "TEXT",
+        "defaultValue": "Payment is processing. Keep this reference."
+      },
+      "Notice / Unknown#20:1295": {
+        "type": "TEXT",
+        "defaultValue": "Payment result is unknown. Check the transaction before trying again."
+      },
+      "Notice / Failed#20:1300": {
+        "type": "TEXT",
+        "defaultValue": "This transaction failed. Existing successful payments remain unchanged."
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Ready",
+        "variantOptions": [
+          "Ready",
+          "Pending",
+          "Unknown",
+          "Failed"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:11751",
+        "name": "State=Ready",
+        "key": "6da931a02b684f9687e6941c6dff50b65c887f6a"
+      },
+      {
+        "id": "15:11776",
+        "name": "State=Pending",
+        "key": "63c4b3ba5f9222b2085abfeb28543d71ef79b8c4"
+      },
+      {
+        "id": "15:11813",
+        "name": "State=Unknown",
+        "key": "090d7ea85386a37da2617ca06efee7321d3bce61"
+      },
+      {
+        "id": "15:11845",
+        "name": "State=Failed",
+        "key": "9d35f474e8864de2664627decbea6549bf5251c6"
+      }
+    ]
+  },
+  {
+    "id": "15:11965",
+    "name": "InvoiceSummary",
+    "key": "5758c996cd07135f7570a7d9b502ca6045be276b",
+    "properties": {
+      "Icon / file-text 1#15:2748": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:11882",
+        "preferredValues": []
+      },
+      "Title#15:2749": {
+        "type": "TEXT",
+        "defaultValue": "Invoice CM-00428"
+      },
+      "Description#15:2750": {
+        "type": "TEXT",
+        "defaultValue": "Sample invoice · 28 Oct 2026"
+      },
+      "Detail label#15:2751": {
+        "type": "TEXT",
+        "defaultValue": "Hydrafacial"
+      },
+      "Detail value#15:2752": {
+        "type": "TEXT",
+        "defaultValue": "SAR 650"
+      },
+      "Detail label 2#15:2753": {
+        "type": "TEXT",
+        "defaultValue": "Total"
+      },
+      "Detail value 2#15:2754": {
+        "type": "TEXT",
+        "defaultValue": "SAR 650"
+      },
+      "Detail label 3#15:2755": {
+        "type": "TEXT",
+        "defaultValue": "Received"
+      },
+      "Detail label 4#15:2757": {
+        "type": "TEXT",
+        "defaultValue": "Balance"
+      },
+      "Detail value 3 / Issued#20:1305": {
+        "type": "TEXT",
+        "defaultValue": "SAR 0"
+      },
+      "Detail value 3 / PartPaid#20:1309": {
+        "type": "TEXT",
+        "defaultValue": "SAR 250"
+      },
+      "Detail value 3 / Paid#20:1313": {
+        "type": "TEXT",
+        "defaultValue": "SAR 650"
+      },
+      "Detail value 4 / Issued#20:1317": {
+        "type": "TEXT",
+        "defaultValue": "SAR 650"
+      },
+      "Detail value 4 / PartPaid#20:1321": {
+        "type": "TEXT",
+        "defaultValue": "SAR 400"
+      },
+      "Detail value 4 / Paid#20:1325": {
+        "type": "TEXT",
+        "defaultValue": "SAR 0"
+      },
+      "Status / Issued#20:1329": {
+        "type": "TEXT",
+        "defaultValue": "Issued"
+      },
+      "Status / PartPaid#20:1333": {
+        "type": "TEXT",
+        "defaultValue": "Part paid"
+      },
+      "Status / Paid#20:1337": {
+        "type": "TEXT",
+        "defaultValue": "Paid"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Issued",
+        "variantOptions": [
+          "Issued",
+          "PartPaid",
+          "Paid"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:11880",
+        "name": "State=Issued",
+        "key": "b0fec4303f8bdf5868ace464cdc579df3b28bf19"
+      },
+      {
+        "id": "15:11913",
+        "name": "State=PartPaid",
+        "key": "c64b1eb1f6e159217f19bce3f50d8b3d9cec0301"
+      },
+      {
+        "id": "15:11939",
+        "name": "State=Paid",
+        "key": "58142a21d76928c1372ba3656079e72dd163c66d"
+      }
+    ]
+  },
+  {
+    "id": "15:12093",
+    "name": "RefundReview",
+    "key": "b9a49167beae3a2497bc4c1530c4c0c7a514bf34",
+    "properties": {
+      "Icon / credit-card 1#15:2818": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:11662",
+        "preferredValues": []
+      },
+      "Title#15:2819": {
+        "type": "TEXT",
+        "defaultValue": "Refund review"
+      },
+      "Description#15:2820": {
+        "type": "TEXT",
+        "defaultValue": "Original payment reference is required."
+      },
+      "Detail label#15:2821": {
+        "type": "TEXT",
+        "defaultValue": "Original payment ref"
+      },
+      "Detail value#15:2822": {
+        "type": "TEXT",
+        "defaultValue": "PAY-DEMO-1042"
+      },
+      "Detail label 2#15:2823": {
+        "type": "TEXT",
+        "defaultValue": "Original payment"
+      },
+      "Detail value 2#15:2824": {
+        "type": "TEXT",
+        "defaultValue": "SAR 250"
+      },
+      "Field label#15:2825": {
+        "type": "TEXT",
+        "defaultValue": "Refund amount"
+      },
+      "Field value#15:2826": {
+        "type": "TEXT",
+        "defaultValue": "SAR 250"
+      },
+      "Field label 2#15:2827": {
+        "type": "TEXT",
+        "defaultValue": "Reason"
+      },
+      "Field value 2#15:2828": {
+        "type": "TEXT",
+        "defaultValue": "Appointment cancellation"
+      },
+      "Detail label 3#15:2830": {
+        "type": "TEXT",
+        "defaultValue": "Demo refund reference"
+      },
+      "Detail value 3#15:2831": {
+        "type": "TEXT",
+        "defaultValue": "REF-DEMO-1042"
+      },
+      "Icon / triangle-alert 2#15:2832": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:11800",
+        "preferredValues": []
+      },
+      "Action / Eligible#20:1341": {
+        "type": "TEXT",
+        "defaultValue": "Review refund"
+      },
+      "Action / Pending#20:1346": {
+        "type": "TEXT",
+        "defaultValue": "View payment record"
+      },
+      "Action / Unknown#20:1351": {
+        "type": "TEXT",
+        "defaultValue": "Check refund status"
+      },
+      "Notice / Pending#20:1356": {
+        "type": "TEXT",
+        "defaultValue": "Refund requested. Completion is not yet verified."
+      },
+      "Notice / Unknown#20:1361": {
+        "type": "TEXT",
+        "defaultValue": "Refund result is unknown. Check the original transaction."
+      },
+      "Notice / Restricted#20:1366": {
+        "type": "TEXT",
+        "defaultValue": "Refunds are restricted for this role."
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Eligible",
+        "variantOptions": [
+          "Eligible",
+          "Pending",
+          "Unknown",
+          "Restricted"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:11966",
+        "name": "State=Eligible",
+        "key": "73e363a732a2d8287f7c84eb68f4ff75b498214c"
+      },
+      {
+        "id": "15:11991",
+        "name": "State=Pending",
+        "key": "a24d36e5392f161f262b4f2a48135b073a7184a6"
+      },
+      {
+        "id": "15:12026",
+        "name": "State=Unknown",
+        "key": "c8f0e961c237b1f36f59586b182a8b66ba8057e0"
+      },
+      {
+        "id": "15:12061",
+        "name": "State=Restricted",
+        "key": "878deb64d09ecf939654fbcbd7bc8d238c49a0b5"
+      }
+    ]
+  },
+  {
+    "id": "15:12131",
+    "name": "FinancialRecordRow",
+    "key": "becd9ae3635319009ca8063468208bb9fec547f7",
+    "properties": {
+      "Icon / file-text 1#15:2852": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:11882",
+        "preferredValues": []
+      },
+      "Reference#15:2854": {
+        "type": "TEXT",
+        "defaultValue": "Sara Alotaibi · 28 Oct · Sample record"
+      },
+      "Icon / credit-card 1#15:2856": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:11662",
+        "preferredValues": []
+      },
+      "Type / Earned#20:1371": {
+        "type": "TEXT",
+        "defaultValue": "Earned service revenue"
+      },
+      "Type / Deposit#20:1375": {
+        "type": "TEXT",
+        "defaultValue": "Deposit received"
+      },
+      "Type / Refund#20:1379": {
+        "type": "TEXT",
+        "defaultValue": "Refund recorded"
+      },
+      "Amount / Earned#20:1383": {
+        "type": "TEXT",
+        "defaultValue": "SAR 650"
+      },
+      "Amount / Deposit#20:1387": {
+        "type": "TEXT",
+        "defaultValue": "SAR 250"
+      },
+      "Amount / Refund#20:1391": {
+        "type": "TEXT",
+        "defaultValue": "−SAR 250"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Earned",
+        "variantOptions": [
+          "Earned",
+          "Deposit",
+          "Refund"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:12094",
+        "name": "State=Earned",
+        "key": "2515490c90bafc275f4b63024afeea5ef7599c9f"
+      },
+      {
+        "id": "15:12107",
+        "name": "State=Deposit",
+        "key": "be036d3fbc263c0830bbc899854412379865851e"
+      },
+      {
+        "id": "15:12120",
+        "name": "State=Refund",
+        "key": "beca1658f5b494e414a0774358b7c5f161b9f889"
+      }
+    ]
+  },
+  {
+    "id": "15:12178",
+    "name": "Discount",
+    "key": "ccd634347a75c1cc3c504c370dadcdd223669ee4",
+    "properties": {
+      "Title#15:2883": {
+        "type": "TEXT",
+        "defaultValue": "Discount"
+      },
+      "Field label#15:2884": {
+        "type": "TEXT",
+        "defaultValue": "Discount amount"
+      },
+      "Detail label#15:2886": {
+        "type": "TEXT",
+        "defaultValue": "Service subtotal"
+      },
+      "Detail value#15:2887": {
+        "type": "TEXT",
+        "defaultValue": "SAR 650"
+      },
+      "Detail label 2#15:2888": {
+        "type": "TEXT",
+        "defaultValue": "Total after discount"
+      },
+      "Icon / triangle-alert 1#15:2890": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:11800",
+        "preferredValues": []
+      },
+      "Notice#15:2891": {
+        "type": "TEXT",
+        "defaultValue": "Discounts are restricted for this role."
+      },
+      "Field value / None#20:1395": {
+        "type": "TEXT",
+        "defaultValue": "SAR 0"
+      },
+      "Field value / Applied#20:1399": {
+        "type": "TEXT",
+        "defaultValue": "SAR 50"
+      },
+      "Detail value 2 / None#20:1403": {
+        "type": "TEXT",
+        "defaultValue": "SAR 650"
+      },
+      "Detail value 2 / Applied#20:1407": {
+        "type": "TEXT",
+        "defaultValue": "SAR 600"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "None",
+        "variantOptions": [
+          "None",
+          "Applied",
+          "Restricted"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:12132",
+        "name": "State=None",
+        "key": "a6c05c4024c9a86bc41676549c9a430816cea8c6"
+      },
+      {
+        "id": "15:12145",
+        "name": "State=Applied",
+        "key": "d6cf92200c3952fa94848e0fa974ab9c0eb2b11a"
+      },
+      {
+        "id": "15:12158",
+        "name": "State=Restricted",
+        "key": "d065b2c89b8c17f77552784018255d9d1abb74f8"
+      }
+    ]
+  }
+]

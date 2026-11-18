@@ -1,0 +1,26 @@
+.moment-confirmation{padding:8px 20px 0;text-align:center;background:linear-gradient(180deg,#F9FBFF,white);border-radius:24px}
+.moment-confirmation .clinime-moment{width:200px;max-width:100%;margin:0 auto}
+.moment-confirmation h1{font-size:25px;line-height:1.5;margin:12px auto 8px;max-width:340px;color:var(--ink,#2D3E5B)}
+.moment-english{font-family:Georgia,'Times New Roman',serif;font-size:28px;line-height:1.16;color:#2D3E5B;margin:8px auto 12px;max-width:300px;text-wrap:balance}
+.moment-confirmation>p:last-child{font-size:15px;line-height:1.8;margin:0 auto 20px;max-width:310px}
+.moment-gift-entry{width:100%;min-height:48px;margin:20px 0 8px;padding:12px 24px!important;text-align:center;background:#FCE8F0!important;color:#2D3E5B!important;border-radius:14px!important}
+.moment-gift-page main{padding:0 20px 40px;background:linear-gradient(160deg,#F9FBFF,white 48%,#FCE8F0);min-height:calc(100svh - 80px)}
+.moment-gift-page .journey-topbar{background:#F9FBFF}
+.moment-gift-page .moment-artwork{display:grid;place-items:center;min-height:260px;padding:0 12px}
+.moment-artwork .clinime-moment{width:280px;max-width:100%}
+.moment-copy{text-align:center;margin:0 auto;max-width:420px;color:#2D3E5B}
+.moment-copy h1{font-size:24px;line-height:1.5;text-wrap:balance;margin:0 0 12px;outline-offset:6px}
+.moment-copy p{font-size:15px;line-height:1.85;margin:12px 0}
+.moment-copy .moment-english{font-size:31px;line-height:1.2;margin:4px auto 16px}
+.moment-copy h2{font-size:19px;line-height:1.6;margin:16px 0 12px}
+.moment-main-action{width:100%;max-width:420px;min-height:52px;margin:12px auto;display:flex;justify-content:center;align-items:center;padding:14px 28px!important}
+.moment-mail-action{display:block;max-width:420px;min-height:48px;padding:12px 24px!important;margin:auto;text-align:center}
+.moment-reward{padding:16px 20px;background:white;border-radius:16px;margin:16px 0}
+.moment-code{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px;background:#FCE8F0;border-radius:12px;text-align:start;flex-wrap:wrap}
+.moment-code span{font-size:13px;display:block;margin-bottom:6px}.moment-code strong{font-size:24px;letter-spacing:.04em;overflow-wrap:anywhere;display:block}.moment-code button{min-height:44px;padding:10px 20px!important}
+.moment-copy-feedback{min-height:24px;line-height:1.6;font-size:14px;text-align:center;margin:12px 0 0;color:#2D3E5B;overflow-wrap:anywhere}
+.moment-skip{min-height:44px;padding:10px 20px!important;display:block;margin:4px auto 0}
+.moment-gift-message.is-revealing{animation:moment-message-in .45s 1.95s cubic-bezier(.22,1,.36,1) backwards}
+@keyframes moment-message-in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media(min-width:600px){.moment-gift-page main{padding-top:16px}.moment-gift-page .moment-artwork{min-height:300px}.moment-confirmation .clinime-moment{width:240px}}
+@media(prefers-reduced-motion:reduce){.moment-gift-message.is-revealing{animation:none}}

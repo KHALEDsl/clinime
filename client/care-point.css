@@ -1,0 +1,117 @@
+/* Approved direction 10: preserve the three positions and their full pixel motion. */
+.care-home-header{direction:ltr;padding-top:18px;padding-bottom:10px}
+.care-home-header-actions{display:flex;align-items:center;gap:8px}
+.care-home-profile{width:44px;height:44px;display:grid;place-items:center;border:1px solid var(--line);background:#fff;border-radius:50%;color:var(--ink)}
+.care-home-profile svg{width:21px;height:21px}
+.care-home-welcome{padding:20px var(--gutter) 18px}
+.care-home-welcome>p{font-size:12px;line-height:1.7;color:var(--muted);margin:0 0 3px}
+.care-home-welcome h1{font-size:26px;line-height:1.55;letter-spacing:-.025em;font-weight:500;margin:0}
+.care-home-search{margin:0 var(--gutter);min-height:54px;padding-inline:16px 6px;display:flex;align-items:center;gap:10px;border:1px solid var(--line);border-radius:16px;background:#fff}
+.care-home-search>svg{width:20px;height:20px;color:var(--muted);flex:none}
+.care-home-search input{min-width:0;flex:1;width:100%;height:52px;padding-block:0;border:0;outline:none;background:transparent;font:inherit;font-size:16px;color:var(--ink)}
+.care-home-search input::placeholder{color:var(--muted)}
+.care-home-search:focus-within{outline:2px solid var(--navy);outline-offset:3px}
+.care-home-search-submit{width:44px;height:44px;display:grid;place-items:center;flex:none;border:0;border-radius:12px;background:transparent;color:var(--navy)}
+.care-home-search-submit svg{width:18px;height:18px}
+.care-home-hooks{margin:14px var(--gutter) 28px;color:#412837}
+.care-home-referral{width:100%;height:82px;padding:14px 18px;display:flex;align-items:center;justify-content:space-between;gap:8px;position:relative;overflow:hidden;isolation:isolate;border:0;border-radius:16px;background:#eedbe3;color:#412837;text-align:start;font:inherit}
+.care-home-referral>span{display:block;flex:1;min-width:0}
+.care-home-referral strong{display:block;font-size:14px;line-height:1.55;font-weight:600}
+.care-home-referral small{display:flex;align-items:center;gap:8px;margin-top:3px;color:#6c304d;font-size:12px;line-height:1.7}
+.care-home-referral svg.icon{width:17px;height:17px}
+.care-home-referral .vx10-friends{position:relative;width:66px;height:56px;flex:0 0 66px;overflow:visible;stroke:none;shape-rendering:crispEdges}
+.care-home-referral .vx10-friends *,.care-home-reward .vx10-gift-icon *,.care-point-launcher .pixel-doctor *,.care-game-gift *{stroke:none}
+.care-home-rewards-section{margin-top:24px}
+.care-home-rewards-section>h2{font-size:18px;line-height:1.5;font-weight:600;margin:0 0 12px}
+.care-home-reward{position:relative;isolation:isolate;overflow:hidden;min-height:222px;padding:18px 20px;display:flex;flex-direction:column;justify-content:space-between;gap:8px;border-radius:16px;background:#674459;color:#fff9f9}
+.care-card-scene{position:absolute;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.care-card-scene>i{position:absolute;display:block;pointer-events:none}
+.care-card-ribbon-one{width:260px;height:260px;right:-95px;top:-100px;background:#cf91b1;opacity:.23;clip-path:polygon(0 28%,28% 28%,28% 12%,56% 12%,56% 0,100% 0,100% 100%,82% 100%,82% 76%,62% 76%,62% 56%,38% 56%,38% 44%,0 44%)}
+.care-card-ribbon-two{width:285px;height:235px;left:-86px;bottom:-120px;background:#eedbe3;opacity:.16;clip-path:polygon(0 20%,20% 20%,20% 5%,42% 5%,42% 22%,66% 22%,66% 40%,100% 40%,100% 100%,0 100%)}
+.care-card-spark-one,.care-card-spark-two{width:6px;height:6px;background:#f3c5da;opacity:.45}
+.care-card-spark-one{left:38px;bottom:65px}.care-card-spark-two{right:45%;top:29px}
+.care-card-spark-one:before,.care-card-spark-two:before{content:'';position:absolute;width:14px;height:4px;top:1px;left:-4px;background:inherit}
+.care-reward-heading,.care-home-stamps,.care-reward-footer,.care-reward-note{position:relative;z-index:1}
+.care-reward-heading{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.care-reward-heading h3{font-size:18px;line-height:1.4;font-weight:600;margin:0}
+.care-reward-heading p{font-size:12px;line-height:1.6;margin-top:3px;color:inherit}
+.care-reward-heading .vx10-gift-icon{width:56px;height:48px;margin-block:-4px;fill:none;stroke:none;overflow:visible;flex-shrink:0;shape-rendering:crispEdges}
+.care-home-stamps{display:flex;justify-content:space-between;gap:8px;margin:4px 0;direction:inherit}
+.care-home-stamps>span{flex:0 0 40px;width:40px;height:40px;display:grid;place-items:center;background:#8e6980;color:#e4ced8;clip-path:polygon(6px 0,calc(100% - 6px) 0,calc(100% - 6px) 4px,100% 4px,100% calc(100% - 4px),calc(100% - 6px) calc(100% - 4px),calc(100% - 6px) 100%,6px 100%,6px calc(100% - 4px),0 calc(100% - 4px),0 4px,6px 4px)}
+.care-home-stamps>.is-earned{background:#fff9f9;color:#6c304d}
+.care-home-stamps>.is-gift{background:#9f7d92;color:#fff9f9}
+.care-home-stamps>.is-gift.is-earned{background:#fff9f9;color:#6c304d}
+.care-home-stamps svg{width:24px;height:24px;transform-origin:center}
+.care-reward-footer{display:flex;justify-content:space-between;align-items:center;gap:8px;min-height:32px;margin-bottom:-5px}
+.care-reward-footer strong{font-size:14px;font-weight:600;line-height:1.6}
+.care-reward-footer button{min-height:44px;padding:10px 12px;margin-inline-end:-12px;display:inline-flex;align-items:center;justify-content:center;gap:8px;flex-shrink:0;border:0;border-radius:12px;background:transparent;color:inherit;font:inherit;font-size:12px;line-height:1.5;white-space:nowrap}
+.care-reward-footer svg{width:16px;height:16px;flex:none}
+.care-reward-note{margin:0;font-size:12px;line-height:1.65;color:inherit}
+.care-card-pending{min-height:40px}
+.care-home-feature{padding:0 var(--gutter);margin-top:28px}
+.care-home-feature .muse-section-heading{margin-bottom:12px;gap:8px}
+.care-home-feature .muse-section-heading h2{font-size:18px;font-weight:600}
+.care-feature-card{display:block;overflow:hidden;width:100%;padding:0;background:#fff;border:0;border-radius:24px;text-align:start;color:var(--ink)}
+.care-feature-photo{display:block;position:relative;height:226px;overflow:hidden;background:var(--soft)}
+.care-feature-photo>img,.care-feature-photo>.media-photo{width:100%;height:100%;object-fit:cover}
+.care-feature-photo .media-photo img{width:100%;height:100%;object-fit:cover}
+.care-feature-copy{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:17px 18px 18px}
+.care-feature-copy>span:first-child{min-width:0;display:grid;gap:3px}
+.care-feature-copy small,.care-feature-copy>span>span{font-size:12px;line-height:1.7;color:var(--muted)}
+.care-feature-copy strong{font-size:18px;line-height:1.5;font-weight:600}
+.care-feature-arrow{width:48px;height:48px;border-radius:50%;flex:none;display:grid;place-items:center;background:var(--navy);color:#fff}
+.care-feature-arrow svg{width:20px;height:20px}
+.muse-home .muse-discover{padding-top:28px}.muse-home .muse-discover>h2{font-size:18px;font-weight:600}
+.muse-home .muse-category-rail{padding-top:12px}.muse-home .muse-category{width:148px;min-width:148px}.muse-home .muse-category-photo{height:168px}
+/* The entry stays fixed in the accepted corner; only its illustration moves. */
+.care-point-launcher{position:fixed;right:max(20px,calc((100vw - 480px)/2 + 20px));bottom:calc(96px + env(safe-area-inset-bottom));z-index:25;isolation:isolate;width:56px;height:56px;display:grid;place-items:center;padding:0;border:0;border-radius:50%;background:#6c304d;color:#fff9f9;box-shadow:0 0 0 2px #fff9f9,0 4px 12px #41283728;cursor:pointer;overflow:visible}
+.care-point-launcher:before{content:'';position:absolute;inset:-5px;border:2px solid #a56988;border-radius:50%;pointer-events:none;opacity:0}
+.care-game-scene{position:absolute;inset:2px;overflow:hidden;border-radius:50%;pointer-events:none;background:#6c304d}
+.care-game-scene>i{position:absolute;display:block}
+.care-game-orbit-one{width:70px;height:70px;left:-24px;top:-27px;background:#efb4ce;clip-path:polygon(0 0,100% 0,100% 62%,83% 62%,83% 77%,65% 77%,65% 90%,40% 90%,40% 100%,0 100%);transform-origin:54px 53px}
+.care-game-orbit-two{width:63px;height:63px;right:-32px;bottom:-28px;background:#b47798;clip-path:polygon(0 20%,22% 20%,22% 0,100% 0,100% 100%,0 100%);transform-origin:14px 12px}
+.care-game-spark-one,.care-game-spark-two{width:3px;height:9px;background:#fff9f9;z-index:2}
+.care-game-spark-one{top:8px;left:10px}.care-game-spark-two{bottom:8px;right:7px;background:#f3c5da}
+.care-game-spark-one:before,.care-game-spark-two:before{content:'';position:absolute;width:9px;height:3px;left:-3px;top:3px;background:inherit}
+.care-game-doctor{position:relative;width:38px;height:38px;display:grid;place-items:center;z-index:2;transform-origin:50% 90%}
+.care-point-launcher .pixel-doctor{width:38px;height:38px;fill:none;stroke:none;image-rendering:pixelated;filter:drop-shadow(0 1px 0 #41283730)}
+.care-game-gift{position:absolute;z-index:3;width:18px;height:18px;left:-1px;bottom:0;stroke:none;shape-rendering:crispEdges;overflow:visible;transform-origin:center}
+.care-home-hooks button:focus-visible,.care-point-launcher:focus-visible,.care-point-close:focus-visible{outline:3px solid #9a4e77;outline-offset:4px}
+.care-home-referral:focus-visible{outline-offset:-5px}.care-reward-footer button:focus-visible{outline-color:#fff9f9;outline-offset:-3px}
+.care-point-open{overflow:hidden}
+.care-point-dialog{padding:0;border:0;border-radius:24px;background:#fff9f9;color:#412837;width:min(480px,100vw);height:min(880px,100dvh);max-width:100vw;max-height:100dvh;margin:auto;overflow:hidden;font-family:inherit}
+.care-point-dialog::backdrop{background:#41283780}.care-point-chrome{height:52px;display:flex;align-items:center;justify-content:space-between;padding:0 12px 0 20px;font-size:14px;font-weight:600;direction:rtl}
+.care-point-close{width:44px;height:44px;display:grid;place-items:center;border:0;background:transparent;border-radius:50%;color:#6c304d}.care-point-close svg{width:21px;height:21px}
+.care-point-dialog iframe{display:block;width:100%;height:calc(100% - 52px);border:0;background:#fff9f9}
+@media(max-width:359px){.care-home-welcome h1{font-size:24px}.care-home-hooks{margin-inline:var(--gutter)}.care-home-referral{padding-inline:16px;gap:4px}.care-home-referral .vx10-friends{width:48px;flex-basis:48px}.care-home-referral strong{font-size:13px}.care-home-reward{padding-inline:18px}.care-home-stamps{gap:6px}.care-home-stamps>span{flex-basis:36px;width:36px;height:36px}.care-reward-footer strong{font-size:13px}.care-reward-note{font-size:11px}.care-feature-photo{height:210px}}
+@media(max-width:600px){.care-point-dialog{border-radius:0;width:100vw;height:100dvh}}
+@media(prefers-reduced-motion:no-preference){
+ .care-home-referral .vx10-friend-one{animation:care-friend-one 4s ease-in-out infinite;transform-origin:25px 52px}
+ .care-home-referral .vx10-friend-two{animation:care-friend-two 4s ease-in-out infinite;transform-origin:58px 52px}
+ .care-home-referral .vx10-invite{animation:care-share-invite 4s ease-in-out infinite;transform-origin:40px 40px}
+ .care-home-referral .vx10-invite-spark{animation:care-invite-spark 4s ease-in-out infinite;transform-origin:center;transform-box:fill-box}
+ .care-card-ribbon-one{animation:care-background-one 6s ease-in-out infinite}.care-card-ribbon-two{animation:care-background-two 7.2s ease-in-out infinite}
+ .care-card-spark-one{animation:care-background-spark 4s ease-in-out infinite}.care-card-spark-two{animation:care-background-spark 4s ease-in-out -2s infinite}
+ .care-reward-heading .vx10-gift-lid{animation:care-gift-opening 4.4s ease-in-out infinite;transform-origin:40px 30px}.care-reward-heading .vx10-gift-sparks{animation:care-gift-sparks 4.4s ease-in-out infinite}
+ .care-home-stamps .is-earned svg{animation:care-stamp-wave 4.4s ease-in-out infinite}.care-home-stamps>span:nth-child(2) svg{animation-delay:180ms}.care-home-stamps>span:nth-child(3) svg{animation-delay:360ms}
+ .care-point-launcher:before{animation:care-game-beacon 3.6s var(--ease) infinite}.care-game-orbit-one{animation:care-game-orbit 6s linear infinite}.care-game-orbit-two{animation:care-game-orbit 7.2s linear reverse infinite}
+ .care-game-spark-one{animation:care-game-spark 3s ease-in-out infinite}.care-game-spark-two{animation:care-game-spark 3s ease-in-out -1.5s infinite}
+ .care-game-doctor{animation:care-doctor-greeting 4.4s ease-in-out infinite}.care-game-gift{animation:care-game-gift 4.4s ease-in-out infinite}
+}
+@keyframes care-friend-one{0%,100%{transform:translateY(0) rotate(0)}30%,48%{transform:translateY(-3px) rotate(-5deg)}70%{transform:translateY(0) rotate(2deg)}}
+@keyframes care-friend-two{0%,100%{transform:translateY(0) rotate(0)}30%{transform:translateY(1px) rotate(2deg)}52%,70%{transform:translateY(-3px) rotate(5deg)}}
+@keyframes care-share-invite{0%,100%{transform:translate(-7px,1px) rotate(-8deg)}40%,60%{transform:translate(6px,-5px) rotate(7deg)}}
+@keyframes care-invite-spark{0%,100%{opacity:.45;transform:scale(.9)}45%,65%{opacity:1;transform:scale(1.15)}}
+@keyframes care-background-one{0%,100%{transform:translate(0,0) rotate(-8deg)}50%{transform:translate(-46px,34px) rotate(12deg)}}
+@keyframes care-background-two{0%,100%{transform:translate(0,0) rotate(5deg)}50%{transform:translate(50px,-30px) rotate(-8deg)}}
+@keyframes care-background-spark{0%,100%{transform:translateY(5px) scale(.9);opacity:.25}50%{transform:translateY(-9px) scale(1.1);opacity:.65}}
+@keyframes care-gift-opening{0%,12%,85%,100%{transform:translateY(0) rotate(0)}35%,58%{transform:translateY(-10px) rotate(-9deg)}}
+@keyframes care-gift-sparks{0%,15%,85%,100%{transform:translateY(3px);opacity:.25}38%,60%{transform:translateY(-6px);opacity:1}}
+@keyframes care-stamp-wave{0%,12%,62%,100%{transform:translateY(0) rotate(0)}28%{transform:translateY(-3px) rotate(-12deg)}42%{transform:translateY(0) rotate(8deg)}}
+@keyframes care-game-orbit{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+@keyframes care-game-beacon{0%{transform:scale(.96);opacity:.65}65%,100%{transform:scale(1.24);opacity:0}}
+@keyframes care-game-spark{0%,100%{transform:scale(.85) rotate(0);opacity:.55}50%{transform:scale(1.1) rotate(90deg);opacity:1}}
+@keyframes care-doctor-greeting{0%,16%,76%,100%{transform:translateY(0) rotate(0)}32%{transform:translateY(-3px) rotate(-6deg)}48%{transform:translateY(-2px) rotate(4deg)}}
+@keyframes care-game-gift{0%,16%,76%,100%{transform:translateY(0) rotate(0)}35%{transform:translateY(-3px) rotate(-9deg)}52%{transform:translateY(0) rotate(7deg)}}
+.care-is-offscreen *,.care-is-offscreen:before,.care-is-offscreen:after,.care-motion-paused [data-care-motion] *,.care-motion-paused [data-care-motion]:before,.care-motion-paused [data-care-motion]:after{animation-play-state:paused!important}
+@media(prefers-reduced-motion:reduce){[data-care-motion] *,[data-care-motion]:before,[data-care-motion]:after{animation:none!important}.care-point-launcher:before{opacity:0}}

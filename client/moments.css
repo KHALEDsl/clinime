@@ -1,0 +1,97 @@
+/* Native SVG storyboards. SVG presentation attributes retain a static final frame without CSS.
+   Rare success/reward moments: feedback + delight. No controls or copy are animated here. */
+.clinime-moment {
+  --cm-ease-out: var(--ease, cubic-bezier(.23, 1, .32, 1));
+  --cm-ease-move: cubic-bezier(.77, 0, .175, 1);
+  inline-size: min(100%, 320px);
+  aspect-ratio: 320 / 300;
+  margin-inline: auto;
+  pointer-events: none;
+  user-select: none;
+  isolation: isolate;
+}
+.clinime-moment .cm-art { display: block; inline-size: 100%; block-size: auto; overflow: visible; }
+.clinime-moment .cm-petal { transform-origin: 160px 205px; }
+.clinime-moment .cm-confirmation, .clinime-moment .cm-petal-ring { transform-origin: 160px 147px; }
+.clinime-moment .cm-check { transform-origin: 160px 147px; }
+.clinime-moment .cm-spark { transform-box: fill-box; transform-origin: center; }
+
+/* 0–.4s bud; .4–1.35s unfurl; 1.35–2.2s flower becomes satin ring;
+   2.1–2.7s confirmation appears; 2.7–3.2s highlights settle. */
+.clinime-moment.is-blooming .cm-flower { animation: cm-flower 3200ms var(--cm-ease-out) both; }
+.clinime-moment.is-blooming .cm-stem { animation: cm-stem 3200ms var(--cm-ease-out) both; }
+.clinime-moment.is-blooming .cm-flower-shadow { animation: cm-flower-shadow 3200ms var(--cm-ease-out) both; }
+.clinime-moment.is-blooming .cm-petal { animation-duration: 3200ms; animation-timing-function: var(--cm-ease-move); animation-fill-mode: both; }
+.clinime-moment.is-blooming .cm-petal-1 { animation-name: cm-petal-1; }
+.clinime-moment.is-blooming .cm-petal-2 { animation-name: cm-petal-2; }
+.clinime-moment.is-blooming .cm-petal-3 { animation-name: cm-petal-3; }
+.clinime-moment.is-blooming .cm-petal-4 { animation-name: cm-petal-4; }
+.clinime-moment.is-blooming .cm-petal-5 { animation-name: cm-petal-5; }
+.clinime-moment.is-blooming .cm-petal-6 { animation-name: cm-petal-6; }
+.clinime-moment.is-blooming .cm-petal-7 { animation-name: cm-petal-7; }
+.clinime-moment.is-blooming .cm-petal-8 { animation-name: cm-petal-8; }
+.clinime-moment.is-blooming .cm-petal-9 { animation-name: cm-petal-9; }
+.clinime-moment.is-blooming .cm-flower-heart { animation: cm-heart 3200ms var(--cm-ease-out) both; }
+.clinime-moment.is-blooming .cm-confirmation { animation: cm-confirmation 3200ms var(--cm-ease-out) both; }
+.clinime-moment.is-blooming .cm-petal-ring { animation: cm-ring 3200ms var(--cm-ease-move) both; }
+.clinime-moment.is-blooming .cm-check { animation: cm-check 3200ms var(--cm-ease-out) both; }
+.clinime-moment.is-blooming .cm-sparkles { animation: cm-sparkles 3200ms var(--cm-ease-out) both; }
+.clinime-moment.is-blooming .cm-spark-a { animation: cm-spark 600ms 2400ms var(--cm-ease-out) both; }
+.clinime-moment.is-blooming .cm-spark-b { animation: cm-spark 600ms 2520ms var(--cm-ease-out) both; }
+.clinime-moment.is-blooming .cm-spark-c { animation: cm-spark 600ms 2600ms var(--cm-ease-out) both; }
+@keyframes cm-flower { 0%,38% { opacity: 1; transform: translateY(9px); } 49% { opacity: 1; transform: translateY(3px); } 69%,100% { opacity: 0; transform: translateY(-29px) scale(.94); } }
+@keyframes cm-stem { 0%,28% { opacity: .8; } 49%,100% { opacity: 0; } }
+@keyframes cm-flower-shadow { 0%,25% { opacity: .5; } 50%,100% { opacity: 0; } }
+@keyframes cm-petal-1 { 0%,11% { transform: rotate(-9deg) scale(.91, .86); } 38%,45% { transform: rotate(-94deg) scale(1, .88); } 64%,100% { transform: translate(-20px, -62px) rotate(-142deg) scale(.72); } }
+@keyframes cm-petal-2 { 0%,11% { transform: rotate(9deg) scale(.91, .86); } 38%,45% { transform: rotate(94deg) scale(1, .88); } 64%,100% { transform: translate(20px, -62px) rotate(142deg) scale(.72); } }
+@keyframes cm-petal-3 { 0%,13% { transform: rotate(-6deg) scale(.93, .88); } 39%,46% { transform: rotate(-65deg); } 65%,100% { transform: translate(-22px, -55px) rotate(-110deg) scale(.76); } }
+@keyframes cm-petal-4 { 0%,13% { transform: rotate(6deg) scale(.93, .88); } 39%,46% { transform: rotate(65deg); } 65%,100% { transform: translate(22px, -55px) rotate(110deg) scale(.76); } }
+@keyframes cm-petal-5 { 0%,15% { transform: rotate(-4deg) scale(.94, .86); } 40%,47% { transform: rotate(-39deg); } 66%,100% { transform: translate(-28px, -57px) rotate(-78deg) scale(.75); } }
+@keyframes cm-petal-6 { 0%,15% { transform: rotate(4deg) scale(.94, .86); } 40%,47% { transform: rotate(39deg); } 66%,100% { transform: translate(28px, -57px) rotate(78deg) scale(.75); } }
+@keyframes cm-petal-7 { 0%,17% { transform: rotate(-2deg) scale(.95, .86); } 41%,48% { transform: rotate(-19deg); } 67%,100% { transform: translate(-32px, -53px) rotate(-49deg) scale(.72); } }
+@keyframes cm-petal-8 { 0%,17% { transform: rotate(2deg) scale(.95, .86); } 41%,48% { transform: rotate(19deg); } 67%,100% { transform: translate(32px, -53px) rotate(49deg) scale(.72); } }
+@keyframes cm-petal-9 { 0%,19% { transform: scale(.95, .88); opacity: 1; } 42% { transform: scale(.96); opacity: .9; } 60%,100% { transform: translateY(-48px) scale(.92); opacity: 0; } }
+@keyframes cm-heart { 0%,22% { opacity: 0; } 37%,45% { opacity: .8; } 59%,100% { opacity: 0; } }
+@keyframes cm-confirmation { 0%,47% { opacity: 0; transform: scale(.94); } 70%,100% { opacity: 1; transform: scale(1); } }
+@keyframes cm-ring { 0%,47% { transform: rotate(-32deg) scale(1.07); } 80%,100% { transform: rotate(0) scale(1); } }
+@keyframes cm-check { 0%,65% { opacity: 0; transform: translateY(4px) scale(.95); } 84%,100% { opacity: 1; transform: translateY(0) scale(1); } }
+@keyframes cm-sparkles { 0%,72% { opacity: 0; } 90%,100% { opacity: .75; } }
+@keyframes cm-spark { from { opacity: 0; transform: scale(.9) rotate(-12deg); } to { opacity: .8; transform: scale(1) rotate(0); } }
+
+.clinime-moment--gift .cm-gift-lid { transform-origin: 92px 173px; transform: translate(-26px, -63px) rotate(-25deg); }
+.clinime-moment--gift .cm-gift-card { transform-origin: 160px 180px; transform: translateY(0) rotate(-5deg); }
+.clinime-moment--gift .cm-gift-scene { transform-origin: 160px 253px; }
+.clinime-moment--gift.is-closed .cm-gift-lid { transform: translate(0, 0) rotate(0); }
+.clinime-moment--gift.is-closed .cm-gift-card { opacity: 0; transform: translateY(88px) rotate(-5deg); }
+.clinime-moment--gift.is-closed .cm-gift-petals,
+.clinime-moment--gift.is-closed .cm-gift-light,
+.clinime-moment--gift.is-closed .cm-sparkles { opacity: 0; }
+/* 0–.65s anticipation; .65–1.75s lid opens around rear corner;
+   1.05–2.45s card rises from box; 2.45–3s final settle. */
+.clinime-moment--gift.is-opening .cm-gift-scene { animation: cm-gift-anticipation 3000ms var(--cm-ease-out) both; }
+.clinime-moment--gift.is-opening .cm-gift-lid { animation: cm-gift-lid 3000ms var(--cm-ease-move) both; }
+.clinime-moment--gift.is-opening .cm-gift-card { animation: cm-gift-card 3000ms var(--cm-ease-out) both; }
+.clinime-moment--gift.is-opening .cm-gift-light { animation: cm-gift-light 3000ms var(--cm-ease-out) both; }
+.clinime-moment--gift.is-opening .cm-gift-petals { animation: cm-gift-petals 3000ms var(--cm-ease-out) both; }
+.clinime-moment--gift.is-opening .cm-gift-petal-a { animation: cm-gift-petal-a 3000ms var(--cm-ease-out) both; }
+.clinime-moment--gift.is-opening .cm-gift-petal-b { animation: cm-gift-petal-b 3000ms var(--cm-ease-out) both; }
+.clinime-moment--gift.is-opening .cm-gift-petal-c { animation: cm-gift-petal-c 3000ms var(--cm-ease-out) both; }
+.clinime-moment--gift.is-opening .cm-sparkles { animation: cm-gift-sparkles 3000ms var(--cm-ease-out) both; }
+@keyframes cm-gift-anticipation { 0%,7% { transform: rotate(0); } 12% { transform: rotate(-2deg); } 17% { transform: rotate(1.5deg); } 23%,100% { transform: rotate(0); } }
+@keyframes cm-gift-lid { 0%,22% { transform: translate(0, 0) rotate(0); } 32% { transform: translate(-3px, -7px) rotate(-4deg); } 59% { transform: translate(-28px, -66px) rotate(-27deg); } 78%,100% { transform: translate(-26px, -63px) rotate(-25deg); } }
+@keyframes cm-gift-card { 0%,35% { opacity: 0; transform: translateY(88px) rotate(3deg) scale(.95); } 42% { opacity: 1; transform: translateY(65px) rotate(3deg) scale(.97); } 77% { opacity: 1; transform: translateY(-3px) rotate(-6deg) scale(1); } 90%,100% { opacity: 1; transform: translateY(0) rotate(-5deg) scale(1); } }
+@keyframes cm-gift-light { 0%,29% { opacity: 0; transform: translateY(14px) scale(.95); } 52% { opacity: .9; transform: translateY(0) scale(1); } 100% { opacity: .6; transform: translateY(0) scale(1); } }
+@keyframes cm-gift-petals { 0%,40% { opacity: 0; } 67%,100% { opacity: .82; } }
+@keyframes cm-gift-petal-a { 0%,40% { transform: translate(35px, 0) rotate(-15deg); } 89%,100% { transform: translate(0, 0) rotate(0); } }
+@keyframes cm-gift-petal-b { 0%,43% { transform: translate(-20px, 45px) rotate(16deg); } 92%,100% { transform: translate(0, 0) rotate(0); } }
+@keyframes cm-gift-petal-c { 0%,46% { transform: translate(-26px, -25px) rotate(-16deg); } 95%,100% { transform: translate(0, 0) rotate(0); } }
+@keyframes cm-gift-sparkles { 0%,63% { opacity: 0; } 87%,100% { opacity: .65; } }
+
+/* Reduced motion exposes the requested stable state immediately. No transform choreography.
+   This also overrides the host application's shortened global animation duration. */
+@media (prefers-reduced-motion: reduce) {
+  .clinime-moment *, .clinime-moment *::before, .clinime-moment *::after { animation: none !important; transition: none !important; }
+  .clinime-moment.is-blooming .cm-flower { opacity: 0; }
+  .clinime-moment.is-blooming .cm-confirmation, .clinime-moment.is-blooming .cm-check,
+  .clinime-moment.is-blooming .cm-sparkles { opacity: 1; transform: none; }
+}

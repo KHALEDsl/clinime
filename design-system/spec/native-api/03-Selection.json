@@ -1,0 +1,314 @@
+[
+  {
+    "id": "15:5638",
+    "name": "Checkbox",
+    "key": "ef42ec71f2e88dc231fa3c447a1d1811a9b9b67d",
+    "properties": {
+      "Icon / check 1#15:390": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:5604",
+        "preferredValues": []
+      },
+      "Icon / minus 2#15:391": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:5618",
+        "preferredValues": []
+      },
+      "Error#15:392": {
+        "type": "TEXT",
+        "defaultValue": "Review the required acknowledgment."
+      },
+      "Checklist label / Unchecked#20:356": {
+        "type": "TEXT",
+        "defaultValue": "Send appointment reminder"
+      },
+      "Checklist label / Disabled#20:363": {
+        "type": "TEXT",
+        "defaultValue": "Send reminder · unavailable"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Unchecked",
+        "variantOptions": [
+          "Unchecked",
+          "Checked",
+          "Indeterminate",
+          "Focus",
+          "Disabled",
+          "Invalid"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:5597",
+        "name": "State=Unchecked",
+        "key": "fe273a0e53242a12380b7517384bfe6fbd0a87d5"
+      },
+      {
+        "id": "15:5601",
+        "name": "State=Checked",
+        "key": "98e7ae4b601b1b58d0090e21e708954cc7c4a151"
+      },
+      {
+        "id": "15:5611",
+        "name": "State=Indeterminate",
+        "key": "96f2800439dfc0416b398f69c612b9e6a98afb3d"
+      },
+      {
+        "id": "15:5624",
+        "name": "State=Focus",
+        "key": "5330d5cda8741dc32908e1b32a909820d571acd5"
+      },
+      {
+        "id": "15:5629",
+        "name": "State=Disabled",
+        "key": "274f64c6afe9581f65c31f4fc3fd6c81a9d41944"
+      },
+      {
+        "id": "15:5633",
+        "name": "State=Invalid",
+        "key": "0df96dbf8c0390eeb8cce8226bd39d3bdd5bc2fb"
+      }
+    ]
+  },
+  {
+    "id": "15:5675",
+    "name": "RadioGroup",
+    "key": "d61d8b609548122b44bf260bf6ab3c5165e4ec7b",
+    "properties": {
+      "Legend#15:419": {
+        "type": "TEXT",
+        "defaultValue": "Visit type"
+      },
+      "Option#15:420": {
+        "type": "TEXT",
+        "defaultValue": "In clinic"
+      },
+      "Option 2#15:421": {
+        "type": "TEXT",
+        "defaultValue": "Video consultation"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Unselected",
+        "variantOptions": [
+          "Unselected",
+          "Selected",
+          "Focus",
+          "Disabled"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:5639",
+        "name": "State=Unselected",
+        "key": "836d486eb0736ba999bfa35a07acc4b3d23de526"
+      },
+      {
+        "id": "15:5647",
+        "name": "State=Selected",
+        "key": "879cbeba01fdcb91a4a8c4217a179a597fec1d68"
+      },
+      {
+        "id": "15:5656",
+        "name": "State=Focus",
+        "key": "18d49c129951ee3eb1870e606332d589cd1fbf2a"
+      },
+      {
+        "id": "15:5666",
+        "name": "State=Disabled",
+        "key": "936d0ddf7e0c65cf5bd9e3babe798f8ce5a05669"
+      }
+    ]
+  },
+  {
+    "id": "15:5697",
+    "name": "Switch",
+    "key": "54fcbd0f6c47900e25428505a4340603ad998dcc",
+    "properties": {
+      "Label#15:426": {
+        "type": "TEXT",
+        "defaultValue": "Appointment reminders"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Off",
+        "variantOptions": [
+          "Off",
+          "On",
+          "Focus",
+          "Disabled"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:5676",
+        "name": "State=Off",
+        "key": "0f7da44509b035487925108380e75301c2badd21"
+      },
+      {
+        "id": "15:5681",
+        "name": "State=On",
+        "key": "27bab23b06d4147301ce088aeceea53b7b047cc4"
+      },
+      {
+        "id": "15:5686",
+        "name": "State=Focus",
+        "key": "283119acfa682e2027b16600ac5751e3c4132d84"
+      },
+      {
+        "id": "15:5692",
+        "name": "State=Disabled",
+        "key": "26e10a4fbb66518b69ac62f714cd13a2231a32e5"
+      }
+    ]
+  },
+  {
+    "id": "15:5722",
+    "name": "SegmentedControl",
+    "key": "5dfecc69fb9afd6ed7dc564ab5d3b1822a4111c5",
+    "properties": {
+      "Option#15:436": {
+        "type": "TEXT",
+        "defaultValue": "Day"
+      },
+      "Option 2#15:437": {
+        "type": "TEXT",
+        "defaultValue": "Week"
+      },
+      "Option 3#15:438": {
+        "type": "TEXT",
+        "defaultValue": "Month"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Day",
+        "variantOptions": [
+          "Day",
+          "Week",
+          "Month"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:5698",
+        "name": "State=Day",
+        "key": "4315636515693210a759c64098760b7426f809e4"
+      },
+      {
+        "id": "15:5706",
+        "name": "State=Week",
+        "key": "db0908fe397fc57d2836c2198b0ca8cdfeb3c4bc"
+      },
+      {
+        "id": "15:5714",
+        "name": "State=Month",
+        "key": "aefdc23ac568cfa3b9905c0b3b1876f70b30fb25"
+      }
+    ]
+  },
+  {
+    "id": "15:5740",
+    "name": "Tag",
+    "key": "fd27c1524e531c9021ca42427b475f36098cecb7",
+    "properties": {
+      "Label#15:443": {
+        "type": "TEXT",
+        "defaultValue": "Facials & skincare"
+      },
+      "Icon / x 1#15:444": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:5732",
+        "preferredValues": []
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Default",
+        "variantOptions": [
+          "Default",
+          "Selected",
+          "Removable"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:5723",
+        "name": "State=Default",
+        "key": "235e1fde0a0b37824b46bbe6dba96153bfab5a24"
+      },
+      {
+        "id": "15:5726",
+        "name": "State=Selected",
+        "key": "dc3647313b973605a89ab73b228e35cf4f311c88"
+      },
+      {
+        "id": "15:5729",
+        "name": "State=Removable",
+        "key": "7f9b11de43a2d82fb5011f7d8096d658bd42b87d"
+      }
+    ]
+  },
+  {
+    "id": "15:5772",
+    "name": "MultiSelect",
+    "key": "6d84de7fd623ab2a48cedd5e7221f34a4972d013",
+    "properties": {
+      "Label#15:457": {
+        "type": "TEXT",
+        "defaultValue": "Services"
+      },
+      "Status 2#15:459": {
+        "type": "TEXT",
+        "defaultValue": "Consultation"
+      },
+      "Icon / circle-alert 1#15:460": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:5761",
+        "preferredValues": []
+      },
+      "Notice#15:461": {
+        "type": "TEXT",
+        "defaultValue": "These services need a compatibility review."
+      },
+      "Status / Empty#20:370": {
+        "type": "TEXT",
+        "defaultValue": "Choose services"
+      },
+      "Status / Selected#20:374": {
+        "type": "TEXT",
+        "defaultValue": "Hydrafacial"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Empty",
+        "variantOptions": [
+          "Empty",
+          "Selected",
+          "Invalid"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:5741",
+        "name": "State=Empty",
+        "key": "c4bc3209505a8a18cd8a58320fda9aa28d779627"
+      },
+      {
+        "id": "15:5746",
+        "name": "State=Selected",
+        "key": "259f2be0a75c87ec3a5f15ca795bd690aee7c9b9"
+      },
+      {
+        "id": "15:5753",
+        "name": "State=Invalid",
+        "key": "aaaaaef9fa4a61967c6a0969bddad114d4e56487"
+      }
+    ]
+  }
+]

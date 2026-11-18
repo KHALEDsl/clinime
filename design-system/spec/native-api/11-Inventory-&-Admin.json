@@ -1,0 +1,1068 @@
+[
+  {
+    "id": "15:12604",
+    "name": "SupplyCard",
+    "key": "dd4268ae5e267188eeabb2d41def191f6821cea2",
+    "properties": {
+      "Icon / package 1#15:2908": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:12570",
+        "preferredValues": []
+      },
+      "Category#15:2912": {
+        "type": "TEXT",
+        "defaultValue": "Medical supply · Clinic catalog"
+      },
+      "Action#15:2913": {
+        "type": "TEXT",
+        "defaultValue": "Edit item"
+      },
+      "Title / Consumable#20:1411": {
+        "type": "TEXT",
+        "defaultValue": "Hydrafacial serum"
+      },
+      "Title / Equipment#20:1414": {
+        "type": "TEXT",
+        "defaultValue": "Hydrafacial device"
+      },
+      "Description / Consumable#20:1417": {
+        "type": "TEXT",
+        "defaultValue": "MED-003"
+      },
+      "Description / Equipment#20:1420": {
+        "type": "TEXT",
+        "defaultValue": "MED-005"
+      },
+      "Status / Consumable#20:1423": {
+        "type": "TEXT",
+        "defaultValue": "Consumable"
+      },
+      "Status / Equipment#20:1426": {
+        "type": "TEXT",
+        "defaultValue": "Equipment"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Consumable",
+        "variantOptions": [
+          "Consumable",
+          "Equipment"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:12568",
+        "name": "State=Consumable",
+        "key": "39bfaf5a5096bb1c5f90a967caba9734f87b28cc"
+      },
+      {
+        "id": "15:12589",
+        "name": "State=Equipment",
+        "key": "19d5576968d015e5ff9d2d3f5bc365df62dfcc8d"
+      }
+    ]
+  },
+  {
+    "id": "15:12658",
+    "name": "StockRow",
+    "key": "b37daab7337965593ddb701f6626fb209ef7a94b",
+    "properties": {
+      "Item#15:2939": {
+        "type": "TEXT",
+        "defaultValue": "Hydrafacial serum"
+      },
+      "SKU#15:2940": {
+        "type": "TEXT",
+        "defaultValue": "MED-003 · 12 units"
+      },
+      "Field label#15:2941": {
+        "type": "TEXT",
+        "defaultValue": "Quantity"
+      },
+      "Field value#15:2942": {
+        "type": "TEXT",
+        "defaultValue": "12"
+      },
+      "Expiry#15:2943": {
+        "type": "TEXT",
+        "defaultValue": "Expiry: 30 Nov 2026"
+      },
+      "Expiry boundary#15:2945": {
+        "type": "TEXT",
+        "defaultValue": "Expired stock is unavailable for use even when quantity is positive."
+      },
+      "Status / InStock#20:1429": {
+        "type": "TEXT",
+        "defaultValue": "In stock"
+      },
+      "Status / Low#20:1434": {
+        "type": "TEXT",
+        "defaultValue": "Low stock"
+      },
+      "Status / Expiring#20:1439": {
+        "type": "TEXT",
+        "defaultValue": "Expiring soon"
+      },
+      "Status / Expired#20:1444": {
+        "type": "TEXT",
+        "defaultValue": "Expired"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "InStock",
+        "variantOptions": [
+          "InStock",
+          "Low",
+          "Expiring",
+          "Expired"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:12605",
+        "name": "State=InStock",
+        "key": "16945179f840940e8b37b97c7722c21c3d248876"
+      },
+      {
+        "id": "15:12618",
+        "name": "State=Low",
+        "key": "ecde992a57818f31ae4bd324016be21099fdafee"
+      },
+      {
+        "id": "15:12631",
+        "name": "State=Expiring",
+        "key": "1656a86037953659fb6d9795493b20446687f421"
+      },
+      {
+        "id": "15:12644",
+        "name": "State=Expired",
+        "key": "2d79c30eab0c5e750637f9a705e6b59e44f8540d"
+      }
+    ]
+  },
+  {
+    "id": "15:12757",
+    "name": "VariantCount",
+    "key": "97912982b7827eed409fea79dc61f1d1319aac21",
+    "properties": {
+      "Icon / package 1#15:2992": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:12570",
+        "preferredValues": []
+      },
+      "Title#15:2993": {
+        "type": "TEXT",
+        "defaultValue": "Count variants"
+      },
+      "Description#15:2994": {
+        "type": "TEXT",
+        "defaultValue": "Hyaluronic filler · DEMO-001"
+      },
+      "Detail label#15:2995": {
+        "type": "TEXT",
+        "defaultValue": "Variant A"
+      },
+      "Detail value#15:2996": {
+        "type": "TEXT",
+        "defaultValue": "Recorded: 8 units"
+      },
+      "Field label#15:2997": {
+        "type": "TEXT",
+        "defaultValue": "Counted quantity"
+      },
+      "Detail label 2#15:2999": {
+        "type": "TEXT",
+        "defaultValue": "Variant B"
+      },
+      "Detail value 2#15:3000": {
+        "type": "TEXT",
+        "defaultValue": "Recorded: 4 units"
+      },
+      "Field label 2#15:3001": {
+        "type": "TEXT",
+        "defaultValue": "Counted quantity"
+      },
+      "Field label 3#15:3003": {
+        "type": "TEXT",
+        "defaultValue": "Reason (optional)"
+      },
+      "Field value 3#15:3004": {
+        "type": "TEXT",
+        "defaultValue": "Physical stock count"
+      },
+      "Action#15:3005": {
+        "type": "TEXT",
+        "defaultValue": "Save count"
+      },
+      "Status#15:3006": {
+        "type": "TEXT",
+        "defaultValue": "Difference: +1 unit"
+      },
+      "Field value / Empty#20:1449": {
+        "type": "TEXT",
+        "defaultValue": "Enter physical count"
+      },
+      "Field value / Counted#20:1453": {
+        "type": "TEXT",
+        "defaultValue": "8 units"
+      },
+      "Field value / Variance#20:1457": {
+        "type": "TEXT",
+        "defaultValue": "9 units"
+      },
+      "Field value 2 / Empty#20:1461": {
+        "type": "TEXT",
+        "defaultValue": "Enter physical count"
+      },
+      "Field value 2 / Counted#20:1465": {
+        "type": "TEXT",
+        "defaultValue": "4 units"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Empty",
+        "variantOptions": [
+          "Empty",
+          "Counted",
+          "Variance"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:12659",
+        "name": "State=Empty",
+        "key": "6565f907c9ff16e337154d3f559c984b5edea845"
+      },
+      {
+        "id": "15:12691",
+        "name": "State=Counted",
+        "key": "6828404cabe1c61c59df5aad226af0c7eb0b0f5c"
+      },
+      {
+        "id": "15:12723",
+        "name": "State=Variance",
+        "key": "0ca419ef0c7c25b1622b3a282b0e83b7855c9b11"
+      }
+    ]
+  },
+  {
+    "id": "15:12822",
+    "name": "StockHistory",
+    "key": "972b0b7b31c49bd69dc04bd1f5f9627f93fe3d62",
+    "properties": {
+      "Icon / package 1#15:3041": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:12570",
+        "preferredValues": []
+      },
+      "Title#15:3042": {
+        "type": "TEXT",
+        "defaultValue": "Stock change"
+      },
+      "Description#15:3043": {
+        "type": "TEXT",
+        "defaultValue": "26 Oct 2026 · Dr. Gigi"
+      },
+      "Detail label#15:3044": {
+        "type": "TEXT",
+        "defaultValue": "Item"
+      },
+      "Detail value#15:3045": {
+        "type": "TEXT",
+        "defaultValue": "Nitrile gloves · ESS-001"
+      },
+      "Detail label 2#15:3046": {
+        "type": "TEXT",
+        "defaultValue": "Quantity"
+      },
+      "Detail value 2#15:3047": {
+        "type": "TEXT",
+        "defaultValue": "8 → 20 units"
+      },
+      "Detail label 3#15:3048": {
+        "type": "TEXT",
+        "defaultValue": "Reason"
+      },
+      "Detail value 3#15:3049": {
+        "type": "TEXT",
+        "defaultValue": "Restock"
+      },
+      "Audit scope#15:3050": {
+        "type": "TEXT",
+        "defaultValue": "History preserves the recorded change and its reversal."
+      },
+      "Action#15:3051": {
+        "type": "TEXT",
+        "defaultValue": "Undo stock change"
+      },
+      "Status#15:3052": {
+        "type": "TEXT",
+        "defaultValue": "Reversed by a later entry"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Recorded",
+        "variantOptions": [
+          "Recorded",
+          "Undoable",
+          "Reversed"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:12758",
+        "name": "State=Recorded",
+        "key": "06af94555c69ec84245acfd57c398ec98537626c"
+      },
+      {
+        "id": "15:12778",
+        "name": "State=Undoable",
+        "key": "a2ef59b85f448453f20e416903251a8a52cb04bf"
+      },
+      {
+        "id": "15:12800",
+        "name": "State=Reversed",
+        "key": "e3179dfbbcec267f3dc0bb00359353666b19a2ad"
+      }
+    ]
+  },
+  {
+    "id": "15:12940",
+    "name": "WorkSchedule",
+    "key": "dd227cda84408025ffe9631edd3baf36225ee9f9",
+    "properties": {
+      "Icon / calendar 1#15:3092": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:12825",
+        "preferredValues": []
+      },
+      "Title#15:3093": {
+        "type": "TEXT",
+        "defaultValue": "Working days & hours"
+      },
+      "Icon / check 2#15:3094": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:12841",
+        "preferredValues": []
+      },
+      "Checklist label#15:3095": {
+        "type": "TEXT",
+        "defaultValue": "Sunday"
+      },
+      "Icon / check 3#15:3097": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:12841",
+        "preferredValues": []
+      },
+      "Checklist label 2#15:3098": {
+        "type": "TEXT",
+        "defaultValue": "Monday"
+      },
+      "Icon / check 4#15:3100": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:12841",
+        "preferredValues": []
+      },
+      "Checklist label 3#15:3101": {
+        "type": "TEXT",
+        "defaultValue": "Tuesday"
+      },
+      "Action#15:3103": {
+        "type": "TEXT",
+        "defaultValue": "Save work schedule"
+      },
+      "Icon / triangle-alert 5#15:3104": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:12927",
+        "preferredValues": []
+      },
+      "Notice#15:3105": {
+        "type": "TEXT",
+        "defaultValue": "Two existing reservations need review before applying these hours."
+      },
+      "Hours / Working#20:1469": {
+        "type": "TEXT",
+        "defaultValue": "09:00 – 18:00"
+      },
+      "Hours / Closed#20:1473": {
+        "type": "TEXT",
+        "defaultValue": "Closed"
+      },
+      "Hours 2 / Working#20:1477": {
+        "type": "TEXT",
+        "defaultValue": "09:00 – 18:00"
+      },
+      "Hours 2 / Closed#20:1481": {
+        "type": "TEXT",
+        "defaultValue": "Closed"
+      },
+      "Hours 3 / Working#20:1485": {
+        "type": "TEXT",
+        "defaultValue": "09:00 – 18:00"
+      },
+      "Hours 3 / Closed#20:1489": {
+        "type": "TEXT",
+        "defaultValue": "Closed"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Working",
+        "variantOptions": [
+          "Working",
+          "Closed",
+          "Conflict"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:12823",
+        "name": "State=Working",
+        "key": "71b09cef7fa716abd0353ec4be90cb73f56024f2"
+      },
+      {
+        "id": "15:12867",
+        "name": "State=Closed",
+        "key": "b9f25366d9c2c29b8db6d80476c7b99a3f2c62eb"
+      },
+      {
+        "id": "15:12893",
+        "name": "State=Conflict",
+        "key": "8c87f4aef0a8fa6cf8d77cf13c2ad5407fba18ae"
+      }
+    ]
+  },
+  {
+    "id": "15:13051",
+    "name": "StaffPermissions",
+    "key": "6c033877a810caf4f30e9f89f77c60c4c5abb728",
+    "properties": {
+      "Icon / user 1#15:3149": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:12943",
+        "preferredValues": []
+      },
+      "Title#15:3150": {
+        "type": "TEXT",
+        "defaultValue": "Receptionist permissions"
+      },
+      "Description#15:3151": {
+        "type": "TEXT",
+        "defaultValue": "Front desk · Administrative access"
+      },
+      "Icon / check 2#15:3152": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:12841",
+        "preferredValues": []
+      },
+      "Checklist label#15:3153": {
+        "type": "TEXT",
+        "defaultValue": "View and create appointments"
+      },
+      "Icon / check 3#15:3154": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:12841",
+        "preferredValues": []
+      },
+      "Checklist label 2#15:3155": {
+        "type": "TEXT",
+        "defaultValue": "Check in patients"
+      },
+      "Icon / check 4#15:3156": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:12841",
+        "preferredValues": []
+      },
+      "Checklist label 3#15:3157": {
+        "type": "TEXT",
+        "defaultValue": "Process payments"
+      },
+      "Icon / triangle-alert 5#15:3158": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:12927",
+        "preferredValues": []
+      },
+      "Notice#15:3159": {
+        "type": "TEXT",
+        "defaultValue": "Medical records, clinical sessions, refunds, discounts, and employee management remain restricted."
+      },
+      "Action#15:3160": {
+        "type": "TEXT",
+        "defaultValue": "Save permissions"
+      },
+      "Icon / triangle-alert 4#15:3161": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:12927",
+        "preferredValues": []
+      },
+      "Dirty state#15:3162": {
+        "type": "TEXT",
+        "defaultValue": "Unsaved permission changes"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Allowed",
+        "variantOptions": [
+          "Allowed",
+          "Restricted",
+          "Dirty"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:12941",
+        "name": "State=Allowed",
+        "key": "816085e080d93446f4c442b97f25d1c58a8a2167"
+      },
+      {
+        "id": "15:12981",
+        "name": "State=Restricted",
+        "key": "013d2383390ec9154a1259d4d0e084b6238d5437"
+      },
+      {
+        "id": "15:13014",
+        "name": "State=Dirty",
+        "key": "61954893d9195aec10bf426dee2a2a75f68ff860"
+      }
+    ]
+  },
+  {
+    "id": "15:13115",
+    "name": "ProfileForm",
+    "key": "accda52734ae6d034284a2d80dc7bc40e90d33aa",
+    "properties": {
+      "Icon / user 1#15:3191": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:12943",
+        "preferredValues": []
+      },
+      "Field label 2#15:3195": {
+        "type": "TEXT",
+        "defaultValue": "Contact phone"
+      },
+      "Icon / phone 2#15:3196": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:13066",
+        "preferredValues": []
+      },
+      "Field value 2#15:3197": {
+        "type": "TEXT",
+        "defaultValue": "Enter clinic contact number"
+      },
+      "Field label 3#15:3198": {
+        "type": "TEXT",
+        "defaultValue": "Contact email"
+      },
+      "Icon / mail 3#15:3199": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:13076",
+        "preferredValues": []
+      },
+      "Field value 3#15:3200": {
+        "type": "TEXT",
+        "defaultValue": "Enter contact email"
+      },
+      "Action#15:3201": {
+        "type": "TEXT",
+        "defaultValue": "Save profile"
+      },
+      "Title / Doctor#20:1493": {
+        "type": "TEXT",
+        "defaultValue": "Doctor profile"
+      },
+      "Title / Clinic#20:1496": {
+        "type": "TEXT",
+        "defaultValue": "Clinic profile"
+      },
+      "Field label / Doctor#20:1499": {
+        "type": "TEXT",
+        "defaultValue": "Doctor name"
+      },
+      "Field label / Clinic#20:1502": {
+        "type": "TEXT",
+        "defaultValue": "Clinic name"
+      },
+      "Field value / Doctor#20:1505": {
+        "type": "TEXT",
+        "defaultValue": "Dr. Gigi"
+      },
+      "Field value / Clinic#20:1508": {
+        "type": "TEXT",
+        "defaultValue": "Nothing Major"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Doctor",
+        "variantOptions": [
+          "Doctor",
+          "Clinic"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:13052",
+        "name": "State=Doctor",
+        "key": "f29e0c66e340644f6536b3069a6cda23faa83dd7"
+      },
+      {
+        "id": "15:13087",
+        "name": "State=Clinic",
+        "key": "a3cc52ae6bfe082b903ee011d7890f6482eb7c25"
+      }
+    ]
+  },
+  {
+    "id": "15:13184",
+    "name": "BookingPolicies",
+    "key": "88c0fb18fc80d5b56c19f680c0a9102475d43e5c",
+    "properties": {
+      "Icon / file-text 1#15:3223": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:13118",
+        "preferredValues": []
+      },
+      "Title#15:3224": {
+        "type": "TEXT",
+        "defaultValue": "Booking policies"
+      },
+      "Icon / chevron-down 2#15:3227": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:13137",
+        "preferredValues": []
+      },
+      "Action#15:3229": {
+        "type": "TEXT",
+        "defaultValue": "Save policy settings"
+      },
+      "Field label 2#15:3230": {
+        "type": "TEXT",
+        "defaultValue": "Cleanup time"
+      },
+      "Field value 2#15:3231": {
+        "type": "TEXT",
+        "defaultValue": "10 minutes"
+      },
+      "Field label / Deposit#20:1511": {
+        "type": "TEXT",
+        "defaultValue": "Deposit rule"
+      },
+      "Field label / Cancellation#20:1515": {
+        "type": "TEXT",
+        "defaultValue": "Cancellation policy"
+      },
+      "Field label / Schedule#20:1519": {
+        "type": "TEXT",
+        "defaultValue": "Preparation time"
+      },
+      "Field value / Deposit#20:1523": {
+        "type": "TEXT",
+        "defaultValue": "Use the configured clinic rule"
+      },
+      "Field value / Cancellation#20:1527": {
+        "type": "TEXT",
+        "defaultValue": "Review the clinic-approved policy"
+      },
+      "Field value / Schedule#20:1531": {
+        "type": "TEXT",
+        "defaultValue": "15 minutes"
+      },
+      "Help / Deposit#20:1535": {
+        "type": "TEXT",
+        "defaultValue": "Deposit requirements are shown before confirmation."
+      },
+      "Help / Cancellation#20:1539": {
+        "type": "TEXT",
+        "defaultValue": "Cancellation and any refund are separate outcomes."
+      },
+      "Help / Schedule#20:1543": {
+        "type": "TEXT",
+        "defaultValue": "The configured buffer is reserved alongside the appointment."
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Deposit",
+        "variantOptions": [
+          "Deposit",
+          "Cancellation",
+          "Schedule"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:13116",
+        "name": "State=Deposit",
+        "key": "f3ea04df4b615cd7f3fa80348bdaf208f1a7c4c0"
+      },
+      {
+        "id": "15:13146",
+        "name": "State=Cancellation",
+        "key": "b1569d79a62b8bf9584b16480f60df94e6bfe751"
+      },
+      {
+        "id": "15:13163",
+        "name": "State=Schedule",
+        "key": "e8ecb287807c7a873f32669d7f7a87aff7259e02"
+      }
+    ]
+  },
+  {
+    "id": "15:13252",
+    "name": "DataBackup",
+    "key": "b8ec5a9777862dc8446180c054e46b50ae60a424",
+    "properties": {
+      "Icon / download 1#15:3261": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:13187",
+        "preferredValues": []
+      },
+      "Title#15:3262": {
+        "type": "TEXT",
+        "defaultValue": "Your local data"
+      },
+      "Storage scope#15:3263": {
+        "type": "TEXT",
+        "defaultValue": "This prototype stores changes in this browser. It has no live payment, messaging, authentication, or synchronization service."
+      },
+      "Export scope#15:3264": {
+        "type": "TEXT",
+        "defaultValue": "Backup includes appointments, inventory, services, payment records, and settings. Use fictional records only."
+      },
+      "Status#15:3266": {
+        "type": "TEXT",
+        "defaultValue": "Download prepared"
+      },
+      "Icon / circle-alert 2#15:3267": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:13239",
+        "preferredValues": []
+      },
+      "Notice#15:3268": {
+        "type": "TEXT",
+        "defaultValue": "The export could not be prepared. Try again."
+      },
+      "Action / Local#20:1547": {
+        "type": "TEXT",
+        "defaultValue": "Export backup"
+      },
+      "Action / Exporting#20:1552": {
+        "type": "TEXT",
+        "defaultValue": "Preparing export…"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Local",
+        "variantOptions": [
+          "Local",
+          "Exporting",
+          "Ready",
+          "Error"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:13185",
+        "name": "State=Local",
+        "key": "c5d7c64b122235d0cec25a668cf610b637acead9"
+      },
+      {
+        "id": "15:13202",
+        "name": "State=Exporting",
+        "key": "f6b488d47253a4f960061d6a836a768993776033"
+      },
+      {
+        "id": "15:13214",
+        "name": "State=Ready",
+        "key": "67e393ca61c348cd66b9020442a668e1358b7b32"
+      },
+      {
+        "id": "15:13228",
+        "name": "State=Error",
+        "key": "2a8d7da5272ad22a2baaeab85bc2bcd2f6fb80ab"
+      }
+    ]
+  },
+  {
+    "id": "15:13390",
+    "name": "ServiceEditor",
+    "key": "426582960b5546b7654c62db77727469743071b6",
+    "properties": {
+      "Icon / file-text 1#15:3324": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:13118",
+        "preferredValues": []
+      },
+      "Field label 3#15:3330": {
+        "type": "TEXT",
+        "defaultValue": "Price"
+      },
+      "Field value 3#15:3331": {
+        "type": "TEXT",
+        "defaultValue": "SAR 650"
+      },
+      "Icon / check 2#15:3332": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:12841",
+        "preferredValues": []
+      },
+      "Variant#15:3335": {
+        "type": "TEXT",
+        "defaultValue": "Standard · 60 min · SAR 650"
+      },
+      "Icon / pencil 2#15:3336": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:13295",
+        "preferredValues": []
+      },
+      "Variant 2#15:3337": {
+        "type": "TEXT",
+        "defaultValue": "Extended · 90 min · SAR 850"
+      },
+      "Icon / pencil 3#15:3338": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:13295",
+        "preferredValues": []
+      },
+      "Action 2#15:3339": {
+        "type": "TEXT",
+        "defaultValue": "Save changes"
+      },
+      "Icon / chevron-down 2#15:3340": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:13137",
+        "preferredValues": []
+      },
+      "Icon / check 3#15:3341": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:12841",
+        "preferredValues": []
+      },
+      "Boundary#15:3342": {
+        "type": "TEXT",
+        "defaultValue": "Clinical prerequisites are reviewed by authorized staff."
+      },
+      "Detail label#15:3343": {
+        "type": "TEXT",
+        "defaultValue": "Services in category"
+      },
+      "Detail value#15:3344": {
+        "type": "TEXT",
+        "defaultValue": "4 services"
+      },
+      "Checklist label 2#15:3345": {
+        "type": "TEXT",
+        "defaultValue": "Hydrafacial"
+      },
+      "Title / Details#20:1557": {
+        "type": "TEXT",
+        "defaultValue": "Service details"
+      },
+      "Title / Variants#20:1563": {
+        "type": "TEXT",
+        "defaultValue": "Service variants"
+      },
+      "Title / Prerequisites#20:1569": {
+        "type": "TEXT",
+        "defaultValue": "Service requirements"
+      },
+      "Title / Category#20:1575": {
+        "type": "TEXT",
+        "defaultValue": "Edit category"
+      },
+      "Title / Package#20:1581": {
+        "type": "TEXT",
+        "defaultValue": "Service package"
+      },
+      "Field label / Details#20:1587": {
+        "type": "TEXT",
+        "defaultValue": "Service name"
+      },
+      "Field label / Prerequisites#20:1593": {
+        "type": "TEXT",
+        "defaultValue": "Required consultation"
+      },
+      "Field label / Category#20:1599": {
+        "type": "TEXT",
+        "defaultValue": "Category name"
+      },
+      "Field label / Package#20:1605": {
+        "type": "TEXT",
+        "defaultValue": "Package name"
+      },
+      "Field value / Details#20:1611": {
+        "type": "TEXT",
+        "defaultValue": "Hydrafacial"
+      },
+      "Field value / Prerequisites#20:1617": {
+        "type": "TEXT",
+        "defaultValue": "Skin consultation"
+      },
+      "Field value / Category#20:1623": {
+        "type": "TEXT",
+        "defaultValue": "Facials & skincare"
+      },
+      "Field value / Package#20:1629": {
+        "type": "TEXT",
+        "defaultValue": "Consultation + Hydrafacial"
+      },
+      "Field label 2 / Details#20:1635": {
+        "type": "TEXT",
+        "defaultValue": "Duration"
+      },
+      "Field label 2 / Package#20:1641": {
+        "type": "TEXT",
+        "defaultValue": "Package price"
+      },
+      "Field value 2 / Details#20:1647": {
+        "type": "TEXT",
+        "defaultValue": "60 minutes"
+      },
+      "Field value 2 / Package#20:1653": {
+        "type": "TEXT",
+        "defaultValue": "Enter configured package price"
+      },
+      "Checklist label / Details#20:1659": {
+        "type": "TEXT",
+        "defaultValue": "Active service"
+      },
+      "Checklist label / Prerequisites#20:1665": {
+        "type": "TEXT",
+        "defaultValue": "Review service compatibility"
+      },
+      "Checklist label / Package#20:1671": {
+        "type": "TEXT",
+        "defaultValue": "Skin consultation"
+      },
+      "Action / Details#20:1677": {
+        "type": "TEXT",
+        "defaultValue": "Save changes"
+      },
+      "Action / Variants#20:1683": {
+        "type": "TEXT",
+        "defaultValue": "Add variant"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Details",
+        "variantOptions": [
+          "Details",
+          "Variants",
+          "Prerequisites",
+          "Category",
+          "Package"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:13253",
+        "name": "State=Details",
+        "key": "3c89e9e2a3436c41a5abea5e6decdd0ff7dabfe4"
+      },
+      {
+        "id": "15:13283",
+        "name": "State=Variants",
+        "key": "58b833f42f3945a5fee763937168b0c33dd5da30"
+      },
+      {
+        "id": "15:13313",
+        "name": "State=Prerequisites",
+        "key": "b2a051ea14130ef2cfd5bdd0b63287826ae1cf09"
+      },
+      {
+        "id": "15:13339",
+        "name": "State=Category",
+        "key": "b9bc7d6b2a3abb6fc806d1bfa11ac01fddc42f6c"
+      },
+      {
+        "id": "15:13358",
+        "name": "State=Package",
+        "key": "f6d49b02e57b1decc24b8d631fa16a23b6dfa9d8"
+      }
+    ]
+  },
+  {
+    "id": "15:13449",
+    "name": "NotificationPreferences",
+    "key": "0c5c9e0ce6132b33fafd032bf6cbd5dfac5cc01c",
+    "properties": {
+      "Icon / bell 1#15:3428": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:13393",
+        "preferredValues": []
+      },
+      "Title#15:3429": {
+        "type": "TEXT",
+        "defaultValue": "Appointment updates"
+      },
+      "Icon / check 2#15:3430": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:12841",
+        "preferredValues": []
+      },
+      "Checklist label#15:3431": {
+        "type": "TEXT",
+        "defaultValue": "Appointment reminders"
+      },
+      "Icon / check 3#15:3432": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:12841",
+        "preferredValues": []
+      },
+      "Checklist label 2#15:3433": {
+        "type": "TEXT",
+        "defaultValue": "Booking status updates"
+      },
+      "Icon / triangle-alert 2#15:3435": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "15:12927",
+        "preferredValues": []
+      },
+      "Notice#15:3436": {
+        "type": "TEXT",
+        "defaultValue": "This notification channel is not available. Your preference has not been applied."
+      },
+      "Preference state / On#20:1689": {
+        "type": "TEXT",
+        "defaultValue": "Updates enabled for the selected channel."
+      },
+      "Preference state / Off#20:1693": {
+        "type": "TEXT",
+        "defaultValue": "Updates are off for the selected channel."
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "On",
+        "variantOptions": [
+          "On",
+          "Off",
+          "Unsupported"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "15:13391",
+        "name": "State=On",
+        "key": "786520e4da5aafa639378bf7a249b0c5ca456131"
+      },
+      {
+        "id": "15:13415",
+        "name": "State=Off",
+        "key": "6ab3d93454ee2812f7e98755f7d678a3937073c5"
+      },
+      {
+        "id": "15:13429",
+        "name": "State=Unsupported",
+        "key": "2ac6b3e522a3d9f36e93cdb436de405e0279fe79"
+      }
+    ]
+  }
+]

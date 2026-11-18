@@ -1,0 +1,25 @@
+{
+  "name": "clinime-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node scripts/build.mjs && node scripts/demo-server.mjs",
+    "demo": "node scripts/build.mjs && node scripts/demo-server.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node scripts/check.mjs",
+    "preview:growth": "node scripts/growth-local-server.mjs",
+    "preview:staff": "node scripts/staff-local-server.mjs",
+    "preview:emails": "node scripts/preview-emails.mjs",
+    "preview:wallet-copy": "node scripts/preview-wallet-messages.mjs",
+    "test:demo": "node --test tests/demo.test.mjs",
+    "scan:public": "node scripts/public-source-check.mjs"
+  },
+  "dependencies": {
+    "@netlify/blobs": "11.1.7"
+  }
+}

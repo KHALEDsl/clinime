@@ -1,0 +1,279 @@
+/* Quiet Clinime reward surfaces. Unslop craft: @heydamir, CC BY 4.0. */
+.loyalty-screen,.loyalty-dialog,.loyalty-promotion,.loyalty-account-summary,.loyalty-price-breakdown{--loyalty-paper:#fff9f9;--loyalty-panel:#fff;--loyalty-raised:#f6f3f4;--loyalty-ink:#412837;--loyalty-secondary:#695a63;--loyalty-muted:#776a72;--loyalty-line:#e8e1e5;--loyalty-action:#6c304d;--loyalty-error:#9c3141;color:var(--loyalty-ink);font-variant-numeric:tabular-nums}
+.loyalty-screen{background:var(--loyalty-paper);min-height:100dvh;padding-bottom:40px}
+.loyalty-screen #main-content{padding:0 24px 32px;max-width:640px;margin:0 auto}
+.loyalty-screen h1,.loyalty-screen h2,.loyalty-screen h3,.loyalty-screen p,.loyalty-dialog p{margin:0}
+.loyalty-topbar{height:64px;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:0 24px;max-width:688px;margin:0 auto;color:var(--loyalty-secondary)}
+.loyalty-topbar>span{font-size:13px;flex:1;text-align:center}
+.loyalty-topbar .loyalty-link{font-size:13px;min-width:52px}
+.loyalty-icon{border:0;background:transparent;color:inherit;width:44px;height:44px;display:inline-flex;align-items:center;justify-content:center;border-radius:8px;flex-shrink:0}
+.loyalty-icon .icon{width:20px;height:20px}
+[dir=ltr] .loyalty-topbar>.loyalty-icon .icon{transform:rotate(180deg)}
+.loyalty-heading{padding-top:20px;margin-bottom:16px}
+.loyalty-heading h1{font-size:28px;line-height:1.4;font-weight:500;letter-spacing:0}
+.loyalty-screen h2,.loyalty-screen h3{font-size:18px;font-weight:500;line-height:1.5}
+.loyalty-screen p,.loyalty-dialog p{font-size:15px;line-height:1.75;color:var(--loyalty-secondary)}
+.loyalty-screen .loyalty-caption,.loyalty-dialog .loyalty-caption{font-size:13px;line-height:1.8;color:var(--loyalty-muted)}
+.loyalty-toolbar{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:24px}
+.loyalty-link{padding:8px 0;min-height:44px;display:inline-flex;align-items:center;justify-content:center;gap:8px;border:0;background:none;color:var(--loyalty-action);font-size:14px;line-height:1.6;font-weight:500;text-align:start;text-decoration:underline;text-underline-offset:4px}
+.loyalty-link:disabled{color:var(--loyalty-muted);text-decoration:none}
+.loyalty-button{min-height:48px;padding:12px 20px;border:1px solid var(--loyalty-action);border-radius:8px;background:var(--loyalty-action);color:#fff;display:inline-flex;align-items:center;justify-content:center;gap:8px;font:inherit;font-size:15px;font-weight:500;line-height:1.5;white-space:normal;text-align:center}
+.loyalty-button--secondary{color:var(--loyalty-ink);background:var(--loyalty-panel);border-color:var(--loyalty-line)}
+.loyalty-button:disabled{background:var(--loyalty-raised);color:var(--loyalty-muted);border-color:var(--loyalty-line);cursor:default}
+.loyalty-button .icon,.loyalty-link .icon,.loyalty-promotion .icon{width:18px;height:18px;stroke-width:1.5;flex-shrink:0}
+.loyalty-button,.loyalty-link,.loyalty-icon,.loyalty-history-row,.loyalty-tab,.loyalty-account-link{transition:background-color 180ms cubic-bezier(.22,1,.36,1),color 180ms cubic-bezier(.22,1,.36,1),border-color 180ms cubic-bezier(.22,1,.36,1),opacity 180ms cubic-bezier(.22,1,.36,1)}
+.loyalty-screen button:focus-visible,.loyalty-dialog button:focus-visible,.loyalty-promotion button:focus-visible,.loyalty-account-summary button:focus-visible,.loyalty-promotion input:focus-visible,.loyalty-dialog input:focus-visible{outline:2px solid var(--loyalty-action);outline-offset:4px}
+.loyalty-screen button:hover:not(:disabled),.loyalty-dialog .loyalty-link:hover:not(:disabled),.loyalty-icon:hover:not(:disabled){background-color:var(--loyalty-raised)}
+.loyalty-screen .loyalty-button:not(.loyalty-button--secondary):hover:not(:disabled),.loyalty-dialog .loyalty-button:not(.loyalty-button--secondary):hover:not(:disabled){background:#54243b}
+.loyalty-balance{background:var(--loyalty-panel);border:1px solid var(--loyalty-line);border-radius:16px;padding:24px}
+.loyalty-balance h2{font-size:15px;color:var(--loyalty-secondary)}
+.loyalty-balance .loyalty-balance-number{display:flex;align-items:baseline;gap:12px;color:var(--loyalty-ink);margin-top:12px;margin-bottom:8px;line-height:1.2}
+.loyalty-balance-number>bdi{font-size:48px;font-weight:500;letter-spacing:0;line-height:1.2}
+.loyalty-balance-number>span{font-size:15px;font-weight:400}
+.loyalty-balance>.loyalty-button{width:100%;margin-top:24px}
+.loyalty-progress{margin-top:24px}
+.loyalty-progress-label{display:flex;justify-content:space-between;gap:16px;font-size:13px;color:var(--loyalty-secondary)}
+.loyalty-progress-track{height:4px;background:#e9e1e5;border-radius:4px;overflow:hidden;margin:12px 0}
+.loyalty-progress-track>span{display:block;height:100%;width:100%;background:var(--loyalty-action);transform-origin:right center}
+[dir=ltr] .loyalty-progress-track>span{transform-origin:left center}
+.loyalty-progress p{font-size:13px;line-height:1.7}
+.loyalty-section{margin-top:32px}
+.loyalty-section>h2,.loyalty-section-heading{margin-bottom:12px}
+.loyalty-section-heading{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.loyalty-section-heading .loyalty-link{padding-block:0;min-height:32px}
+.loyalty-welcome{margin-top:16px!important;font-size:13px!important;color:var(--loyalty-muted)!important}
+.loyalty-coupon{border:1px solid var(--loyalty-line);border-radius:16px;padding:24px;background:var(--loyalty-panel)}
+.loyalty-coupon-heading{display:flex;justify-content:space-between;align-items:baseline;gap:16px;margin-bottom:4px}
+.loyalty-coupon-heading h3{font-size:24px;font-weight:500}
+.loyalty-coupon-heading>span{font-size:12px;color:var(--loyalty-secondary)}
+.loyalty-coupon>.loyalty-code{display:block;margin-top:20px}
+.loyalty-coupon>.loyalty-caption{margin-top:8px}
+.loyalty-coupon>.loyalty-button{width:100%;margin-top:20px}
+.loyalty-coupon.is-inactive{background:var(--loyalty-raised)}
+.loyalty-code{font-size:16px;letter-spacing:.04em;font-weight:500;overflow-wrap:anywhere;unicode-bidi:isolate}
+.loyalty-referral>p{margin-bottom:16px}
+.loyalty-referral-code{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--loyalty-raised);padding:12px 16px;border-radius:8px;margin-bottom:12px}
+.loyalty-referral-code .loyalty-link{min-height:32px;flex-shrink:0;font-size:13px;padding-block:0}
+.loyalty-referral>.loyalty-button{width:100%;margin-bottom:16px}
+.loyalty-referral>p:last-child{margin-bottom:0}
+.loyalty-how{border-top:1px solid var(--loyalty-line);padding-top:24px}
+.loyalty-how>.loyalty-link{margin-top:8px}
+.loyalty-state{padding:40px 0;display:flex;align-items:flex-start;flex-direction:column;gap:16px}
+.loyalty-state[aria-busy=true]{align-items:center;text-align:center}
+.loyalty-state .spinner{border-color:var(--loyalty-line);border-top-color:var(--loyalty-action)}
+.loyalty-screen .loyalty-error,.loyalty-dialog .loyalty-error,.loyalty-promotion .loyalty-error{font-size:14px;line-height:1.8;color:var(--loyalty-error);margin:12px 0}
+.loyalty-screen .loyalty-feedback,.loyalty-dialog .loyalty-feedback{padding:12px 16px;background:var(--loyalty-raised);border-radius:8px;font-size:13px;margin-bottom:16px}
+.loyalty-notice{border-block:1px solid var(--loyalty-line);padding:20px 0;margin-bottom:24px}
+.loyalty-notice h2{font-size:16px;margin-bottom:8px}
+.loyalty-notice p{font-size:14px}
+.loyalty-intro{margin-bottom:24px!important}
+.loyalty-rewards{display:flex;flex-direction:column;gap:16px;margin-bottom:24px}
+.loyalty-reward{background:var(--loyalty-panel);border:1px solid var(--loyalty-line);border-radius:16px;padding:24px}
+.loyalty-reward h2{font-size:28px;margin-bottom:4px}
+.loyalty-reward .loyalty-reward-cost{font-size:14px;margin-top:16px;color:var(--loyalty-ink)}
+.loyalty-reward>.loyalty-button{width:100%;margin-top:20px}
+.loyalty-tabs{display:flex;border-bottom:1px solid var(--loyalty-line);margin-bottom:8px;gap:24px}
+.loyalty-tab{border:0;border-bottom:2px solid transparent;background:none;padding:12px 8px;color:var(--loyalty-secondary);min-height:48px;font-size:15px;font-weight:400;flex:1}
+.loyalty-tab.is-active{border-bottom-color:var(--loyalty-action);color:var(--loyalty-action);font-weight:500}
+.loyalty-history-row{width:100%;display:flex;align-items:center;justify-content:space-between;gap:20px;border:0;border-bottom:1px solid var(--loyalty-line);background:transparent;min-height:88px;padding:20px 0;text-align:start;color:var(--loyalty-ink)}
+.loyalty-history-row>span{display:flex;flex-direction:column;gap:8px;min-width:0}
+.loyalty-history-row strong{font-size:15px;font-weight:500;line-height:1.6}
+.loyalty-history-row small{font-size:12px;line-height:1.6;color:var(--loyalty-muted)}
+.loyalty-entry-value{font-size:18px;font-weight:500;white-space:nowrap}
+.loyalty-history-row>.icon{width:18px;height:18px;flex-shrink:0}
+.loyalty-empty{padding:32px 0}
+.loyalty-empty h2{margin-bottom:12px}
+.loyalty-empty p{margin-bottom:12px}
+.loyalty-terms{display:flex;flex-direction:column;gap:24px;margin-top:24px}
+.loyalty-terms p{padding-bottom:24px;border-bottom:1px solid var(--loyalty-line)}
+.loyalty-account-summary{margin-block:24px;background:var(--loyalty-panel);border:1px solid var(--loyalty-line);border-radius:16px}
+.loyalty-account-link{display:flex;align-items:center;justify-content:space-between;gap:16px;width:100%;padding:20px;text-align:start;border:0;border-radius:16px;background:transparent;color:var(--loyalty-ink);min-height:88px}
+.loyalty-account-link>span{display:flex;flex-direction:column;gap:8px}
+.loyalty-account-link strong{font-size:17px;font-weight:500}
+.loyalty-account-link small{font-size:13px;line-height:1.5;color:var(--loyalty-secondary)}
+.loyalty-account-link>.icon{width:18px;height:18px;flex-shrink:0}
+.loyalty-dialog{background:var(--loyalty-paper);border-radius:16px 16px 0 0;max-width:640px;max-height:calc(100dvh - 32px);width:100%;padding:0;overflow:auto;animation:loyalty-sheet 300ms cubic-bezier(.22,1,.36,1)}
+.loyalty-dialog .dialog-header{padding:20px 24px 12px;gap:12px;align-items:flex-start}
+.loyalty-dialog .dialog-header h2{font-size:20px;line-height:1.6;font-weight:500;padding-top:4px}
+.loyalty-dialog .dialog-header>.loyalty-icon{margin-inline-end:-8px;margin-top:-4px}
+.loyalty-dialog-body{padding:8px 24px 24px}
+.loyalty-dialog .loyalty-sheet-reward{color:var(--loyalty-ink);font-size:32px;font-weight:500;line-height:1.5;margin-top:8px}
+.loyalty-dialog-body>.loyalty-code{display:block;margin-top:24px}
+.loyalty-sheet-facts{margin:24px 0;display:flex;flex-direction:column;gap:16px;font-size:14px;line-height:1.7}
+.loyalty-sheet-facts>div{display:flex;justify-content:space-between;gap:20px}
+.loyalty-sheet-facts dt{color:var(--loyalty-secondary)}
+.loyalty-sheet-facts dd{margin:0;text-align:end;font-weight:500}
+.loyalty-dialog-actions{padding:0 24px max(24px,env(safe-area-inset-bottom));display:flex;flex-direction:column;gap:8px}
+.loyalty-dialog-actions>.loyalty-button{width:100%}
+.loyalty-manual-code{display:block;width:100%;box-sizing:border-box;border:1px solid var(--loyalty-line);border-radius:8px;background:#fff;color:var(--loyalty-ink);padding:12px 16px;min-height:48px;font:inherit;font-size:16px;margin-top:8px;text-align:center}
+.loyalty-promotion{padding:24px 0;border-top:1px solid var(--loyalty-line);margin-top:24px}
+.loyalty-promotion h2{font-size:17px;font-weight:500;line-height:1.6;margin:0 0 16px}
+.loyalty-promotion form>label{font-size:13px;display:block;margin-bottom:8px;color:var(--loyalty-secondary)}
+.loyalty-promotion-field{display:flex;gap:8px;align-items:stretch}
+.loyalty-promotion-field input{min-width:0;flex:1;width:100%;min-height:48px;border:1px solid var(--loyalty-line);border-radius:8px;background:#fff;padding:12px;font:inherit;font-size:16px;line-height:1.5;color:var(--loyalty-ink);text-transform:uppercase;box-sizing:border-box}
+.loyalty-promotion-field input[aria-invalid=true]{border-color:var(--loyalty-error)}
+.loyalty-promotion-field .loyalty-button{flex-shrink:0;padding-inline:16px}
+.loyalty-promotion-applied{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:12px}
+.loyalty-promotion-applied p{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:14px;margin:0;line-height:1.7}
+.loyalty-promotion-applied .loyalty-code{font-size:13px}
+.loyalty-promotion-applied .loyalty-link{flex-shrink:0}
+.loyalty-promotion>.loyalty-caption{font-size:13px;line-height:1.8;margin:12px 0 0;color:var(--loyalty-muted)}
+.loyalty-price-breakdown{padding-top:8px;font-size:14px;line-height:1.8}
+.loyalty-price-breakdown>div:not(.journey-total){display:flex;justify-content:space-between;gap:16px;margin-top:12px;color:var(--loyalty-secondary)}
+.loyalty-price-breakdown .loyalty-code{font-size:12px;font-weight:400;letter-spacing:0}
+.loyalty-price-breakdown>.journey-total{margin-top:20px}
+.loyalty-booking-price{display:block;font-variant-numeric:tabular-nums}
+@keyframes loyalty-sheet{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@media(min-width:680px){.loyalty-dialog{border-radius:16px;margin:auto}.loyalty-screen #main-content{padding-inline:32px}.loyalty-topbar{padding-inline:32px}}
+@media(max-width:350px){.loyalty-screen #main-content{padding-inline:24px}.loyalty-balance,.loyalty-coupon,.loyalty-reward{padding:20px}.loyalty-referral-code{gap:8px;padding-inline:12px}.loyalty-referral-code .loyalty-code{font-size:14px}.loyalty-sheet-facts>div{gap:12px}.loyalty-topbar{padding-inline:20px}}
+@media(prefers-reduced-motion:reduce){.loyalty-dialog{animation:none}.loyalty-button,.loyalty-link,.loyalty-icon,.loyalty-history-row,.loyalty-tab,.loyalty-account-link{transition:none}}
+
+[dir=rtl] .loyalty-history-row>.icon,[dir=rtl] .loyalty-account-link>.icon{transform:rotate(180deg)}
+
+/* The visit pass uses the original mark for earned stamps. Referral credit has its own ledger. */
+.visit-pass{padding:22px 22px 20px;border-radius:22px;color:#322a3b;background:linear-gradient(123deg,#fff7f8 5%,#f7e8ee 66%,#ecdce9);border:1px solid #dfd1da;position:relative;overflow:hidden}
+.visit-pass-head,.stamp-balance{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.visit-pass-head{font-size:12px;font-weight:500;line-height:1.5;color:#655465}
+.visit-pass-head img{display:block;width:96px;height:26px;object-fit:contain}
+.loyalty-screen .visit-pass h2{font-size:clamp(21px,5.4vw,29px);font-weight:500;line-height:1.45;margin:27px 0 2px;letter-spacing:-.015em}
+.loyalty-screen .visit-pass>p{font-size:14px;color:#5d4f60}
+.stamp-track{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:clamp(6px,2vw,15px);align-items:center;margin:23px 0 17px}
+.stamp-slot{width:100%;max-width:51px;aspect-ratio:1;border:1px dashed #95788b;border-radius:50%;display:grid;place-items:center;color:#715d6b;font-size:15px;background:#ffffff48}
+.stamp-slot.is-earned{border:1px solid #2d3e5b;background:#2d3e5b;color:#fff}
+.stamp-slot svg{width:67%;height:67%}
+.stamp-balance{border-top:1px solid #d8c9d3;padding-top:14px;align-items:baseline;flex-wrap:wrap}
+.stamp-balance strong{font-weight:600;font-size:15px}.stamp-balance>span{font-size:12px;color:#665663}
+.pass-details-link{display:flex;align-items:center;gap:10px;border:0;background:transparent;color:#5c4654;font:inherit;font-size:13px;min-height:46px;padding:6px 0}
+.pass-details-link .icon{width:16px;height:16px}.pass-details-link .icon:last-child{margin-inline-start:3px;width:13px}
+[dir=rtl] .pass-details-link .icon:last-child,[dir=rtl] .program-row>.icon{transform:rotate(180deg)}
+.program-index{border-block:1px solid var(--loyalty-line);margin-block:26px 9px}
+.program-row{color:inherit;background:transparent;border:0;text-align:start;display:flex;align-items:center;gap:13px;min-height:81px;padding:12px 0;width:100%;font:inherit}
+.program-row+.program-row{border-top:1px solid var(--loyalty-line)}
+.program-row-icon{background:#f1e9ec;color:#624857;border-radius:12px;height:36px;width:36px;display:grid;place-items:center;flex:0 0 36px}
+.program-row-icon .icon{width:18px;height:18px}
+.program-row strong,.program-row small{display:block}.program-row strong{font-size:15px;font-weight:500}.program-row small,.program-ledger small{font-size:12px;line-height:1.6;color:#72646c;margin-top:3px}
+.program-row>.icon{width:17px;height:17px;margin-inline-start:auto;flex:none}
+.program-account{padding-inline:15px}.program-account .program-row{min-height:73px}
+.reward-inbox{margin-top:22px}.reward-inbox>h2{margin-bottom:10px}
+.reward-note{border:1px solid #e2d6de;border-radius:17px;background:white;padding:15px 18px}
+.reward-note+.reward-note{margin-top:10px}.reward-note>div{display:flex;align-items:center;gap:12px}.reward-note h3{font-size:17px;font-weight:500}.reward-note small{font-size:12px;color:#7a6974}.reward-note .loyalty-button{width:100%;margin-top:12px;border-radius:13px}
+.visit-flower{width:68px;height:54px;flex:none;overflow:visible}.visit-flower g{transform-origin:60px 71px;transform:rotate(var(--open))}
+.facial-reveal{padding:14px 16px 25px;text-align:center;background:#faf0f4;border:1px solid #e4d7de;border-radius:20px}.facial-reveal .visit-flower{width:145px;height:117px}.facial-reveal p{font-size:13px;color:#715869}.facial-reveal h2{font-size:23px;margin:3px 0 4px}.facial-reveal>span{font-size:14px;color:#645564}
+@media(prefers-reduced-motion:no-preference){.visit-flower.is-open g{animation:reward-petal-open .72s cubic-bezier(.2,.72,.23,1) both}@keyframes reward-petal-open{from{transform:rotate(var(--bud));opacity:.45}to{transform:rotate(var(--open));opacity:1}}}
+.facial-choices,.facial-gift-form,.checkout-benefits{display:grid;gap:10px}.facial-choices{margin:18px 0 12px}.facial-choices .loyalty-button,.facial-gift-form .loyalty-button,.checkout-benefits .loyalty-button,.loyalty-referral>.loyalty-button{border-radius:13px}
+.facial-gift-form{margin-top:15px}.facial-gift-form label{font-size:14px}.facial-gift-form input{border:1px solid #c6b6c0;border-radius:11px;padding:12px;min-height:48px;width:100%;font:inherit;box-sizing:border-box}
+.referral-funds{padding:22px;border-radius:19px;background:#f3ecef;border:1px solid #e0d6db}.referral-funds>span,.referral-funds>strong{display:block}.referral-funds>span{font-size:14px;color:#675663}.referral-funds>strong{font-size:clamp(26px,6vw,34px);font-weight:500;line-height:1.5}.referral-funds p{font-size:13px}
+.program-ledger{list-style:none;padding:0;margin:0}.program-ledger li{min-height:68px;padding:11px 0;display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:1px solid #e3dade}.program-ledger strong,.program-ledger small{display:block}.program-ledger strong{font-weight:500;font-size:15px}.program-ledger time{font-size:12px;color:#6a5965}.program-empty{padding:16px;border-radius:14px;background:#f5eff1}.program-empty strong{font-size:15px;font-weight:500}.program-empty p{font-size:13px;margin-top:4px}
+.checkout-benefits:not(:empty){margin-bottom:12px}
+
+.wallet-join{margin:18px 0;padding:18px 16px;border:1px solid #e6d9df;border-radius:16px;background:#fffdfd;color:#342a31;text-align:start}
+.wallet-join h2{font:600 17px/1.6 PlexArabic,system-ui,sans-serif;margin:0}
+.wallet-join p,.wallet-wait{font-size:13px;line-height:1.65;color:#65565e;margin:4px 0 0}
+.wallet-join-handoff{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:13px}
+.wallet-join-qr{display:block;width:96px;height:96px;image-rendering:pixelated}
+.wallet-join-action{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:46px;padding:9px 16px;background:#1e1920;color:white;border-radius:11px;font:600 14px/1.5 PlexArabic,system-ui,sans-serif;text-decoration:none}
+.wallet-join-action svg{width:22px;height:22px;flex:none}
+.wallet-join-action:focus-visible{outline:3px solid #79394e;outline-offset:3px}
+.wallet-join .wallet-terms{border-top:1px solid #e9e3e5;margin-top:14px;padding-top:10px;font-size:12px}
+
+/* A first-party introduction explains the physical wallet handoff before leaving Clinime. */
+.wallet-invitation{display:grid;grid-template-columns:38px minmax(0,1fr);gap:12px;margin:22px 0;padding:19px 17px;background:#fffdfd;border:1px solid #e6d9df;border-radius:17px}
+.wallet-invitation-mark{display:grid;place-items:center;width:38px;height:38px;border-radius:12px;background:#f4e7ed;color:#68435a}
+.wallet-invitation-mark svg{width:23px;height:23px}.wallet-invitation h2{font:500 16px/1.65 PlexArabic,system-ui,sans-serif}.wallet-invitation p{font-size:13px;line-height:1.7;color:#73626d;margin-top:3px}
+.wallet-invitation .wallet-join-action{grid-column:1/-1;width:100%;border:0;box-sizing:border-box;justify-content:space-between;padding-inline:15px;background:#2d3e5b;font-weight:500}
+.wallet-invitation .wallet-join-action>.icon{width:18px;height:18px;transform:rotate(180deg)}[dir=ltr] .wallet-invitation .wallet-join-action>.icon{transform:none}
+.loyalty-screen:has(.wallet-start) .loyalty-heading{margin-top:8px;margin-bottom:0}.loyalty-screen:has(.wallet-start) .loyalty-heading h1{font-size:clamp(27px,7vw,35px);line-height:1.45;letter-spacing:-.025em}
+.wallet-start{padding-bottom:12px}.wallet-start-intro{color:#74616c;font-size:15px;line-height:1.8;margin-top:8px!important}
+.wallet-stage{position:relative;isolation:isolate;perspective:1000px;width:100%;height:232px;display:grid;place-items:center;margin-top:12px}
+.wallet-pocket{position:absolute;z-index:-1;bottom:12px;width:77%;max-width:315px;height:132px;background:linear-gradient(110deg,#e5d5dc,#f6ecf0);border:1px solid #d6c4d0;border-radius:22px;transform:rotate(-5deg);animation:wallet-pocket-enter 560ms var(--ease) both;animation-delay:var(--wallet-entry-delay)}
+.wallet-art-card{appearance:none;position:relative;display:block;width:94%;max-width:342px;aspect-ratio:1.65;border:0;padding:0;background:none;perspective:1000px;cursor:pointer;text-align:start;color:#2d3e5b;animation:wallet-card-enter 650ms var(--ease) both;animation-delay:var(--wallet-entry-delay);-webkit-tap-highlight-color:transparent}
+.wallet-art-card:focus-visible{outline:3px solid #975471;outline-offset:8px;border-radius:20px}.wallet-art-turn{display:block;width:100%;height:100%;position:relative;transform-style:preserve-3d;transition:transform 280ms var(--ease)}
+.wallet-art-front,.wallet-art-back{position:absolute;inset:0;display:flex;flex-direction:column;box-sizing:border-box;padding:23px 25px;border:1px solid #d8c2d0;border-radius:21px;backface-visibility:hidden;-webkit-backface-visibility:hidden;box-shadow:0 17px 34px #40233615;background:linear-gradient(135deg,#fceaf0 0%,#f2d9e5 100%);overflow:hidden}
+.wallet-art-front:after{content:"";position:absolute;width:155px;height:155px;border:25px solid #ffffff38;border-radius:50%;inset-inline-end:-83px;top:-94px;pointer-events:none}
+.wallet-art-brand{display:flex;align-items:center;justify-content:space-between;gap:14px;direction:ltr}.wallet-art-brand img{width:100px;height:25px;object-fit:contain}.wallet-art-brand>span{font:8px/1.5 system-ui;letter-spacing:1.9px;color:#775a6c}
+.wallet-art-name{font:500 19px/1.6 PlexArabic,system-ui,sans-serif;display:block;margin:19px 0 12px;letter-spacing:-.02em}
+.wallet-art-stamps{display:flex;justify-content:space-between;gap:10px;max-width:265px;direction:rtl}.wallet-art-stamp{display:block;width:31px;height:31px;border:1.5px solid #9e7c90;border-radius:50%;background:#ffffff5e;animation:wallet-stamp-enter 330ms var(--ease) both}
+.wallet-art-reward{font-size:11px;line-height:1.7;display:block;color:#715467;margin-top:auto;padding-top:12px}
+.wallet-art-back{transform:rotateY(180deg);background:#2d3e5b;color:#fff;border-color:#3f536f}.wallet-art-back .wallet-art-brand{margin-bottom:10px}.wallet-art-back .wallet-art-brand img{filter:brightness(0) invert(1)}
+.wallet-art-scan{position:absolute;inset-inline-end:24px;top:30px;opacity:.6}.wallet-art-scan svg{width:28px;height:28px}.wallet-art-back-title{font-size:21px;line-height:1.5;display:block;margin-top:12px;color:#f9e1eb}.wallet-art-back-copy{display:block;font-size:12px;line-height:1.9;max-width:235px;margin-top:9px;color:#e1e8f0}
+.wallet-art-card.is-flipped .wallet-art-turn{transform:rotateY(180deg)}
+.wallet-flip-hint{display:flex;align-items:center;justify-content:center;gap:7px;font-size:11px;line-height:1.8;color:#7f6c77;margin-top:1px!important}.wallet-flip-hint>.icon{width:13px;height:13px}
+.wallet-start-copy{margin-top:25px}.wallet-start-copy h2{font-size:18px;font-weight:500;line-height:1.6}.wallet-start-copy ol{margin:14px 0 0;list-style:none;padding:0;display:grid;gap:14px}.wallet-start-copy li{display:flex;align-items:start;gap:11px}.wallet-start-copy li>span{display:grid;place-items:center;flex:none;width:26px;height:26px;margin-top:2px;border-radius:50%;background:#f1e4eb;border:1px solid #e8d8e1;color:#70465f;font:12px/1 system-ui}.wallet-start-copy strong{font-size:14px;font-weight:500;line-height:1.7}.wallet-start-copy li p{font-size:12px;line-height:1.8;color:#74616c;margin-top:2px;max-width:420px}
+.wallet-start-continue{display:flex;align-items:center;justify-content:center;gap:10px;text-decoration:none;padding:13px 18px;min-height:50px;box-sizing:border-box;border-radius:14px;background:#2d3e5b;color:white;font:500 15px/1.7 PlexArabic,system-ui,sans-serif;margin-top:24px;transition:transform 160ms var(--ease),background-color 160ms ease}
+.wallet-start-continue svg{flex:none;width:21px;height:21px}.wallet-start-continue>.icon:last-child{width:17px;height:17px;margin-inline-start:auto;transform:rotate(180deg)}[dir=ltr] .wallet-start-continue>.icon:last-child{transform:none}.wallet-start-continue:focus-visible{outline:3px solid #a65d7d;outline-offset:4px}.wallet-start-continue:active{transform:scale(.98)}
+.wallet-start-disclosure{font-size:11px;line-height:1.9;color:#806e78;margin-top:13px!important}.wallet-start-qr{display:flex;align-items:center;justify-content:flex-start;gap:16px;padding:20px 0 0;margin-top:20px;border-top:1px solid #e6dbe1}.wallet-start-qr img{display:block;flex:none;width:92px;height:92px;image-rendering:pixelated;border-radius:8px}.wallet-start-qr p{font-size:13px;line-height:1.7;font-weight:500}.wallet-start-qr p>span{display:block;color:#7d6a76;font-size:12px;font-weight:400;margin-top:3px}
+@keyframes wallet-card-enter{from{opacity:0;transform:translateY(30px) rotate(7deg) scale(.96)}to{opacity:1;transform:translateY(0) rotate(0) scale(1)}}
+@keyframes wallet-pocket-enter{from{opacity:0;transform:translateY(13px) rotate(0)}to{opacity:1;transform:translateY(0) rotate(-5deg)}}
+@keyframes wallet-stamp-enter{from{opacity:0;transform:translateY(6px) scale(.95)}to{opacity:1;transform:translateY(0) scale(1)}}
+@media(hover:hover) and (pointer:fine){.wallet-art-card:hover:not(.is-flipped) .wallet-art-turn{transform:rotateX(4deg) rotateY(-3deg)}.wallet-start-continue:hover{background:#3c506e}}
+@media(max-width:350px){.wallet-art-front,.wallet-art-back{padding:18px}.wallet-art-name{font-size:17px;margin:10px 0 8px}.wallet-art-reward{padding-top:6px}.wallet-art-stamp{width:28px;height:28px}.wallet-art-brand>span{font-size:7px;letter-spacing:1px}.wallet-stage{height:215px}.wallet-art-back-title{font-size:18px}.wallet-art-back-copy{font-size:11px}}
+@media(prefers-reduced-motion:reduce){.wallet-art-card,.wallet-pocket,.wallet-art-stamp{animation:none}.wallet-art-turn{transition:none}.wallet-start-continue{transition:background-color 160ms ease}.wallet-start-continue:active{transform:none}.wallet-art-card:hover:not(.is-flipped) .wallet-art-turn{transform:none}}
+
+/* Local custom enrollment. The provider form is retained only as the production fallback. */
+.wallet-registration{--wallet-ink:#2d3e5b;--wallet-muted:#606b7e;--wallet-blush:#fce8f0;--wallet-field:#fff;--wallet-edge:#dce0e7;color:var(--wallet-ink);padding-bottom:12px}
+.loyalty-screen:has(.wallet-registration){background:#fbfafb;color:#2d3e5b}
+.loyalty-screen:has(.wallet-registration) .loyalty-heading{margin:8px 0 0;padding-top:12px}
+.loyalty-screen:has(.wallet-registration) .loyalty-heading h1{font-size:28px;line-height:1.5;letter-spacing:0;color:#2d3e5b}
+.wallet-registration-visual{position:relative;display:flex;align-items:center;flex-direction:column;margin:24px 0 28px;perspective:1000px}
+.wallet-registration-card{width:100%;max-width:376px;aspect-ratio:1.64;min-height:224px;color:var(--wallet-ink)}
+.wallet-registration-card .wallet-art-front,.wallet-registration-card .wallet-art-back{padding:24px;border:0;border-radius:24px;box-shadow:0 12px 24px #26365114;background:var(--wallet-ink);color:#fff}
+.wallet-registration-card .wallet-art-front:after{display:none}
+.wallet-registration-card .wallet-art-brand img{width:112px;height:28px;filter:brightness(0) invert(1)}
+.wallet-registration-card .wallet-art-brand>span{font:400 12px/1.6 PlexArabic,system-ui,sans-serif;letter-spacing:0;color:#dce2eb}
+.wallet-registration-offer{display:block;font:500 28px/1.5 PlexArabic,system-ui,sans-serif;margin-top:20px;color:#fff}
+.wallet-registration-description{display:block;font-size:12px;line-height:1.8;color:#e6eaf1}
+.wallet-registration-card .wallet-art-stamps{max-width:none;gap:12px;margin-top:auto;padding-top:16px;direction:inherit}
+.wallet-registration-card .wallet-art-stamp{width:32px;height:32px;display:grid;place-items:center;border:1px solid #cbd1dd80;background:#ffffff09;color:#edf0f5;font:400 12px/1 system-ui;flex-shrink:0}
+.wallet-registration-card .wallet-art-back{background:var(--wallet-blush);color:var(--wallet-ink)}
+.wallet-registration-card .wallet-art-back .wallet-art-brand img{filter:none}
+.wallet-registration-card .wallet-art-back-title{color:var(--wallet-ink);margin-top:24px;font-size:22px}
+.wallet-registration-card .wallet-art-back-copy{max-width:none;color:#526079;font-size:13px;line-height:1.9}
+.wallet-registration-hint{display:flex;align-items:center;justify-content:center;gap:8px;color:var(--wallet-muted);font-size:12px;line-height:1.8;margin-top:16px}
+.wallet-registration-hint .icon{width:14px;height:14px}
+.wallet-registration-form-heading{margin-bottom:24px}
+.loyalty-screen .wallet-registration h2{font-size:22px;font-weight:500;line-height:1.6;color:var(--wallet-ink)}
+.loyalty-screen .wallet-registration-form-heading p,.loyalty-screen .wallet-registration-result>p{font-size:14px;line-height:1.8;color:var(--wallet-muted);margin-top:4px}
+.wallet-registration-field{display:grid;gap:8px;margin-top:20px}
+.wallet-registration-field>label{font-size:14px;line-height:1.7;font-weight:500;color:var(--wallet-ink)}
+.wallet-registration-field input{appearance:none;display:block;box-sizing:border-box;width:100%;min-height:52px;border:1px solid var(--wallet-edge);border-radius:14px;background:var(--wallet-field);color:var(--wallet-ink);padding:12px 16px;font:400 16px/1.6 PlexArabic,system-ui,sans-serif;transition:border-color 160ms ease,box-shadow 160ms ease;box-shadow:none}
+.wallet-registration-field input:focus{outline:none;border-color:#526987;box-shadow:0 0 0 3px #4f668515}
+.wallet-registration-field input[aria-invalid=true]{border-color:#a13c4e}
+.wallet-verified-email{position:relative;direction:ltr}
+.wallet-verified-email input{padding-inline-end:48px;background:#f1f3f6;border-color:transparent;color:#566277;font:400 15px/1.6 system-ui,sans-serif}
+.wallet-verified-email>.icon{position:absolute;inset-inline-end:16px;top:18px;width:18px;height:18px;color:#4e6b60}
+.loyalty-screen .wallet-registration-note{font:400 12px/1.8 PlexArabic,system-ui,sans-serif;color:var(--wallet-muted)}
+.wallet-registration-terms{margin-top:24px;padding:0;border:0}
+.wallet-registration-terms summary{list-style:none;display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:8px;min-height:44px;box-sizing:border-box;font-size:14px;font-weight:500;cursor:pointer;color:var(--wallet-ink)}
+.wallet-registration-terms summary::-webkit-details-marker{display:none}
+.wallet-registration-terms summary .icon{width:16px;height:16px;transform:rotate(90deg);transition:transform 180ms var(--ease)}
+.wallet-registration-terms[open] summary .icon{transform:rotate(-90deg)}
+.loyalty-screen .wallet-registration-terms p{font-size:13px;line-height:1.9;padding:4px 0 12px;color:var(--wallet-muted)}
+.wallet-registration-accept{display:flex;align-items:flex-start;gap:12px;margin-top:8px;padding:12px 0;cursor:pointer;color:var(--wallet-ink);font-size:14px;line-height:1.9;min-height:48px;box-sizing:border-box}
+.wallet-registration-accept input{appearance:none;flex:none;width:22px;height:22px;border:1px solid #aeb6c2;border-radius:6px;background:#fff;margin:2px 0 0;cursor:pointer;transition:background-color 160ms ease,border-color 160ms ease;background-position:center;background-repeat:no-repeat}
+.wallet-registration-accept input:checked{background-color:var(--wallet-ink);border-color:var(--wallet-ink);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m5 10 3 3 7-7'/%3E%3C/svg%3E")}
+.wallet-registration-accept input[aria-invalid=true]{border-color:#a13c4e}
+.wallet-registration-accept input:focus-visible,.wallet-registration-terms summary:focus-visible{outline:2px solid #526987;outline-offset:4px}
+.wallet-registration .wallet-start-continue{width:100%;border:0;min-height:52px;padding:12px 24px;border-radius:14px;margin-top:20px;cursor:pointer;font:500 15px/1.8 PlexArabic,system-ui,sans-serif;gap:8px;background:var(--wallet-ink);color:#fff}
+.wallet-registration .wallet-start-continue:disabled{background:#e5e8ec;color:#737d8e;cursor:default;transform:none}
+.loyalty-screen .wallet-registration-privacy{margin-top:12px;text-align:center;line-height:1.8}
+.loyalty-screen .wallet-registration-separate{font-size:12px;line-height:1.9;color:#657084;margin-top:28px;padding-top:20px;border-top:1px solid #e3e5e9}
+.loyalty-screen .wallet-registration-error{font-size:13px;line-height:1.8;color:#a13c4e;margin-top:8px}
+.wallet-registration-refresh{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:12px 24px;border:1px solid #cbd2dd;border-radius:14px;background:transparent;color:var(--wallet-ink);font:500 14px/1.7 PlexArabic,system-ui,sans-serif;cursor:pointer;margin-top:20px;transition:background-color 160ms ease}
+.wallet-registration-refresh:disabled{color:#757e8b;cursor:default}
+.wallet-registration-result{padding:8px 0 16px}
+.wallet-result-heading{display:flex;align-items:center;gap:12px}
+.wallet-result-heading>.icon,.wallet-result-heading>svg{width:24px;height:24px;flex:none;color:#4b7561}
+.wallet-result-heading h2{margin:0}
+.wallet-registration-result .wallet-registration-note{margin-top:12px}
+.wallet-registration-account{padding:16px;background:#f0f2f5;border-radius:14px;margin-top:12px}
+.loyalty-screen .wallet-registration-account p{font-size:13px;line-height:1.8;color:#526079}
+.wallet-registration-account .wallet-registration-refresh{margin-top:8px;min-height:44px;padding:8px 16px}
+.wallet-registration-loading{text-align:center;min-height:400px;padding-top:24px}
+.wallet-loading-card{display:block;max-width:376px;width:100%;aspect-ratio:1.64;background:#e7ebf1;border-radius:24px;margin:0 auto 32px;animation:wallet-load 1.4s ease-in-out infinite alternate}
+.loyalty-screen .wallet-registration-loading p{font-size:14px;color:var(--wallet-muted)}
+.wallet-registration-spinner{width:20px;height:20px;flex:none;border:2px solid #d7dce4;border-top-color:#2d3e5b;border-radius:50%;animation:wallet-progress 1s linear infinite}
+@keyframes wallet-progress{to{transform:rotate(360deg)}}
+@keyframes wallet-load{to{opacity:.55}}
+@media(hover:hover) and (pointer:fine){.wallet-registration-refresh:hover:not(:disabled){background:#edf0f4}.wallet-registration .wallet-start-continue:hover:not(:disabled){background:#3c506e}}
+@media(max-width:360px){.wallet-registration-card .wallet-art-front,.wallet-registration-card .wallet-art-back{padding:20px}.wallet-registration-offer{font-size:24px;margin-top:12px}.wallet-registration-description{font-size:11px}.wallet-registration-card .wallet-art-stamps{padding-top:12px;gap:8px}.wallet-registration-card .wallet-art-stamp{width:28px;height:28px}.wallet-registration-card .wallet-art-back-title{font-size:20px;margin-top:12px}.wallet-registration-card .wallet-art-back-copy{font-size:12px;line-height:1.7}}
+@media(prefers-reduced-motion:reduce){.wallet-registration-spinner,.wallet-loading-card{animation:none}.wallet-registration-field input,.wallet-registration-accept input,.wallet-registration-terms summary .icon{transition:none}}

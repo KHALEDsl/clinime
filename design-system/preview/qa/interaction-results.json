@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-10-26T18:13:47.647Z",
+  "browser": "Playwright Chromium headless shell1247",
+  "viewports": [
+    [
+      1440,
+      1080
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "checks": [
+    "No wide horizontal overflow",
+    "Sora and Arabic font loaded",
+    "Canonical light token mapping",
+    "No-results recovery shown",
+    "Clear filters restores appointments",
+    "Selection preserves lifecycle and payment",
+    "Day appointments preserve duration geometry",
+    "Empty patient validation shown",
+    "Validation focuses first error",
+    "Dialog restores focus",
+    "Field error clears with valid phone",
+    "Selected date and time carried forward",
+    "Language switch preserves entered name",
+    "Booking validates phone",
+    "Name preserved on validation",
+    "Busy prevents double submission",
+    "Interrupted result is unknown, with a status check",
+    "Status check resolves to explicit simulated confirmation",
+    "Canonical dark token mapping",
+    "Arabic RTL operational labels",
+    "No RTL wide overflow",
+    "No Arabic mobile overflow",
+    "No English mobile overflow",
+    "Tablet retains booking panel",
+    "No tablet overflow",
+    "Reduced motion disables spinner animation",
+    "No runtime JavaScript errors"
+  ],
+  "errors": []
+}
